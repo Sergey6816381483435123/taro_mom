@@ -1,30 +1,181 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=windows-1251"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 5.4.3.2 (Windows)"/>
-	<meta name="created" content="2018-05-02T03:22:28.892000000"/>
-	<meta name="changed" content="2018-05-02T03:29:41.095000000"/>
-	<style type="text/css">
-		@page { margin: 2cm }
-		p { margin-bottom: 0.25cm; line-height: 120% }
-		a:link { so-language: zxx }
-	    body {
-				background-image: url(files/time.jpg); /* Путь к фоновому изображению */
-				background-repeat: no-repeat;
-				background-position: center center;
-				background-attachment: fixed;
-				background-size: cover;
-				background-color: #ffffff; /* Цвет фона */
-			}			
-	</style>
-</head>
-<p align="center" style="margin-bottom: 0cm; line-height: 100%"><br/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Таро-расклады в Telegram — @taroshenka_bot — личные расклады</title>
+  <meta name="description" content="Онлайн-бот в Telegram @taroshenka_bot: точные и загадочные расклады Таро, личные советы и ежедневные прогнозы. Начните прямо сейчас — быстро и анонимно.">
+  <meta name="keywords" content="расклады таро, таро онлайн, бот Telegram, taroshenka, taroshenka_bot, тарошенка, гадание">
+  <meta name="author" content="@taroshenka_bot">
+  <meta name="robots" content="index, follow">
 
-</p>
+  <meta property="og:title" content="Таро-расклады — @taroshenka_bot">
+  <meta property="og:description" content="Онлайн-бот в Telegram @taroshenka_bot: точные и загадочные расклады Таро. Нажмите, чтобы получить расклад.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://t.me/taroshenka_bot">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Таро-расклады — @taroshenka_bot">
+  <meta name="twitter:description" content="Онлайн-бот в Telegram для раскладов Таро.">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+  :root {
+    --bg1: #0d0f17;
+    --bg2: #1b0f2a;
+    --accent: #caa2ff;
+    --accent-2: #8ae3d9;
+    --glass: rgba(255,255,255,0.04);
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;background:
+  radial-gradient(ellipse at 20% 10%, rgba(138,227,217,0.06) 0%, transparent 15%),
+  radial-gradient(ellipse at 80% 90%, rgba(202,162,255,0.04) 0%, transparent 18%),
+  linear-gradient(180deg,var(--bg1),var(--bg2));
+  color:#f3f3f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  .container{max-width:900px;margin:6vh auto;padding:2rem}
+  .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:16px;padding:2.25rem; box-shadow: 0 6px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);border:1px solid rgba(255,255,255,0.04)}
+  .header{display:flex;align-items:center;gap:16px}
+  .brand{font-family:'Cormorant Garamond', serif;color:var(--accent);font-size:28px;font-weight:600;letter-spacing:0.6px}
+  .lead{font-size:18px;color:rgba(243,243,244,0.9);margin-top:8px}
+  .h1{font-family:'Cormorant Garamond', serif;font-size:36px;margin:10px 0;color:#fff}
+  .sub{color:rgba(255,255,255,0.82);margin:0 0 18px}
+  .cta{display:inline-flex;gap:12px;flex-wrap:wrap}
+  .btn{
+    background:linear-gradient(90deg,var(--accent),var(--accent-2));
+    color:#0b0b0b;padding:12px 18px;border-radius:12px;border:0;font-weight:600;text-decoration:none;box-shadow:0 6px 22px rgba(170,100,255,0.12);transition:transform .18s ease,box-shadow .18s ease}
+  .btn:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(138,227,217,0.09)}
+  .muted{color:rgba(243,243,244,0.65);font-size:14px}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
+  .feature{background:var(--glass);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+  .steps{display:flex;flex-direction:column;gap:10px;margin-top:18px}
+  .step{display:flex;gap:12px;align-items:flex-start}
+  .step .num{min-width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:600}
+  footer{margin-top:24px;color:rgba(243,243,244,0.62);font-size:13px; text-align:center}
+  .faq details{background:transparent;border-radius:8px;padding:10px;border:1px solid rgba(255,255,255,0.03);margin-bottom:8px}
+  .copy-btn{background:transparent;border:1px dashed rgba(255,255,255,0.08);color:var(--accent);padding:8px 12px;border-radius:8px}
+  .hero-note{display:inline-block;padding:6px 10px;border-radius:8px;background:rgba(0,0,0,0.18);font-size:13px}
+  @media(max-width:520px){.h1{font-size:28px}.container{padding:1rem;margin:4vh auto}}
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Таро — @taroshenka_bot",
+    "url": "https://t.me/taroshenka_bot",
+    "description": "Онлайн-бот в Telegram для раскладов Таро — быстрые и загадочные ответы."
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Что такое @taroshenka_bot?","acceptedAnswer":{"@type":"Answer","text":"Это Telegram-бот, который выдаёт расклады Таро на заданные вами вопросы — быстро и удобно."}},
+      {"@type":"Question","name":"Нужно ли регистрироваться?","acceptedAnswer":{"@type":"Answer","text":"Нет — достаточно открыть бота в Telegram и задать вопрос."}},
+      {"@type":"Question","name":"Бесплатно ли это?","acceptedAnswer":{"@type":"Answer","text":"Базовые расклады доступны бесплатно; расширенные опции могут быть платными (подробности в боте)."}}
+    ]
+  }
+  </script>
+</head>
 <body>
-<p align="center" style="margin-bottom: 0cm; line-height: 100%"><font size="4" style="font-size: 16pt">Адрес
-сервера Тимспик:  <b>54.38.48.115</b></font></p>
+<main class="container">
+  <div class="card" role="main">
+    <div class="header">
+      <div style="flex:1">
+        <div class="brand">Taroshenka</div>
+        <div class="lead">Таро-расклады в Telegram — ответы, которые вы искали</div>
+      </div>
+      <div>
+        <div class="hero-note">Бот: <strong>@taroshenka_bot</strong></div>
+      </div>
+    </div>
+
+    <h1 class="h1">Задайте вопрос — получите расклад прямо в Telegram</h1>
+    <p class="sub">Быстрые расклады для любви, работы и важных решений. Анонимно и бережно.</p>
+
+    <div class="cta" style="margin-bottom:14px">
+      <a class="btn" href="https://t.me/taroshenka_bot" target="_blank" rel="noopener noreferrer" aria-label="Открыть бота в Telegram">Открыть в Telegram</a>
+      <button class="btn copy-btn" id="copyBtn" aria-label="Скопировать имя бота">@taroshenka_bot — копировать</button>
+    </div>
+
+    <div class="features" aria-hidden="false">
+      <div class="feature">
+        <strong>Быстрый результат</strong>
+        <div class="muted">Короткие и понятные расклады за пару кликов.</div>
+      </div>
+      <div class="feature">
+        <strong>Разные расклады</strong>
+        <div class="muted">Любовь, отношения, карьера, путь и варианты решений.</div>
+      </div>
+      <div class="feature">
+        <strong>Анонимность</strong>
+        <div class="muted">Вам не нужно оставлять личные данные.</div>
+      </div>
+      <div class="feature">
+        <strong>Всегда под рукой</strong>
+        <div class="muted">Удобно в мобильном Telegram — всегда рядом.</div>
+      </div>
+    </div>
+
+    <section class="how" aria-labelledby="howTitle">
+      <h2 id="howTitle" style="margin-top:18px;color:#fff">Как это работает</h2>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><div><strong>Нажмите</strong> кнопку «Открыть в Telegram».</div></div>
+        <div class="step"><div class="num">2</div><div><strong>Задайте вопрос</strong> боту — опишите ситуацию кратко.</div></div>
+        <div class="step"><div class="num">3</div><div><strong>Получите расклад</strong> и советы для следующего шага.</div></div>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faqTitle" style="margin-top:18px">
+      <h2 id="faqTitle" style="color:#fff">Вопросы и ответы</h2>
+      <div style="margin-top:8px">
+        <details>
+          <summary>Что делать, если бот не отвечает?</summary>
+          <p class="muted">Проверьте соединение, попробуйте позже или перезапустите Telegram.</p>
+        </details>
+        <details>
+          <summary>Можно ли получить развёрнутый расклад?</summary>
+          <p class="muted">Да — бот предлагает краткие и расширенные варианты, ознакомьтесь с меню бота.</p>
+        </details>
+        <details>
+          <summary>Как сохраняются мои данные?</summary>
+          <p class="muted">Бот не хранит ваши личные данные в публичном доступе; детали — в описании бота.</p>
+        </details>
+      </div>
+    </section>
+
+    <footer>
+      <div style="margin-top:14px">© Таро — @taroshenka_bot</div>
+      <div style="margin-top:6px" class="muted">Начните прямо сейчас — нажмите «Открыть в Telegram».</div>
+    </footer>
+  </div>
+</main>
+
+<noscript>
+  <div style="position:fixed;left:0;right:0;bottom:0;background:#111;padding:8px;text-align:center;color:#fff">
+    Откройте в Telegram: <a href="https://t.me/taroshenka_bot" style="color:#caa2ff">https://t.me/taroshenka_bot</a>
+  </div>
+</noscript>
+
+<script>
+document.getElementById('copyBtn').addEventListener('click', function(){
+  navigator.clipboard?.writeText('@taroshenka_bot').then(function(){
+    const btn = document.getElementById('copyBtn');
+    const prev = btn.innerText;
+    btn.innerText = 'Скопировано!';
+    setTimeout(()=> btn.innerText = prev, 1600);
+  }).catch(()=> {
+    alert('Не удалось скопировать. Скопируйте вручную: @taroshenka_bot');
+  });
+});
+</script>
 </body>
 </html>
