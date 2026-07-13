@@ -2,264 +2,1012 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Расклады Таро онлайн в Telegram — @taroshenka_bot</title>
-  <meta name="description" content="Расклады Таро онлайн в Telegram @taroshenka_bot: быстрые ответы на вопросы о любви, отношениях, работе и важных решениях. Анонимно, удобно и без регистрации.">
-  <meta name="keywords" content="расклады таро онлайн, таро онлайн, расклад таро на любовь, таро на отношения, таро на работу, ежедневный прогноз таро, бот Telegram, гадание онлайн">
+  <title>Расклады Таро онлайн с AI в Telegram | @taroshenka_bot</title>
+  <meta name="description" content="Персональные расклады Таро онлайн с понятной AI-интерпретацией в Telegram. Выберите расклад, задайте вопрос и получите связный разбор выпавших карт.">
   <meta name="author" content="@taroshenka_bot">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#090b17">
+  <meta name="color-scheme" content="dark">
 
-  <meta property="og:title" content="Расклады Таро онлайн в Telegram — @taroshenka_bot">
-  <meta property="og:description" content="Расклады Таро онлайн в Telegram @taroshenka_bot: любовь, отношения, работа и важные решения. Быстро, анонимно и без регистрации.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://taro.mom/">
-  <meta property="og:locale" content="ru_RU">
-  <meta property="og:locale:alternate" content="en_US">
   <link rel="canonical" href="https://taro.mom/">
   <link rel="alternate" hreflang="ru" href="https://taro.mom/">
   <link rel="alternate" hreflang="en" href="https://taro.mom/en/">
   <link rel="alternate" hreflang="x-default" href="https://taro.mom/en/">
-  <meta property="og:site_name" content="Таро — @taroshenka_bot">
-  <meta property="og:image" content="https://taro.mom/favicons/icon-180.png">
-  <meta property="og:image:alt" content="Расклады Таро онлайн в Telegram @taroshenka_bot">
-  <meta name="twitter:image" content="https://taro.mom/favicons/icon-180.png">
-  <meta name="twitter:domain" content="taro.mom">
-  <meta name="twitter:site" content="@taroshenka_bot">
-  <meta name="twitter:creator" content="@taroshenka_bot">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Taro.mom">
+  <meta property="og:title" content="Персональные расклады Таро с AI в Telegram">
+  <meta property="og:description" content="Выберите расклад, задайте вопрос и получите карты с понятной AI-интерпретацией прямо в Telegram.">
+  <meta property="og:url" content="https://taro.mom/">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:image" content="https://taro.mom/images/ru/tarot-reader-social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Иллюстрация таролога с тремя светящимися картами">
+
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Расклады Таро онлайн в Telegram — @taroshenka_bot">
-  <meta name="twitter:description" content="Расклады Таро онлайн в Telegram: любовь, отношения, работа и важные решения. Анонимно, удобно и без регистрации.">
+  <meta name="twitter:title" content="Персональные расклады Таро с AI в Telegram">
+  <meta name="twitter:description" content="Расклады Таро онлайн с изображениями карт и связной AI-интерпретацией в Telegram.">
+  <meta name="twitter:image" content="https://taro.mom/images/ru/tarot-reader-social.jpg">
+  <meta name="twitter:image:alt" content="Иллюстрация таролога с тремя светящимися картами">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicons/icon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicons/icon-16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/favicons/icon-180.png" sizes="180x180">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preload" as="image" href="/images/ru/tarot-reader-hero-mobile.jpg" media="(max-width: 759px)">
+  <link rel="preload" as="image" href="/images/ru/tarot-reader-hero-desktop.jpg" media="(min-width: 760px)">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <!-- Favicons -->
-  <link rel="icon" href="favicons/favicon.svg" type="image/svg+xml">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/icon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/icon-16.png">
-  <link rel="shortcut icon" href="favicons/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/icon-180.png">
-  <link rel="mask-icon" href="favicons/favicon.svg" color="#caa2ff">
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0d0f17">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
   <style>
-  :root {
-    --bg1: #0d0f17;
-    --bg2: #1b0f2a;
-    --accent: #caa2ff;
-    --accent-2: #8ae3d9;
-    --glass: rgba(255,255,255,0.04);
-    color-scheme: dark;
-  }
-  *{box-sizing:border-box}
-  html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;background:
-  radial-gradient(ellipse at 20% 10%, rgba(138,227,217,0.06) 0%, transparent 15%),
-  radial-gradient(ellipse at 80% 90%, rgba(202,162,255,0.04) 0%, transparent 18%),
-  linear-gradient(180deg,var(--bg1),var(--bg2));
-  color:#f3f3f4;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-  .container{max-width:900px;margin:6vh auto;padding:2rem}
-  .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:16px;padding:2.25rem; box-shadow: 0 6px 30px rgba(2,6,23,0.6);backdrop-filter: blur(6px);border:1px solid rgba(255,255,255,0.04)}
-  .header{display:flex;align-items:center;gap:16px}
-  .brand{font-family:'Cormorant Garamond', serif;color:var(--accent);font-size:28px;font-weight:600;letter-spacing:0.6px}
-  .lead{font-size:18px;color:rgba(243,243,244,0.9);margin-top:8px}
-  .h1{font-family:'Cormorant Garamond', serif;font-size:36px;margin:10px 0;color:#fff}
-  .sub{color:rgba(255,255,255,0.82);margin:0 0 18px}
-  .cta{display:inline-flex;gap:12px;flex-wrap:wrap}
-  .btn{
-    background:linear-gradient(90deg,var(--accent),var(--accent-2));
-    color:#0b0b0b;padding:12px 18px;border-radius:12px;border:0;font-weight:600;text-decoration:none;box-shadow:0 6px 22px rgba(170,100,255,0.12);transition:transform .18s ease,box-shadow .18s ease}
-  .btn:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(138,227,217,0.09)}
-  .muted{color:rgba(243,243,244,0.65);font-size:14px}
-  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
-  .feature{background:var(--glass);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
-  .steps{display:flex;flex-direction:column;gap:10px;margin-top:18px}
-  .step{display:flex;gap:12px;align-items:flex-start}
-  .step .num{min-width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:600}
-  footer{margin-top:24px;color:rgba(243,243,244,0.62);font-size:13px; text-align:center}
-  .faq details{background:transparent;border-radius:8px;padding:10px;border:1px solid rgba(255,255,255,0.03);margin-bottom:8px}
-  .copy-btn{background:transparent;border:1px dashed rgba(255,255,255,0.08);color:var(--accent);padding:8px 12px;border-radius:8px}
-  .hero-note{display:inline-block;padding:6px 10px;border-radius:8px;background:rgba(0,0,0,0.18);font-size:13px}
-  @media(max-width:520px){.h1{font-size:28px}.container{padding:1rem;margin:4vh auto}}
+    :root {
+      color-scheme: dark;
+      --bg: #090b17;
+      --panel: #15162d;
+      --text: #f8f6ff;
+      --muted: #bbb8cc;
+      --violet: #c8a7ff;
+      --violet-strong: #9f71ef;
+      --cyan: #8de7e3;
+      --gold: #e7c887;
+      --line: rgba(216, 198, 255, 0.17);
+      --shadow: 0 24px 70px rgba(2, 3, 12, 0.44);
+      --radius: 1.5rem;
+      --display: "Cormorant Garamond", Georgia, serif;
+      --body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 1rem;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(77, 205, 220, 0.11), transparent 24rem),
+        radial-gradient(circle at 88% 20%, rgba(158, 91, 226, 0.14), transparent 30rem),
+        linear-gradient(180deg, #080a14 0%, #0d1020 48%, #090a15 100%);
+      color: var(--text);
+      font-family: var(--body);
+      font-size: 1rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    a, button { -webkit-tap-highlight-color: transparent; }
+
+    :focus-visible {
+      outline: 3px solid var(--cyan);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 100;
+      top: 0.75rem;
+      left: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: 0.75rem;
+      background: #fff;
+      color: #0b0c18;
+      font-weight: 700;
+      transform: translateY(-180%);
+      transition: transform 160ms ease;
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .shell {
+      width: min(100% - 2rem, 74rem);
+      margin-inline: auto;
+    }
+
+    .site-header { padding: max(1rem, env(safe-area-inset-top)) 0 1rem; }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 3rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--text);
+      font-family: var(--display);
+      font-size: 1.55rem;
+      font-weight: 700;
+      line-height: 1;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 2rem;
+      height: 2rem;
+      place-items: center;
+      border: 1px solid rgba(141, 231, 227, 0.38);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(141, 231, 227, 0.2), rgba(159, 113, 239, 0.08));
+      color: var(--cyan);
+      box-shadow: 0 0 24px rgba(141, 231, 227, 0.13);
+    }
+
+    .nav { display: none; }
+
+    .language-link {
+      display: inline-flex;
+      min-width: 3rem;
+      min-height: 3rem;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 3.25rem;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      max-width: 100%;
+      padding: 0.85rem 1.2rem;
+      border: 1px solid transparent;
+      border-radius: 0.9rem;
+      background: linear-gradient(115deg, var(--violet), var(--cyan));
+      color: #0a0b16;
+      font-size: 0.95rem;
+      font-weight: 800;
+      line-height: 1.25;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 12px 32px rgba(125, 198, 222, 0.16);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .button::after { content: "↗"; font-size: 1.05em; }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 16px 38px rgba(174, 133, 240, 0.22); }
+    .button.header-cta { display: none; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: clamp(1.25rem, 5vw, 2rem);
+      background: linear-gradient(160deg, rgba(26, 26, 52, 0.94), rgba(10, 11, 26, 0.98));
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      padding: clamp(1.35rem, 6vw, 2.5rem);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      margin: 0 0 0.85rem;
+      color: var(--cyan);
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 1.55rem;
+      height: 1px;
+      flex: 0 0 auto;
+      background: currentColor;
+      box-shadow: 0 0 12px currentColor;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      font-family: var(--display);
+      line-height: 1.04;
+      text-wrap: balance;
+    }
+
+    h1 {
+      max-width: 14ch;
+      margin-bottom: 1rem;
+      font-size: clamp(2.35rem, 10.5vw, 4.6rem);
+      letter-spacing: -0.035em;
+      hyphens: auto;
+    }
+
+    h2 {
+      margin-bottom: 0.85rem;
+      font-size: clamp(2.05rem, 8.5vw, 3.55rem);
+      letter-spacing: -0.025em;
+    }
+
+    h3 { margin-bottom: 0.55rem; font-size: clamp(1.45rem, 6vw, 1.8rem); }
+
+    .hero-lead {
+      max-width: 40rem;
+      margin: 0 0 1.35rem;
+      color: #ddd9e9;
+      font-size: clamp(1rem, 4.5vw, 1.14rem);
+    }
+
+    .hero-actions { display: grid; gap: 0.75rem; }
+    .hero-actions .button { width: 100%; }
+
+    .bot-label {
+      display: flex;
+      min-height: 2.75rem;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .bot-label strong { color: var(--violet); }
+
+    .hero-media {
+      position: relative;
+      display: block;
+      aspect-ratio: 800 / 1251;
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+      background: #0c0d1e;
+    }
+
+    .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 45%;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+      margin-top: 1rem;
+    }
+
+    .quick-fact {
+      display: flex;
+      min-width: 0;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(18, 20, 40, 0.7);
+      color: #d5d2df;
+      font-size: 0.88rem;
+    }
+
+    .quick-fact span { flex: 0 0 auto; color: var(--gold); font-size: 1.05rem; }
+
+    .section { padding: clamp(4.25rem, 15vw, 7.5rem) 0 0; }
+
+    .section-head { max-width: 44rem; margin-bottom: 2rem; }
+
+    .section-head p,
+    .body-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 4vw, 1.08rem);
+    }
+
+    .steps, .reading-grid, .benefit-grid { display: grid; gap: 1rem; }
+
+    .step-card, .reading-card, .benefit-card {
+      position: relative;
+      min-width: 0;
+      padding: 1.35rem;
+      border: 1px solid var(--line);
+      border-radius: 1.25rem;
+      background: linear-gradient(145deg, rgba(24, 25, 51, 0.91), rgba(13, 15, 32, 0.9));
+      box-shadow: 0 18px 46px rgba(2, 3, 14, 0.2);
+    }
+
+    .step-number {
+      display: grid;
+      width: 2.65rem;
+      height: 2.65rem;
+      margin-bottom: 1.5rem;
+      place-items: center;
+      border: 1px solid rgba(141, 231, 227, 0.28);
+      border-radius: 50%;
+      background: rgba(141, 231, 227, 0.07);
+      color: var(--cyan);
+      font-family: var(--display);
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .step-card p, .reading-card p, .benefit-card p { margin: 0; color: var(--muted); }
+    .reading-card { padding-top: 3.25rem; }
+
+    .reading-icon {
+      position: absolute;
+      top: 1rem;
+      left: 1.35rem;
+      color: var(--gold);
+      font-size: 1.15rem;
+    }
+
+    .badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.25rem 0.55rem;
+      border: 1px solid rgba(200, 167, 255, 0.28);
+      border-radius: 999px;
+      background: rgba(200, 167, 255, 0.08);
+      color: var(--violet);
+      font-size: 0.66rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .interpretation {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(1.4rem, 6vw, 3.5rem);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 80% 30%, rgba(88, 206, 221, 0.12), transparent 18rem),
+        linear-gradient(145deg, rgba(30, 26, 58, 0.96), rgba(12, 14, 31, 0.97));
+      box-shadow: var(--shadow);
+    }
+
+    .interpretation-copy p { color: var(--muted); }
+
+    .check-list {
+      display: grid;
+      gap: 0.8rem;
+      margin: 1.3rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .check-list li {
+      display: grid;
+      grid-template-columns: 1.5rem minmax(0, 1fr);
+      gap: 0.65rem;
+      align-items: start;
+    }
+
+    .check-list li::before { content: "✦"; color: var(--cyan); }
+
+    .card-orbit {
+      position: relative;
+      min-height: 17rem;
+      overflow: hidden;
+      border: 1px solid rgba(141, 231, 227, 0.16);
+      border-radius: 1.25rem;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(93, 213, 230, 0.19), transparent 31%),
+        radial-gradient(circle at 50% 50%, rgba(170, 112, 234, 0.17), transparent 58%),
+        #0d1023;
+    }
+
+    .card-orbit::before, .card-orbit::after {
+      content: "";
+      position: absolute;
+      inset: 13%;
+      border: 1px solid rgba(200, 167, 255, 0.22);
+      border-radius: 50%;
+    }
+
+    .card-orbit::after { inset: 24%; border-color: rgba(141, 231, 227, 0.2); }
+
+    .tarot-card {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: 50%;
+      display: grid;
+      width: 7.4rem;
+      aspect-ratio: 0.61;
+      place-items: center;
+      border: 1px solid rgba(235, 215, 164, 0.65);
+      border-radius: 0.55rem;
+      background:
+        linear-gradient(135deg, transparent 48%, rgba(231, 200, 135, 0.18) 49% 51%, transparent 52%),
+        radial-gradient(circle, rgba(141, 231, 227, 0.34), transparent 36%),
+        #19173a;
+      color: var(--gold);
+      font-family: var(--display);
+      font-size: 2.3rem;
+      box-shadow: 0 18px 45px rgba(3, 4, 18, 0.52), 0 0 35px rgba(137, 215, 226, 0.13);
+      transform: translate(-50%, -50%) rotate(-3deg);
+    }
+
+    .tarot-card.back { z-index: 1; transform: translate(-28%, -48%) rotate(10deg); opacity: 0.56; }
+
+    .small-label {
+      display: block;
+      margin-bottom: 0.6rem;
+      color: var(--cyan);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .premium {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(1.5rem, 6vw, 3.5rem);
+      border: 1px solid rgba(231, 200, 135, 0.25);
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, rgba(40, 28, 59, 0.94), rgba(17, 18, 39, 0.97));
+    }
+
+    .premium-kicker {
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .premium p { color: var(--muted); }
+
+    .credit-box {
+      padding: 1.25rem;
+      border: 1px solid rgba(231, 200, 135, 0.22);
+      border-radius: 1.1rem;
+      background: rgba(7, 8, 19, 0.36);
+    }
+
+    .credit-box strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+      font-family: var(--display);
+      font-size: 1.55rem;
+    }
+
+    .language-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin: 1.5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .language-list li {
+      padding: 0.62rem 0.9rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(22, 23, 47, 0.7);
+      color: #d8d5e2;
+      font-size: 0.88rem;
+    }
+
+    .faq-list { display: grid; gap: 0.75rem; }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(20, 21, 43, 0.72);
+    }
+
+    summary {
+      position: relative;
+      min-height: 3.5rem;
+      padding: 1rem 3.25rem 1rem 1.1rem;
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 50%;
+      right: 1.15rem;
+      color: var(--violet);
+      font-size: 1.4rem;
+      transform: translateY(-50%);
+    }
+
+    details[open] summary::after { content: "−"; }
+    details p { margin: 0; padding: 0 1.1rem 1.1rem; color: var(--muted); }
+
+    .final-cta {
+      overflow: hidden;
+      padding: clamp(1.6rem, 7vw, 4rem);
+      border: 1px solid rgba(141, 231, 227, 0.2);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 85% 15%, rgba(141, 231, 227, 0.15), transparent 18rem),
+        linear-gradient(135deg, #1e1a3d, #0e1124);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .final-cta h2 { max-width: 17ch; margin-inline: auto; }
+    .final-cta p { max-width: 40rem; margin: 0 auto 1.35rem; color: var(--muted); }
+    .final-cta .button { width: 100%; }
+
+    .disclaimer {
+      margin-top: 1.25rem;
+      padding: 1rem;
+      border-left: 2px solid rgba(200, 167, 255, 0.5);
+      color: #aaa7b8;
+      font-size: 0.78rem;
+    }
+
+    .site-footer {
+      padding: 2.5rem 0 max(2rem, env(safe-area-inset-bottom));
+      color: #918e9e;
+      font-size: 0.82rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.65rem 1rem; }
+    .footer-links a { color: #c7c3d3; }
+
+    @media (min-width: 30rem) {
+      .shell { width: min(100% - 2.5rem, 74rem); }
+      .hero-actions { display: flex; align-items: center; flex-wrap: wrap; }
+      .hero-actions .button { width: auto; }
+      .bot-label { justify-content: flex-start; }
+      .quick-facts { grid-template-columns: repeat(3, 1fr); }
+      .final-cta .button { width: auto; }
+    }
+
+    @media (min-width: 47.5rem) {
+      .site-header { padding-block: 1.25rem; }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: clamp(1rem, 3vw, 1.75rem);
+        margin-left: auto;
+      }
+
+      .nav a { color: var(--muted); font-size: 0.88rem; font-weight: 600; text-decoration: none; }
+      .nav a:hover { color: var(--text); }
+      .button.header-cta { display: inline-flex; min-height: 2.9rem; padding: 0.7rem 1rem; font-size: 0.86rem; }
+      .language-link { min-width: 2.9rem; min-height: 2.9rem; }
+
+      .hero { min-height: 39rem; display: grid; align-items: center; }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(7, 9, 21, 0.99) 0%, rgba(7, 9, 21, 0.87) 36%, rgba(7, 9, 21, 0.18) 65%, transparent 100%);
+        pointer-events: none;
+      }
+
+      .hero-copy { width: min(54%, 39rem); padding: clamp(2.5rem, 5vw, 4rem); }
+      .hero-lead { max-width: 35rem; }
+
+      .hero-media { position: absolute; inset: 0; aspect-ratio: auto; border: 0; }
+      .hero-media img { object-position: center; }
+      .steps { grid-template-columns: repeat(3, 1fr); }
+      .reading-grid { grid-template-columns: repeat(2, 1fr); }
+      .benefit-grid { grid-template-columns: repeat(2, 1fr); }
+      .interpretation { grid-template-columns: minmax(0, 1.08fr) minmax(17rem, 0.92fr); align-items: center; }
+      .premium { grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.8fr); align-items: center; }
+      .footer-inner { flex-direction: row; justify-content: space-between; text-align: left; }
+    }
+
+    @media (min-width: 64rem) {
+      .reading-grid { grid-template-columns: repeat(3, 1fr); }
+      .reading-card.featured { grid-column: span 2; }
+      .benefit-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+    }
   </style>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Таро — @taroshenka_bot",
-    "url": "https://taro.mom/",
-    "sameAs": ["https://t.me/taroshenka_bot"],
-    "description": "Онлайн-бот в Telegram для раскладов Таро — быстрые и загадочные ответы."
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Таро — @taroshenka_bot",
-    "description": "Telegram-бот для раскладов Таро: быстрые и анонимные расклады на любовь, работу и важные вопросы.",
-    "url": "https://taro.mom/",
-    "sameAs": "https://t.me/taroshenka_bot",
-    "applicationCategory": "EntertainmentApplication",
-    "operatingSystem": "Telegram",
-    "image": "https://taro.mom/favicons/icon-180.png",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "RUB"
-    },
-    "potentialAction": {
-      "@type": "ViewAction",
-      "target": "https://t.me/taroshenka_bot?start=ref974025936"
-    }
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"FAQPage",
-    "mainEntity":[
-      {"@type":"Question","name":"Что такое @taroshenka_bot?","acceptedAnswer":{"@type":"Answer","text":"Это Telegram-бот, который выдаёт расклады Таро на заданные вами вопросы — быстро и удобно."}},
-      {"@type":"Question","name":"Нужно ли регистрироваться?","acceptedAnswer":{"@type":"Answer","text":"Нет — достаточно открыть бота в Telegram и задать вопрос."}},
-      {"@type":"Question","name":"Бесплатно ли это?","acceptedAnswer":{"@type":"Answer","text":"Базовые расклады доступны бесплатно; расширенные опции могут быть платными (подробности в боте)."}},
-      {"@type":"Question","name":"Как получить расклад на любовь?","acceptedAnswer":{"@type":"Answer","text":"Нажмите «Открыть в Telegram», напишите боту ваш вопрос, например 'расклад на любовь', и следуйте подсказкам."}},
-      {"@type":"Question","name":"Можно ли сохранить результат расклада?","acceptedAnswer":{"@type":"Answer","text":"Да — вы можете сохранить текст расклада в чате Telegram, переслать его себе или сделать скриншот."}},
-      {"@type":"Question","name":"Как оплатить расширенный расклад?","acceptedAnswer":{"@type":"Answer","text":"Оплата доступна через меню бота; выберите платную опцию и следуйте инструкциям."}}
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://taro.mom/#website",
+        "url": "https://taro.mom/",
+        "name": "Taro.mom",
+        "inLanguage": ["ru", "en"]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://taro.mom/#primaryimage",
+        "url": "https://taro.mom/images/ru/tarot-reader-social.jpg",
+        "contentUrl": "https://taro.mom/images/ru/tarot-reader-social.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "Иллюстрация таролога с тремя светящимися картами"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://taro.mom/#webpage",
+        "url": "https://taro.mom/",
+        "name": "Расклады Таро онлайн с AI в Telegram | @taroshenka_bot",
+        "description": "Персональный Telegram-бот для раскладов Таро с изображениями карт и связной AI-интерпретацией.",
+        "isPartOf": {"@id": "https://taro.mom/#website"},
+        "primaryImageOfPage": {"@id": "https://taro.mom/#primaryimage"},
+        "mainEntity": {"@id": "https://taro.mom/#taroshenka-bot"},
+        "inLanguage": "ru"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://taro.mom/#taroshenka-bot",
+        "name": "Таролог — Расклады Гадание Таро AI",
+        "alternateName": "@taroshenka_bot",
+        "description": "Telegram-бот для раскладов Таро с изображениями карт, персонализацией, историей и AI-интерпретацией.",
+        "url": "https://taro.mom/",
+        "sameAs": "https://t.me/taroshenka_bot",
+        "applicationCategory": "EntertainmentApplication",
+        "operatingSystem": "Telegram",
+        "image": {"@id": "https://taro.mom/#primaryimage"},
+        "potentialAction": {
+          "@type": "ViewAction",
+          "name": "Открыть бота Таро в Telegram",
+          "target": "https://t.me/taroshenka_bot?start=ref974025936"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://taro.mom/#faq",
+        "url": "https://taro.mom/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Что такое бот @taroshenka_bot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "@taroshenka_bot — это Telegram-бот для раскладов Таро с AI-интерпретацией. Пользователь выбирает расклад, задаёт вопрос и получает изображения карт со связным разбором прямо в чате."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как формируется AI-интерпретация расклада?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Бот учитывает значение каждой карты, её позицию, прямую или перевёрнутую ориентацию и контекст вопроса. Затем он объединяет эти элементы в одну понятную интерпретацию."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Какие расклады Таро доступны в боте?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Доступны Карта дня, «Да или Нет», расклад на три карты, «Рассвет», расклад на отношения, а в Premium — «Кельтский крест» на десять карт и расклад на год из двенадцати карт."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Предсказывает ли бот будущее?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Нет. Расклады Таро и AI-интерпретации предназначены для развлечения и саморефлексии. Они предлагают символический взгляд на ситуацию, а не гарантированное предсказание."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как работают кредиты и Premium?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Кредиты используются для платных раскладов и дополнительных действий. Доступны пакеты на 5, 10 и 30 кредитов, а также Premium на месяц; актуальная стоимость и способы оплаты отображаются в боте перед покупкой."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Какие языки поддерживает бот Таро?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Бот поддерживает русский, английский, немецкий, испанский, французский, хинди, португальский и турецкий языки. Сохранённый язык можно изменить в настройках профиля."
+            }
+          }
+        ]
+      }
     ]
   }
   </script>
 </head>
 <body>
-<main class="container">
-  <div class="card" role="main">
-    <div class="header">
-      <div style="flex:1">
-        <div class="brand">Таро</div>
-        <div class="lead">Расклады Таро онлайн в Telegram — быстрые ответы на вопросы о любви, отношениях, работе и важных решениях</div>
-      </div>
-      <div>
-        <div class="hero-note">Бот: <strong>@taroshenka_bot</strong></div>
+  <a class="skip-link" href="#main-content">Перейти к основному содержанию</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/" aria-label="Taro.mom — главная страница">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Taro.mom</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#how-it-works">Как это работает</a>
+        <a href="#readings">Расклады</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+
+      <a class="language-link" href="/en/" hreflang="en" aria-label="Открыть английскую версию">EN</a>
+      <a class="button header-cta" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Открыть в Telegram</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Ваш AI-таролог в Telegram</p>
+          <h1 id="hero-title">Персональные расклады Таро прямо в Telegram</h1>
+          <p class="hero-lead">Выберите расклад, задайте важный для вас вопрос и получите выпавшие карты с понятным связным разбором прямо в Telegram.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Получить расклад Таро</a>
+            <span class="bot-label">Бот: <strong>&nbsp;@taroshenka_bot</strong></span>
+          </div>
+        </div>
+
+        <picture class="hero-media">
+          <source media="(max-width: 759px)" srcset="/images/ru/tarot-reader-hero-mobile.jpg">
+          <img src="/images/ru/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="Таролог держит светящуюся карту над раскладом из трёх карт" fetchpriority="high">
+        </picture>
+      </section>
+
+      <div class="quick-facts" aria-label="Основные возможности">
+        <div class="quick-fact"><span aria-hidden="true">✦</span> Работает прямо в Telegram</div>
+        <div class="quick-fact"><span aria-hidden="true">☾</span> Несколько форматов раскладов</div>
+        <div class="quick-fact"><span aria-hidden="true">◇</span> Поддержка восьми языков</div>
       </div>
     </div>
 
-    <h1 class="h1">Расклады Таро онлайн в Telegram — @taroshenka_bot</h1>
-    <p class="sub">Получите короткий персональный расклад за несколько кликов: без регистрации, анонимно и прямо в удобном Telegram. Авторские колоды, понятные подсказки и варианты для разных жизненных ситуаций.</p>
+    <section class="section shell" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-head">
+        <p class="eyebrow">Расклад за три шага</p>
+        <h2 id="how-title">Как работает бот Таро</h2>
+        <p>Бот проводит пользователя от выбора расклада до готовой интерпретации без отдельного приложения и нового аккаунта.</p>
+      </div>
 
-    <div class="cta" style="margin-bottom:14px">
-      <a class="btn" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer" aria-label="Получить расклад Таро в Telegram">Получить расклад в Telegram</a>
-      <button class="btn copy-btn" id="copyBtn" aria-label="Копировать имя бота">Копировать имя бота</button>
-    </div>
-
-    <div class="features" aria-hidden="false">
-      <div class="feature">
-        <strong>Быстрый результат</strong>
-        <div class="muted">Короткие и понятные расклады за пару кликов.</div>
-      </div>
-      <div class="feature">
-        <strong>Уникальные колоды</strong>
-        <div class="muted">Авторские и редкие колоды — каждое чтение неповторимо и глубоко персонализировано.</div>
-      </div>
-      <div class="feature">
-        <strong>Анонимность</strong>
-        <div class="muted">Для персонализированных раскладов укажите только дату рождения и имя пользователя; дополнительных данных не требуется.</div>
-      </div>
-      <div class="feature">
-        <strong>Всегда под рукой</strong>
-        <div class="muted">Удобно в мобильном Telegram — всегда рядом.</div>
-      </div>
-    </div>
-
-    <section class="popular" aria-labelledby="popularTitle" style="margin-top:18px">
-      <h2 id="popularTitle" style="color:#fff">Популярные расклады</h2>
-      <div class="features" style="margin-top:8px">
-        <div class="feature">
-          <strong>Расклад на любовь</strong>
-          <div class="muted">Быстрый расклад на отношения, совместимость и развитие связи.</div>
-        </div>
-        <div class="feature">
-          <strong>Расклад на работу</strong>
-          <div class="muted">Подсказки по карьере, выбору пути и профессиональным возможностям.</div>
-        </div>
-        <div class="feature">
-          <strong>Ежедневный прогноз</strong>
-          <div class="muted">Короткий совет на день — полезно для планирования.</div>
-        </div>
-        <div class="feature">
-          <strong>Персональный развёрнутый расклад</strong>
-          <div class="muted">Глубокий анализ по конкретной теме (есть платные варианты).</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="how" aria-labelledby="howTitle">
-      <h2 id="howTitle" style="margin-top:18px;color:#fff">Как это работает</h2>
       <div class="steps">
-        <div class="step"><div class="num">1</div><div><strong>Нажмите</strong> кнопку «Открыть в Telegram».</div></div>
-        <div class="step"><div class="num">2</div><div><strong>Задайте вопрос</strong> боту — опишите ситуацию кратко.</div></div>
-        <div class="step"><div class="num">3</div><div><strong>Получите расклад</strong> и советы для следующего шага.</div></div>
+        <article class="step-card">
+          <span class="step-number" aria-hidden="true">1</span>
+          <h3>Выберите расклад</h3>
+          <p>Начните с Карты дня, короткого ответа на одной карте, расклада на отношения или глубокого многоуровневого разбора.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number" aria-hidden="true">2</span>
+          <h3>Задайте вопрос</h3>
+          <p>Опишите ситуацию своими словами. Если действие платное, бот покажет стоимость в кредитах до подтверждения.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number" aria-hidden="true">3</span>
+          <h3>Изучите значение</h3>
+          <p>Посмотрите выпавшие карты и прочитайте единую AI-интерпретацию с учётом расклада и вашего вопроса.</p>
+        </article>
       </div>
     </section>
 
-    <section class="faq" aria-labelledby="faqTitle" style="margin-top:18px">
-      <h2 id="faqTitle" style="color:#fff">Вопросы и ответы</h2>
-      <div style="margin-top:8px">
+    <section class="section shell" id="readings" aria-labelledby="readings-title">
+      <div class="section-head">
+        <p class="eyebrow">От быстрого ориентира до глубокого разбора</p>
+        <h2 id="readings-title">Расклады Таро онлайн для разных вопросов</h2>
+        <p>В каждом формате у карт есть определённые позиции, благодаря которым бот связывает отдельные значения в целостный ответ.</p>
+      </div>
+
+      <div class="reading-grid">
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">☀</span>
+          <h3>Карта дня</h3>
+          <p>Ежедневная карта с изображением и коротким смыслом дня — тема для размышления или утренний ориентир.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">◇</span>
+          <h3>«Да или Нет»</h3>
+          <p>Расклад на одной карте, который задаёт направление ответа и объясняет значение карты в контексте вопроса.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">✦</span>
+          <h3>Три карты</h3>
+          <p>Компактный расклад, рассматривающий ситуацию с нескольких сторон и учитывающий сочетание выпавших карт.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">☼</span>
+          <h3>«Рассвет»</h3>
+          <p>Быстрый расклад на одной карте для личного вопроса, когда нужен краткий символический ориентир.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">♡</span>
+          <h3>Расклад на отношения</h3>
+          <p>Пять карт помогают рассмотреть чувства, ожидания, препятствия, скрытые влияния и возможное развитие отношений.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">✧</span>
+          <span class="badge">Premium</span>
+          <h3>«Кельтский крест»</h3>
+          <p>Классический расклад на десять карт для сложных вопросов: настоящее, влияния, препятствия, развитие и итоговая тенденция.</p>
+        </article>
+        <article class="reading-card featured">
+          <span class="reading-icon" aria-hidden="true">☾</span>
+          <span class="badge">Premium</span>
+          <h3>Расклад на год</h3>
+          <p>Двенадцать карт последовательно раскрывают темы и возможные акценты месяцев, а затем объединяются в общую картину периода.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="interpretation-title">
+      <div class="interpretation">
+        <div class="interpretation-copy">
+          <p class="eyebrow">Больше, чем справочник значений</p>
+          <h2 id="interpretation-title">AI связывает все карты расклада</h2>
+          <p>Бот учитывает значение каждой карты, её позицию, прямую или перевёрнутую ориентацию и контекст вопроса. В результате получается единая интерпретация, а не набор разрозненных описаний.</p>
+          <ul class="check-list">
+            <li>Выпавшие карты приходят с наглядными изображениями.</li>
+            <li>Можно вытянуть дополнительную карту в контексте исходного расклада.</li>
+            <li>Можно задать уточняющий вопрос, сохранив предыдущий контекст.</li>
+          </ul>
+        </div>
+        <div class="card-orbit" aria-hidden="true">
+          <span class="tarot-card back">☾</span>
+          <span class="tarot-card">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="personal-title">
+      <div class="section-head">
+        <p class="eyebrow">Настройки под пользователя</p>
+        <h2 id="personal-title">Персонализация внутри Telegram</h2>
+        <p>Сохранённые настройки помогают адаптировать интерфейс и тон ответа, не прерывая привычный сценарий общения в чате.</p>
+      </div>
+
+      <div class="benefit-grid">
+        <article class="benefit-card">
+          <span class="small-label">Профиль</span>
+          <h3>Язык и личные настройки</h3>
+          <p>Бот может учитывать сохранённые имя, дату рождения, знак зодиака, язык и выбранную визуальную колоду.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="small-label">Продолжение</span>
+          <h3>История раскладов</h3>
+          <p>Выполненные расклады сохраняются в истории, чтобы к предыдущим вопросам и интерпретациям можно было вернуться.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="small-label">Доступность</span>
+          <h3>В удобное для вас время</h3>
+          <p>Откройте бота, когда хотите осмыслить отношения, выбор, планы или другую важную жизненную ситуацию.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="premium-title">
+      <div class="premium">
+        <div>
+          <p class="premium-kicker">Кредиты и Premium</p>
+          <h2 id="premium-title">Больше глубины для сложных вопросов</h2>
+          <p>Кредиты используются для платных раскладов и дополнительных действий. Premium открывает расширенные форматы, включая «Кельтский крест» и расклад на год, а также дополнительные визуальные возможности.</p>
+          <p>При первом платеже Premium начисляется 50 кредитов. Ещё 50 кредитов начисляются после каждого успешного ежемесячного продления.</p>
+        </div>
+        <div class="credit-box">
+          <strong>5, 10 или 30 кредитов</strong>
+          <p>Доступны пакеты кредитов и Premium на месяц. Актуальная стоимость, валюта, способы оплаты и условия подписки отображаются в боте перед покупкой.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="languages-title">
+      <div class="section-head">
+        <p class="eyebrow">Восемь языков интерфейса</p>
+        <h2 id="languages-title">Получайте расклады на удобном языке</h2>
+        <p>Бот определяет исходный язык, а затем позволяет сохранить или изменить основной язык в настройках профиля.</p>
+        <ul class="language-list" aria-label="Поддерживаемые языки">
+          <li>Русский</li>
+          <li>Английский</li>
+          <li>Немецкий</li>
+          <li>Испанский</li>
+          <li>Французский</li>
+          <li>Хинди</li>
+          <li>Португальский</li>
+          <li>Турецкий</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-head">
+        <p class="eyebrow">Вопросы и ответы</p>
+        <h2 id="faq-title">Частые вопросы об AI-тарологе</h2>
+        <p>Кратко о доступных раскладах, интерпретациях, кредитах и языках.</p>
+      </div>
+
+      <div class="faq-list">
         <details>
-          <summary>Что делать, если бот не отвечает?</summary>
-          <p class="muted">Если бот не отвечает — отправьте команду <strong>/start</strong> в чате бота для перезапуска; также проверьте соединение и повторите попытку позже.</p>
+          <summary>Что такое бот @taroshenka_bot?</summary>
+          <p>@taroshenka_bot — это Telegram-бот для раскладов Таро с AI-интерпретацией. Пользователь выбирает расклад, задаёт вопрос и получает изображения карт со связным разбором прямо в чате.</p>
         </details>
         <details>
-          <summary>Можно ли получить развёрнутый расклад?</summary>
-          <p class="muted">Да — бот предлагает краткие и расширенные варианты, ознакомьтесь с меню бота.</p>
+          <summary>Как формируется AI-интерпретация расклада?</summary>
+          <p>Бот учитывает значение каждой карты, её позицию, прямую или перевёрнутую ориентацию и контекст вопроса. Затем он объединяет эти элементы в одну понятную интерпретацию.</p>
         </details>
         <details>
-          <summary>Как сохраняются мои данные?</summary>
-          <p class="muted">Бот не хранит ваши личные данные в публичном доступе; детали — в описании бота.</p>
+          <summary>Какие расклады Таро доступны в боте?</summary>
+          <p>Доступны Карта дня, «Да или Нет», расклад на три карты, «Рассвет», расклад на отношения, а в Premium — «Кельтский крест» на десять карт и расклад на год из двенадцати карт.</p>
         </details>
         <details>
-          <summary>Как получить расклад на любовь?</summary>
-          <p class="muted">Нажмите «Открыть в Telegram» и задайте боту вопрос вида «расклад на любовь». Бот предложит варианты раскладов.</p>
+          <summary>Предсказывает ли бот будущее?</summary>
+          <p>Нет. Расклады Таро и AI-интерпретации предназначены для развлечения и саморефлексии. Они предлагают символический взгляд на ситуацию, а не гарантированное предсказание.</p>
         </details>
         <details>
-          <summary>Есть ли бесплатные расклады?</summary>
-          <p class="muted">Да — базовые расклады доступны бесплатно; расширенные услуги могут быть платными.</p>
+          <summary>Как работают кредиты и Premium?</summary>
+          <p>Кредиты используются для платных раскладов и дополнительных действий. Доступны пакеты на 5, 10 и 30 кредитов, а также Premium на месяц; актуальная стоимость и способы оплаты отображаются в боте перед покупкой.</p>
         </details>
         <details>
-          <summary>Можно ли сохранить результат расклада?</summary>
-          <p class="muted">Да — сохраните в чате, пересылайте себе или делайте скриншот.</p>
+          <summary>Какие языки поддерживает бот Таро?</summary>
+          <p>Бот поддерживает русский, английский, немецкий, испанский, французский, хинди, португальский и турецкий языки. Сохранённый язык можно изменить в настройках профиля.</p>
         </details>
       </div>
     </section>
 
-    <footer>
-      <div style="margin-top:14px">© Таро — @taroshenka_bot</div>
-      <div style="margin-top:6px" class="muted">Начните прямо сейчас — нажмите «Открыть в Telegram».</div>
-      <div style="margin-top:8px"><a href="/en/" lang="en" hreflang="en" style="color:#caa2ff">English version</a></div>
-    </footer>
-  </div>
-</main>
+    <section class="section shell" aria-labelledby="start-title">
+      <div class="final-cta">
+        <p class="eyebrow">Ваш вопрос. Ваши карты. Новый взгляд.</p>
+        <h2 id="start-title">Начните свой расклад Таро в Telegram</h2>
+        <p>Выберите подходящий формат, сформулируйте вопрос и получите персональную AI-интерпретацию прямо в чате.</p>
+        <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Открыть @taroshenka_bot</a>
+      </div>
 
-<noscript>
-  <div style="position:fixed;left:0;right:0;bottom:0;background:#111;padding:8px;text-align:center;color:#fff">
-    Откройте в Telegram: <a href="https://t.me/taroshenka_bot?start=ref974025936" style="color:#caa2ff">https://t.me/taroshenka_bot?start=ref974025936</a>
-  </div>
-</noscript>
+      <aside class="disclaimer" aria-label="Важное предупреждение">
+        Расклады и AI-интерпретации предназначены для развлечения и саморефлексии. Они не являются достоверным предсказанием будущего и не заменяют медицинскую, психологическую, юридическую, финансовую или иную профессиональную помощь. Важные решения пользователь принимает самостоятельно.
+      </aside>
+    </section>
+  </main>
 
-<script>
-document.getElementById('copyBtn').addEventListener('click', function(){
-  navigator.clipboard?.writeText('@taroshenka_bot').then(function(){
-    const btn = document.getElementById('copyBtn');
-    const prev = btn.innerText;
-    btn.innerText = 'Скопировано!';
-    setTimeout(()=> btn.innerText = prev, 1600);
-  }).catch(()=> {
-    alert('Не удалось скопировать. Скопируйте вручную: @taroshenka_bot');
-  });
-});
-</script>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>© 2026 Taro.mom · @taroshenka_bot</div>
+      <div class="footer-links">
+        <a href="#main-content">Наверх</a>
+        <a href="/en/" hreflang="en">English version</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
