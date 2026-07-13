@@ -4,7 +4,7 @@
 
 Build and maintain the English landing page for the Telegram tarot bot at `https://taro.mom/en/`. Optimize first for useful, indexable, trustworthy content, then for clicks to the bot. Search rankings and AI citations are outcomes to improve toward, never guarantees to claim.
 
-The implementation is a static site. Keep the existing Russian home page at `/`; put the English page at `en/index.html`. Do not introduce a framework, build system, backend, analytics, email capture, or another conversion path unless the user explicitly requests it.
+The implementation is a static site hosted on GitHub Pages. Keep the existing Russian home page at `/`; put the English page at `en/index.html`. Do not introduce a framework, build system, backend, analytics, email capture, or another conversion path unless the user explicitly requests it.
 
 ## Sources of truth
 
@@ -26,7 +26,19 @@ If sources conflict, preserve the higher-priority source and report the conflict
 - Preserve the entire `start=ref974025936` parameter. It is mandatory for referral attribution. Do not replace it with `https://t.me/taroshenka_bot`, a URL shortener, JavaScript redirect, or a different parameter.
 - Use `@taroshenka_bot` and `https://t.me/taroshenka_bot` only for non-conversion identity references such as visible account naming or `sameAs`.
 - The site URL is `https://taro.mom/`; the English canonical URL is `https://taro.mom/en/`.
+- All one-page landing pages in this repository are published through GitHub Pages. Treat GitHub Pages compatibility as a release requirement.
 - Do not add email capture, forms, secondary offers, or competing outbound CTAs.
+
+## GitHub Pages deployment constraints
+
+- Produce deployable static HTML, CSS, JavaScript, images, and metadata files. Do not depend on server-side rendering, PHP, a database, runtime environment variables, custom server headers, or server rewrite rules.
+- Implement directory routes with real files: `en/index.html` must serve `/en/`. Do not assume extensionless routing or SPA fallback behavior.
+- Preserve the repository's `CNAME` file and the custom domain `taro.mom`. Do not edit or remove `CNAME` unless the user explicitly requests a domain change.
+- Treat deployed paths and filenames as case-sensitive. Keep URL casing identical to filesystem casing and use forward slashes in URLs.
+- Prefer root-absolute public URLs such as `/images/en/...` and `/favicons/...` because the site is published at the custom-domain root. Verify every asset from the nested `/en/` route.
+- Do not commit secrets, API keys, local development addresses, temporary browser profiles, QA screenshots, or generated test artifacts. Anything committed to a GitHub Pages repository must be treated as publicly accessible.
+- Keep the page functional when served as plain static files. Use a local static HTTP server for verification because `file://` behavior does not accurately represent GitHub Pages paths.
+- After changes to routes or public assets, verify `CNAME`, `robots.txt`, `sitemap.xml`, canonical URLs, `hreflang`, and internal links together before publishing.
 
 ## Content requirements
 
@@ -104,7 +116,8 @@ If sources conflict, preserve the higher-priority source and report the conflict
 5. Generate only the images the layout actually needs; optimize them before use.
 6. Add reciprocal `hreflang` links to the Russian and English pages, then update sitemap and crawler rules as needed.
 7. Verify the exact referral URL in every CTA and relevant structured-data action.
-8. Validate locally and review the rendered page at mobile and desktop widths.
+8. Validate through a local static HTTP server and review the rendered page at mobile and desktop widths.
+9. Confirm GitHub Pages compatibility: no server-only dependencies, no missing case-sensitive paths, no secrets, and no accidental change to `CNAME`.
 
 ## Definition of done
 
@@ -118,6 +131,7 @@ If sources conflict, preserve the higher-priority source and report the conflict
 - All local asset paths work from `/en/`; images have dimensions, suitable formats, useful names, and acceptable file sizes.
 - Mobile layouts have been manually checked at the required viewport widths and remain intact with long content and increased text size.
 - There are no broken links, console errors, horizontal mobile overflow, clipped or overlapping elements, unusable touch targets, accidental layout shifts, or obvious spelling errors.
+- The site works from GitHub Pages as static files, `CNAME` still points to the intended custom domain, and no implementation depends on rewrites or backend behavior.
 - Report what was verified locally and list deployment-only checks separately. Never report indexing, ranking, Core Web Vitals field data, or AI citations as achieved without external evidence.
 
 ## Current authoritative guidance
