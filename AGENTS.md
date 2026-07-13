@@ -46,14 +46,14 @@ If sources conflict, preserve the higher-priority source and report the conflict
 
 - Give `/en/` a unique, descriptive English `<title>`, meta description, `og:title`, `og:description`, `og:url`, `og:locale="en_US"`, Twitter metadata, and a representative large social image.
 - Set a self-referencing canonical: `<link rel="canonical" href="https://taro.mom/en/">`.
-- Add reciprocal language alternates on both `/` and `/en/`: `hreflang="ru"`, `hreflang="en"`, and a deliberate `x-default`. Do not canonicalize English to Russian.
+- Add reciprocal language alternates on both `/` and `/en/`: `hreflang="ru"`, `hreflang="en"`, and `hreflang="x-default"` pointing to the general international English page at `https://taro.mom/en/`. Do not canonicalize English to Russian.
 - Ensure title, visible `h1`, Open Graph title, and structured-data naming describe the same page without being exact repetitive spam.
 
 ### Crawl and discovery
 
 - Keep navigation and the Telegram CTA as real `<a href="...">` links with descriptive anchor text.
 - Update `sitemap.xml` whenever `/en/` is added or materially changed. Include only canonical, indexable URLs and use truthful `lastmod` dates; do not use fake freshness.
-- Keep the sitemap declaration in `robots.txt`. Ensure `/en/`, its render-critical assets, Googlebot, Bingbot, and `OAI-SearchBot` are crawlable. An explicit `OAI-SearchBot` allow rule is acceptable for clarity. Do not claim that allowing a crawler guarantees inclusion or citation.
+- Keep the sitemap declaration in `robots.txt`. Ensure `/en/`, its render-critical assets, Googlebot, Bingbot, and `OAI-SearchBot` are crawlable. An explicit `OAI-SearchBot` allow rule is acceptable for clarity. Do not change `GPTBot` training access without an explicit user decision, and do not claim that allowing any crawler guarantees inclusion or citation.
 - Keep the primary content usable without client-side JavaScript. Avoid bot challenges, forced locale redirects, consent walls, or authentication on the landing page.
 - After deployment, recommend submitting the sitemap and inspecting `/en/` in Google Search Console and Bing Webmaster Tools. Recommend IndexNow only when deployment support and ownership are available; never fabricate keys or verification tokens.
 
@@ -85,7 +85,11 @@ If sources conflict, preserve the higher-priority source and report the conflict
 
 ## UX, accessibility, and performance
 
-- Design mobile-first and test narrow phones, tablets, laptops, and wide screens. Keep the primary CTA visible early without obscuring the content.
+- Mobile devices are the primary target. Design mobile-first, starting with the narrowest supported viewport, and enhance progressively for tablets and desktops. A desktop layout that merely shrinks is not acceptable.
+- The page must remain fully usable and visually coherent at widths from 320 px upward and in both portrait and landscape orientation. No horizontal page scrolling, clipped content, overlapping sections, off-screen controls, broken grids, unreadably small text, or CTA buttons wider than their container.
+- Use fluid layouts, wrapping flex/grid structures, responsive spacing and typography, and media that never exceeds its container. Do not depend on fixed pixel widths or fixed heights for text-bearing components.
+- Keep the primary CTA visible early without obscuring content. Interactive targets must be comfortably touchable, separated from adjacent controls, and usable without hover. Account for mobile safe-area insets where fixed or sticky UI is used.
+- Test at minimum at 320, 360, 375, 390, 414, 768, 1024, and 1440 CSS pixels, including long English headings, browser zoom, and increased text size. Treat any mobile layout breakage as a release blocker.
 - Meet WCAG 2.2 AA where practical: semantic landmarks, keyboard access, visible focus, sufficient contrast, descriptive controls, reduced-motion support, and no information conveyed by color alone.
 - Use progressive enhancement and minimal JavaScript. No autoplay audio, intrusive popups, fake chat notifications, countdowns, or manipulative urgency.
 - Aim for good Core Web Vitals: LCP at most 2.5 s, INP at most 200 ms, and CLS at most 0.1 at the 75th percentile. Optimize the hero image, reserve media dimensions, and avoid render-blocking excess.
@@ -112,15 +116,16 @@ If sources conflict, preserve the higher-priority source and report the conflict
 - JSON-LD parses and mirrors visible content. FAQ markup, if present, matches the displayed FAQ word for word in substance.
 - Important content remains available without JavaScript. Heading order, landmarks, keyboard navigation, focus, contrast, alt text, and reduced motion are checked.
 - All local asset paths work from `/en/`; images have dimensions, suitable formats, useful names, and acceptable file sizes.
-- There are no broken links, console errors, horizontal mobile overflow, accidental layout shifts, or obvious spelling errors.
+- Mobile layouts have been manually checked at the required viewport widths and remain intact with long content and increased text size.
+- There are no broken links, console errors, horizontal mobile overflow, clipped or overlapping elements, unusable touch targets, accidental layout shifts, or obvious spelling errors.
 - Report what was verified locally and list deployment-only checks separately. Never report indexing, ranking, Core Web Vitals field data, or AI citations as achieved without external evidence.
 
 ## Current authoritative guidance
 
 When SEO behavior may have changed, prefer current primary documentation over remembered rules:
 
-- Google Search Central: multilingual sites, helpful content, crawlable links, image SEO, and structured data.
-- Bing Webmaster Guidelines: discovery, sitemaps, IndexNow, and grounding eligibility.
-- OpenAI publisher guidance: access for `OAI-SearchBot` and separation from `GPTBot` training controls.
+- Google Search Central: [multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites), [helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [crawlable links](https://developers.google.com/search/docs/crawling-indexing/links-crawlable), [image SEO](https://developers.google.com/search/docs/appearance/google-images), and [software application structured data](https://developers.google.com/search/docs/appearance/structured-data/software-app).
+- Bing: [Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) and [IndexNow guidance](https://www.bing.com/webmasters/help/indexnow-0z209wby).
+- OpenAI: [publisher and developer guidance](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq) for `OAI-SearchBot` access and separate `GPTBot` training controls.
 
 Update this playbook when those official requirements or the product source of truth materially change.
