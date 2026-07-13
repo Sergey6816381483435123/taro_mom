@@ -1,0 +1,1092 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Tarot Readings in Telegram | Taroshenka Bot</title>
+  <meta name="description" content="Get a personal online Tarot reading with clear AI interpretation in Telegram. Choose a spread, ask your question, and explore the cards in context.">
+  <meta name="author" content="@taroshenka_bot">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#090b17">
+  <meta name="color-scheme" content="dark">
+
+  <link rel="canonical" href="https://taro.mom/en/">
+  <link rel="alternate" hreflang="en" href="https://taro.mom/en/">
+  <link rel="alternate" hreflang="ru" href="https://taro.mom/">
+  <link rel="alternate" hreflang="x-default" href="https://taro.mom/en/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Taro.mom">
+  <meta property="og:title" content="Personal AI Tarot Readings in Telegram">
+  <meta property="og:description" content="Choose a Tarot spread, ask your question, and receive a clear AI interpretation directly in Telegram.">
+  <meta property="og:url" content="https://taro.mom/en/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="An illustrated Tarot reader revealing three glowing cards">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Personal AI Tarot Readings in Telegram">
+  <meta name="twitter:description" content="Explore your question through Tarot cards and a connected AI interpretation in Telegram.">
+  <meta name="twitter:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
+  <meta name="twitter:image:alt" content="An illustrated Tarot reader revealing three glowing cards">
+
+  <link rel="icon" href="/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicons/icon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicons/icon-16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/favicons/icon-180.png" sizes="180x180">
+  <link rel="preload" as="image" href="/images/en/tarot-reader-hero-mobile.jpg" media="(max-width: 759px)">
+  <link rel="preload" as="image" href="/images/en/tarot-reader-hero-desktop.jpg" media="(min-width: 760px)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090b17;
+      --bg-soft: #101326;
+      --panel: rgba(21, 22, 45, 0.78);
+      --panel-solid: #15162d;
+      --text: #f8f6ff;
+      --muted: #bbb8cc;
+      --violet: #c8a7ff;
+      --violet-strong: #9f71ef;
+      --cyan: #8de7e3;
+      --gold: #e7c887;
+      --line: rgba(216, 198, 255, 0.17);
+      --shadow: 0 24px 70px rgba(2, 3, 12, 0.44);
+      --radius: 1.5rem;
+      --font-display: "Cormorant Garamond", Georgia, serif;
+      --font-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 1rem;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(77, 205, 220, 0.11), transparent 24rem),
+        radial-gradient(circle at 88% 20%, rgba(158, 91, 226, 0.14), transparent 30rem),
+        linear-gradient(180deg, #080a14 0%, #0d1020 48%, #090a15 100%);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    :focus-visible {
+      outline: 3px solid var(--cyan);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 100;
+      top: 0.75rem;
+      left: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: 0.75rem;
+      background: #fff;
+      color: #0b0c18;
+      font-weight: 700;
+      transform: translateY(-180%);
+      transition: transform 160ms ease;
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .shell {
+      width: min(100% - 2rem, 74rem);
+      margin-inline: auto;
+    }
+
+    .site-header {
+      padding: max(1rem, env(safe-area-inset-top)) 0 1rem;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 3rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+      font-weight: 700;
+      line-height: 1;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 2rem;
+      height: 2rem;
+      place-items: center;
+      border: 1px solid rgba(141, 231, 227, 0.38);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(141, 231, 227, 0.2), rgba(159, 113, 239, 0.08));
+      color: var(--cyan);
+      font-family: Georgia, serif;
+      box-shadow: 0 0 24px rgba(141, 231, 227, 0.13);
+    }
+
+    .nav { display: none; }
+
+    .language-link {
+      display: inline-flex;
+      min-width: 3rem;
+      min-height: 3rem;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+    }
+
+    .button.header-cta { display: none; }
+
+    .button {
+      display: inline-flex;
+      min-height: 3.25rem;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      max-width: 100%;
+      padding: 0.85rem 1.2rem;
+      border: 1px solid transparent;
+      border-radius: 0.9rem;
+      background: linear-gradient(115deg, var(--violet), var(--cyan));
+      color: #0a0b16;
+      font-size: 0.96rem;
+      font-weight: 800;
+      line-height: 1.25;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 12px 32px rgba(125, 198, 222, 0.16);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .button::after {
+      content: "↗";
+      font-size: 1.05em;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 38px rgba(174, 133, 240, 0.22);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: clamp(1.25rem, 5vw, 2rem);
+      background: linear-gradient(160deg, rgba(26, 26, 52, 0.94), rgba(10, 11, 26, 0.98));
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      padding: clamp(1.35rem, 6vw, 2.5rem);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      margin: 0 0 0.85rem;
+      color: var(--cyan);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 1.55rem;
+      height: 1px;
+      background: currentColor;
+      box-shadow: 0 0 12px currentColor;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      font-family: var(--font-display);
+      line-height: 1.04;
+      text-wrap: balance;
+    }
+
+    h1 {
+      max-width: 13ch;
+      margin-bottom: 1rem;
+      font-size: clamp(2.55rem, 12vw, 4.75rem);
+      letter-spacing: -0.035em;
+    }
+
+    h2 {
+      margin-bottom: 0.85rem;
+      font-size: clamp(2.15rem, 9vw, 3.65rem);
+      letter-spacing: -0.025em;
+    }
+
+    h3 {
+      margin-bottom: 0.55rem;
+      font-size: clamp(1.45rem, 6vw, 1.8rem);
+    }
+
+    .hero-lead {
+      max-width: 40rem;
+      margin: 0 0 1.35rem;
+      color: #ddd9e9;
+      font-size: clamp(1rem, 4.5vw, 1.16rem);
+    }
+
+    .hero-actions { display: grid; gap: 0.75rem; }
+    .hero-actions .button { width: 100%; }
+
+    .bot-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.75rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .bot-label strong { color: var(--violet); }
+
+    .hero-media {
+      position: relative;
+      display: block;
+      aspect-ratio: 800 / 1251;
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+      background: #0c0d1e;
+    }
+
+    .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 45%;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+      margin: 1rem 0 0;
+    }
+
+    .quick-fact {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-width: 0;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(18, 20, 40, 0.7);
+      color: #d5d2df;
+      font-size: 0.88rem;
+    }
+
+    .quick-fact span {
+      flex: 0 0 auto;
+      color: var(--gold);
+      font-size: 1.05rem;
+    }
+
+    .section { padding: clamp(4.25rem, 15vw, 7.5rem) 0 0; }
+
+    .section-head {
+      max-width: 43rem;
+      margin-bottom: 2rem;
+    }
+
+    .section-head p,
+    .body-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 4vw, 1.08rem);
+    }
+
+    .steps,
+    .reading-grid,
+    .benefit-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .step-card,
+    .reading-card,
+    .benefit-card {
+      position: relative;
+      min-width: 0;
+      padding: 1.35rem;
+      border: 1px solid var(--line);
+      border-radius: 1.25rem;
+      background: linear-gradient(145deg, rgba(24, 25, 51, 0.91), rgba(13, 15, 32, 0.9));
+      box-shadow: 0 18px 46px rgba(2, 3, 14, 0.2);
+    }
+
+    .step-number {
+      display: grid;
+      width: 2.65rem;
+      height: 2.65rem;
+      margin-bottom: 1.5rem;
+      place-items: center;
+      border: 1px solid rgba(141, 231, 227, 0.28);
+      border-radius: 50%;
+      background: rgba(141, 231, 227, 0.07);
+      color: var(--cyan);
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .step-card p,
+    .reading-card p,
+    .benefit-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .reading-card { padding-top: 3.25rem; }
+
+    .reading-icon {
+      position: absolute;
+      top: 1rem;
+      left: 1.35rem;
+      color: var(--gold);
+      font-size: 1.15rem;
+    }
+
+    .badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.25rem 0.55rem;
+      border: 1px solid rgba(200, 167, 255, 0.28);
+      border-radius: 999px;
+      background: rgba(200, 167, 255, 0.08);
+      color: var(--violet);
+      font-size: 0.66rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .interpretation {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(1.4rem, 6vw, 3.5rem);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 80% 30%, rgba(88, 206, 221, 0.12), transparent 18rem),
+        linear-gradient(145deg, rgba(30, 26, 58, 0.96), rgba(12, 14, 31, 0.97));
+      box-shadow: var(--shadow);
+    }
+
+    .interpretation-copy p { color: var(--muted); }
+
+    .check-list {
+      display: grid;
+      gap: 0.8rem;
+      margin: 1.3rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .check-list li {
+      display: grid;
+      grid-template-columns: 1.5rem minmax(0, 1fr);
+      gap: 0.65rem;
+      align-items: start;
+    }
+
+    .check-list li::before {
+      content: "✦";
+      color: var(--cyan);
+    }
+
+    .card-orbit {
+      position: relative;
+      min-height: 17rem;
+      overflow: hidden;
+      border: 1px solid rgba(141, 231, 227, 0.16);
+      border-radius: 1.25rem;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(93, 213, 230, 0.19), transparent 31%),
+        radial-gradient(circle at 50% 50%, rgba(170, 112, 234, 0.17), transparent 58%),
+        #0d1023;
+    }
+
+    .card-orbit::before,
+    .card-orbit::after {
+      content: "";
+      position: absolute;
+      inset: 13%;
+      border: 1px solid rgba(200, 167, 255, 0.22);
+      border-radius: 50%;
+    }
+
+    .card-orbit::after {
+      inset: 24%;
+      border-color: rgba(141, 231, 227, 0.2);
+    }
+
+    .tarot-card {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: 50%;
+      display: grid;
+      width: 7.4rem;
+      aspect-ratio: 0.61;
+      place-items: center;
+      border: 1px solid rgba(235, 215, 164, 0.65);
+      border-radius: 0.55rem;
+      background:
+        linear-gradient(135deg, transparent 48%, rgba(231, 200, 135, 0.18) 49% 51%, transparent 52%),
+        radial-gradient(circle, rgba(141, 231, 227, 0.34), transparent 36%),
+        #19173a;
+      color: var(--gold);
+      font-family: var(--font-display);
+      font-size: 2.3rem;
+      box-shadow: 0 18px 45px rgba(3, 4, 18, 0.52), 0 0 35px rgba(137, 215, 226, 0.13);
+      transform: translate(-50%, -50%) rotate(-3deg);
+    }
+
+    .tarot-card.back {
+      z-index: 1;
+      transform: translate(-28%, -48%) rotate(10deg);
+      opacity: 0.56;
+    }
+
+    .benefit-card .small-label {
+      display: block;
+      margin-bottom: 0.6rem;
+      color: var(--cyan);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .premium {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(1.5rem, 6vw, 3.5rem);
+      border: 1px solid rgba(231, 200, 135, 0.25);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(40, 28, 59, 0.94), rgba(17, 18, 39, 0.97)),
+        var(--panel-solid);
+    }
+
+    .premium-kicker {
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .premium p { color: var(--muted); }
+
+    .credit-box {
+      padding: 1.25rem;
+      border: 1px solid rgba(231, 200, 135, 0.22);
+      border-radius: 1.1rem;
+      background: rgba(7, 8, 19, 0.36);
+    }
+
+    .credit-box strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+    }
+
+    .language-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin: 1.5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .language-list li {
+      padding: 0.62rem 0.9rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(22, 23, 47, 0.7);
+      color: #d8d5e2;
+      font-size: 0.88rem;
+    }
+
+    .faq-list { display: grid; gap: 0.75rem; }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(20, 21, 43, 0.72);
+    }
+
+    summary {
+      position: relative;
+      min-height: 3.5rem;
+      padding: 1rem 3.25rem 1rem 1.1rem;
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 50%;
+      right: 1.15rem;
+      color: var(--violet);
+      font-size: 1.4rem;
+      transform: translateY(-50%);
+    }
+
+    details[open] summary::after { content: "−"; }
+
+    details p {
+      margin: 0;
+      padding: 0 1.1rem 1.1rem;
+      color: var(--muted);
+    }
+
+    .final-cta {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(1.6rem, 7vw, 4rem);
+      border: 1px solid rgba(141, 231, 227, 0.2);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 85% 15%, rgba(141, 231, 227, 0.15), transparent 18rem),
+        linear-gradient(135deg, #1e1a3d, #0e1124);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .final-cta h2 {
+      max-width: 16ch;
+      margin-inline: auto;
+    }
+
+    .final-cta p {
+      max-width: 38rem;
+      margin: 0 auto 1.35rem;
+      color: var(--muted);
+    }
+
+    .final-cta .button { width: 100%; }
+
+    .disclaimer {
+      margin-top: 1.25rem;
+      padding: 1rem;
+      border-left: 2px solid rgba(200, 167, 255, 0.5);
+      color: #aaa7b8;
+      font-size: 0.78rem;
+    }
+
+    .site-footer {
+      padding: 2.5rem 0 max(2rem, env(safe-area-inset-bottom));
+      color: #918e9e;
+      font-size: 0.82rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.65rem 1rem;
+    }
+
+    .footer-links a { color: #c7c3d3; }
+
+    @media (min-width: 30rem) {
+      .shell { width: min(100% - 2.5rem, 74rem); }
+      .hero-actions { display: flex; align-items: center; flex-wrap: wrap; }
+      .hero-actions .button { width: auto; }
+      .bot-label { justify-content: flex-start; }
+      .quick-facts { grid-template-columns: repeat(3, 1fr); }
+      .final-cta .button { width: auto; }
+    }
+
+    @media (min-width: 47.5rem) {
+      .site-header { padding-block: 1.25rem; }
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: clamp(1rem, 3vw, 1.75rem);
+        margin-left: auto;
+      }
+      .nav a {
+        color: var(--muted);
+        font-size: 0.88rem;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .nav a:hover { color: var(--text); }
+      .button.header-cta { display: inline-flex; min-height: 2.9rem; padding: 0.7rem 1rem; font-size: 0.86rem; }
+      .language-link { min-width: 2.9rem; min-height: 2.9rem; }
+
+      .hero {
+        min-height: 39rem;
+        display: grid;
+        align-items: center;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(7, 9, 21, 0.99) 0%, rgba(7, 9, 21, 0.87) 36%, rgba(7, 9, 21, 0.18) 65%, transparent 100%);
+        pointer-events: none;
+      }
+      .hero-copy { width: min(53%, 37rem); padding: clamp(2.5rem, 5vw, 4rem); }
+      .hero-lead { max-width: 34rem; }
+      .hero-media {
+        position: absolute;
+        inset: 0;
+        aspect-ratio: auto;
+        border: 0;
+      }
+      .hero-media img { object-position: center; }
+      .steps { grid-template-columns: repeat(3, 1fr); }
+      .reading-grid { grid-template-columns: repeat(2, 1fr); }
+      .benefit-grid { grid-template-columns: repeat(2, 1fr); }
+      .interpretation { grid-template-columns: minmax(0, 1.08fr) minmax(17rem, 0.92fr); align-items: center; }
+      .premium { grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.8fr); align-items: center; }
+      .footer-inner { flex-direction: row; justify-content: space-between; text-align: left; }
+    }
+
+    @media (min-width: 64rem) {
+      .reading-grid { grid-template-columns: repeat(3, 1fr); }
+      .reading-card.featured { grid-column: span 2; }
+      .benefit-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://taro.mom/#website",
+        "url": "https://taro.mom/",
+        "name": "Taro.mom",
+        "inLanguage": ["en", "ru"]
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://taro.mom/en/#primaryimage",
+        "url": "https://taro.mom/images/en/tarot-reader-social.jpg",
+        "contentUrl": "https://taro.mom/images/en/tarot-reader-social.jpg",
+        "width": 1200,
+        "height": 630,
+        "caption": "An illustrated Tarot reader revealing three glowing cards"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://taro.mom/en/#webpage",
+        "url": "https://taro.mom/en/",
+        "name": "AI Tarot Readings in Telegram | Taroshenka Bot",
+        "description": "A personal Telegram bot for Tarot spreads with card images and connected AI interpretation.",
+        "isPartOf": {"@id": "https://taro.mom/#website"},
+        "primaryImageOfPage": {"@id": "https://taro.mom/en/#primaryimage"},
+        "mainEntity": {"@id": "https://taro.mom/#taroshenka-bot"},
+        "inLanguage": "en"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://taro.mom/#taroshenka-bot",
+        "name": "Taroshenka — AI Tarot Bot",
+        "alternateName": "@taroshenka_bot",
+        "description": "A Telegram bot for Tarot spreads with card images, personalization, reading history, and AI interpretation.",
+        "url": "https://taro.mom/en/",
+        "sameAs": "https://t.me/taroshenka_bot",
+        "applicationCategory": "EntertainmentApplication",
+        "operatingSystem": "Telegram",
+        "image": {"@id": "https://taro.mom/en/#primaryimage"},
+        "potentialAction": {
+          "@type": "ViewAction",
+          "name": "Open the Tarot bot in Telegram",
+          "target": "https://t.me/taroshenka_bot?start=ref974025936"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://taro.mom/en/#faq",
+        "url": "https://taro.mom/en/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the Taroshenka Tarot bot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Taroshenka is an AI-powered Tarot reading bot in Telegram. You choose a spread, ask a question, and receive card images with a connected interpretation in the chat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the AI Tarot interpretation work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The bot considers each card, its position, its upright or reversed orientation, and the context of your question. It then combines those elements into one readable interpretation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Tarot readings are available?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Available formats include a Daily Card, Yes or No, a three-card spread, Dawn, a five-card relationship reading, and Premium readings such as the ten-card Celtic Cross and twelve-card Year Ahead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the bot predict the future?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Tarot readings and AI interpretations are intended for entertainment and self-reflection. They offer a symbolic perspective rather than a guaranteed prediction."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do credits and Premium work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Credits are used for paid readings and additional actions. Packages of 5, 10, or 30 credits and a monthly Premium option are available; current prices and payment methods are shown in the bot before purchase."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which languages does the Tarot bot support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The bot supports English, Russian, German, Spanish, French, Hindi, Portuguese, and Turkish. You can change the saved language in your profile settings."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/en/" aria-label="Taro.mom English home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Taro.mom</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#readings">Readings</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="language-link" href="/" hreflang="ru" aria-label="Open the Russian version">RU</a>
+      <a class="button header-cta" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Open in Telegram</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">AI-powered Tarot bot</p>
+          <h1 id="hero-title">Personal Tarot readings, right in Telegram</h1>
+          <p class="hero-lead">Choose a spread, ask what matters to you, and receive the cards with a clear AI interpretation in your Telegram chat.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Get your Tarot reading</a>
+            <span class="bot-label">Bot: <strong>&nbsp;@taroshenka_bot</strong></span>
+          </div>
+        </div>
+
+        <picture class="hero-media">
+          <source media="(max-width: 759px)" srcset="/images/en/tarot-reader-hero-mobile.jpg">
+          <img src="/images/en/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="A Tarot reader holding a glowing card above a three-card spread" fetchpriority="high">
+        </picture>
+      </section>
+
+      <div class="quick-facts" aria-label="Key features">
+        <div class="quick-fact"><span aria-hidden="true">✦</span> Works inside Telegram</div>
+        <div class="quick-fact"><span aria-hidden="true">☾</span> Several reading formats</div>
+        <div class="quick-fact"><span aria-hidden="true">◇</span> Available in eight languages</div>
+      </div>
+    </div>
+
+    <section class="section shell" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-head">
+        <p class="eyebrow">A reading in three steps</p>
+        <h2 id="how-title">How the Tarot bot works</h2>
+        <p>Taroshenka guides you from choosing a spread to a complete interpretation without a separate app or another account.</p>
+      </div>
+
+      <div class="steps">
+        <article class="step-card">
+          <span class="step-number" aria-hidden="true">1</span>
+          <h3>Choose a spread</h3>
+          <p>Start with a Daily Card, a quick one-card answer, a relationship reading, or a deeper multi-card layout.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number" aria-hidden="true">2</span>
+          <h3>Ask your question</h3>
+          <p>Describe the situation in your own words. If an action uses credits, the bot shows the cost before confirmation.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number" aria-hidden="true">3</span>
+          <h3>Explore the meaning</h3>
+          <p>See the drawn cards and read one connected AI interpretation shaped around the spread and your question.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="readings" aria-labelledby="readings-title">
+      <div class="section-head">
+        <p class="eyebrow">From quick guidance to deep reflection</p>
+        <h2 id="readings-title">Online Tarot readings for different questions</h2>
+        <p>Each format gives the cards a clear role, helping the AI interpretation connect individual meanings into a coherent view of the situation.</p>
+      </div>
+
+      <div class="reading-grid">
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">☀</span>
+          <h3>Daily Card</h3>
+          <p>A daily card image and a short meaning to use as a theme for reflection or a gentle morning prompt.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">◇</span>
+          <h3>Yes or No</h3>
+          <p>A focused one-card reading that gives direction and explains what the card means for your specific question.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">✦</span>
+          <h3>Three-card spread</h3>
+          <p>A compact reading that examines several sides of a situation and interprets how the cards work together.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">☼</span>
+          <h3>Dawn</h3>
+          <p>A quick one-card spread for a personal question when you want a concise symbolic perspective.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">♡</span>
+          <h3>Relationship reading</h3>
+          <p>Five cards explore emotional dynamics, expectations, obstacles, hidden influences, and possible direction.</p>
+        </article>
+        <article class="reading-card">
+          <span class="reading-icon" aria-hidden="true">✧</span>
+          <span class="badge">Premium</span>
+          <h3>Celtic Cross</h3>
+          <p>A classic ten-card layout for complex questions, covering the present, influences, obstacles, development, and overall tendency.</p>
+        </article>
+        <article class="reading-card featured">
+          <span class="reading-icon" aria-hidden="true">☾</span>
+          <span class="badge">Premium</span>
+          <h3>Year Ahead</h3>
+          <p>A twelve-card reading that follows themes and possible points of focus across the months, then connects them into a view of the whole period.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="interpretation-title">
+      <div class="interpretation">
+        <div class="interpretation-copy">
+          <p class="eyebrow">More than card definitions</p>
+          <h2 id="interpretation-title">AI interpretation connects the whole spread</h2>
+          <p>The bot considers each card, its position, whether it appears upright or reversed, and the context of your question. It then creates one readable interpretation instead of listing isolated meanings.</p>
+          <ul class="check-list">
+            <li>Drawn cards arrive with visual card images.</li>
+            <li>You can draw an additional card in the context of the original reading.</li>
+            <li>You can ask a follow-up question without losing the previous context.</li>
+          </ul>
+        </div>
+        <div class="card-orbit" aria-hidden="true">
+          <span class="tarot-card back">☾</span>
+          <span class="tarot-card">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="personal-title">
+      <div class="section-head">
+        <p class="eyebrow">Built around your experience</p>
+        <h2 id="personal-title">Personalization without leaving Telegram</h2>
+        <p>Your saved profile settings help tailor the interface and tone while keeping the complete reading flow in a familiar chat.</p>
+      </div>
+
+      <div class="benefit-grid">
+        <article class="benefit-card">
+          <span class="small-label">Profile</span>
+          <h3>Your language and details</h3>
+          <p>The profile can use your saved name, date of birth, zodiac sign, preferred language, and chosen deck for a more personal experience.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="small-label">Continuity</span>
+          <h3>Reading history</h3>
+          <p>Completed readings are stored in your history, so you can return to earlier questions and revisit their interpretations.</p>
+        </article>
+        <article class="benefit-card">
+          <span class="small-label">Availability</span>
+          <h3>Ready when you are</h3>
+          <p>Open the bot whenever you want to reflect on a relationship, a choice, a plan, or another situation that matters to you.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="premium-title">
+      <div class="premium">
+        <div>
+          <p class="premium-kicker">Credits and Premium</p>
+          <h2 id="premium-title">Go deeper when the question calls for it</h2>
+          <p>Credits are used for paid readings and additional actions. Premium opens extended layouts, including the Celtic Cross and Year Ahead, as well as additional visual options.</p>
+          <p>Premium includes 50 credits with the first payment and another 50 credits after each successful monthly renewal.</p>
+        </div>
+        <div class="credit-box">
+          <strong>5, 10, or 30 credits</strong>
+          <p>Credit packages and one month of Premium are available. Current pricing, currency, payment methods, and subscription terms are always shown in the bot before purchase.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="languages-title">
+      <div class="section-head">
+        <p class="eyebrow">Eight supported languages</p>
+        <h2 id="languages-title">Read the cards in your preferred language</h2>
+        <p>The bot detects an initial language and lets you save or change the main language in your profile settings.</p>
+        <ul class="language-list" aria-label="Supported languages">
+          <li>English</li>
+          <li>Russian</li>
+          <li>German</li>
+          <li>Spanish</li>
+          <li>French</li>
+          <li>Hindi</li>
+          <li>Portuguese</li>
+          <li>Turkish</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-head">
+        <p class="eyebrow">Questions and answers</p>
+        <h2 id="faq-title">AI Tarot bot FAQ</h2>
+        <p>Clear answers about readings, interpretation, credits, and supported languages.</p>
+      </div>
+
+      <div class="faq-list">
+        <details>
+          <summary>What is the Taroshenka Tarot bot?</summary>
+          <p>Taroshenka is an AI-powered Tarot reading bot in Telegram. You choose a spread, ask a question, and receive card images with a connected interpretation in the chat.</p>
+        </details>
+        <details>
+          <summary>How does the AI Tarot interpretation work?</summary>
+          <p>The bot considers each card, its position, its upright or reversed orientation, and the context of your question. It then combines those elements into one readable interpretation.</p>
+        </details>
+        <details>
+          <summary>Which Tarot readings are available?</summary>
+          <p>Available formats include a Daily Card, Yes or No, a three-card spread, Dawn, a five-card relationship reading, and Premium readings such as the ten-card Celtic Cross and twelve-card Year Ahead.</p>
+        </details>
+        <details>
+          <summary>Does the bot predict the future?</summary>
+          <p>No. Tarot readings and AI interpretations are intended for entertainment and self-reflection. They offer a symbolic perspective rather than a guaranteed prediction.</p>
+        </details>
+        <details>
+          <summary>How do credits and Premium work?</summary>
+          <p>Credits are used for paid readings and additional actions. Packages of 5, 10, or 30 credits and a monthly Premium option are available; current prices and payment methods are shown in the bot before purchase.</p>
+        </details>
+        <details>
+          <summary>Which languages does the Tarot bot support?</summary>
+          <p>The bot supports English, Russian, German, Spanish, French, Hindi, Portuguese, and Turkish. You can change the saved language in your profile settings.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="start-title">
+      <div class="final-cta">
+        <p class="eyebrow">Your question. Your cards. A new perspective.</p>
+        <h2 id="start-title">Begin your Tarot reading in Telegram</h2>
+        <p>Choose the spread that fits your question and receive a personalized AI interpretation directly in the chat.</p>
+        <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Open @taroshenka_bot</a>
+      </div>
+
+      <aside class="disclaimer" aria-label="Important disclaimer">
+        Tarot readings and AI interpretations are intended for entertainment and self-reflection. They are not reliable predictions of the future and do not replace medical, psychological, legal, financial, or other professional help. You remain responsible for your own important decisions.
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>© 2026 Taro.mom · @taroshenka_bot</div>
+      <div class="footer-links">
+        <a href="#main-content">Back to top</a>
+        <a href="/" hreflang="ru">Russian version</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

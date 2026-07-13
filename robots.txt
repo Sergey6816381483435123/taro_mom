@@ -1,5 +1,7 @@
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: *
 Allow: /
 
 Sitemap: https://taro.mom/sitemap.xml
-# Если нужно, добавьте задержку обхода или исключения для определённых путей
