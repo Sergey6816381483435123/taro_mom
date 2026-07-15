@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://taro.mom/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
@@ -18,17 +18,57 @@
   <url>
     <loc>https://taro.mom/en/yes-or-no-tarot/</loc>
     <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/taro-da-ili-net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/yes-or-no-tarot/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/yes-or-no-tarot/" />
   </url>
   <url>
     <loc>https://taro.mom/en/daily-tarot-card/</loc>
     <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/karta-dnya-taro/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/daily-tarot-card/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/daily-tarot-card/" />
   </url>
   <url>
     <loc>https://taro.mom/en/love-tarot-reading/</loc>
     <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-otnosheniya/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/love-tarot-reading/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/love-tarot-reading/" />
   </url>
   <url>
     <loc>https://taro.mom/en/three-card-tarot-spread/</loc>
     <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-tri-karty/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/three-card-tarot-spread/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/three-card-tarot-spread/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/taro-da-ili-net/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/taro-da-ili-net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/yes-or-no-tarot/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/yes-or-no-tarot/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/karta-dnya-taro/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/karta-dnya-taro/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/daily-tarot-card/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/daily-tarot-card/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/rasklad-taro-na-otnosheniya/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-otnosheniya/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/love-tarot-reading/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/love-tarot-reading/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/rasklad-taro-na-tri-karty/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-tri-karty/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/three-card-tarot-spread/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/three-card-tarot-spread/" />
   </url>
 </urlset>

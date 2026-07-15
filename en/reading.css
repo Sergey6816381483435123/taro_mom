@@ -134,11 +134,12 @@ h1, h2, h3 {
   margin: 0;
   font-family: var(--display);
   line-height: 1.03;
-  overflow-wrap: anywhere;
+  hyphens: auto;
+  overflow-wrap: break-word;
   text-wrap: balance;
 }
 
-h1 { max-width: 13ch; font-size: clamp(2.8rem, 13vw, 5.7rem); }
+h1 { max-width: 13ch; font-size: clamp(2.4rem, 12vw, 5.7rem); }
 h2 { font-size: clamp(2.15rem, 8vw, 3.6rem); }
 h3 { font-size: clamp(1.45rem, 5vw, 1.8rem); }
 
