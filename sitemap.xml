@@ -10,9 +10,25 @@
   </url>
   <url>
     <loc>https://taro.mom/en/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/en/yes-or-no-tarot/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://taro.mom/en/daily-tarot-card/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://taro.mom/en/love-tarot-reading/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://taro.mom/en/three-card-tarot-spread/</loc>
+    <lastmod>2026-07-15</lastmod>
   </url>
 </urlset>

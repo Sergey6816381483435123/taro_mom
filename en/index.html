@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Tarot Readings in Telegram | Taroshenka Bot</title>
+  <title>AI Tarot Reading Online in Telegram | Taroshenka Bot</title>
   <meta name="description" content="Get a personal online Tarot reading with clear AI interpretation in Telegram. Choose a spread, ask your question, and explore the cards in context.">
   <meta name="author" content="@taroshenka_bot">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -17,7 +17,7 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Taro.mom">
-  <meta property="og:title" content="Personal AI Tarot Readings in Telegram">
+  <meta property="og:title" content="Personal AI Tarot Reading Online in Telegram">
   <meta property="og:description" content="Choose a Tarot spread, ask your question, and receive a clear AI interpretation directly in Telegram.">
   <meta property="og:url" content="https://taro.mom/en/">
   <meta property="og:locale" content="en_US">
@@ -28,7 +28,7 @@
   <meta property="og:image:alt" content="An illustrated Tarot reader revealing three glowing cards">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Personal AI Tarot Readings in Telegram">
+  <meta name="twitter:title" content="Personal AI Tarot Reading Online in Telegram">
   <meta name="twitter:description" content="Explore your question through Tarot cards and a connected AI interpretation in Telegram.">
   <meta name="twitter:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
   <meta name="twitter:image:alt" content="An illustrated Tarot reader revealing three glowing cards">
@@ -382,6 +382,16 @@
     }
 
     .reading-card { padding-top: 3.25rem; }
+
+    .reading-link {
+      display: inline-flex;
+      margin-top: 1rem;
+      color: var(--cyan);
+      font-weight: 700;
+      text-underline-offset: 0.22em;
+    }
+
+    .reading-link:hover { color: var(--text); }
 
     .reading-icon {
       position: absolute;
@@ -748,7 +758,7 @@
         "@type": "WebPage",
         "@id": "https://taro.mom/en/#webpage",
         "url": "https://taro.mom/en/",
-        "name": "AI Tarot Readings in Telegram | Taroshenka Bot",
+        "name": "AI Tarot Reading Online in Telegram | Taroshenka Bot",
         "description": "A personal Telegram bot for Tarot spreads with card images and connected AI interpretation.",
         "isPartOf": {"@id": "https://taro.mom/#website"},
         "primaryImageOfPage": {"@id": "https://taro.mom/en/#primaryimage"},
@@ -857,7 +867,7 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">AI-powered Tarot bot</p>
-          <h1 id="hero-title">Personal Tarot readings, right in Telegram</h1>
+          <h1 id="hero-title">Personal AI Tarot readings online in Telegram</h1>
           <p class="hero-lead">Choose a spread, ask what matters to you, and receive the cards with a clear AI interpretation in your Telegram chat.</p>
           <div class="hero-actions">
             <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Get your Tarot reading</a>
@@ -916,16 +926,19 @@
           <span class="reading-icon" aria-hidden="true">☀</span>
           <h3>Daily Card</h3>
           <p>A daily card image and a short meaning to use as a theme for reflection or a gentle morning prompt.</p>
+          <a class="reading-link" href="/en/daily-tarot-card/">Explore the Daily Card</a>
         </article>
         <article class="reading-card">
           <span class="reading-icon" aria-hidden="true">◇</span>
           <h3>Yes or No</h3>
           <p>A focused one-card reading that gives direction and explains what the card means for your specific question.</p>
+          <a class="reading-link" href="/en/yes-or-no-tarot/">Explore Yes or No Tarot</a>
         </article>
         <article class="reading-card">
           <span class="reading-icon" aria-hidden="true">✦</span>
           <h3>Three-card spread</h3>
           <p>A compact reading that examines several sides of a situation and interprets how the cards work together.</p>
+          <a class="reading-link" href="/en/three-card-tarot-spread/">Explore the three-card spread</a>
         </article>
         <article class="reading-card">
           <span class="reading-icon" aria-hidden="true">☼</span>
@@ -936,6 +949,7 @@
           <span class="reading-icon" aria-hidden="true">♡</span>
           <h3>Relationship reading</h3>
           <p>Five cards explore emotional dynamics, expectations, obstacles, hidden influences, and possible direction.</p>
+          <a class="reading-link" href="/en/love-tarot-reading/">Explore the relationship reading</a>
         </article>
         <article class="reading-card">
           <span class="reading-icon" aria-hidden="true">✧</span>
