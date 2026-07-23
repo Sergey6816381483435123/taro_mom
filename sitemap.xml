@@ -3,16 +3,106 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://taro.mom/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
   </url>
   <url>
     <loc>https://taro.mom/en/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/de/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/es/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/fr/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/hi/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/pt-br/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/tr/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/" />
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/" />
   </url>
   <url>

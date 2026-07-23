@@ -13,6 +13,12 @@
   <link rel="canonical" href="https://taro.mom/">
   <link rel="alternate" hreflang="ru" href="https://taro.mom/">
   <link rel="alternate" hreflang="en" href="https://taro.mom/en/">
+  <link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/">
+  <link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/">
+  <link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/">
+  <link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/">
+  <link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/">
+  <link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/">
   <link rel="alternate" hreflang="x-default" href="https://taro.mom/en/">
 
   <meta property="og:type" content="website">
@@ -22,6 +28,12 @@
   <meta property="og:url" content="https://taro.mom/">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="tr_TR">
   <meta property="og:image" content="https://taro.mom/images/ru/tarot-reader-social.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -522,6 +534,9 @@
       font-size: 0.88rem;
     }
 
+    .language-list a { color: inherit; text-decoration: none; }
+    .language-list a:hover { color: var(--cyan); }
+
     .faq-list { display: grid; gap: 0.75rem; }
 
     details {
@@ -664,7 +679,7 @@
         "@id": "https://taro.mom/#website",
         "url": "https://taro.mom/",
         "name": "Taro.mom",
-        "inLanguage": ["ru", "en"]
+        "inLanguage": ["ru", "en", "de", "es", "fr", "hi", "pt-BR", "tr"]
       },
       {
         "@type": "ImageObject",
@@ -778,7 +793,7 @@
         <a href="#faq">Вопросы</a>
       </nav>
 
-      <a class="language-link" href="/en/" hreflang="en" aria-label="Открыть английскую версию">EN</a>
+      <a class="language-link" href="#languages-title" aria-label="Посмотреть доступные языки">🌐</a>
       <a class="button header-cta" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Открыть в Telegram</a>
     </div>
   </header>
@@ -953,14 +968,14 @@
         <h2 id="languages-title">Получайте расклады на удобном языке</h2>
         <p>Бот определяет исходный язык, а затем позволяет сохранить или изменить основной язык в настройках профиля.</p>
         <ul class="language-list" aria-label="Поддерживаемые языки">
-          <li>Русский</li>
-          <li>Английский</li>
-          <li>Немецкий</li>
-          <li>Испанский</li>
-          <li>Французский</li>
-          <li>Хинди</li>
-          <li>Португальский</li>
-          <li>Турецкий</li>
+          <li><a href="/" hreflang="ru">Русский</a></li>
+          <li><a href="/en/" hreflang="en">English</a></li>
+          <li><a href="/de/" hreflang="de-DE">Deutsch</a></li>
+          <li><a href="/es/" hreflang="es-ES">Español</a></li>
+          <li><a href="/fr/" hreflang="fr-FR">Français</a></li>
+          <li><a href="/hi/" hreflang="hi-IN">हिन्दी</a></li>
+          <li><a href="/pt-br/" hreflang="pt-BR">Português (Brasil)</a></li>
+          <li><a href="/tr/" hreflang="tr-TR">Türkçe</a></li>
         </ul>
       </div>
     </section>

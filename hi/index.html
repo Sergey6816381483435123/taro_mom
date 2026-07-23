@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="hi" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telegram में AI टैरो कार्ड रीडिंग ऑनलाइन | Taroshenka</title>
+  <meta name="description" content="अपना टैरो स्प्रेड चुनें, सवाल पूछें और Telegram चैट में कार्डों की स्पष्ट, संदर्भ आधारित AI व्याख्या पाएँ।">
+  <meta name="author" content="@taroshenka_bot">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#090b17">
+  <meta name="color-scheme" content="dark">
+
+  <link rel="canonical" href="https://taro.mom/hi/">
+  <link rel="alternate" hreflang="ru" href="https://taro.mom/">
+  <link rel="alternate" hreflang="en" href="https://taro.mom/en/">
+  <link rel="alternate" hreflang="de-DE" href="https://taro.mom/de/">
+  <link rel="alternate" hreflang="es-ES" href="https://taro.mom/es/">
+  <link rel="alternate" hreflang="fr-FR" href="https://taro.mom/fr/">
+  <link rel="alternate" hreflang="hi-IN" href="https://taro.mom/hi/">
+  <link rel="alternate" hreflang="pt-BR" href="https://taro.mom/pt-br/">
+  <link rel="alternate" hreflang="tr-TR" href="https://taro.mom/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://taro.mom/en/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Taro.mom">
+  <meta property="og:title" content="Telegram में व्यक्तिगत AI टैरो कार्ड रीडिंग">
+  <meta property="og:description" content="टैरो स्प्रेड चुनें और अपने सवाल से जुड़ी स्पष्ट AI व्याख्या के साथ कार्ड Telegram में पाएँ।">
+  <meta property="og:url" content="https://taro.mom/hi/">
+  <meta property="og:locale" content="hi_IN">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="तीन चमकते टैरो कार्डों के सामने बैठी टैरो रीडर का चित्र">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Telegram में व्यक्तिगत AI टैरो कार्ड रीडिंग">
+  <meta name="twitter:description" content="टैरो स्प्रेड चुनें और अपने सवाल से जुड़ी स्पष्ट AI व्याख्या के साथ कार्ड Telegram में पाएँ।">
+  <meta name="twitter:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
+  <meta name="twitter:image:alt" content="तीन चमकते टैरो कार्डों के सामने बैठी टैरो रीडर का चित्र">
+
+  <link rel="icon" href="/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicons/icon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/favicons/icon-16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/favicons/icon-180.png" sizes="180x180">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preload" as="image" href="/images/en/tarot-reader-hero-mobile.jpg" media="(max-width: 759px)">
+  <link rel="preload" as="image" href="/images/en/tarot-reader-hero-desktop.jpg" media="(min-width: 760px)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090b17;
+      --bg-soft: #101326;
+      --panel: rgba(21, 22, 45, 0.78);
+      --panel-solid: #15162d;
+      --text: #f8f6ff;
+      --muted: #bbb8cc;
+      --violet: #c8a7ff;
+      --violet-strong: #9f71ef;
+      --cyan: #8de7e3;
+      --gold: #e7c887;
+      --line: rgba(216, 198, 255, 0.17);
+      --shadow: 0 24px 70px rgba(2, 3, 12, 0.44);
+      --radius: 1.5rem;
+      --font-display: "Cormorant Garamond", Georgia, serif;
+      --font-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 1rem;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(77, 205, 220, 0.11), transparent 24rem),
+        radial-gradient(circle at 88% 20%, rgba(158, 91, 226, 0.14), transparent 30rem),
+        linear-gradient(180deg, #080a14 0%, #0d1020 48%, #090a15 100%);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    :focus-visible {
+      outline: 3px solid var(--cyan);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 100;
+      top: 0.75rem;
+      left: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: 0.75rem;
+      background: #fff;
+      color: #0b0c18;
+      font-weight: 700;
+      transform: translateY(-180%);
+      transition: transform 160ms ease;
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .shell {
+      width: min(100% - 2rem, 74rem);
+      margin-inline: auto;
+    }
+
+    .site-header {
+      padding: max(1rem, env(safe-area-inset-top)) 0 1rem;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 3rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+      font-weight: 700;
+      line-height: 1;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 2rem;
+      height: 2rem;
+      place-items: center;
+      border: 1px solid rgba(141, 231, 227, 0.38);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(141, 231, 227, 0.2), rgba(159, 113, 239, 0.08));
+      color: var(--cyan);
+      font-family: Georgia, serif;
+      box-shadow: 0 0 24px rgba(141, 231, 227, 0.13);
+    }
+
+    .nav { display: none; }
+
+    .language-link {
+      display: inline-flex;
+      min-width: 3rem;
+      min-height: 3rem;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+    }
+
+    .button.header-cta { display: none; }
+
+    .button {
+      display: inline-flex;
+      min-height: 3.25rem;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      max-width: 100%;
+      padding: 0.85rem 1.2rem;
+      border: 1px solid transparent;
+      border-radius: 0.9rem;
+      background: linear-gradient(115deg, var(--violet), var(--cyan));
+      color: #0a0b16;
+      font-size: 0.96rem;
+      font-weight: 800;
+      line-height: 1.25;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 12px 32px rgba(125, 198, 222, 0.16);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .button::after {
+      content: "↗";
+      font-size: 1.05em;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 38px rgba(174, 133, 240, 0.22);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: clamp(1.25rem, 5vw, 2rem);
+      background: linear-gradient(160deg, rgba(26, 26, 52, 0.94), rgba(10, 11, 26, 0.98));
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      padding: clamp(1.35rem, 6vw, 2.5rem);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      margin: 0 0 0.85rem;
+      color: var(--cyan);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 1.55rem;
+      height: 1px;
+      background: currentColor;
+      box-shadow: 0 0 12px currentColor;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      font-family: var(--font-display);
+      line-height: 1.04;
+      text-wrap: balance;
+    }
+
+    h1 {
+      max-width: 13ch;
+      margin-bottom: 1rem;
+      font-size: clamp(2.55rem, 12vw, 4.75rem);
+      letter-spacing: -0.035em;
+    }
+
+    h2 {
+      margin-bottom: 0.85rem;
+      font-size: clamp(2.15rem, 9vw, 3.65rem);
+      letter-spacing: -0.025em;
+    }
+
+    h3 {
+      margin-bottom: 0.55rem;
+      font-size: clamp(1.45rem, 6vw, 1.8rem);
+    }
+
+    .hero-lead {
+      max-width: 40rem;
+      margin: 0 0 1.35rem;
+      color: #ddd9e9;
+      font-size: clamp(1rem, 4.5vw, 1.16rem);
+    }
+
+    .hero-actions { display: grid; gap: 0.75rem; }
+    .hero-actions .button { width: 100%; }
+
+    .bot-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.75rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .bot-label strong { color: var(--violet); }
+
+    .hero-media {
+      position: relative;
+      display: block;
+      aspect-ratio: 800 / 1251;
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+      background: #0c0d1e;
+    }
+
+    .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 45%;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.65rem;
+      margin: 1rem 0 0;
+    }
+
+    .quick-fact {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-width: 0;
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(18, 20, 40, 0.7);
+      color: #d5d2df;
+      font-size: 0.88rem;
+    }
+
+    .quick-fact span {
+      flex: 0 0 auto;
+      color: var(--gold);
+      font-size: 1.05rem;
+    }
+
+    .section { padding: clamp(4.25rem, 15vw, 7.5rem) 0 0; }
+
+    .section-head {
+      max-width: 43rem;
+      margin-bottom: 2rem;
+    }
+
+    .section-head p,
+    .body-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 4vw, 1.08rem);
+    }
+
+    .steps,
+    .reading-grid,
+    .benefit-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .step-card,
+    .reading-card,
+    .benefit-card {
+      position: relative;
+      min-width: 0;
+      padding: 1.35rem;
+      border: 1px solid var(--line);
+      border-radius: 1.25rem;
+      background: linear-gradient(145deg, rgba(24, 25, 51, 0.91), rgba(13, 15, 32, 0.9));
+      box-shadow: 0 18px 46px rgba(2, 3, 14, 0.2);
+    }
+
+    .step-number {
+      display: grid;
+      width: 2.65rem;
+      height: 2.65rem;
+      margin-bottom: 1.5rem;
+      place-items: center;
+      border: 1px solid rgba(141, 231, 227, 0.28);
+      border-radius: 50%;
+      background: rgba(141, 231, 227, 0.07);
+      color: var(--cyan);
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .step-card p,
+    .reading-card p,
+    .benefit-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .reading-card { padding-top: 3.25rem; }
+
+    .reading-link {
+      display: inline-flex;
+      margin-top: 1rem;
+      color: var(--cyan);
+      font-weight: 700;
+      text-underline-offset: 0.22em;
+    }
+
+    .reading-link:hover { color: var(--text); }
+
+    .reading-icon {
+      position: absolute;
+      top: 1rem;
+      left: 1.35rem;
+      color: var(--gold);
+      font-size: 1.15rem;
+    }
+
+    .badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.25rem 0.55rem;
+      border: 1px solid rgba(200, 167, 255, 0.28);
+      border-radius: 999px;
+      background: rgba(200, 167, 255, 0.08);
+      color: var(--violet);
+      font-size: 0.66rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .interpretation {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(1.4rem, 6vw, 3.5rem);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 80% 30%, rgba(88, 206, 221, 0.12), transparent 18rem),
+        linear-gradient(145deg, rgba(30, 26, 58, 0.96), rgba(12, 14, 31, 0.97));
+      box-shadow: var(--shadow);
+    }
+
+    .interpretation-copy p { color: var(--muted); }
+
+    .check-list {
+      display: grid;
+      gap: 0.8rem;
+      margin: 1.3rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .check-list li {
+      display: grid;
+      grid-template-columns: 1.5rem minmax(0, 1fr);
+      gap: 0.65rem;
+      align-items: start;
+    }
+
+    .check-list li::before {
+      content: "✦";
+      color: var(--cyan);
+    }
+
+    .card-orbit {
+      position: relative;
+      min-height: 17rem;
+      overflow: hidden;
+      border: 1px solid rgba(141, 231, 227, 0.16);
+      border-radius: 1.25rem;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(93, 213, 230, 0.19), transparent 31%),
+        radial-gradient(circle at 50% 50%, rgba(170, 112, 234, 0.17), transparent 58%),
+        #0d1023;
+    }
+
+    .card-orbit::before,
+    .card-orbit::after {
+      content: "";
+      position: absolute;
+      inset: 13%;
+      border: 1px solid rgba(200, 167, 255, 0.22);
+      border-radius: 50%;
+    }
+
+    .card-orbit::after {
+      inset: 24%;
+      border-color: rgba(141, 231, 227, 0.2);
+    }
+
+    .tarot-card {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: 50%;
+      display: grid;
+      width: 7.4rem;
+      aspect-ratio: 0.61;
+      place-items: center;
+      border: 1px solid rgba(235, 215, 164, 0.65);
+      border-radius: 0.55rem;
+      background:
+        linear-gradient(135deg, transparent 48%, rgba(231, 200, 135, 0.18) 49% 51%, transparent 52%),
+        radial-gradient(circle, rgba(141, 231, 227, 0.34), transparent 36%),
+        #19173a;
+      color: var(--gold);
+      font-family: var(--font-display);
+      font-size: 2.3rem;
+      box-shadow: 0 18px 45px rgba(3, 4, 18, 0.52), 0 0 35px rgba(137, 215, 226, 0.13);
+      transform: translate(-50%, -50%) rotate(-3deg);
+    }
+
+    .tarot-card.back {
+      z-index: 1;
+      transform: translate(-28%, -48%) rotate(10deg);
+      opacity: 0.56;
+    }
+
+    .benefit-card .small-label {
+      display: block;
+      margin-bottom: 0.6rem;
+      color: var(--cyan);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .premium {
+      display: grid;
+      gap: 1.5rem;
+      padding: clamp(1.5rem, 6vw, 3.5rem);
+      border: 1px solid rgba(231, 200, 135, 0.25);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(40, 28, 59, 0.94), rgba(17, 18, 39, 0.97)),
+        var(--panel-solid);
+    }
+
+    .premium-kicker {
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .premium p { color: var(--muted); }
+
+    .credit-box {
+      padding: 1.25rem;
+      border: 1px solid rgba(231, 200, 135, 0.22);
+      border-radius: 1.1rem;
+      background: rgba(7, 8, 19, 0.36);
+    }
+
+    .credit-box strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+    }
+
+    .language-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin: 1.5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .language-list li {
+      padding: 0.62rem 0.9rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(22, 23, 47, 0.7);
+      color: #d8d5e2;
+      font-size: 0.88rem;
+    }
+
+    .faq-list { display: grid; gap: 0.75rem; }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      background: rgba(20, 21, 43, 0.72);
+    }
+
+    summary {
+      position: relative;
+      min-height: 3.5rem;
+      padding: 1rem 3.25rem 1rem 1.1rem;
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 50%;
+      right: 1.15rem;
+      color: var(--violet);
+      font-size: 1.4rem;
+      transform: translateY(-50%);
+    }
+
+    details[open] summary::after { content: "−"; }
+
+    details p {
+      margin: 0;
+      padding: 0 1.1rem 1.1rem;
+      color: var(--muted);
+    }
+
+    .final-cta {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(1.6rem, 7vw, 4rem);
+      border: 1px solid rgba(141, 231, 227, 0.2);
+      border-radius: var(--radius);
+      background:
+        radial-gradient(circle at 85% 15%, rgba(141, 231, 227, 0.15), transparent 18rem),
+        linear-gradient(135deg, #1e1a3d, #0e1124);
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .final-cta h2 {
+      max-width: 16ch;
+      margin-inline: auto;
+    }
+
+    .final-cta p {
+      max-width: 38rem;
+      margin: 0 auto 1.35rem;
+      color: var(--muted);
+    }
+
+    .final-cta .button { width: 100%; }
+
+    .disclaimer {
+      margin-top: 1.25rem;
+      padding: 1rem;
+      border-left: 2px solid rgba(200, 167, 255, 0.5);
+      color: #aaa7b8;
+      font-size: 0.78rem;
+    }
+
+    .site-footer {
+      padding: 2.5rem 0 max(2rem, env(safe-area-inset-bottom));
+      color: #918e9e;
+      font-size: 0.82rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.65rem 1rem;
+    }
+
+    .footer-links a { color: #c7c3d3; }
+
+    @media (min-width: 30rem) {
+      .shell { width: min(100% - 2.5rem, 74rem); }
+      .hero-actions { display: flex; align-items: center; flex-wrap: wrap; }
+      .hero-actions .button { width: auto; }
+      .bot-label { justify-content: flex-start; }
+      .quick-facts { grid-template-columns: repeat(3, 1fr); }
+      .final-cta .button { width: auto; }
+    }
+
+    @media (min-width: 47.5rem) {
+      .site-header { padding-block: 1.25rem; }
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: clamp(1rem, 3vw, 1.75rem);
+        margin-left: auto;
+      }
+      .nav a {
+        color: var(--muted);
+        font-size: 0.88rem;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .nav a:hover { color: var(--text); }
+      .button.header-cta { display: inline-flex; min-height: 2.9rem; padding: 0.7rem 1rem; font-size: 0.86rem; }
+      .language-link { min-width: 2.9rem; min-height: 2.9rem; }
+
+      .hero {
+        min-height: 39rem;
+        display: grid;
+        align-items: center;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(7, 9, 21, 0.99) 0%, rgba(7, 9, 21, 0.87) 36%, rgba(7, 9, 21, 0.18) 65%, transparent 100%);
+        pointer-events: none;
+      }
+      .hero-copy { width: min(53%, 37rem); padding: clamp(2.5rem, 5vw, 4rem); }
+      .hero-lead { max-width: 34rem; }
+      .hero-media {
+        position: absolute;
+        inset: 0;
+        aspect-ratio: auto;
+        border: 0;
+      }
+      .hero-media img { object-position: center; }
+      .steps { grid-template-columns: repeat(3, 1fr); }
+      .reading-grid { grid-template-columns: repeat(2, 1fr); }
+      .benefit-grid { grid-template-columns: repeat(2, 1fr); }
+      .interpretation { grid-template-columns: minmax(0, 1.08fr) minmax(17rem, 0.92fr); align-items: center; }
+      .premium { grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.8fr); align-items: center; }
+      .footer-inner { flex-direction: row; justify-content: space-between; text-align: left; }
+    }
+
+    @media (min-width: 64rem) {
+      .reading-grid { grid-template-columns: repeat(3, 1fr); }
+      .reading-card.featured { grid-column: span 2; }
+      .benefit-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  
+    .language-list a { color: inherit; text-decoration: none; }
+    .language-list a:hover { color: var(--cyan); }
+    :lang(hi) { --font-display: "Nirmala UI", "Noto Sans Devanagari", Mangal, sans-serif; --font-body: "Nirmala UI", "Noto Sans Devanagari", Mangal, system-ui, sans-serif; }
+    :lang(hi) h1 { font-size: clamp(2.35rem, 11vw, 4.4rem); line-height: 1.2; }
+    :lang(hi) h2, :lang(hi) h3 { line-height: 1.3; }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://taro.mom/#website",
+      "url": "https://taro.mom/",
+      "name": "Taro.mom",
+      "inLanguage": [
+        "ru",
+        "en",
+        "de",
+        "es",
+        "fr",
+        "hi",
+        "pt-BR",
+        "tr"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://taro.mom/hi/#primaryimage",
+      "url": "https://taro.mom/images/en/tarot-reader-social.jpg",
+      "contentUrl": "https://taro.mom/images/en/tarot-reader-social.jpg",
+      "width": 1200,
+      "height": 630,
+      "caption": "तीन चमकते टैरो कार्डों के सामने बैठी टैरो रीडर का चित्र"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://taro.mom/hi/#webpage",
+      "url": "https://taro.mom/hi/",
+      "name": "Telegram में AI टैरो कार्ड रीडिंग ऑनलाइन | Taroshenka",
+      "description": "अपना टैरो स्प्रेड चुनें, सवाल पूछें और Telegram चैट में कार्डों की स्पष्ट, संदर्भ आधारित AI व्याख्या पाएँ।",
+      "isPartOf": {
+        "@id": "https://taro.mom/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://taro.mom/hi/#primaryimage"
+      },
+      "mainEntity": {
+        "@id": "https://taro.mom/#taroshenka-bot"
+      },
+      "inLanguage": "hi"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://taro.mom/#taroshenka-bot",
+      "name": "Taroshenka — AI Tarot Bot",
+      "alternateName": "@taroshenka_bot",
+      "description": "टैरो स्प्रेड चुनें और अपने सवाल से जुड़ी स्पष्ट AI व्याख्या के साथ कार्ड Telegram में पाएँ।",
+      "url": "https://taro.mom/hi/",
+      "sameAs": "https://t.me/taroshenka_bot",
+      "applicationCategory": "EntertainmentApplication",
+      "operatingSystem": "Telegram",
+      "image": {
+        "@id": "https://taro.mom/hi/#primaryimage"
+      },
+      "potentialAction": {
+        "@type": "ViewAction",
+        "name": "Telegram में खोलें",
+        "target": "https://t.me/taroshenka_bot?start=ref974025936"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://taro.mom/hi/#faq",
+      "url": "https://taro.mom/hi/#faq",
+      "inLanguage": "hi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Taroshenka टैरो बॉट क्या है?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Taroshenka Telegram में चलने वाला AI आधारित टैरो बॉट है। आप स्प्रेड चुनते हैं, सवाल पूछते हैं और चैट में कार्डों की तस्वीरों के साथ जुड़ी हुई व्याख्या पाते हैं।"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI टैरो व्याख्या कैसे काम करती है?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "बॉट हर कार्ड, उसकी जगह, सीधे या उलटे आने और आपके सवाल के संदर्भ पर विचार करता है। फिर इन तत्वों को एक पढ़ने योग्य व्याख्या में जोड़ता है।"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "कौन-सी टैरो रीडिंग उपलब्ध हैं?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "दिन का कार्ड, हाँ या ना, तीन कार्ड स्प्रेड, डॉन, पाँच कार्ड की रिश्तों की रीडिंग और Premium में सेल्टिक क्रॉस व साल की रीडिंग उपलब्ध हैं।"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "क्या बॉट भविष्य की पक्की भविष्यवाणी करता है?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "नहीं। टैरो रीडिंग और AI व्याख्या मनोरंजन और आत्मचिंतन के लिए हैं। वे प्रतीकात्मक दृष्टिकोण देती हैं, पक्की भविष्यवाणी नहीं।"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "क्रेडिट और Premium कैसे काम करते हैं?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "भुगतान वाली रीडिंग और अतिरिक्त कार्रवाइयों में क्रेडिट लगते हैं। 5, 10 या 30 क्रेडिट के पैकेज और मासिक Premium उपलब्ध हैं; मौजूदा कीमत और भुगतान तरीके खरीद से पहले बॉट में दिखते हैं।"
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">मुख्य सामग्री पर जाएँ</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/hi/" aria-label="Taro.mom हिन्दी होम">
+        <span class="brand-mark" aria-hidden="true">✦</span><span>Taro.mom</span>
+      </a>
+      <nav class="nav" aria-label="कैसे काम करता है">
+        <a href="#how-it-works">कैसे काम करता है</a>
+        <a href="#readings">रीडिंग</a>
+        <a href="#faq">सवाल</a>
+      </nav>
+      <a class="language-link" href="#languages-title" aria-label="उपलब्ध भाषाएँ देखें">🌐</a>
+      <a class="button header-cta" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Telegram में खोलें</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">AI आधारित टैरो बॉट</p>
+          <h1 id="hero-title">Telegram में व्यक्तिगत AI टैरो कार्ड रीडिंग</h1>
+          <p class="hero-lead">अपना टैरो स्प्रेड चुनें, जरूरी सवाल पूछें और Telegram चैट में कार्डों की साफ़, संदर्भ आधारित AI व्याख्या पाएँ।</p>
+          <div class="hero-actions">
+            <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">Telegram में टैरो रीडिंग शुरू करें</a>
+            <span class="bot-label">बॉट: <strong>&nbsp;@taroshenka_bot</strong></span>
+          </div>
+        </div>
+        <picture class="hero-media">
+          <source media="(max-width: 759px)" srcset="/images/en/tarot-reader-hero-mobile.jpg">
+          <img src="/images/en/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="तीन चमकते टैरो कार्डों के सामने बैठी टैरो रीडर का चित्र" fetchpriority="high">
+        </picture>
+      </section>
+      <div class="quick-facts" aria-label="Telegram के अंदर काम करता है, कई तरह की रीडिंग, आठ भाषाओं में उपलब्ध">
+        <div class="quick-fact"><span aria-hidden="true">✦</span> Telegram के अंदर काम करता है</div>
+        <div class="quick-fact"><span aria-hidden="true">☾</span> कई तरह की रीडिंग</div>
+        <div class="quick-fact"><span aria-hidden="true">◇</span> आठ भाषाओं में उपलब्ध</div>
+      </div>
+    </div>
+
+    <section class="section shell" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-head">
+        <p class="eyebrow">तीन चरणों में आपकी रीडिंग</p>
+        <h2 id="how-title">टैरो बॉट कैसे काम करता है</h2>
+        <p>Taroshenka स्प्रेड चुनने से लेकर पूरी व्याख्या तक आपका मार्गदर्शन करता है—बिना अलग ऐप और बिना नया अकाउंट बनाए।</p>
+      </div>
+      <div class="steps">
+        <article class="step-card"><span class="step-number" aria-hidden="true">1</span><h3>स्प्रेड चुनें</h3><p>दिन का कार्ड, एक कार्ड का छोटा जवाब, रिश्तों की रीडिंग या कई कार्डों वाला विस्तृत स्प्रेड चुनें।</p></article>
+        <article class="step-card"><span class="step-number" aria-hidden="true">2</span><h3>अपना सवाल पूछें</h3><p>स्थिति को अपने शब्दों में लिखें। अगर किसी कार्रवाई में क्रेडिट लगते हैं, तो पुष्टि से पहले लागत दिखाई जाती है।</p></article>
+        <article class="step-card"><span class="step-number" aria-hidden="true">3</span><h3>अर्थ समझें</h3><p>निकले हुए कार्ड देखें और अपने सवाल व स्प्रेड से जुड़ी एक संपूर्ण AI व्याख्या पढ़ें।</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="readings" aria-labelledby="readings-title">
+      <div class="section-head">
+        <p class="eyebrow">छोटे संकेत से गहरी आत्मचिंतन तक</p>
+        <h2 id="readings-title">अलग-अलग सवालों के लिए ऑनलाइन टैरो रीडिंग</h2>
+        <p>हर स्प्रेड में कार्डों की स्पष्ट भूमिका होती है, जिससे उनके अर्थ स्थिति की एक जुड़ी हुई तस्वीर बनाते हैं।</p>
+      </div>
+      <div class="reading-grid">
+        <article class="reading-card"><span class="reading-icon" aria-hidden="true">☀</span><h3>दिन का कार्ड</h3><p>हर दिन एक कार्ड की तस्वीर और छोटा अर्थ—दिन की शुरुआत या आत्मचिंतन के लिए।</p></article>
+        <article class="reading-card"><span class="reading-icon" aria-hidden="true">◇</span><h3>हाँ या ना</h3><p>एक कार्ड की केंद्रित रीडिंग, जो दिशा देती है और आपके सवाल के संदर्भ में अर्थ समझाती है।</p></article>
+        <article class="reading-card"><span class="reading-icon" aria-hidden="true">✦</span><h3>तीन कार्ड स्प्रेड</h3><p>तीन स्थान किसी स्थिति के अलग पहलू दिखाते हैं और कार्डों को साथ में समझा जाता है।</p></article>
+        <article class="reading-card"><span class="reading-icon" aria-hidden="true">☼</span><h3>डॉन</h3><p>व्यक्तिगत सवाल के लिए एक कार्ड का तेज़ स्प्रेड और संक्षिप्त प्रतीकात्मक दृष्टिकोण।</p></article>
+        <article class="reading-card"><span class="reading-icon" aria-hidden="true">♡</span><h3>रिश्तों की रीडिंग</h3><p>पाँच कार्ड भावनात्मक स्थिति, अपेक्षाएँ, रुकावटें, प्रभाव और संभावित दिशा देखते हैं।</p></article>
+        <article class="reading-card"><span class="reading-icon" aria-hidden="true">✧</span><span class="badge">Premium</span><h3>सेल्टिक क्रॉस</h3><p>जटिल सवालों के लिए दस कार्ड—वर्तमान, प्रभाव, रुकावटें और संभावित रुझान।</p></article>
+        <article class="reading-card featured"><span class="reading-icon" aria-hidden="true">☾</span><span class="badge">Premium</span><h3>साल की रीडिंग</h3><p>बारह कार्ड आने वाले महीनों के विषय और संभावित ध्यान-बिंदुओं को जोड़ते हैं।</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="interpretation-title">
+      <div class="interpretation">
+        <div class="interpretation-copy">
+          <p class="eyebrow">सिर्फ अलग-अलग कार्ड अर्थ नहीं</p>
+          <h2 id="interpretation-title">AI पूरे स्प्रेड को जोड़कर समझाता है</h2>
+          <p>बॉट हर कार्ड, उसकी जगह, कार्ड के सीधे या उलटे आने और आपके सवाल के संदर्भ पर विचार करता है। फिर अलग-अलग अर्थों की सूची के बजाय एक पढ़ने योग्य संपूर्ण व्याख्या बनाता है।</p>
+          <ul class="check-list"><li>निकले हुए कार्ड उनकी तस्वीरों के साथ मिलते हैं।</li><li>अतिरिक्त कार्ड को मूल रीडिंग के संदर्भ में समझाया जाता है।</li><li>पिछला संदर्भ खोए बिना आगे का सवाल पूछ सकते हैं।</li></ul>
+        </div>
+        <div class="card-orbit" aria-hidden="true"><span class="tarot-card back">☾</span><span class="tarot-card">✦</span></div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="personal-title">
+      <div class="section-head">
+        <p class="eyebrow">आपके अनुभव के अनुसार</p>
+        <h2 id="personal-title">Telegram छोड़े बिना निजी अनुभव</h2>
+        <p>सेव की गई प्रोफ़ाइल सेटिंग इंटरफ़ेस और जवाब के अंदाज़ को अनुकूल बनाती हैं, जबकि पूरी रीडिंग परिचित चैट में रहती है।</p>
+      </div>
+      <div class="benefit-grid">
+        <article class="benefit-card"><span class="small-label">प्रोफ़ाइल</span><h3>आपकी भाषा और जानकारी</h3><p>प्रोफ़ाइल आपका नाम, जन्मतिथि, राशि, पसंदीदा भाषा और चुना हुआ कार्ड डेक उपयोग कर सकती है।</p></article>
+        <article class="benefit-card"><span class="small-label">निरंतरता</span><h3>रीडिंग का इतिहास</h3><p>पूरी हुई रीडिंग इतिहास में रहती हैं, ताकि पुराने सवाल और व्याख्याएँ फिर पढ़ सकें।</p></article>
+        <article class="benefit-card"><span class="small-label">उपलब्धता</span><h3>जब आप तैयार हों</h3><p>रिश्ते, चुनाव, योजना या किसी दूसरी जरूरी स्थिति पर सोचने के लिए बॉट खोलें।</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="premium-title">
+      <div class="premium">
+        <div><p class="premium-kicker">क्रेडिट और Premium</p><h2 id="premium-title">जटिल सवालों को अधिक गहराई से देखें</h2><p>भुगतान वाली रीडिंग और अतिरिक्त कार्रवाइयों में क्रेडिट इस्तेमाल होते हैं। Premium में सेल्टिक क्रॉस, साल की रीडिंग और अतिरिक्त विज़ुअल विकल्प मिलते हैं।</p><p>Premium के पहले सफल भुगतान पर 50 क्रेडिट और हर सफल मासिक नवीनीकरण के बाद 50 और क्रेडिट मिलते हैं।</p></div>
+        <div class="credit-box"><strong>5, 10 या 30 क्रेडिट के पैकेज</strong><p>क्रेडिट पैकेज और एक महीने का Premium उपलब्ध है। मौजूदा कीमत, मुद्रा, भुगतान तरीका और शर्तें खरीद से पहले बॉट में दिखाई जाती हैं।</p></div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="languages-title">
+      <div class="section-head">
+        <p class="eyebrow">आठ समर्थित भाषाएँ</p>
+        <h2 id="languages-title">अपनी पसंदीदा भाषा में कार्ड पढ़ें</h2>
+        <p>बॉट शुरुआती भाषा पहचानता है और प्रोफ़ाइल में मुख्य भाषा सेव या बदलने देता है।</p>
+        <ul class="language-list" aria-label="हिन्दी, अंग्रेज़ी, रूसी, जर्मन, स्पेनिश, फ़्रेंच, पुर्तगाली, तुर्की">
+          <li><a href="/" hreflang="ru">Русский</a></li>
+          <li><a href="/en/" hreflang="en">English</a></li>
+          <li><a href="/de/" hreflang="de-DE">Deutsch</a></li>
+          <li><a href="/es/" hreflang="es-ES">Español</a></li>
+          <li><a href="/fr/" hreflang="fr-FR">Français</a></li>
+          <li><a href="/hi/" hreflang="hi-IN">हिन्दी</a></li>
+          <li><a href="/pt-br/" hreflang="pt-BR">Português (Brasil)</a></li>
+          <li><a href="/tr/" hreflang="tr-TR">Türkçe</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-head"><p class="eyebrow">सवाल और जवाब</p><h2 id="faq-title">AI टैरो बॉट से जुड़े सवाल</h2><p>रीडिंग, AI व्याख्या, क्रेडिट और भाषाओं के बारे में साफ़ जवाब।</p></div>
+      <div class="faq-list">
+        <details><summary>Taroshenka टैरो बॉट क्या है?</summary><p>Taroshenka Telegram में चलने वाला AI आधारित टैरो बॉट है। आप स्प्रेड चुनते हैं, सवाल पूछते हैं और चैट में कार्डों की तस्वीरों के साथ जुड़ी हुई व्याख्या पाते हैं।</p></details>
+        <details><summary>AI टैरो व्याख्या कैसे काम करती है?</summary><p>बॉट हर कार्ड, उसकी जगह, सीधे या उलटे आने और आपके सवाल के संदर्भ पर विचार करता है। फिर इन तत्वों को एक पढ़ने योग्य व्याख्या में जोड़ता है।</p></details>
+        <details><summary>कौन-सी टैरो रीडिंग उपलब्ध हैं?</summary><p>दिन का कार्ड, हाँ या ना, तीन कार्ड स्प्रेड, डॉन, पाँच कार्ड की रिश्तों की रीडिंग और Premium में सेल्टिक क्रॉस व साल की रीडिंग उपलब्ध हैं।</p></details>
+        <details><summary>क्या बॉट भविष्य की पक्की भविष्यवाणी करता है?</summary><p>नहीं। टैरो रीडिंग और AI व्याख्या मनोरंजन और आत्मचिंतन के लिए हैं। वे प्रतीकात्मक दृष्टिकोण देती हैं, पक्की भविष्यवाणी नहीं।</p></details>
+        <details><summary>क्रेडिट और Premium कैसे काम करते हैं?</summary><p>भुगतान वाली रीडिंग और अतिरिक्त कार्रवाइयों में क्रेडिट लगते हैं। 5, 10 या 30 क्रेडिट के पैकेज और मासिक Premium उपलब्ध हैं; मौजूदा कीमत और भुगतान तरीके खरीद से पहले बॉट में दिखते हैं।</p></details>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="start-title">
+      <div class="final-cta">
+        <p class="eyebrow">आपका सवाल। आपके कार्ड। एक नया नज़रिया।</p>
+        <h2 id="start-title">Telegram में अपनी टैरो रीडिंग शुरू करें</h2>
+        <p>अपने सवाल के अनुसार स्प्रेड चुनें और चैट में व्यक्तिगत AI व्याख्या पाएँ।</p>
+        <a class="button" href="https://t.me/taroshenka_bot?start=ref974025936" target="_blank" rel="noopener noreferrer">@taroshenka_bot खोलें</a>
+      </div>
+      <aside class="disclaimer" aria-label="AI टैरो बॉट से जुड़े सवाल">टैरो रीडिंग और AI व्याख्याएँ मनोरंजन और आत्मचिंतन के लिए हैं। वे भविष्य की विश्वसनीय भविष्यवाणी नहीं हैं और चिकित्सा, मनोवैज्ञानिक, कानूनी, वित्तीय या किसी अन्य पेशेवर सहायता की जगह नहीं लेतीं। महत्वपूर्ण फैसलों की जिम्मेदारी उपयोगकर्ता की अपनी है।</aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>© 2026 Taro.mom · @taroshenka_bot</div>
+      <div class="footer-links"><a href="#main-content">ऊपर जाएँ</a><a href="#languages-title">अपनी पसंदीदा भाषा में कार्ड पढ़ें</a></div>
+    </div>
+  </footer>
+</body>
+</html>
