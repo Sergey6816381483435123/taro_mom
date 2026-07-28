@@ -1,13 +1,15 @@
 {
-  "name": "Taroshenka — Таро в Telegram",
+  "name": "Taroshenka — AI Tarot in Telegram",
   "short_name": "Taroshenka",
-  "start_url": ".",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0d0f17",
   "theme_color": "#0d0f17",
   "icons": [
-    { "src": "favicons/icon-128.png", "sizes": "128x128", "type": "image/png" },
-    { "src": "favicons/icon-180.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "favicons/icon-256.png", "sizes": "256x256", "type": "image/png" }
+    { "src": "/favicons/icon-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "/favicons/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/favicons/icon-256.png", "sizes": "256x256", "type": "image/png" }
   ]
 }
