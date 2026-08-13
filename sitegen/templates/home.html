@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{og_locale}}">
+  <meta property="og:title" content="{{og_title}}">
+  <meta property="og:description" content="{{og_description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{twitter_title}}">
+  <meta name="twitter:description" content="{{twitter_description}}">
+  <meta name="twitter:image" content="https://taro.mom/images/en/tarot-reader-social.jpg">
+  <link rel="stylesheet" href="/sitegen/assets/home.css">
+  <link rel="manifest" href="/manifest.json">
+  <script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">{{skip_link}}</a>
+<header class="site-header"><div class="shell header-inner">
+  <a class="brand" href="{{home_path}}" aria-label="{{brand_aria}}"><span aria-hidden="true">✦</span> Taroshenka</a>
+  <nav class="nav" aria-label="{{primary_nav_aria}}"><a href="#how-it-works">{{nav_how}}</a><a href="#readings">{{nav_readings}}</a><a href="#faq">{{nav_faq}}</a></nav>
+  <a class="language-link" href="#languages" aria-label="{{language_link_aria}}">🌐</a>
+  <a class="button header-cta" href="{{cta_url}}" target="_blank" rel="noopener noreferrer">{{header_cta}}</a>
+</div></header>
+<main id="main-content">
+<div class="shell"><section class="hero" aria-labelledby="hero-title"><div class="hero-copy">
+  <p class="eyebrow">{{hero_eyebrow}}</p><h1 id="hero-title">{{hero_title}}</h1><p class="lead">{{hero_lead}}</p>
+  <div class="hero-actions"><a class="button" href="{{cta_url}}" target="_blank" rel="noopener noreferrer">{{hero_cta}}</a><span class="identity">{{identity_label}} <strong>{{username}}</strong></span></div>
+</div><picture class="hero-media"><img src="/images/en/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="{{hero_image_alt}}" fetchpriority="high"></picture></section>
+<div class="quick-facts" aria-label="{{facts_aria}}">{{facts}}</div></div>
+<section class="section shell" id="how-it-works" aria-labelledby="how-title"><div class="section-intro"><p class="eyebrow">{{how_eyebrow}}</p><h2 id="how-title">{{how_title}}</h2><p>{{how_intro}}</p></div><div class="grid three">{{steps}}</div></section>
+<section class="section shell" id="readings" aria-labelledby="readings-title"><div class="section-intro"><p class="eyebrow">{{readings_eyebrow}}</p><h2 id="readings-title">{{readings_title}}</h2><p>{{readings_intro}}</p></div><div class="grid three">{{readings}}</div></section>
+<section class="section shell" id="ai" aria-labelledby="ai-title"><div class="answer-box"><p class="eyebrow">{{ai_eyebrow}}</p><h2 id="ai-title">{{ai_title}}</h2><p>{{ai_text}}</p><p>{{personalization_text}}</p></div></section>
+<section class="section shell" id="premium" aria-labelledby="premium-title"><div class="section-intro"><p class="eyebrow">{{premium_eyebrow}}</p><h2 id="premium-title">{{premium_title}}</h2><p>{{premium_intro}}</p></div><div class="grid two">{{premium}}</div></section>
+<section class="section shell" id="credits" aria-labelledby="credits-title"><div class="card"><h2 id="credits-title">{{credits_title}}</h2><p>{{credits_text}}</p><p>{{payment_text}}</p></div></section>
+<section class="section shell" id="languages" aria-labelledby="languages-title"><div class="section-intro"><p class="eyebrow">{{languages_eyebrow}}</p><h2 id="languages-title">{{languages_title}}</h2><p>{{languages_text}}</p></div><div class="language-list">{{language_links}}</div></section>
+<section class="section shell" id="faq" aria-labelledby="faq-title"><div class="section-intro"><p class="eyebrow">{{faq_eyebrow}}</p><h2 id="faq-title">{{faq_title}}</h2></div><div class="faq">{{faq}}</div></section>
+<section class="section shell" id="disclaimer" aria-labelledby="disclaimer-title"><div class="disclaimer"><h2 id="disclaimer-title">{{disclaimer_title}}</h2><p>{{disclaimer}}</p></div></section>
+<section class="section shell final-cta" aria-labelledby="final-cta-title"><h2 id="final-cta-title">{{cta_title}}</h2><p>{{cta_text}}</p><a class="button" href="{{cta_url}}" target="_blank" rel="noopener noreferrer">{{cta_button}}</a></section>
+</main><footer class="site-footer"><div class="shell footer-inner"><span>© Taroshenka</span><a href="{{identity_url}}">{{username}}</a><a href="{{home_path}}">{{home_label}}</a></div></footer>
+</body></html>

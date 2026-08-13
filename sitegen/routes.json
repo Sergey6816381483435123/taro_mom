@@ -1,0 +1,8 @@
+{
+  "home": {"kind":"home","path":"{homePath}"},
+  "daily-card": {"kind":"detail","englishSlug":"daily-tarot-card","slugs":{"en":"daily-tarot-card","ru":"karta-dnya-taro"}},
+  "yes-no": {"kind":"detail","englishSlug":"yes-or-no-tarot","slugs":{"en":"yes-or-no-tarot","ru":"taro-da-ili-net"}},
+  "three-card": {"kind":"detail","englishSlug":"three-card-tarot-spread","slugs":{"en":"three-card-tarot-spread","ru":"rasklad-taro-na-tri-karty"}},
+  "relationships": {"kind":"detail","englishSlug":"love-tarot-reading","slugs":{"en":"love-tarot-reading","ru":"rasklad-taro-na-otnosheniya"}},
+  "legacy": {"kind":"redirect","path":"/en/","target":"/"}
+}

@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Letture personali dei Tarocchi con IA su Telegram | Taroshenka",
+    "description": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+    "ogTitle": "Letture personali dei Tarocchi con IA su Telegram",
+    "ogDescription": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+    "twitterTitle": "Letture personali dei Tarocchi con IA su Telegram",
+    "twitterDescription": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+  },
+  "ui": {
+    "skip": "Apri in Telegram",
+    "brandAria": "Italiano Taroshenka",
+    "primaryAria": "Come funziona",
+    "how": "Come funziona",
+    "readings": "Letture",
+    "faq": "Domande frequenti",
+    "languageAria": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+    "headerCta": "Apri in Telegram",
+    "home": "Italiano",
+    "breadcrumbAria": "Domande frequenti",
+    "identity": "Bot:",
+    "factsAria": "Come funziona"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Letture personali dei Tarocchi con IA su Telegram",
+      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "cta": "Ottieni una lettura dei Tarocchi",
+      "imageAlt": "Letture personali dei Tarocchi con IA su Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+    ],
+    "how": {
+      "eyebrow": "Come funziona",
+      "title": "Come funziona",
+      "intro": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "steps": [
+        [
+          "Come funziona",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "Chiedi alle carte ciò che conta per te",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "Letture",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Letture",
+      "title": "Letture",
+      "intro": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "items": [
+        [
+          "daily-card",
+          "Carta del giorno",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "yes-no",
+          "Sì o No",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "three-card",
+          "Stesa a tre carte",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "relationships",
+          "Lettura sulle relazioni",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "premium",
+          "Letture Premium",
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Chiedi alle carte ciò che conta per te",
+      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "personal": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Letture Premium",
+      "intro": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Per questa lingua il pagamento avviene con Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Italiano",
+      "title": "Letture personali dei Tarocchi con IA su Telegram",
+      "text": "{count}: Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "names": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+    },
+    "faq": [
+      [
+        "Chiedi alle carte ciò che conta per te",
+        "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+      ],
+      [
+        "Does it predict the future?",
+        "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+      ],
+      [
+        "Domande frequenti",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Per questa lingua il pagamento avviene con Telegram Stars."
+      ],
+      [
+        "20",
+        "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+      ],
+      [
+        "Languages",
+        "20: Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Domande frequenti",
+      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+    },
+    "cta": {
+      "title": "Chiedi alle carte ciò che conta per te",
+      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "button": "Apri in Telegram"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Carta del giorno",
+      "title": "Carta del giorno",
+      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
+      "bullets": [
+        "Carta del giorno",
+        "Una prospettiva simbolica per riflettere.",
+        "Un’interpretazione nel contesto della domanda."
+      ],
+      "alt": "Carta del giorno"
+    },
+    "yes-no": {
+      "eyebrow": "Sì o No",
+      "title": "Sì o No",
+      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
+      "bullets": [
+        "Sì o No",
+        "Una prospettiva simbolica per riflettere.",
+        "Un’interpretazione nel contesto della domanda."
+      ],
+      "alt": "Sì o No"
+    },
+    "three-card": {
+      "eyebrow": "Stesa a tre carte",
+      "title": "Stesa a tre carte",
+      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
+      "bullets": [
+        "Stesa a tre carte",
+        "Una prospettiva simbolica per riflettere.",
+        "Un’interpretazione nel contesto della domanda."
+      ],
+      "alt": "Stesa a tre carte"
+    },
+    "relationships": {
+      "eyebrow": "Lettura sulle relazioni",
+      "title": "Lettura sulle relazioni",
+      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
+      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
+      "bullets": [
+        "Lettura sulle relazioni",
+        "Una prospettiva simbolica per riflettere.",
+        "Un’interpretazione nel contesto della domanda."
+      ],
+      "alt": "Lettura sulle relazioni"
+    }
+  }
+}

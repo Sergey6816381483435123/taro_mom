@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Telegram’da kişisel yapay zekâ Tarot açılımları | Taroshenka",
+    "description": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+    "ogTitle": "Telegram’da kişisel yapay zekâ Tarot açılımları",
+    "ogDescription": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+    "twitterTitle": "Telegram’da kişisel yapay zekâ Tarot açılımları",
+    "twitterDescription": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+  },
+  "ui": {
+    "skip": "Telegram’da aç",
+    "brandAria": "Türkçe Taroshenka",
+    "primaryAria": "Nasıl çalışır",
+    "how": "Nasıl çalışır",
+    "readings": "Açılımlar",
+    "faq": "Sık sorulan sorular",
+    "languageAria": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+    "headerCta": "Telegram’da aç",
+    "home": "Türkçe",
+    "breadcrumbAria": "Sık sorulan sorular",
+    "identity": "Bot:",
+    "factsAria": "Nasıl çalışır"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Telegram’da kişisel yapay zekâ Tarot açılımları",
+      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "cta": "Tarot açılımını al",
+      "imageAlt": "Telegram’da kişisel yapay zekâ Tarot açılımları"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+    ],
+    "how": {
+      "eyebrow": "Nasıl çalışır",
+      "title": "Nasıl çalışır",
+      "intro": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "steps": [
+        [
+          "Nasıl çalışır",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "Sizin için önemli olanı kartlara sorun",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "Açılımlar",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Açılımlar",
+      "title": "Açılımlar",
+      "intro": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "items": [
+        [
+          "daily-card",
+          "Günün Kartı",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "yes-no",
+          "Evet veya Hayır",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "three-card",
+          "Üç kart açılımı",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "relationships",
+          "İlişki açılımı",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "premium",
+          "Premium açılımlar",
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Sizin için önemli olanı kartlara sorun",
+      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "personal": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Premium açılımlar",
+      "intro": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Bu dil için ödeme Telegram Stars ile yapılır."
+    },
+    "languages": {
+      "eyebrow": "Türkçe",
+      "title": "Telegram’da kişisel yapay zekâ Tarot açılımları",
+      "text": "{count}: Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "names": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+    },
+    "faq": [
+      [
+        "Sizin için önemli olanı kartlara sorun",
+        "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+      ],
+      [
+        "Does it predict the future?",
+        "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+      ],
+      [
+        "Sık sorulan sorular",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Bu dil için ödeme Telegram Stars ile yapılır."
+      ],
+      [
+        "20",
+        "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+      ],
+      [
+        "Languages",
+        "20: Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Sık sorulan sorular",
+      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+    },
+    "cta": {
+      "title": "Sizin için önemli olanı kartlara sorun",
+      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "button": "Telegram’da aç"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Günün Kartı",
+      "title": "Günün Kartı",
+      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
+      "bullets": [
+        "Günün Kartı",
+        "Düşünmek için sembolik bir bakış.",
+        "Sorunuzun bağlamını dikkate alan yorum."
+      ],
+      "alt": "Günün Kartı"
+    },
+    "yes-no": {
+      "eyebrow": "Evet veya Hayır",
+      "title": "Evet veya Hayır",
+      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
+      "bullets": [
+        "Evet veya Hayır",
+        "Düşünmek için sembolik bir bakış.",
+        "Sorunuzun bağlamını dikkate alan yorum."
+      ],
+      "alt": "Evet veya Hayır"
+    },
+    "three-card": {
+      "eyebrow": "Üç kart açılımı",
+      "title": "Üç kart açılımı",
+      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
+      "bullets": [
+        "Üç kart açılımı",
+        "Düşünmek için sembolik bir bakış.",
+        "Sorunuzun bağlamını dikkate alan yorum."
+      ],
+      "alt": "Üç kart açılımı"
+    },
+    "relationships": {
+      "eyebrow": "İlişki açılımı",
+      "title": "İlişki açılımı",
+      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
+      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
+      "bullets": [
+        "İlişki açılımı",
+        "Düşünmek için sembolik bir bakış.",
+        "Sorunuzun bağlamını dikkate alan yorum."
+      ],
+      "alt": "İlişki açılımı"
+    }
+  }
+}

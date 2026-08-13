@@ -1,0 +1,22 @@
+[
+  {"code":"en","nativeLabel":"English","englishName":"English","dir":"ltr","publicSegment":"","hreflang":"en","ogLocale":"en_US","homePath":"/"},
+  {"code":"ru","nativeLabel":"Русский","englishName":"Russian","dir":"ltr","publicSegment":"ru","hreflang":"ru","ogLocale":"ru_RU","homePath":"/ru/"},
+  {"code":"id","nativeLabel":"Bahasa Indonesia","englishName":"Indonesian","dir":"ltr","publicSegment":"id","hreflang":"id","ogLocale":"id_ID","homePath":"/id/"},
+  {"code":"ms","nativeLabel":"Bahasa Melayu","englishName":"Malay","dir":"ltr","publicSegment":"ms","hreflang":"ms","ogLocale":"ms_MY","homePath":"/ms/"},
+  {"code":"de","nativeLabel":"Deutsch","englishName":"German","dir":"ltr","publicSegment":"de","hreflang":"de","ogLocale":"de_DE","homePath":"/de/"},
+  {"code":"es","nativeLabel":"Español","englishName":"Spanish","dir":"ltr","publicSegment":"es","hreflang":"es","ogLocale":"es_ES","homePath":"/es/"},
+  {"code":"fr","nativeLabel":"Français","englishName":"French","dir":"ltr","publicSegment":"fr","hreflang":"fr","ogLocale":"fr_FR","homePath":"/fr/"},
+  {"code":"it","nativeLabel":"Italiano","englishName":"Italian","dir":"ltr","publicSegment":"it","hreflang":"it","ogLocale":"it_IT","homePath":"/it/"},
+  {"code":"nl","nativeLabel":"Nederlands","englishName":"Dutch","dir":"ltr","publicSegment":"nl","hreflang":"nl","ogLocale":"nl_NL","homePath":"/nl/"},
+  {"code":"uz","nativeLabel":"Oʻzbek","englishName":"Uzbek","dir":"ltr","publicSegment":"uz","hreflang":"uz","ogLocale":"uz_UZ","homePath":"/uz/"},
+  {"code":"pl","nativeLabel":"Polski","englishName":"Polish","dir":"ltr","publicSegment":"pl","hreflang":"pl","ogLocale":"pl_PL","homePath":"/pl/"},
+  {"code":"pt","nativeLabel":"Português (Brasil)","englishName":"Brazilian Portuguese","dir":"ltr","publicSegment":"pt-br","hreflang":"pt-BR","ogLocale":"pt_BR","homePath":"/pt-br/"},
+  {"code":"tr","nativeLabel":"Türkçe","englishName":"Turkish","dir":"ltr","publicSegment":"tr","hreflang":"tr","ogLocale":"tr_TR","homePath":"/tr/"},
+  {"code":"be","nativeLabel":"Беларуская","englishName":"Belarusian","dir":"ltr","publicSegment":"be","hreflang":"be","ogLocale":"be_BY","homePath":"/be/"},
+  {"code":"uk","nativeLabel":"Українська","englishName":"Ukrainian","dir":"ltr","publicSegment":"uk","hreflang":"uk","ogLocale":"uk_UA","homePath":"/uk/"},
+  {"code":"kk","nativeLabel":"Қазақша","englishName":"Kazakh","dir":"ltr","publicSegment":"kk","hreflang":"kk","ogLocale":"kk_KZ","homePath":"/kk/"},
+  {"code":"ar","nativeLabel":"العربية","englishName":"Arabic","dir":"rtl","publicSegment":"ar","hreflang":"ar","ogLocale":"ar_SA","homePath":"/ar/"},
+  {"code":"fa","nativeLabel":"فارسی","englishName":"Persian","dir":"rtl","publicSegment":"fa","hreflang":"fa","ogLocale":"fa_IR","homePath":"/fa/"},
+  {"code":"ko","nativeLabel":"한국어","englishName":"Korean","dir":"ltr","publicSegment":"ko","hreflang":"ko","ogLocale":"ko_KR","homePath":"/ko/"},
+  {"code":"hi","nativeLabel":"हिन्दी","englishName":"Hindi","dir":"ltr","publicSegment":"hi","hreflang":"hi","ogLocale":"hi_IN","homePath":"/hi/"}
+]

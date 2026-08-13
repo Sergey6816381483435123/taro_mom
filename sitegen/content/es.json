@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Lecturas personales de Tarot con IA en Telegram | Taroshenka",
+    "description": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+    "ogTitle": "Lecturas personales de Tarot con IA en Telegram",
+    "ogDescription": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+    "twitterTitle": "Lecturas personales de Tarot con IA en Telegram",
+    "twitterDescription": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+  },
+  "ui": {
+    "skip": "Abrir en Telegram",
+    "brandAria": "Español Taroshenka",
+    "primaryAria": "Cómo funciona",
+    "how": "Cómo funciona",
+    "readings": "Lecturas",
+    "faq": "Preguntas frecuentes",
+    "languageAria": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+    "headerCta": "Abrir en Telegram",
+    "home": "Español",
+    "breadcrumbAria": "Preguntas frecuentes",
+    "identity": "Bot:",
+    "factsAria": "Cómo funciona"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Lecturas personales de Tarot con IA en Telegram",
+      "lead": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "cta": "Obtener una lectura de Tarot",
+      "imageAlt": "Lecturas personales de Tarot con IA en Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+    ],
+    "how": {
+      "eyebrow": "Cómo funciona",
+      "title": "Cómo funciona",
+      "intro": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "steps": [
+        [
+          "Cómo funciona",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "Pregunta a las cartas por lo que te importa",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "Lecturas",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Lecturas",
+      "title": "Lecturas",
+      "intro": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "items": [
+        [
+          "daily-card",
+          "Carta del día",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "yes-no",
+          "Sí o No",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "three-card",
+          "Tirada de tres cartas",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "relationships",
+          "Lectura de relaciones",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "premium",
+          "Lecturas Premium",
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Pregunta a las cartas por lo que te importa",
+      "text": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "personal": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. Una interpretación en el contexto de tu pregunta."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Lecturas Premium",
+      "intro": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Para este idioma, el pago se realiza con Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Español",
+      "title": "Lecturas personales de Tarot con IA en Telegram",
+      "text": "{count}: El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "names": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+    },
+    "faq": [
+      [
+        "Pregunta a las cartas por lo que te importa",
+        "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+      ],
+      [
+        "Does it predict the future?",
+        "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+      ],
+      [
+        "Preguntas frecuentes",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Para este idioma, el pago se realiza con Telegram Stars."
+      ],
+      [
+        "20",
+        "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+      ],
+      [
+        "Languages",
+        "20: El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Preguntas frecuentes",
+      "text": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil."
+    },
+    "cta": {
+      "title": "Pregunta a las cartas por lo que te importa",
+      "text": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "button": "Abrir en Telegram"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Carta del día",
+      "title": "Carta del día",
+      "lead": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "body": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. Una interpretación en el contexto de tu pregunta.",
+      "bullets": [
+        "Carta del día",
+        "Una perspectiva simbólica para reflexionar.",
+        "Una interpretación en el contexto de tu pregunta."
+      ],
+      "alt": "Carta del día"
+    },
+    "yes-no": {
+      "eyebrow": "Sí o No",
+      "title": "Sí o No",
+      "lead": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "body": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. Una interpretación en el contexto de tu pregunta.",
+      "bullets": [
+        "Sí o No",
+        "Una perspectiva simbólica para reflexionar.",
+        "Una interpretación en el contexto de tu pregunta."
+      ],
+      "alt": "Sí o No"
+    },
+    "three-card": {
+      "eyebrow": "Tirada de tres cartas",
+      "title": "Tirada de tres cartas",
+      "lead": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "body": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. Una interpretación en el contexto de tu pregunta.",
+      "bullets": [
+        "Tirada de tres cartas",
+        "Una perspectiva simbólica para reflexionar.",
+        "Una interpretación en el contexto de tu pregunta."
+      ],
+      "alt": "Tirada de tres cartas"
+    },
+    "relationships": {
+      "eyebrow": "Lectura de relaciones",
+      "title": "Lectura de relaciones",
+      "lead": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil.",
+      "body": "El bot de Tarot está disponible en 20 idiomas. Guarda tu idioma en tu perfil. Una interpretación en el contexto de tu pregunta.",
+      "bullets": [
+        "Lectura de relaciones",
+        "Una perspectiva simbólica para reflexionar.",
+        "Una interpretación en el contexto de tu pregunta."
+      ],
+      "alt": "Lectura de relaciones"
+    }
+  }
+}

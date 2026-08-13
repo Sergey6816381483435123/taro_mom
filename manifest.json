@@ -1,6 +1,7 @@
 {
   "name": "Taroshenka — AI Tarot in Telegram",
   "short_name": "Taroshenka",
+  "description": "A Telegram Tarot reading bot for entertainment and self-reflection.",
   "lang": "en",
   "start_url": "/",
   "scope": "/",

@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Persönliche KI-Tarotdeutungen in Telegram | Taroshenka",
+    "description": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+    "ogTitle": "Persönliche KI-Tarotdeutungen in Telegram",
+    "ogDescription": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+    "twitterTitle": "Persönliche KI-Tarotdeutungen in Telegram",
+    "twitterDescription": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+  },
+  "ui": {
+    "skip": "In Telegram öffnen",
+    "brandAria": "Deutsch Taroshenka",
+    "primaryAria": "So funktioniert es",
+    "how": "So funktioniert es",
+    "readings": "Deutungen",
+    "faq": "Häufige Fragen",
+    "languageAria": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+    "headerCta": "In Telegram öffnen",
+    "home": "Deutsch",
+    "breadcrumbAria": "Häufige Fragen",
+    "identity": "Bot:",
+    "factsAria": "So funktioniert es"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Persönliche KI-Tarotdeutungen in Telegram",
+      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "cta": "Tarotdeutung erhalten",
+      "imageAlt": "Persönliche KI-Tarotdeutungen in Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+    ],
+    "how": {
+      "eyebrow": "So funktioniert es",
+      "title": "So funktioniert es",
+      "intro": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "steps": [
+        [
+          "So funktioniert es",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "Frage die Karten, was dir wichtig ist",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "Deutungen",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Deutungen",
+      "title": "Deutungen",
+      "intro": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "items": [
+        [
+          "daily-card",
+          "Tageskarte",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "yes-no",
+          "Ja oder Nein",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "three-card",
+          "Drei-Karten-Legung",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "relationships",
+          "Beziehungsdeutung",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "premium",
+          "Premium-Deutungen",
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Frage die Karten, was dir wichtig ist",
+      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "personal": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Premium-Deutungen",
+      "intro": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Für diese Sprache erfolgt die Zahlung mit Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Deutsch",
+      "title": "Persönliche KI-Tarotdeutungen in Telegram",
+      "text": "{count}: Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "names": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+    },
+    "faq": [
+      [
+        "Frage die Karten, was dir wichtig ist",
+        "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+      ],
+      [
+        "Does it predict the future?",
+        "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+      ],
+      [
+        "Häufige Fragen",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Für diese Sprache erfolgt die Zahlung mit Telegram Stars."
+      ],
+      [
+        "20",
+        "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+      ],
+      [
+        "Languages",
+        "20: Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Häufige Fragen",
+      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+    },
+    "cta": {
+      "title": "Frage die Karten, was dir wichtig ist",
+      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "button": "In Telegram öffnen"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Tageskarte",
+      "title": "Tageskarte",
+      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
+      "bullets": [
+        "Tageskarte",
+        "Eine symbolische Perspektive zur Reflexion.",
+        "Eine Deutung im Kontext deiner Frage."
+      ],
+      "alt": "Tageskarte"
+    },
+    "yes-no": {
+      "eyebrow": "Ja oder Nein",
+      "title": "Ja oder Nein",
+      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
+      "bullets": [
+        "Ja oder Nein",
+        "Eine symbolische Perspektive zur Reflexion.",
+        "Eine Deutung im Kontext deiner Frage."
+      ],
+      "alt": "Ja oder Nein"
+    },
+    "three-card": {
+      "eyebrow": "Drei-Karten-Legung",
+      "title": "Drei-Karten-Legung",
+      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
+      "bullets": [
+        "Drei-Karten-Legung",
+        "Eine symbolische Perspektive zur Reflexion.",
+        "Eine Deutung im Kontext deiner Frage."
+      ],
+      "alt": "Drei-Karten-Legung"
+    },
+    "relationships": {
+      "eyebrow": "Beziehungsdeutung",
+      "title": "Beziehungsdeutung",
+      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
+      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
+      "bullets": [
+        "Beziehungsdeutung",
+        "Eine symbolische Perspektive zur Reflexion.",
+        "Eine Deutung im Kontext deiner Frage."
+      ],
+      "alt": "Beziehungsdeutung"
+    }
+  }
+}

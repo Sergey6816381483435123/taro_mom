@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Pembacaan Tarot AI pribadi di Telegram | Taroshenka",
+    "description": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+    "ogTitle": "Pembacaan Tarot AI pribadi di Telegram",
+    "ogDescription": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+    "twitterTitle": "Pembacaan Tarot AI pribadi di Telegram",
+    "twitterDescription": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+  },
+  "ui": {
+    "skip": "Buka di Telegram",
+    "brandAria": "Bahasa Indonesia Taroshenka",
+    "primaryAria": "Cara kerja",
+    "how": "Cara kerja",
+    "readings": "Pembacaan",
+    "faq": "Pertanyaan umum",
+    "languageAria": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+    "headerCta": "Buka di Telegram",
+    "home": "Bahasa Indonesia",
+    "breadcrumbAria": "Pertanyaan umum",
+    "identity": "Bot:",
+    "factsAria": "Cara kerja"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Pembacaan Tarot AI pribadi di Telegram",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "cta": "Dapatkan pembacaan Tarot",
+      "imageAlt": "Pembacaan Tarot AI pribadi di Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+    ],
+    "how": {
+      "eyebrow": "Cara kerja",
+      "title": "Cara kerja",
+      "intro": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "steps": [
+        [
+          "Cara kerja",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "Tanya kartu yang penting bagi Anda",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "Pembacaan",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Pembacaan",
+      "title": "Pembacaan",
+      "intro": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "items": [
+        [
+          "daily-card",
+          "Kartu Harian",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "yes-no",
+          "Ya atau Tidak",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "three-card",
+          "Sebaran tiga kartu",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "relationships",
+          "Bacaan hubungan",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "premium",
+          "Bacaan Premium",
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Tanya kartu yang penting bagi Anda",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "personal": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Interpretasi yang mempertimbangkan konteks pertanyaan."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Bacaan Premium",
+      "intro": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Untuk bahasa ini, pembayaran dilakukan dengan Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Bahasa Indonesia",
+      "title": "Pembacaan Tarot AI pribadi di Telegram",
+      "text": "{count}: Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "names": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+    },
+    "faq": [
+      [
+        "Tanya kartu yang penting bagi Anda",
+        "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+      ],
+      [
+        "Does it predict the future?",
+        "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+      ],
+      [
+        "Pertanyaan umum",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Untuk bahasa ini, pembayaran dilakukan dengan Telegram Stars."
+      ],
+      [
+        "20",
+        "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+      ],
+      [
+        "Languages",
+        "20: Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Pertanyaan umum",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda."
+    },
+    "cta": {
+      "title": "Tanya kartu yang penting bagi Anda",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "button": "Buka di Telegram"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Kartu Harian",
+      "title": "Kartu Harian",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Interpretasi yang mempertimbangkan konteks pertanyaan.",
+      "bullets": [
+        "Kartu Harian",
+        "Perspektif simbolis untuk refleksi.",
+        "Interpretasi yang mempertimbangkan konteks pertanyaan."
+      ],
+      "alt": "Kartu Harian"
+    },
+    "yes-no": {
+      "eyebrow": "Ya atau Tidak",
+      "title": "Ya atau Tidak",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Interpretasi yang mempertimbangkan konteks pertanyaan.",
+      "bullets": [
+        "Ya atau Tidak",
+        "Perspektif simbolis untuk refleksi.",
+        "Interpretasi yang mempertimbangkan konteks pertanyaan."
+      ],
+      "alt": "Ya atau Tidak"
+    },
+    "three-card": {
+      "eyebrow": "Sebaran tiga kartu",
+      "title": "Sebaran tiga kartu",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Interpretasi yang mempertimbangkan konteks pertanyaan.",
+      "bullets": [
+        "Sebaran tiga kartu",
+        "Perspektif simbolis untuk refleksi.",
+        "Interpretasi yang mempertimbangkan konteks pertanyaan."
+      ],
+      "alt": "Sebaran tiga kartu"
+    },
+    "relationships": {
+      "eyebrow": "Bacaan hubungan",
+      "title": "Bacaan hubungan",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Pilih bahasa di profil Telegram Anda. Interpretasi yang mempertimbangkan konteks pertanyaan.",
+      "bullets": [
+        "Bacaan hubungan",
+        "Perspektif simbolis untuk refleksi.",
+        "Interpretasi yang mempertimbangkan konteks pertanyaan."
+      ],
+      "alt": "Bacaan hubungan"
+    }
+  }
+}

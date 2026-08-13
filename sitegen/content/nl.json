@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Persoonlijke AI-Tarotlezingen in Telegram | Taroshenka",
+    "description": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+    "ogTitle": "Persoonlijke AI-Tarotlezingen in Telegram",
+    "ogDescription": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+    "twitterTitle": "Persoonlijke AI-Tarotlezingen in Telegram",
+    "twitterDescription": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+  },
+  "ui": {
+    "skip": "Openen in Telegram",
+    "brandAria": "Nederlands Taroshenka",
+    "primaryAria": "Zo werkt het",
+    "how": "Zo werkt het",
+    "readings": "Leggingen",
+    "faq": "Veelgestelde vragen",
+    "languageAria": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+    "headerCta": "Openen in Telegram",
+    "home": "Nederlands",
+    "breadcrumbAria": "Veelgestelde vragen",
+    "identity": "Bot:",
+    "factsAria": "Zo werkt het"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Persoonlijke AI-Tarotlezingen in Telegram",
+      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "cta": "Een Tarotlezing ontvangen",
+      "imageAlt": "Persoonlijke AI-Tarotlezingen in Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+    ],
+    "how": {
+      "eyebrow": "Zo werkt het",
+      "title": "Zo werkt het",
+      "intro": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "steps": [
+        [
+          "Zo werkt het",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "Vraag de kaarten naar wat voor jou belangrijk is",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "Leggingen",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Leggingen",
+      "title": "Leggingen",
+      "intro": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "items": [
+        [
+          "daily-card",
+          "Dagkaart",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "yes-no",
+          "Ja of Nee",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "three-card",
+          "Legging met drie kaarten",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "relationships",
+          "Relatielegging",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "premium",
+          "Premium-leggingen",
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Vraag de kaarten naar wat voor jou belangrijk is",
+      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "personal": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Premium-leggingen",
+      "intro": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Voor deze taal betaal je met Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Nederlands",
+      "title": "Persoonlijke AI-Tarotlezingen in Telegram",
+      "text": "{count}: De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "names": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+    },
+    "faq": [
+      [
+        "Vraag de kaarten naar wat voor jou belangrijk is",
+        "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+      ],
+      [
+        "Does it predict the future?",
+        "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+      ],
+      [
+        "Veelgestelde vragen",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Voor deze taal betaal je met Telegram Stars."
+      ],
+      [
+        "20",
+        "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+      ],
+      [
+        "Languages",
+        "20: De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Veelgestelde vragen",
+      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+    },
+    "cta": {
+      "title": "Vraag de kaarten naar wat voor jou belangrijk is",
+      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "button": "Openen in Telegram"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Dagkaart",
+      "title": "Dagkaart",
+      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
+      "bullets": [
+        "Dagkaart",
+        "Een symbolisch perspectief om over na te denken.",
+        "Een interpretatie in de context van je vraag."
+      ],
+      "alt": "Dagkaart"
+    },
+    "yes-no": {
+      "eyebrow": "Ja of Nee",
+      "title": "Ja of Nee",
+      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
+      "bullets": [
+        "Ja of Nee",
+        "Een symbolisch perspectief om over na te denken.",
+        "Een interpretatie in de context van je vraag."
+      ],
+      "alt": "Ja of Nee"
+    },
+    "three-card": {
+      "eyebrow": "Legging met drie kaarten",
+      "title": "Legging met drie kaarten",
+      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
+      "bullets": [
+        "Legging met drie kaarten",
+        "Een symbolisch perspectief om over na te denken.",
+        "Een interpretatie in de context van je vraag."
+      ],
+      "alt": "Legging met drie kaarten"
+    },
+    "relationships": {
+      "eyebrow": "Relatielegging",
+      "title": "Relatielegging",
+      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
+      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
+      "bullets": [
+        "Relatielegging",
+        "Een symbolisch perspectief om over na te denken.",
+        "Een interpretatie in de context van je vraag."
+      ],
+      "alt": "Relatielegging"
+    }
+  }
+}

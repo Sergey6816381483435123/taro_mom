@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Osobiste odczyty Tarota AI w Telegramie | Taroshenka",
+    "description": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+    "ogTitle": "Osobiste odczyty Tarota AI w Telegramie",
+    "ogDescription": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+    "twitterTitle": "Osobiste odczyty Tarota AI w Telegramie",
+    "twitterDescription": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+  },
+  "ui": {
+    "skip": "Otwórz w Telegramie",
+    "brandAria": "Polski Taroshenka",
+    "primaryAria": "Jak to działa",
+    "how": "Jak to działa",
+    "readings": "Odczyty",
+    "faq": "Najczęstsze pytania",
+    "languageAria": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+    "headerCta": "Otwórz w Telegramie",
+    "home": "Polski",
+    "breadcrumbAria": "Najczęstsze pytania",
+    "identity": "Bot:",
+    "factsAria": "Jak to działa"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Osobiste odczyty Tarota AI w Telegramie",
+      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "cta": "Otrzymaj odczyt Tarota",
+      "imageAlt": "Osobiste odczyty Tarota AI w Telegramie"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+    ],
+    "how": {
+      "eyebrow": "Jak to działa",
+      "title": "Jak to działa",
+      "intro": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "steps": [
+        [
+          "Jak to działa",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "Zapytaj karty o to, co jest dla Ciebie ważne",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "Odczyty",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Odczyty",
+      "title": "Odczyty",
+      "intro": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "items": [
+        [
+          "daily-card",
+          "Karta dnia",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "yes-no",
+          "Tak czy Nie",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "three-card",
+          "Rozkład trzech kart",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "relationships",
+          "Odczyt relacji",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "premium",
+          "Odczyty Premium",
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Zapytaj karty o to, co jest dla Ciebie ważne",
+      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "personal": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Odczyty Premium",
+      "intro": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Dla tego języka płatność odbywa się przez Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Polski",
+      "title": "Osobiste odczyty Tarota AI w Telegramie",
+      "text": "{count}: Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "names": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+    },
+    "faq": [
+      [
+        "Zapytaj karty o to, co jest dla Ciebie ważne",
+        "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+      ],
+      [
+        "Does it predict the future?",
+        "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+      ],
+      [
+        "Najczęstsze pytania",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Dla tego języka płatność odbywa się przez Telegram Stars."
+      ],
+      [
+        "20",
+        "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+      ],
+      [
+        "Languages",
+        "20: Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Najczęstsze pytania",
+      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+    },
+    "cta": {
+      "title": "Zapytaj karty o to, co jest dla Ciebie ważne",
+      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "button": "Otwórz w Telegramie"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Karta dnia",
+      "title": "Karta dnia",
+      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
+      "bullets": [
+        "Karta dnia",
+        "Symboliczna perspektywa do refleksji.",
+        "Interpretacja uwzględniająca kontekst pytania."
+      ],
+      "alt": "Karta dnia"
+    },
+    "yes-no": {
+      "eyebrow": "Tak czy Nie",
+      "title": "Tak czy Nie",
+      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
+      "bullets": [
+        "Tak czy Nie",
+        "Symboliczna perspektywa do refleksji.",
+        "Interpretacja uwzględniająca kontekst pytania."
+      ],
+      "alt": "Tak czy Nie"
+    },
+    "three-card": {
+      "eyebrow": "Rozkład trzech kart",
+      "title": "Rozkład trzech kart",
+      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
+      "bullets": [
+        "Rozkład trzech kart",
+        "Symboliczna perspektywa do refleksji.",
+        "Interpretacja uwzględniająca kontekst pytania."
+      ],
+      "alt": "Rozkład trzech kart"
+    },
+    "relationships": {
+      "eyebrow": "Odczyt relacji",
+      "title": "Odczyt relacji",
+      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
+      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
+      "bullets": [
+        "Odczyt relacji",
+        "Symboliczna perspektywa do refleksji.",
+        "Interpretacja uwzględniająca kontekst pytania."
+      ],
+      "alt": "Odczyt relacji"
+    }
+  }
+}

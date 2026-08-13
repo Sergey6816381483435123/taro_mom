@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Bacaan Tarot AI peribadi di Telegram | Taroshenka",
+    "description": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+    "ogTitle": "Bacaan Tarot AI peribadi di Telegram",
+    "ogDescription": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+    "twitterTitle": "Bacaan Tarot AI peribadi di Telegram",
+    "twitterDescription": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+  },
+  "ui": {
+    "skip": "Buka di Telegram",
+    "brandAria": "Bahasa Melayu Taroshenka",
+    "primaryAria": "Cara ia berfungsi",
+    "how": "Cara ia berfungsi",
+    "readings": "Bacaan",
+    "faq": "Soalan lazim",
+    "languageAria": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+    "headerCta": "Buka di Telegram",
+    "home": "Bahasa Melayu",
+    "breadcrumbAria": "Soalan lazim",
+    "identity": "Bot:",
+    "factsAria": "Cara ia berfungsi"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Bacaan Tarot AI peribadi di Telegram",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "cta": "Dapatkan bacaan Tarot",
+      "imageAlt": "Bacaan Tarot AI peribadi di Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+    ],
+    "how": {
+      "eyebrow": "Cara ia berfungsi",
+      "title": "Cara ia berfungsi",
+      "intro": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "steps": [
+        [
+          "Cara ia berfungsi",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "Tanyakan perkara yang penting kepada anda",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "Bacaan",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Bacaan",
+      "title": "Bacaan",
+      "intro": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "items": [
+        [
+          "daily-card",
+          "Kad Harian",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "yes-no",
+          "Ya atau Tidak",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "three-card",
+          "Bacaan tiga kad",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "relationships",
+          "Bacaan hubungan",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "premium",
+          "Bacaan Premium",
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Tanyakan perkara yang penting kepada anda",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "personal": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Bacaan Premium",
+      "intro": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Untuk bahasa ini, bayaran dibuat dengan Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Bahasa Melayu",
+      "title": "Bacaan Tarot AI peribadi di Telegram",
+      "text": "{count}: Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "names": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+    },
+    "faq": [
+      [
+        "Tanyakan perkara yang penting kepada anda",
+        "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+      ],
+      [
+        "Does it predict the future?",
+        "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+      ],
+      [
+        "Soalan lazim",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Untuk bahasa ini, bayaran dibuat dengan Telegram Stars."
+      ],
+      [
+        "20",
+        "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+      ],
+      [
+        "Languages",
+        "20: Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Soalan lazim",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+    },
+    "cta": {
+      "title": "Tanyakan perkara yang penting kepada anda",
+      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "button": "Buka di Telegram"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Kad Harian",
+      "title": "Kad Harian",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
+      "bullets": [
+        "Kad Harian",
+        "Perspektif simbolik untuk renungan.",
+        "Tafsiran yang mengambil kira konteks soalan."
+      ],
+      "alt": "Kad Harian"
+    },
+    "yes-no": {
+      "eyebrow": "Ya atau Tidak",
+      "title": "Ya atau Tidak",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
+      "bullets": [
+        "Ya atau Tidak",
+        "Perspektif simbolik untuk renungan.",
+        "Tafsiran yang mengambil kira konteks soalan."
+      ],
+      "alt": "Ya atau Tidak"
+    },
+    "three-card": {
+      "eyebrow": "Bacaan tiga kad",
+      "title": "Bacaan tiga kad",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
+      "bullets": [
+        "Bacaan tiga kad",
+        "Perspektif simbolik untuk renungan.",
+        "Tafsiran yang mengambil kira konteks soalan."
+      ],
+      "alt": "Bacaan tiga kad"
+    },
+    "relationships": {
+      "eyebrow": "Bacaan hubungan",
+      "title": "Bacaan hubungan",
+      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
+      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
+      "bullets": [
+        "Bacaan hubungan",
+        "Perspektif simbolik untuk renungan.",
+        "Tafsiran yang mengambil kira konteks soalan."
+      ],
+      "alt": "Bacaan hubungan"
+    }
+  }
+}

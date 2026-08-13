@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Tirages de Tarot personnels avec IA dans Telegram | Taroshenka",
+    "description": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+    "ogTitle": "Tirages de Tarot personnels avec IA dans Telegram",
+    "ogDescription": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+    "twitterTitle": "Tirages de Tarot personnels avec IA dans Telegram",
+    "twitterDescription": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+  },
+  "ui": {
+    "skip": "Ouvrir dans Telegram",
+    "brandAria": "Français Taroshenka",
+    "primaryAria": "Comment ça marche",
+    "how": "Comment ça marche",
+    "readings": "Tirages",
+    "faq": "Questions fréquentes",
+    "languageAria": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+    "headerCta": "Ouvrir dans Telegram",
+    "home": "Français",
+    "breadcrumbAria": "Questions fréquentes",
+    "identity": "Bot:",
+    "factsAria": "Comment ça marche"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Tirages de Tarot personnels avec IA dans Telegram",
+      "lead": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "cta": "Obtenir un tirage de Tarot",
+      "imageAlt": "Tirages de Tarot personnels avec IA dans Telegram"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+    ],
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Comment ça marche",
+      "intro": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "steps": [
+        [
+          "Comment ça marche",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "Posez aux cartes la question qui vous importe",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "Tirages",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Tirages",
+      "title": "Tirages",
+      "intro": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "items": [
+        [
+          "daily-card",
+          "Carte du jour",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "yes-no",
+          "Oui ou Non",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "three-card",
+          "Tirage à trois cartes",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "relationships",
+          "Tirage relationnel",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "premium",
+          "Tirages Premium",
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Posez aux cartes la question qui vous importe",
+      "text": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "personal": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Une interprétation selon le contexte de votre question."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Tirages Premium",
+      "intro": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Pour cette langue, le paiement se fait avec Telegram Stars."
+    },
+    "languages": {
+      "eyebrow": "Français",
+      "title": "Tirages de Tarot personnels avec IA dans Telegram",
+      "text": "{count}: Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "names": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+    },
+    "faq": [
+      [
+        "Posez aux cartes la question qui vous importe",
+        "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+      ],
+      [
+        "Does it predict the future?",
+        "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+      ],
+      [
+        "Questions fréquentes",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Pour cette langue, le paiement se fait avec Telegram Stars."
+      ],
+      [
+        "20",
+        "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+      ],
+      [
+        "Languages",
+        "20: Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Questions fréquentes",
+      "text": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil."
+    },
+    "cta": {
+      "title": "Posez aux cartes la question qui vous importe",
+      "text": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "button": "Ouvrir dans Telegram"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Carte du jour",
+      "title": "Carte du jour",
+      "lead": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "body": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Une interprétation selon le contexte de votre question.",
+      "bullets": [
+        "Carte du jour",
+        "Une perspective symbolique pour réfléchir.",
+        "Une interprétation selon le contexte de votre question."
+      ],
+      "alt": "Carte du jour"
+    },
+    "yes-no": {
+      "eyebrow": "Oui ou Non",
+      "title": "Oui ou Non",
+      "lead": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "body": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Une interprétation selon le contexte de votre question.",
+      "bullets": [
+        "Oui ou Non",
+        "Une perspective symbolique pour réfléchir.",
+        "Une interprétation selon le contexte de votre question."
+      ],
+      "alt": "Oui ou Non"
+    },
+    "three-card": {
+      "eyebrow": "Tirage à trois cartes",
+      "title": "Tirage à trois cartes",
+      "lead": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "body": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Une interprétation selon le contexte de votre question.",
+      "bullets": [
+        "Tirage à trois cartes",
+        "Une perspective symbolique pour réfléchir.",
+        "Une interprétation selon le contexte de votre question."
+      ],
+      "alt": "Tirage à trois cartes"
+    },
+    "relationships": {
+      "eyebrow": "Tirage relationnel",
+      "title": "Tirage relationnel",
+      "lead": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil.",
+      "body": "Le bot Tarot est disponible en 20 langues. Enregistrez votre langue dans votre profil. Une interprétation selon le contexte de votre question.",
+      "bullets": [
+        "Tirage relationnel",
+        "Une perspective symbolique pour réfléchir.",
+        "Une interprétation selon le contexte de votre question."
+      ],
+      "alt": "Tirage relationnel"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Telegramda shaxsiy AI Tarot talqinlari | Taroshenka",
+    "description": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+    "ogTitle": "Telegramda shaxsiy AI Tarot talqinlari",
+    "ogDescription": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+    "twitterTitle": "Telegramda shaxsiy AI Tarot talqinlari",
+    "twitterDescription": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+  },
+  "ui": {
+    "skip": "Telegramda ochish",
+    "brandAria": "Oʻzbek Taroshenka",
+    "primaryAria": "Qanday ishlaydi",
+    "how": "Qanday ishlaydi",
+    "readings": "Talqinlar",
+    "faq": "Koʻp soʻraladigan savollar",
+    "languageAria": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+    "headerCta": "Telegramda ochish",
+    "home": "Oʻzbek",
+    "breadcrumbAria": "Koʻp soʻraladigan savollar",
+    "identity": "Bot:",
+    "factsAria": "Qanday ishlaydi"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AI Tarot",
+      "title": "Telegramda shaxsiy AI Tarot talqinlari",
+      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "cta": "Tarot talqinini olish",
+      "imageAlt": "Telegramda shaxsiy AI Tarot talqinlari"
+    },
+    "facts": [
+      "Telegram",
+      "Tarot",
+      "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+    ],
+    "how": {
+      "eyebrow": "Qanday ishlaydi",
+      "title": "Qanday ishlaydi",
+      "intro": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "steps": [
+        [
+          "Qanday ishlaydi",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "Siz uchun muhim narsani kartalardan soʻrang",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "Talqinlar",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ]
+      ]
+    },
+    "readings": {
+      "eyebrow": "Talqinlar",
+      "title": "Talqinlar",
+      "intro": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "items": [
+        [
+          "daily-card",
+          "Kun kartasi",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "yes-no",
+          "Ha yoki Yoʻq",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "three-card",
+          "Uchta karta ochilmasi",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "relationships",
+          "Munosabatlar talqini",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "premium",
+          "Premium talqinlar",
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ]
+      ]
+    },
+    "ai": {
+      "eyebrow": "AI",
+      "title": "Siz uchun muhim narsani kartalardan soʻrang",
+      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "personal": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin."
+    },
+    "premium": {
+      "eyebrow": "Premium",
+      "title": "Premium talqinlar",
+      "intro": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "items": [
+        [
+          "Choice Between Two Options",
+          7,
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "Work & Finances",
+          7,
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "Celtic Cross",
+          10,
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ],
+        [
+          "Year Ahead",
+          12,
+          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+        ]
+      ]
+    },
+    "credits": {
+      "title": "Credits",
+      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
+      "payment": "Bu til uchun toʻlov Telegram Stars orqali amalga oshiriladi."
+    },
+    "languages": {
+      "eyebrow": "Oʻzbek",
+      "title": "Telegramda shaxsiy AI Tarot talqinlari",
+      "text": "{count}: Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "names": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+    },
+    "faq": [
+      [
+        "Siz uchun muhim narsani kartalardan soʻrang",
+        "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+      ],
+      [
+        "Does it predict the future?",
+        "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+      ],
+      [
+        "Koʻp soʻraladigan savollar",
+        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
+      ],
+      [
+        "Premium",
+        "Bu til uchun toʻlov Telegram Stars orqali amalga oshiriladi."
+      ],
+      [
+        "20",
+        "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+      ],
+      [
+        "Languages",
+        "20: Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+      ]
+    ],
+    "disclaimer": {
+      "title": "Koʻp soʻraladigan savollar",
+      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+    },
+    "cta": {
+      "title": "Siz uchun muhim narsani kartalardan soʻrang",
+      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "button": "Telegramda ochish"
+    }
+  },
+  "details": {
+    "daily-card": {
+      "eyebrow": "Kun kartasi",
+      "title": "Kun kartasi",
+      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
+      "bullets": [
+        "Kun kartasi",
+        "Mulohaza uchun ramziy nuqtayi nazar.",
+        "Savolingiz mazmuniga mos talqin."
+      ],
+      "alt": "Kun kartasi"
+    },
+    "yes-no": {
+      "eyebrow": "Ha yoki Yoʻq",
+      "title": "Ha yoki Yoʻq",
+      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
+      "bullets": [
+        "Ha yoki Yoʻq",
+        "Mulohaza uchun ramziy nuqtayi nazar.",
+        "Savolingiz mazmuniga mos talqin."
+      ],
+      "alt": "Ha yoki Yoʻq"
+    },
+    "three-card": {
+      "eyebrow": "Uchta karta ochilmasi",
+      "title": "Uchta karta ochilmasi",
+      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
+      "bullets": [
+        "Uchta karta ochilmasi",
+        "Mulohaza uchun ramziy nuqtayi nazar.",
+        "Savolingiz mazmuniga mos talqin."
+      ],
+      "alt": "Uchta karta ochilmasi"
+    },
+    "relationships": {
+      "eyebrow": "Munosabatlar talqini",
+      "title": "Munosabatlar talqini",
+      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
+      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
+      "bullets": [
+        "Munosabatlar talqini",
+        "Mulohaza uchun ramziy nuqtayi nazar.",
+        "Savolingiz mazmuniga mos talqin."
+      ],
+      "alt": "Munosabatlar talqini"
+    }
+  }
+}
