@@ -34,7 +34,7 @@
     "image_alt": {
       "tarot": "Example Tarot reading in the app showing cards and an English interpretation",
       "card": "A Tarot card opened in the app’s card viewer",
-      "astro": "The Astro section of the app with natal charts, horoscopes and other formats"
+      "astro": "The Astro section of the app with direction selection and a daily journal"
     },
     "account_text": "Your profile, credits and history are shared when you use the same account or explicitly link identities. A separate email registration does not automatically merge accounts.",
     "cross_link_astro": "Explore Astro",

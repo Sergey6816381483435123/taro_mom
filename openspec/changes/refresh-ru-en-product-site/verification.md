@@ -1,6 +1,6 @@
 # Проверка реализации и выпуска
 
-Дата: 9 ноября 2026 года, Europe/Moscow. Пользователь разрешил реализацию и публикацию сообщением «изменяй и опубликовыывай». Новые вопросы владельцу не требуются. Этап на момент этого коммита: локальная проверка завершена, публикация и проверка домена — следующий шаг.
+Дата: 9 ноября 2026 года, Europe/Moscow. Пользователь разрешил реализацию и публикацию сообщением «изменяй и опубликовыывай». Новые вопросы владельцу не требуются. Сайт опубликован через GitHub Pages; локальная и публичная проверка завершены в описанных ниже границах.
 
 Результат: обновлены 10 существующих RU/EN страниц и добавлены 14 Astro, всего 24 canonical URL. Таро остаётся главным направлением. Три входа расположены в согласованном порядке в начале и конце каждой страницы. Тексты, FAQ, metadata, JSON-LD и полный дисклеймер согласованы с новым корневым master. Цена и требования показываются в продукте.
 
@@ -25,12 +25,20 @@
 
 Приложение: отдельный Taro change `add-browser-referral-attribution`, commit `03627e0`, schema105, worker `browser-referral-20261109-r75`. Unit packages и пять rollback-only DB тестов PASS. Публичный HTTPS browser capture/first-valid/TTL30дней/Secure HttpOnly Lax проверен; тестовая pending запись удалена по точному hash. User/financial aggregates неизменны. Точные frontend assets совпали с r74; env/mounts/routes/networks/host config и остальные контейнеры сохранены. Live Bot API подтвердил usernames обоих ботов и Astro menu Web App URL. Подробности и границы — verification отдельного Taro change.
 
-Не выполнялись: создание реальных новых аккаунтов, доставка email, запуск Telegram от лица пользователя и платная referral reward. Регистрации проверены unit-фейками и rollback-only DB, публичный capture — настоящим HTTPS. Это не полная сквозная пользовательская приёмка трёх каналов.
+Дополнительная живая проверка: штатный запуск Mini App из Telegram-меню существующей разрешённой тестовой сессией, проверка initData и авторизация non-admin прошли. Bootstrap вернул15пунктовТаро (14раскладов иКолесо),10Астро и20языков; профиль, баланс, inviter и история до/после совпали. Тестовая web session после успешной проверки отозвана через logout. Сообщения, генерации и платежи не выполнялись.
+
+Не выполнялись: создание реальных новых аккаунтов, доставка email, `/start` от новых Telegram-пользователей и платная referral reward. Регистрации проверены unit-фейками и rollback-only DB, публичный capture — настоящим HTTPS. Это не полная сквозная пользовательская приёмка трёх каналов.
 
 Локальные QA screenshots, browser reports, venv и browser libraries находятся вне public diff, в `/tmp/taro-site-qa` и временных каталогах. На сайт входят только шесть предназначенных для публикации UI изображений и WebP hero. Нет site backend, forms, analytics, новых JavaScript или секретов.
 
 ## Публикация
 
-Ожидается fast-forward push в собственный `origin/main` GitHub Pages репозитория `Sergey6816381483435123/taro_mom`, CNAME `taro.mom`. Предыдущий remote commit `b384d9dcab687f58db6b5505fc24e62386418559`; до этого изменения локальный HEAD `03bfcf19cd17dfe9df20ce77513f561c0ae100ad`. Откат сайта — обратный коммит выпуска и обычный push после локальной проверки; force push не нужен. Публикация не связана с другими сайтами хоста.
+Выполнен fast-forward push в собственный `origin/main` GitHub Pages репозитория `Sergey6816381483435123/taro_mom`, CNAME `taro.mom`. Предыдущий remote commit `b384d9dcab687f58db6b5505fc24e62386418559`; до этого изменения локальный HEAD `03bfcf19cd17dfe9df20ce77513f561c0ae100ad`. Откат сайта — обратный коммит выпуска и обычный push после локальной проверки; force push не нужен. Публикация не связана с другими сайтами хоста.
 
-После build требуется проверить все24URL и публичные assets/metadata/robots/sitemap, `/en/`, HTTPS и mobile smoke. Статус внешних сервисов: Search Console/Bing submission и URL inspection не выполнены, права доступа не подтверждены. Владелец может отправить `https://taro.mom/sitemap.xml` в оба сервиса и проверить главные и representative AstroURL. Индексация, поисковые позиции, AI citations и field CWV не заявляются как достигнутые.
+Первый site release: `30f93fca5d29efe95660c5c3d794936820499dac`; GitHub workflow «pages build and deployment» completed/success. Публичная проверка 9 ноября в10:23UTC: 129HTTPSURL вернули200 и точное совпадение байтов с локальным выпуском: все24canonical pages,90остальных языковых страниц, assets, social image, manifest, robots, sitemap и legacy `/en/`.
+
+Публичный Chromium smoke: 18случаев (6representative маршрутов ×320/390/1440px), отсутствиеoverflow/pageerrors,6CTAнастраницу и загрузкаизображений. Meta refresh `/en/` реально привёл к `/`. В первой попытке один запрос вернул временный503; ограниченный повтор прошёл, итоговая сверкауспешна.
+
+После сверки уточнены только описания Astro screenshot alt и итоговый отчёт; содержание и маршруты выпуска сохраняются. Повторная публикация и побайтовая проверка выполняются тем же способом. Полный локальный отчёт `/tmp/taro-site-qa/public-release-report.json`, браузерный `/tmp/taro-site-qa/public-browser.json`; они не коммитятся в публичный сайт.
+
+ Статус внешних сервисов: Search Console/Bing submission и URL inspection не выполнены, права доступа не подтверждены. Владелец может отправить `https://taro.mom/sitemap.xml` в оба сервиса и проверить главные и representative AstroURL. Индексация, поисковые позиции, AI citations и field CWV не заявляются как достигнутые.

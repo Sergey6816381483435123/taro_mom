@@ -57,6 +57,8 @@
 Только после выполнения 1–6 и отдельного разрешения владельца на публикацию. Необходимые действия приложения оформляются/выпускаются по собственному Taro change и его разрешениям.
 
 - [x] 7.1 Подготовить reviewable diff/commit и rollback, проверить собственный Git root/Pages source и зафиксировать разрешение пользователя «изменяй и опубликовыывай» на публикацию сайта; не связывать её с серверным deployment другого сайта.
-- [ ] 7.2 После разрешения опубликовать GitHub Pages и проверить HTTPS, все 24 URL, legacy redirect, публичные assets/canonical/hreflang/sitemap/robots, mobile smoke и три entry destinations на рабочем домене.
-- [ ] 7.3 Подтвердить опубликованный путь source → CTA → нужный интерфейс → signup/account/referral invariants с разрешёнными тестовыми identities; при регрессии применить предусмотренный откат без ручного исправления финансов.
-- [ ] 7.4 Оформить итоговую матрицу проверки и инструкции Search Console/Bing URL inspection/sitemap submission. Отправку выполнять только при наличии доступа/разрешения; не блокировать достоверный отчёт отсутствием внешнего доступа и не заявлять индексацию/позиции/AI citations/field CWV без данных.
+- [x] 7.2 После разрешения опубликовать GitHub Pages и проверить HTTPS, все 24 URL, legacy redirect, публичные assets/canonical/hreflang/sitemap/robots, mobile smoke и три entry destinations на рабочем домене.
+- [x] 7.3 Подтвердить опубликованный путь source → CTA → нужный интерфейс → signup/account/referral invariants с разрешёнными тестовыми identities; при регрессии применить предусмотренный откат без ручного исправления финансов.
+- [x] 7.4 Оформить итоговую матрицу проверки и инструкции Search Console/Bing URL inspection/sitemap submission. Отправку выполнять только при наличии доступа/разрешения; не блокировать достоверный отчёт отсутствием внешнего доступа и не заявлять индексацию/позиции/AI citations/field CWV без данных.
+
+Проверки выполнены в границах verification.md: public HTTPS/menu, live Mini App launch/auth/bootstrap существующего пользователя, unit и rollback-only registrations. Создание новых живых аккаунтов, email delivery и платная referral reward не выполнялись; Search Console/Bing требуют доступа владельца. Разрешение на публикацию получено сообщением «изменяй и опубликовыывай».
