@@ -27,3 +27,6 @@ rules:
   tasks:
     - Делите работу на небольшие проверяемые шаги и добавляйте проверки после реализации.
     - Отдельно отмечайте локальные проверки и проверки, возможные только после публикации.
+
+# Current RU/EN site revision: product-20261109, 24 scoped pages, three approved entry URLs.
+# Product truth: taro-bot-website-master-description.md. Generate/validate via tracked sitegen scripts.

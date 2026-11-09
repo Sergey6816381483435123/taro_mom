@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://taro.mom/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/" />
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://taro.mom/en/daily-tarot-card/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/daily-tarot-card/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/karta-dnya-taro/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/daily-tarot-card/" />
@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://taro.mom/en/yes-or-no-tarot/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/yes-or-no-tarot/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/taro-da-ili-net/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/yes-or-no-tarot/" />
@@ -77,7 +77,7 @@
   </url>
   <url>
     <loc>https://taro.mom/en/three-card-tarot-spread/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/three-card-tarot-spread/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-tri-karty/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/three-card-tarot-spread/" />
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://taro.mom/en/love-tarot-reading/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/love-tarot-reading/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-otnosheniya/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/love-tarot-reading/" />
@@ -127,7 +127,7 @@
   </url>
   <url>
     <loc>https://taro.mom/ru/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/" />
@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://taro.mom/ru/karta-dnya-taro/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/daily-tarot-card/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/karta-dnya-taro/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/daily-tarot-card/" />
@@ -177,7 +177,7 @@
   </url>
   <url>
     <loc>https://taro.mom/ru/taro-da-ili-net/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/yes-or-no-tarot/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/taro-da-ili-net/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/yes-or-no-tarot/" />
@@ -202,7 +202,7 @@
   </url>
   <url>
     <loc>https://taro.mom/ru/rasklad-taro-na-tri-karty/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/three-card-tarot-spread/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-tri-karty/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/three-card-tarot-spread/" />
@@ -227,7 +227,7 @@
   </url>
   <url>
     <loc>https://taro.mom/ru/rasklad-taro-na-otnosheniya/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/en/love-tarot-reading/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/rasklad-taro-na-otnosheniya/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://taro.mom/id/love-tarot-reading/" />
@@ -2499,5 +2499,103 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://taro.mom/ko/love-tarot-reading/" />
     <xhtml:link rel="alternate" hreflang="hi" href="https://taro.mom/hi/love-tarot-reading/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/en/love-tarot-reading/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/natal-chart/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/natal-chart/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/natalnaya-karta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/natal-chart/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/compatibility/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/compatibility/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/sovmestimost/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/compatibility/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/horoscopes/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/horoscopes/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/goroskopy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/horoscopes/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/transits/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/transits/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/tranzity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/transits/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/solar-return/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/solar-return/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/solyar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/solar-return/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/astro/moon-calendar/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/moon-calendar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/lunnyy-kalendar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/moon-calendar/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/natalnaya-karta/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/natal-chart/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/natalnaya-karta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/natal-chart/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/sovmestimost/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/compatibility/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/sovmestimost/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/compatibility/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/goroskopy/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/horoscopes/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/goroskopy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/horoscopes/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/tranzity/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/transits/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/tranzity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/transits/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/solyar/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/solar-return/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/solyar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/solar-return/" />
+  </url>
+  <url>
+    <loc>https://taro.mom/ru/astro/lunnyy-kalendar/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taro.mom/astro/moon-calendar/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://taro.mom/ru/astro/lunnyy-kalendar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://taro.mom/astro/moon-calendar/" />
   </url>
 </urlset>

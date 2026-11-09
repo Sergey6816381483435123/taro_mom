@@ -2,7 +2,7 @@
 
 ## Mission
 
-Build and maintain the international English landing page for the Telegram tarot bot at `https://taro.mom/`. Optimize first for useful, indexable, trustworthy content, then for clicks to the bot. Search rankings and AI citations are outcomes to improve toward, never guarantees to claim.
+Build and maintain the international English landing page for the Taroshenka Tarot and Astro service at `https://taro.mom/`. Optimize first for useful, indexable, trustworthy content, then for clicks to the bot. Search rankings and AI citations are outcomes to improve toward, never guarantees to claim.
 
 The implementation is a static site hosted on GitHub Pages. Keep the international English home page at `/`, the Russian home page at `/ru/`, and `en/index.html` only as the static legacy redirect from `/en/` to `/`. Do not introduce a framework, build system, backend, analytics, email capture, or another conversion path unless the user explicitly requests it.
 
@@ -22,13 +22,16 @@ If sources conflict, preserve the higher-priority source and report the conflict
 - Publish the general English version at `/`; use `<html lang="en">`. Publish the Russian home page at `/ru/`; use `<html lang="ru">`.
 - Preserve `/en/` only as a non-canonical legacy redirect to `https://taro.mom/`. Do not add `/en/` to sitemap, `hreflang`, visible language navigation, or JSON-LD as an independent page.
 - Address a broad international English-speaking audience. Use clear, neutral international English. Create country-specific versions only when the user asks or when real regional differences in search demand, offer, payment, law, or terminology justify separate content.
-- Use this exact destination for every conversion CTA:
-  `https://t.me/taroshenka_bot?start=ref974025936`
+- RU/EN revision `product-20261109`: show three conversion links in this order in every hero and final block:
+  1. `https://t.me/taroshenka_bot?start=ref974025936`
+  2. `https://t.me/astrology_1_bot?start=ref974025936` (chat, then launch Mini App button)
+  3. `https://app.taro.mom/?ref=974025936`
+- Browser referral requires the released Taro schema 105/backend r75 or a compatible successor. Preserve the first valid pending referral for up to 30 days and apply only on new-account registration. Do not conflate referral with source analytics.
 - Preserve the entire `start=ref974025936` parameter. It is mandatory for referral attribution. Do not replace it with `https://t.me/taroshenka_bot`, a URL shortener, JavaScript redirect, or a different parameter.
 - Use `@taroshenka_bot` and `https://t.me/taroshenka_bot` only for non-conversion identity references such as visible account naming or `sameAs`.
 - The site URL and English canonical URL are both `https://taro.mom/`; the Russian canonical home URL is `https://taro.mom/ru/`.
 - All one-page landing pages in this repository are published through GitHub Pages. Treat GitHub Pages compatibility as a release requirement.
-- Do not add email capture, forms, secondary offers, or competing outbound CTAs.
+- Do not add site email capture, forms, secondary offers or outbound conversion paths beyond the three approved entries. Support and identity links are informational.
 
 ## GitHub Pages deployment constraints
 
@@ -44,7 +47,7 @@ If sources conflict, preserve the higher-priority source and report the conflict
 ## Content requirements
 
 - Write original English copy from the master description; do not mechanically translate the Russian page.
-- State the entity early and plainly: this is an AI-powered Tarot reading bot that works in Telegram.
+- State the entity early and plainly: Taroshenka offers AI-powered Tarot readings, with Astro as a separate direction, in Telegram and a browser.
 - Use one descriptive `h1` and a logical `h2`/`h3` hierarchy. Keep all important copy visible in server-delivered HTML, not injected by JavaScript or hidden only inside tabs.
 - Cover user intent with concise, factual sections: what the bot is, how it works, available reading types, AI interpretation, personalization, Premium and credits, supported languages, FAQ, disclaimer, and CTA.
 - Explain Tarot readings as entertainment and self-reflection. Do not promise accurate predictions or outcomes and do not present the bot as a substitute for medical, psychological, legal, financial, or other professional help.
@@ -73,7 +76,7 @@ If sources conflict, preserve the higher-priority source and report the conflict
 ### Structured data and entity consistency
 
 - Use valid JSON-LD that matches visible page content. Prefer a small connected graph using stable `@id` values for `WebSite`, `WebPage`, and `SoftwareApplication`; add `FAQPage` only when every marked-up question and answer is visibly present.
-- Identify the app consistently as a Telegram-based entertainment application. Use `sameAs` for the plain bot identity URL and use the mandatory referral deep link for the visible CTA and `potentialAction.target`.
+- Identify the app consistently as a Tarot and Astro entertainment application available in Telegram and a browser. Use `sameAs` for plain bot identity URLs and the three exact referral destinations for visible entry links and corresponding `potentialAction.target` values.
 - Do not add `AggregateRating`, `Review`, authorship, organization details, prices, availability, or other properties without verifiable visible evidence.
 - Do not assume structured data creates a rich result. Validate JSON-LD syntax and test applicable markup after implementation.
 
@@ -126,7 +129,7 @@ If sources conflict, preserve the higher-priority source and report the conflict
 - `ru/index.html` resolves conceptually to `https://taro.mom/ru/`, is Russian, and has a self-canonical.
 - `/`, `/ru/`, and all canonical locale pages expose reciprocal, valid `hreflang`; `/en/` exposes only redirect signals and is absent from the canonical cluster.
 - The English and Russian pages are reachable through crawlable internal links, and both canonical pages are present in `sitemap.xml` with truthful metadata.
-- All conversion links exactly equal `https://t.me/taroshenka_bot?start=ref974025936` and open safely with `rel="noopener noreferrer"` when using `target="_blank"`.
+- Every RU/EN hero and final entry block contains the three exact approved destinations in the specified order; use `rel="noopener noreferrer"` with `target="_blank"`. Other 18 locales retain their earlier revision until separate translation work.
 - Product facts and disclaimer agree with the master description; no unsupported prices, ratings, guarantees, or features appear.
 - JSON-LD parses and mirrors visible content. FAQ markup, if present, matches the displayed FAQ word for word in substance.
 - Important content remains available without JavaScript. Heading order, landmarks, keyboard navigation, focus, contrast, alt text, and reduced motion are checked.
@@ -145,3 +148,7 @@ When SEO behavior may have changed, prefer current primary documentation over re
 - OpenAI: [publisher and developer guidance](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq) for `OAI-SearchBot` access and separate `GPTBot` training controls.
 
 Update this playbook when those official requirements or the product source of truth materially change.
+
+## Scoped RU/EN generation
+
+Use tracked `python3 sitegen/generate.py` and `python3 sitegen/validate.py`. Revision and route registry cover 24 pages (10 existing and 14 Astro). Preserve other-locale HTML, legacy shared styles, CNAME and `/en/` redirect hashes in `sitegen/legacy-integrity.json`. Astro alternates contain only EN, RU and x-default; existing topics keep their 20-locale clusters. Do not run the legacy ignored tools to regenerate the newer RU/EN revision. See `sitegen/README.md`.

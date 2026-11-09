@@ -1,0 +1,60 @@
+{
+  "source": "Published r74/r75 frontend; all API responses are intercepted demonstration fixtures; no live account or API writes",
+  "images": [
+    {
+      "file": "images/en/app-tarot-ru.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 39314,
+      "sha256": "e5372061d026a4490e285ff9527288410e2c0f8146cd2966846fa6a6a3c05074",
+      "language": "ru",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-ru.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 74638,
+      "sha256": "1e7417cc8c486dd9ce60d76bf602fb1dbb480c7a6bb518e6bd48e4fd4a3f4f9c",
+      "language": "ru",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-ru.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 38808,
+      "sha256": "ba1412fe599240f6fdcd96e6a551b26b38b8d2b7535028216fb459a40c09c207",
+      "language": "ru",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-en.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 39620,
+      "sha256": "67bcf6edfaf46b2942c062f7b37c7919be7de621d78eddf62b2ad34c00279ae2",
+      "language": "en",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-en.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 72662,
+      "sha256": "e3b89b0a7bb279a8ed67e51d7e3122a5cf086efd946e4758112e34118de4c01c",
+      "language": "en",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-en.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 37416,
+      "sha256": "6b562a0ef401a9c90c8001dbbb21e5e45decc39e5c63a63567f4ecb1b32d4034",
+      "language": "en",
+      "view": "astro"
+    }
+  ],
+  "errors": []
+}

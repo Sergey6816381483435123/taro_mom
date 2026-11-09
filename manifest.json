@@ -1,7 +1,7 @@
 {
-  "name": "Taroshenka — AI Tarot in Telegram",
+  "name": "Taroshenka — Tarot & Astro",
   "short_name": "Taroshenka",
-  "description": "A Telegram Tarot reading bot for entertainment and self-reflection.",
+  "description": "AI Tarot readings and astrology for entertainment and self-reflection, in Telegram and your browser.",
   "lang": "en",
   "start_url": "/",
   "scope": "/",
@@ -9,8 +9,20 @@
   "background_color": "#0d0f17",
   "theme_color": "#0d0f17",
   "icons": [
-    { "src": "/favicons/icon-128.png", "sizes": "128x128", "type": "image/png" },
-    { "src": "/favicons/icon-180.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "/favicons/icon-256.png", "sizes": "256x256", "type": "image/png" }
+    {
+      "src": "/favicons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
   ]
 }
