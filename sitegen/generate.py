@@ -23,6 +23,31 @@ ASTRO_ROUTES = ("astro", "natal", "compatibility", "horoscopes", "transits", "so
 ROUTES = json.loads((SOURCE / "routes.json").read_text())
 LOCALES = json.loads((SOURCE / "locales.json").read_text())
 REVISION = json.loads((SOURCE / "revision.json").read_text())
+TOPIC_ICONS = {
+    "home": "cards", "daily-card": "daily_card", "yes-no": "spread_yesno",
+    "three-card": "spread_3cards", "relationships": "spread_relationship",
+    "astro": "star", "natal": "astro_natal", "compatibility": "astro_synastry",
+    "horoscopes": "astro_today", "transits": "astro_transits",
+    "solar": "astro_solar", "moon": "astro_moon",
+}
+SECTION_ICONS = {
+    "home": ("sparkle", "cards", "book", "coin"),
+    "daily-card": ("daily_card", "telegram", "message"),
+    "yes-no": ("message", "spread_yesno", "telegram"),
+    "three-card": ("spread_3cards", "message", "book"),
+    "relationships": ("message", "spread_relationship", "cards"),
+    "astro": ("star", "user", "globe"),
+    "natal": ("astro_natal", "user", "shield"),
+    "compatibility": ("astro_synastry", "user", "cards"),
+    "horoscopes": ("astro_today", "book", "shield"),
+    "transits": ("astro_transits", "astro_events", "pen"),
+    "solar": ("astro_solar", "user", "star"),
+    "moon": ("astro_moon", "pen", "user"),
+}
+
+
+def icon(name, css=""):
+    return f'<svg class="pictogram {css}" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.8" aria-hidden="true" focusable="false"><use href="/sitegen/assets/icons.svg#{name}"></use></svg>'
 
 
 def esc(value):
@@ -47,7 +72,8 @@ def alternates(key):
 def entry_block(ui):
     items = []
     for i, (url, label, note) in enumerate(zip(ENTRIES, ui["entry_labels"], ui["entry_notes"]), 1):
-        items.append(f'<li><a class="entry-link entry-{i}" href="{esc(url)}" target="_blank" rel="noopener noreferrer"><span class="entry-number" aria-hidden="true">0{i}</span><span>{esc(label)}</span><span aria-hidden="true">↗</span></a><small>{esc(note)}</small></li>')
+        symbol = ("telegram", "star", "globe")[i - 1]
+        items.append(f'<li><a class="entry-link entry-{i}" href="{esc(url)}" target="_blank" rel="noopener noreferrer">{icon(symbol, "entry-icon")}<span>{esc(label)}</span><span aria-hidden="true">↗</span></a><small>{esc(note)}</small></li>')
     return f'<ol class="entry-list" aria-label="{esc(ui["entry_heading"])}">' + "".join(items) + '</ol>'
 
 
@@ -55,16 +81,16 @@ def paragraph(text):
     return f"<p>{esc(text)}</p>"
 
 
-def section(block, index):
+def section(block, index, symbol):
     heading = block["heading"]
     body = "".join(paragraph(x) for x in block.get("paragraphs", []))
     if block.get("items"):
         body += '<ul class="text-list">' + "".join(f"<li>{esc(x)}</li>" for x in block["items"]) + "</ul>"
-    return f'<section class="copy-section" aria-labelledby="section-{index}"><h2 id="section-{index}">{esc(heading)}</h2>{body}</section>'
+    return f'<section class="copy-section" aria-labelledby="section-{index}"><div class="section-title">{icon(symbol)}<h2 id="section-{index}">{esc(heading)}</h2></div>{body}</section>'
 
 
 def topic_cards(data, code, keys):
-    return '<div class="topic-grid">' + "".join(f'<a class="topic-card" href="{path(code, key)}"><span class="topic-type">{esc(data["pages"][key]["eyebrow"])}</span><h3>{esc(data["pages"][key]["h1"])}</h3><p>{esc(data["pages"][key]["card_text"])}</p><span class="text-link">{esc(data["ui"]["explore"])} <span aria-hidden="true">↗</span></span></a>' for key in keys) + "</div>"
+    return '<div class="topic-grid">' + "".join(f'<a class="topic-card" href="{path(code, key)}"><div class="topic-card-heading">{icon(TOPIC_ICONS[key], "topic-icon")}<span class="topic-type">{esc(data["pages"][key]["eyebrow"])}</span></div><h3>{esc(data["pages"][key]["h1"])}</h3><p>{esc(data["pages"][key]["card_text"])}</p><span class="text-link">{esc(data["ui"]["explore"])} <span aria-hidden="true">↗</span></span></a>' for key in keys) + "</div>"
 
 
 def product_image(ui, code, kind, caption=None):
@@ -100,8 +126,8 @@ def render(data, code, key):
         breadcrumbs = f'<nav class="breadcrumbs" aria-label="{esc(ui["breadcrumbs"])}">{trail}<span>{esc(page["h1"])}</span></nav>'
     hero_media = f'<picture class="hero-art"><source type="image/webp" srcset="/images/en/tarot-reader-hero.webp"><img src="/images/en/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="{esc(ui["hero_alt"])}" fetchpriority="high"></picture>'
     if key != "home":
-        hero_media = f'<div class="topic-emblem" aria-hidden="true"><span>{"☽" if astro else "✦"}</span><div class="orbit orbit-1"></div><div class="orbit orbit-2"></div></div>'
-    body = "".join(section(x, i) for i, x in enumerate(page["sections"], 1))
+        hero_media = f'<div class="topic-emblem" aria-hidden="true">{icon(TOPIC_ICONS[key])}</div>'
+    body = "".join(section(x, i, SECTION_ICONS[key][i - 1]) for i, x in enumerate(page["sections"], 1))
     if key == "home":
         body = f'<section class="catalog section-space" id="readings"><div class="section-heading"><span class="eyebrow">{esc(ui["tarot"])}</span><h2>{esc(ui["tarot_heading"])}</h2><p>{esc(ui["tarot_intro"])}</p></div>{topic_cards(data, code, OLD_ROUTES[1:])}</section>' + body
     if key in ("home", "astro"):
@@ -123,6 +149,7 @@ def render(data, code, key):
         "body": body, "sample": sample, "faq": faq, "final_title": esc(ui["final_title"]), "final_text": esc(ui["final_text"]), "disclaimer_title": esc(ui["disclaimer_title"]),
         "disclaimer": esc(ui["disclaimer"]), "astro_disclaimer": paragraph(ui["astro_disclaimer"]) if astro else "", "support": esc(ui["support"]), "languages": languages,
         "attribution_note": esc(ui["attribution_note"]),
+        "brand_icon": icon("sparkle"), "page_key": key,
     }
     raw = (SOURCE / "templates/product.html").read_text()
     for name, value in values.items():
