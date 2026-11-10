@@ -19,7 +19,7 @@ python3 sitegen/browser_check.py --base http://127.0.0.1:8765 --output /tmp/taro
 
 Пилот оформления Натальной карты и Гороскопов подключается только для RU/EN: `visual-themes.json`, `assets/astro-themes.css`, `images/en/astro-*.svg`. Для его браузерной проверки добавь `--locales en,ru --pages natal,horoscopes`; остальные 236 HTML должны оставаться прежними.
 
-Кнопки направлений в шапке RU/EN оформляет `assets/navigation-buttons.css`, подключённый ко всем 24 страницам этих языков. Исходный вид одинаков; подсветка — hover и focus-visible. Остальные языки используют прежнюю навигацию.
+Кнопки направлений в шапке оформляет `assets/navigation-buttons.css`, подключённый ко всем 240 страницам на 20 языках. Исходный вид одинаков; подсветка — hover и focus-visible.
 
 Генератор обновляет все 240 HTML и соответствующие записи sitemap. Семь прежних общих файлов и redirect защищены `legacy-integrity.json`. Он не вводит сборщик или runtime-зависимость: GitHub Pages публикует готовые файлы. Не запускать старый игнорируемый `tools/generate_site.py` для новой редакции: он рассчитан на прежнюю схему контента.
 

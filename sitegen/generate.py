@@ -172,7 +172,7 @@ def render(data, code, key):
         "brand_icon": icon("sparkle"), "page_key": key,
         "theme_styles": '\n<link rel="stylesheet" href="/sitegen/assets/astro-themes.css">' if themed else "",
         "theme_class": " theme-astro" if themed else "",
-        "nav_styles": '\n<link rel="stylesheet" href="/sitegen/assets/navigation-buttons.css">' if code in ("en", "ru") else "",
+        "nav_styles": '\n<link rel="stylesheet" href="/sitegen/assets/navigation-buttons.css">',
     }
     raw = (SOURCE / "templates/product.html").read_text()
     for name, value in values.items():
