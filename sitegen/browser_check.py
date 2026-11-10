@@ -54,7 +54,7 @@ async def main(args):
      await image.scroll_into_view_if_needed();await page.wait_for_function('(i)=>i.complete&&i.naturalWidth>0',arg=await image.element_handle());await image.evaluate('(i)=>i.decode()')
     report['images'][route]=await page.evaluate("Array.from(document.images).map(i=>({src:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0}))")
     assert all(x['loaded'] for x in report['images'][route])
-    if (key=='home' and code in ('en','ru','ar','hi')) or await page.locator('body.theme-astro').count():
+    if (key=='home' and code in ('en','ru','ar','hi')) or await page.locator('body.theme-product').count():
      await page.set_viewport_size({'width':1440,'height':900});await page.evaluate('window.scrollTo(0,0)');await page.mouse.move(0,0)
      links=page.locator('.hero .entry-link')
      normal=await links.evaluate_all("es=>es.map(e=>{const s=getComputedStyle(e);return [s.backgroundColor,s.backgroundImage,s.color,s.borderColor,s.boxShadow]})")
@@ -63,8 +63,8 @@ async def main(args):
       await links.nth(i).hover();assert await links.nth(i).evaluate("e=>getComputedStyle(e).backgroundImage")!='none'
      await page.mouse.move(0,0);await links.first.focus();await page.keyboard.press('Shift+Tab');await page.keyboard.press('Tab');assert await links.first.evaluate("e=>getComputedStyle(e).outlineStyle")!='none'
      await page.evaluate('document.activeElement.blur()')
-    if await page.locator('body.theme-astro').count():
-     assert await page.locator('.theme-art img').count()==1
+    if await page.locator('body.theme-product').count():
+     assert await page.locator('.theme-art img').count()==(0 if key=='home' else 1)
      if key=='horoscopes':
       assert await page.locator('.horoscope-format').count()==3
      for width in (390,1440):

@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit,unquote
 from xml.etree import ElementTree as ET
-from generate import ROOT,BASE,ENTRIES,OLD_ROUTES,ASTRO_ROUTES,REVISION,LOCALES,outputs,alternates,path
+from generate import ROOT,BASE,ENTRIES,OLD_ROUTES,ASTRO_ROUTES,REVISION,LOCALES,VISUAL_THEMES,THEME_ART,outputs,alternates,path
 class Page(HTMLParser):
  def __init__(self,raw):
   super().__init__(convert_charrefs=True);self.tags=[];self.feed(raw)
@@ -39,6 +39,15 @@ def validate_content(data,code,reference):
 def main():
  assert len(LOCALES)==20 and set(REVISION['locales'])=={x['code'] for x in LOCALES}
  generated=outputs();assert len(generated)==240
+ assert set(VISUAL_THEMES)==set(REVISION['locales'])
+ assert set(THEME_ART)==set((*OLD_ROUTES,*ASTRO_ROUTES))-{'home'}
+ for code,theme in VISUAL_THEMES.items():
+  formats=theme['formats'];assert [x['key'] for x in formats]==['daily','love','pair']
+  for item in formats:
+   assert item['heading'].strip() and item['text'].strip()
+   assert target('/images/en/'+item['image']).is_file()
+   if code not in ('en','ru'):assert item['text'] not in [x['text'] for x in VISUAL_THEMES['en']['formats']+VISUAL_THEMES['ru']['formats']]
+   if code=='be':assert not re.search('[ИиЩщЇїЄєҐґ]',item['heading']+item['text'])
  legacy=json.loads((ROOT/'sitegen/legacy-integrity.json').read_text())
  for name,digest in legacy.items():assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest,'Protected file changed: '+name
  assert (ROOT/'CNAME').read_text().strip()=='taro.mom'
@@ -83,17 +92,20 @@ def main():
     if tag=='svg':assert attrs.get('aria-hidden')=='true' and attrs.get('focusable')=='false'
     if tag=='img':assert int(attrs['width'])>0 and int(attrs['height'])>0 and 'alt' in attrs;images+=1
    for x in p.all('link',rel='stylesheet')+p.all('link',rel='icon')+p.all('link',rel='manifest'):assert target(x['href']).is_file()
-   themed=code in ('en','ru') and key in ('natal','horoscopes')
    p.one('link',rel='stylesheet',href='/sitegen/assets/navigation-buttons.css')
-   assert ('theme-astro' in p.one('body')['class'].split())==themed
-   assert bool(p.all('link',rel='stylesheet',href='/sitegen/assets/astro-themes.css'))==themed
+   assert 'theme-product' in p.one('body')['class'].split()
+   p.one('link',rel='stylesheet',href='/sitegen/assets/product-themes.css')
+   assert not p.all('link',rel='stylesheet',href='/sitegen/assets/astro-themes.css')
    formats=[x for x in p.all('article') if 'horoscope-format' in x.get('class','').split()]
-   assert len(formats)==(3 if themed and key=='horoscopes' else 0)
-   if themed:
+   assert len(formats)==(3 if key=='horoscopes' else 0)
+   previews=[x for x in p.all('img') if 'topic-preview' in x.get('class','').split()]
+   assert len(previews)==(10 if key=='home' else 6 if key=='astro' else 0)
+   if key!='home':
     art=p.one('div',**{'class':'theme-art'});assert art.get('aria-hidden')=='true'
-    for image in p.all('img'):
-     if image['src'].endswith('.svg'):assert image['alt']==''
- for artwork in (ROOT/'images/en').glob('astro-*.svg'):
+    assert len([x for x in p.all('img') if x['src']=='/images/en/'+THEME_ART[key]])>=1
+   for image in p.all('img'):
+    if image['src'].endswith('.svg'):assert image['alt']==''
+ for artwork in [p for p in (ROOT/'images/en').glob('*.svg') if p.name.startswith(('astro-','tarot-'))]:
   svg=ET.parse(artwork).getroot();assert svg.attrib['viewBox']=='0 0 960 960'
   assert not any(x.tag.split('}')[-1] in ('script','foreignObject','image','animate','text') for x in svg.iter()),str(artwork)
   assert artwork.stat().st_size<40000

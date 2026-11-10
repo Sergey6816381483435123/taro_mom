@@ -1,0 +1,13 @@
+{
+  "daily-card": "tarot-daily-card.svg",
+  "yes-no": "tarot-yes-no.svg",
+  "three-card": "tarot-three-cards.svg",
+  "relationships": "tarot-relationships.svg",
+  "astro": "astro-celestial-sky.svg",
+  "natal": "astro-natal-wheel.svg",
+  "compatibility": "astro-compatibility.svg",
+  "horoscopes": "astro-love-pair.svg",
+  "transits": "astro-transits.svg",
+  "solar": "astro-solar-return.svg",
+  "moon": "astro-moon-phases.svg"
+}

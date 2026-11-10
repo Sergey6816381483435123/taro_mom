@@ -1,16 +1,442 @@
 {
   "en": {
     "formats": [
-      {"key": "daily", "image": "astro-horoscope-sky.svg", "heading": "Daily horoscope", "text": "A short astrological reading for reflection on your day."},
-      {"key": "love", "image": "astro-love-constellation.svg", "heading": "Personal love horoscope", "text": "Explore relationship themes from your own perspective."},
-      {"key": "pair", "image": "astro-love-pair.svg", "heading": "Love horoscope for two", "text": "A symbolic reading about two people. Comparing two natal charts is a separate compatibility format."}
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Daily horoscope",
+        "text": "A short astrological reading for reflection on your day."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Personal love horoscope",
+        "text": "Explore relationship themes from your own perspective."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Love horoscope for two",
+        "text": "A symbolic reading about two people. Comparing two natal charts is a separate compatibility format."
+      }
     ]
   },
   "ru": {
     "formats": [
-      {"key": "daily", "image": "astro-horoscope-sky.svg", "heading": "Ежедневный гороскоп", "text": "Короткий астрологический текст для размышления о своём дне."},
-      {"key": "love", "image": "astro-love-constellation.svg", "heading": "Личный любовный гороскоп", "text": "Взгляд на тему отношений с вашей стороны."},
-      {"key": "pair", "image": "astro-love-pair.svg", "heading": "Любовный гороскоп для двоих", "text": "Символический разбор о двух людях. Для сопоставления натальных карт есть отдельный формат совместимости."}
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Ежедневный гороскоп",
+        "text": "Короткий астрологический текст для размышления о своём дне."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Личный любовный гороскоп",
+        "text": "Взгляд на тему отношений с вашей стороны."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Любовный гороскоп для двоих",
+        "text": "Символический разбор о двух людях. Для сопоставления натальных карт есть отдельный формат совместимости."
+      }
+    ]
+  },
+  "id": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Horoskop harian",
+        "text": "Bacaan astrologi singkat untuk merenungkan hari Anda."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Horoskop cinta personal",
+        "text": "Jelajahi tema hubungan dari sudut pandang Anda."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Horoskop cinta untuk dua orang",
+        "text": "Bacaan simbolis tentang dua orang. Perbandingan dua bagan natal tersedia dalam format kecocokan terpisah."
+      }
+    ]
+  },
+  "ms": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Horoskop harian",
+        "text": "Bacaan astrologi ringkas untuk merenungkan hari anda."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Horoskop cinta peribadi",
+        "text": "Terokai tema hubungan daripada perspektif anda."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Horoskop cinta untuk dua individu",
+        "text": "Bacaan simbolik tentang dua individu. Perbandingan dua carta kelahiran tersedia dalam format keserasian yang berasingan."
+      }
+    ]
+  },
+  "de": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Tageshoroskop",
+        "text": "Eine kurze astrologische Deutung, um über deinen Tag nachzudenken."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Persönliches Liebeshoroskop",
+        "text": "Betrachte Beziehungsthemen aus deiner Sicht."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Liebeshoroskop für zwei",
+        "text": "Eine symbolische Deutung für zwei Menschen. Der Vergleich zweier Geburtshoroskope ist ein separates Kompatibilitätsformat."
+      }
+    ]
+  },
+  "es": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Horóscopo diario",
+        "text": "Una breve lectura astrológica para reflexionar sobre tu día."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Horóscopo personal del amor",
+        "text": "Explora temas de relaciones desde tu perspectiva."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Horóscopo del amor para dos",
+        "text": "Una lectura simbólica sobre dos personas. La comparación de dos cartas natales es un formato de compatibilidad independiente."
+      }
+    ]
+  },
+  "fr": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Horoscope du jour",
+        "text": "Une courte lecture astrologique pour réfléchir à votre journée."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Horoscope amoureux personnel",
+        "text": "Explorez les questions relationnelles de votre point de vue."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Horoscope amoureux pour deux",
+        "text": "Une lecture symbolique sur deux personnes. La comparaison de deux thèmes natals est un format de compatibilité distinct."
+      }
+    ]
+  },
+  "it": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Oroscopo giornaliero",
+        "text": "Una breve lettura astrologica per riflettere sulla tua giornata."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Oroscopo d’amore personale",
+        "text": "Esplora i temi relazionali dal tuo punto di vista."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Oroscopo d’amore per due",
+        "text": "Una lettura simbolica su due persone. Il confronto tra due temi natali è un formato di compatibilità separato."
+      }
+    ]
+  },
+  "nl": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Daghoroscoop",
+        "text": "Een korte astrologische duiding om stil te staan bij je dag."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Persoonlijke liefdeshoroscoop",
+        "text": "Verken relatiethema’s vanuit jouw perspectief."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Liefdeshoroscoop voor twee",
+        "text": "Een symbolische duiding over twee mensen. Voor het vergelijken van twee geboortehoroscopen is er een aparte compatibiliteitsanalyse."
+      }
+    ]
+  },
+  "uz": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Kunlik bashorat",
+        "text": "Kuningiz haqida mulohaza yuritish uchun qisqa astrologik talqin."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Shaxsiy muhabbat bashorati",
+        "text": "Munosabatlar mavzusini o‘z nuqtai nazaringizdan ko‘rib chiqing."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Ikki kishi uchun muhabbat bashorati",
+        "text": "Ikki kishi haqidagi ramziy talqin. Ikki tug‘ilish xaritasini solishtirish alohida moslik formatidir."
+      }
+    ]
+  },
+  "pl": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Horoskop dzienny",
+        "text": "Krótka interpretacja astrologiczna do refleksji nad Twoim dniem."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Osobisty horoskop miłosny",
+        "text": "Przyjrzyj się tematom relacji ze swojej perspektywy."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Horoskop miłosny dla dwojga",
+        "text": "Symboliczna interpretacja dotycząca dwóch osób. Porównanie dwóch kosmogramów to osobny format dotyczący zgodności."
+      }
+    ]
+  },
+  "pt": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Horóscopo diário",
+        "text": "Uma breve leitura astrológica para refletir sobre seu dia."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Horóscopo pessoal do amor",
+        "text": "Explore temas de relacionamento da sua perspectiva."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Horóscopo do amor para duas pessoas",
+        "text": "Uma leitura simbólica sobre duas pessoas. A comparação de dois mapas natais é um formato separado de compatibilidade."
+      }
+    ]
+  },
+  "tr": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Günlük burç yorumu",
+        "text": "Gününüz üzerine düşünmeniz için kısa bir astrolojik yorum."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Kişisel aşk yorumu",
+        "text": "İlişki konularını kendi bakış açınızdan keşfedin."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "İki kişilik aşk yorumu",
+        "text": "İki kişi hakkında sembolik bir yorum. İki doğum haritasının karşılaştırılması ayrı bir uyum formatıdır."
+      }
+    ]
+  },
+  "be": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Штодзённы гараскоп",
+        "text": "Кароткі астралагічны агляд для разважання пра ваш дзень."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Персанальны любоўны гараскоп",
+        "text": "Разгледзьце тэмы адносін з вашага пункту гледжання."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Любоўны гараскоп для дваіх",
+        "text": "Сімвалічны агляд пра двух людзей. Параўнанне дзвюх натальных карт — асобны фармат сумяшчальнасці."
+      }
+    ]
+  },
+  "uk": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Щоденний гороскоп",
+        "text": "Короткий астрологічний огляд для роздумів про ваш день."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Персональний любовний гороскоп",
+        "text": "Розгляньте теми стосунків із вашого погляду."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Любовний гороскоп для двох",
+        "text": "Символічний огляд про двох людей. Порівняння двох натальних карт — окремий формат сумісності."
+      }
+    ]
+  },
+  "kk": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "Күнделікті жұлдыз жорамалы",
+        "text": "Күніңіз туралы ойлануға арналған қысқа астрологиялық талдау."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "Жеке махаббат жұлдыз жорамалы",
+        "text": "Қарым-қатынас тақырыптарын өз көзқарасыңызбен қарастырыңыз."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "Екі адамға арналған махаббат жұлдыз жорамалы",
+        "text": "Екі адам туралы символдық талдау. Екі наталдық картаны салыстыру — үйлесімділікті қарастырудың бөлек форматы."
+      }
+    ]
+  },
+  "ar": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "البرج اليومي",
+        "text": "قراءة فلكية موجزة للتأمل في يومك."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "برج الحب الشخصي",
+        "text": "استكشف موضوعات العلاقة من وجهة نظرك."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "برج الحب لشخصين",
+        "text": "قراءة رمزية عن شخصين. مقارنة خريطتي الميلاد صيغة منفصلة للتوافق."
+      }
+    ]
+  },
+  "fa": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "طالع‌بینی روزانه",
+        "text": "خوانشی کوتاه از دیدگاه طالع‌بینی برای تأمل درباره روزتان."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "طالع‌بینی عشق شخصی",
+        "text": "موضوع‌های رابطه را از دیدگاه خودتان بررسی کنید."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "طالع‌بینی عشق دونفره",
+        "text": "خوانشی نمادین درباره دو نفر. مقایسه دو نقشه تولد در قالب جداگانه سازگاری انجام می‌شود."
+      }
+    ]
+  },
+  "ko": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "일일 운세",
+        "text": "하루를 돌아보는 짧은 점성술 리딩입니다."
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "개인 연애 운세",
+        "text": "관계의 주제를 나의 관점에서 살펴보세요."
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "두 사람을 위한 연애 운세",
+        "text": "두 사람에 관한 상징적인 리딩입니다. 두 출생 차트를 비교하는 궁합은 별도의 형식입니다."
+      }
+    ]
+  },
+  "hi": {
+    "formats": [
+      {
+        "key": "daily",
+        "image": "astro-horoscope-sky.svg",
+        "heading": "दैनिक राशिफल",
+        "text": "अपने दिन पर विचार करने के लिए एक संक्षिप्त ज्योतिषीय रीडिंग।"
+      },
+      {
+        "key": "love",
+        "image": "astro-love-constellation.svg",
+        "heading": "व्यक्तिगत प्रेम राशिफल",
+        "text": "रिश्तों से जुड़े विषयों को अपने नज़रिए से देखें।"
+      },
+      {
+        "key": "pair",
+        "image": "astro-love-pair.svg",
+        "heading": "दो लोगों का प्रेम राशिफल",
+        "text": "दो लोगों के बारे में एक प्रतीकात्मक रीडिंग। दो जन्मकुंडलियों की तुलना अनुकूलता का अलग फ़ॉर्मैट है।"
+      }
     ]
   }
 }

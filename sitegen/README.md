@@ -14,10 +14,10 @@ python3 -m http.server 8765 --bind 127.0.0.1
 Браузерная проверка требует Playwright и Chromium. Она посещает только локальный HTTP сервер; отчёт и снимки сохраняются вне репозитория:
 
 ```sh
-python3 sitegen/browser_check.py --base http://127.0.0.1:8765 --output /tmp/taro-site-qa
+python3 sitegen/theme_browser_check.py --base http://127.0.0.1:8765 --output /tmp/taro-site-qa
 ```
 
-Пилот оформления Натальной карты и Гороскопов подключается только для RU/EN: `visual-themes.json`, `assets/astro-themes.css`, `images/en/astro-*.svg`. Для его браузерной проверки добавь `--locales en,ru --pages natal,horoscopes`; остальные 236 HTML должны оставаться прежними.
+Тематическое оформление всех 240 страниц: `theme-art.json` связывает разделы с SVG; `visual-themes.json` содержит карточки гороскопов на 20 языках; общий стиль — `assets/product-themes.css`. Главная сохраняет исходную иллюстрацию, каталоги показывают тематические превью. RTL меняет сторону декора, не отражая символы. Прежний `astro-themes.css` сохранён для уже закешированных страниц пилота. Подробная браузерная матрица — `theme_browser_check.py`; снимки и отчёты сохраняй вне репозитория. Используй `--locales en,ru` для пакетов и `--screenshots` только для выбранных страниц; отчёт сохраняется после каждой страницы.
 
 Кнопки направлений в шапке оформляет `assets/navigation-buttons.css`, подключённый ко всем 240 страницам на 20 языках. Исходный вид одинаков; подсветка — hover и focus-visible.
 

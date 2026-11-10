@@ -25,6 +25,7 @@ LOCALES = json.loads((SOURCE / "locales.json").read_text())
 REVISION = json.loads((SOURCE / "revision.json").read_text())
 LOCALE_BY_CODE = {x["code"]: x for x in LOCALES}
 VISUAL_THEMES = json.loads((SOURCE / "visual-themes.json").read_text())
+THEME_ART = json.loads((SOURCE / "theme-art.json").read_text())
 TOPIC_ICONS = {
     "home": "cards", "daily-card": "daily_card", "yes-no": "spread_yesno",
     "three-card": "spread_3cards", "relationships": "spread_relationship",
@@ -106,7 +107,7 @@ def horoscope_formats(code):
 
 
 def topic_cards(data, code, keys):
-    return '<div class="topic-grid">' + "".join(f'<a class="topic-card" href="{path(code, key)}"><div class="topic-card-heading">{icon(TOPIC_ICONS[key], "topic-icon")}<span class="topic-type">{esc(data["pages"][key]["eyebrow"])}</span></div><h3>{esc(data["pages"][key]["h1"])}</h3><p>{esc(data["pages"][key]["card_text"])}</p><span class="text-link">{esc(data["ui"]["explore"])} <span aria-hidden="true">↗</span></span></a>' for key in keys) + "</div>"
+    return '<div class="topic-grid">' + "".join(f'<a class="topic-card" href="{path(code, key)}"><img class="topic-preview" src="/images/en/{THEME_ART[key]}" width="960" height="960" alt="" aria-hidden="true" loading="lazy"><div class="topic-card-heading">{icon(TOPIC_ICONS[key], "topic-icon")}<span class="topic-type">{esc(data["pages"][key]["eyebrow"])}</span></div><h3>{esc(data["pages"][key]["h1"])}</h3><p>{esc(data["pages"][key]["card_text"])}</p><span class="text-link">{esc(data["ui"]["explore"])} <span aria-hidden="true">↗</span></span></a>' for key in keys) + "</div>"
 
 
 def product_image(ui, code, kind, caption=None):
@@ -130,7 +131,6 @@ def render(data, code, key):
     ui = data["ui"]
     page = data["pages"][key]
     astro = key in ASTRO_ROUTES
-    themed = code in VISUAL_THEMES and key in ("natal", "horoscopes")
     canonical = BASE + path(code, key)
     hrefs = "\n".join(f'<link rel="alternate" hreflang="{lang}" href="{url}">' for lang, url in alternates(key))
     home = path(code, "home")
@@ -143,11 +143,9 @@ def render(data, code, key):
         breadcrumbs = f'<nav class="breadcrumbs" aria-label="{esc(ui["breadcrumbs"])}">{trail}<span>{esc(page["h1"])}</span></nav>'
     hero_media = f'<picture class="hero-art"><source type="image/webp" srcset="/images/en/tarot-reader-hero.webp"><img src="/images/en/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="{esc(ui["hero_alt"])}" fetchpriority="high"></picture>'
     if key != "home":
-        hero_media = f'<div class="topic-emblem" aria-hidden="true">{icon(TOPIC_ICONS[key])}</div>'
-    if themed:
-        artwork = "astro-natal-wheel.svg" if key == "natal" else "astro-love-pair.svg"
+        artwork = THEME_ART[key]
         hero_media = f'<div class="theme-art" aria-hidden="true"><img src="/images/en/{artwork}" width="960" height="960" alt="" fetchpriority="high"></div>'
-    body = "".join(section(x, i, SECTION_ICONS[key][i - 1], horoscope_formats(code) if themed and key == "horoscopes" and i == 1 else "") for i, x in enumerate(page["sections"], 1))
+    body = "".join(section(x, i, SECTION_ICONS[key][i - 1], horoscope_formats(code) if key == "horoscopes" and i == 1 else "") for i, x in enumerate(page["sections"], 1))
     if key == "home":
         body = f'<section class="catalog section-space" id="readings"><div class="section-heading"><span class="eyebrow">{esc(ui["tarot"])}</span><h2>{esc(ui["tarot_heading"])}</h2><p>{esc(ui["tarot_intro"])}</p></div>{topic_cards(data, code, OLD_ROUTES[1:])}</section>' + body
     if key in ("home", "astro"):
@@ -170,8 +168,8 @@ def render(data, code, key):
         "disclaimer": esc(ui["disclaimer"]), "astro_disclaimer": paragraph(ui["astro_disclaimer"]) if astro else "", "support": esc(ui["support"]), "languages": languages,
         "attribution_note": esc(ui["attribution_note"]),
         "brand_icon": icon("sparkle"), "page_key": key,
-        "theme_styles": '\n<link rel="stylesheet" href="/sitegen/assets/astro-themes.css">' if themed else "",
-        "theme_class": " theme-astro" if themed else "",
+        "theme_styles": '\n<link rel="stylesheet" href="/sitegen/assets/product-themes.css">',
+        "theme_class": " theme-product",
         "nav_styles": '\n<link rel="stylesheet" href="/sitegen/assets/navigation-buttons.css">',
     }
     raw = (SOURCE / "templates/product.html").read_text()
