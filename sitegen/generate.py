@@ -24,6 +24,7 @@ ROUTES = json.loads((SOURCE / "routes.json").read_text())
 LOCALES = json.loads((SOURCE / "locales.json").read_text())
 REVISION = json.loads((SOURCE / "revision.json").read_text())
 LOCALE_BY_CODE = {x["code"]: x for x in LOCALES}
+VISUAL_THEMES = json.loads((SOURCE / "visual-themes.json").read_text())
 TOPIC_ICONS = {
     "home": "cards", "daily-card": "daily_card", "yes-no": "spread_yesno",
     "three-card": "spread_3cards", "relationships": "spread_relationship",
@@ -89,12 +90,19 @@ def paragraph(text):
     return f"<p>{esc(text)}</p>"
 
 
-def section(block, index, symbol):
+def section(block, index, symbol, extra=""):
     heading = block["heading"]
     body = "".join(paragraph(x) for x in block.get("paragraphs", []))
     if block.get("items"):
         body += '<ul class="text-list">' + "".join(f"<li>{esc(x)}</li>" for x in block["items"]) + "</ul>"
-    return f'<section class="copy-section" aria-labelledby="section-{index}"><div class="section-title">{icon(symbol)}<h2 id="section-{index}">{esc(heading)}</h2></div>{body}</section>'
+    return f'<section class="copy-section" aria-labelledby="section-{index}"><div class="section-title">{icon(symbol)}<h2 id="section-{index}">{esc(heading)}</h2></div>{extra}{body}</section>'
+
+
+def horoscope_formats(code):
+    cards = []
+    for item in VISUAL_THEMES[code]["formats"]:
+        cards.append(f'<article class="horoscope-format format-{item["key"]}"><img src="/images/en/{item["image"]}" width="960" height="960" alt="" aria-hidden="true" loading="lazy"><div class="format-copy"><h3>{esc(item["heading"])}</h3><p>{esc(item["text"])}</p></div></article>')
+    return '<div class="horoscope-formats">' + "".join(cards) + '</div>'
 
 
 def topic_cards(data, code, keys):
@@ -122,6 +130,7 @@ def render(data, code, key):
     ui = data["ui"]
     page = data["pages"][key]
     astro = key in ASTRO_ROUTES
+    themed = code in VISUAL_THEMES and key in ("natal", "horoscopes")
     canonical = BASE + path(code, key)
     hrefs = "\n".join(f'<link rel="alternate" hreflang="{lang}" href="{url}">' for lang, url in alternates(key))
     home = path(code, "home")
@@ -135,7 +144,10 @@ def render(data, code, key):
     hero_media = f'<picture class="hero-art"><source type="image/webp" srcset="/images/en/tarot-reader-hero.webp"><img src="/images/en/tarot-reader-hero-desktop.jpg" width="1600" height="900" alt="{esc(ui["hero_alt"])}" fetchpriority="high"></picture>'
     if key != "home":
         hero_media = f'<div class="topic-emblem" aria-hidden="true">{icon(TOPIC_ICONS[key])}</div>'
-    body = "".join(section(x, i, SECTION_ICONS[key][i - 1]) for i, x in enumerate(page["sections"], 1))
+    if themed:
+        artwork = "astro-natal-wheel.svg" if key == "natal" else "astro-love-pair.svg"
+        hero_media = f'<div class="theme-art" aria-hidden="true"><img src="/images/en/{artwork}" width="960" height="960" alt="" fetchpriority="high"></div>'
+    body = "".join(section(x, i, SECTION_ICONS[key][i - 1], horoscope_formats(code) if themed and key == "horoscopes" and i == 1 else "") for i, x in enumerate(page["sections"], 1))
     if key == "home":
         body = f'<section class="catalog section-space" id="readings"><div class="section-heading"><span class="eyebrow">{esc(ui["tarot"])}</span><h2>{esc(ui["tarot_heading"])}</h2><p>{esc(ui["tarot_intro"])}</p></div>{topic_cards(data, code, OLD_ROUTES[1:])}</section>' + body
     if key in ("home", "astro"):
@@ -158,6 +170,8 @@ def render(data, code, key):
         "disclaimer": esc(ui["disclaimer"]), "astro_disclaimer": paragraph(ui["astro_disclaimer"]) if astro else "", "support": esc(ui["support"]), "languages": languages,
         "attribution_note": esc(ui["attribution_note"]),
         "brand_icon": icon("sparkle"), "page_key": key,
+        "theme_styles": '\n<link rel="stylesheet" href="/sitegen/assets/astro-themes.css">' if themed else "",
+        "theme_class": " theme-astro" if themed else "",
     }
     raw = (SOURCE / "templates/product.html").read_text()
     for name, value in values.items():

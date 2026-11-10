@@ -1,0 +1,16 @@
+{
+  "en": {
+    "formats": [
+      {"key": "daily", "image": "astro-horoscope-sky.svg", "heading": "Daily horoscope", "text": "A short astrological reading for reflection on your day."},
+      {"key": "love", "image": "astro-love-constellation.svg", "heading": "Personal love horoscope", "text": "Explore relationship themes from your own perspective."},
+      {"key": "pair", "image": "astro-love-pair.svg", "heading": "Love horoscope for two", "text": "A symbolic reading about two people. Comparing two natal charts is a separate compatibility format."}
+    ]
+  },
+  "ru": {
+    "formats": [
+      {"key": "daily", "image": "astro-horoscope-sky.svg", "heading": "Ежедневный гороскоп", "text": "Короткий астрологический текст для размышления о своём дне."},
+      {"key": "love", "image": "astro-love-constellation.svg", "heading": "Личный любовный гороскоп", "text": "Взгляд на тему отношений с вашей стороны."},
+      {"key": "pair", "image": "astro-love-pair.svg", "heading": "Любовный гороскоп для двоих", "text": "Символический разбор о двух людях. Для сопоставления натальных карт есть отдельный формат совместимости."}
+    ]
+  }
+}

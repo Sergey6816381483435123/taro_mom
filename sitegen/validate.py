@@ -83,6 +83,19 @@ def main():
     if tag=='svg':assert attrs.get('aria-hidden')=='true' and attrs.get('focusable')=='false'
     if tag=='img':assert int(attrs['width'])>0 and int(attrs['height'])>0 and 'alt' in attrs;images+=1
    for x in p.all('link',rel='stylesheet')+p.all('link',rel='icon')+p.all('link',rel='manifest'):assert target(x['href']).is_file()
+   themed=code in ('en','ru') and key in ('natal','horoscopes')
+   assert ('theme-astro' in p.one('body')['class'].split())==themed
+   assert bool(p.all('link',rel='stylesheet',href='/sitegen/assets/astro-themes.css'))==themed
+   formats=[x for x in p.all('article') if 'horoscope-format' in x.get('class','').split()]
+   assert len(formats)==(3 if themed and key=='horoscopes' else 0)
+   if themed:
+    art=p.one('div',**{'class':'theme-art'});assert art.get('aria-hidden')=='true'
+    for image in p.all('img'):
+     if image['src'].endswith('.svg'):assert image['alt']==''
+ for artwork in (ROOT/'images/en').glob('astro-*.svg'):
+  svg=ET.parse(artwork).getroot();assert svg.attrib['viewBox']=='0 0 960 960'
+  assert not any(x.tag.split('}')[-1] in ('script','foreignObject','image','animate','text') for x in svg.iter()),str(artwork)
+  assert artwork.stat().st_size<40000
  ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9','x':'http://www.w3.org/1999/xhtml'};rows=ET.parse(ROOT/'sitemap.xml').getroot();index={r.findtext('s:loc',namespaces=ns):r for r in rows};assert len(index)==len(rows)==240 and set(index)=={BASE+r for r in generated}
  for loc in LOCALES:
   for key in (*OLD_ROUTES,*ASTRO_ROUTES):

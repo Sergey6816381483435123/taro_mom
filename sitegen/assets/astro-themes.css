@@ -1,0 +1,26 @@
+/* Visual pilot: loaded only by the Natal and Horoscopes pages in RU/EN. */
+.theme-astro{background:radial-gradient(ellipse at 95% 6%,#30224d88,transparent 45rem),radial-gradient(ellipse at 0% 35%,#173b4555,transparent 35rem),var(--bg)}
+.theme-astro.page-horoscopes{background:radial-gradient(ellipse at 95% 6%,#542c5055,transparent 45rem),radial-gradient(ellipse at 0% 35%,#30224b66,transparent 35rem),var(--bg)}
+.theme-astro .hero{position:relative;isolation:isolate;display:block;overflow:hidden;margin:1.5rem 0 2.5rem;padding:clamp(1.25rem,4vw,3.5rem);border:1px solid #5b4d7166;border-radius:1.5rem;background:linear-gradient(130deg,#14182b,#1f2040 60%,#182c3e);box-shadow:0 1.5rem 5rem #0003}
+.theme-astro.page-horoscopes .hero{background:linear-gradient(130deg,#191525,#30203e 65%,#382436)}
+.theme-astro .hero-copy{position:relative;z-index:2;max-width:42rem}
+.theme-astro .hero .eyebrow{color:#b7eee7}
+.theme-astro .hero h1{max-width:15ch}
+.theme-astro .hero .lead{color:#e1dceb}
+.theme-astro .hero .entry-list small{color:#d7d0e3}
+.theme-art{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.theme-art img{position:absolute;width:43rem;max-width:none;height:auto;right:-22rem;top:-1rem;opacity:.4}
+.theme-art::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#111528ed 0%,#15182cbb 55%,#15182c22 100%)}
+.page-horoscopes .theme-art::after{background:linear-gradient(90deg,#191523ed 0%,#241a30bb 55%,#25192d22 100%)}
+.theme-astro .body-content>.copy-section:first-child{max-width:none}
+.horoscope-formats{display:grid;gap:1.25rem;margin:1.75rem 0 2rem}
+.horoscope-format{position:relative;isolation:isolate;min-width:0;overflow:hidden;border:1px solid #5c4a6d;border-radius:1.25rem;background:linear-gradient(150deg,#25243e,#111725)}
+.horoscope-format.format-love{background:linear-gradient(150deg,#3a2541,#1c182b);border-color:#76506c}
+.horoscope-format.format-pair{background:linear-gradient(150deg,#30243f,#1a182c);border-color:#655074}
+.horoscope-format>img{width:100%;height:11rem;object-fit:cover;object-position:center 43%;opacity:.95;border-bottom:1px solid #bba3d22b}
+.format-copy{padding:1.4rem}
+.format-copy h3{font-size:clamp(1.5rem,2.2vw,1.9rem);line-height:1.2}
+.format-copy p{font-size:.94rem;line-height:1.7;color:#d4cddd;margin-top:.8rem}
+.theme-astro .final-cta{position:relative;margin-top:1rem;padding-inline:clamp(1.25rem,4vw,3rem);padding-bottom:clamp(2rem,4vw,3rem);border:1px solid #514365;border-radius:1.5rem;background:radial-gradient(ellipse at 100% 0%,#4f3b6e55,transparent 80%),#121524}
+@media(min-width:38rem){.theme-art img{width:48rem;right:-18rem;top:-4rem}.theme-art::after{background:linear-gradient(90deg,#111528f5 0%,#15182cbb 45%,#15182c11 100%)}.page-horoscopes .theme-art::after{background:linear-gradient(90deg,#191523f5 0%,#241a30bb 45%,#25192d11 100%)}.horoscope-format{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);align-items:center}.horoscope-format>img{height:100%;min-height:12rem;object-fit:cover;border-bottom:0}.format-copy{padding:1.5rem}}
+@media(min-width:58rem){.theme-astro .hero{padding-block:3.5rem}.theme-astro .hero-copy{width:62%}.theme-art img{width:49rem;right:-8rem;top:50%;transform:translateY(-50%);opacity:1}.theme-art::after{background:linear-gradient(90deg,#111528f5 0%,#15182cdd 36%,#15182c44 63%,transparent 85%)}.page-horoscopes .theme-art::after{background:linear-gradient(90deg,#191523f5 0%,#241a30dd 36%,#25192d44 63%,transparent 85%)}.horoscope-formats{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem}.horoscope-format{display:block}.horoscope-format>img{height:13.5rem;min-height:0;border-bottom:1px solid #bba3d22b}.format-copy{padding:1.4rem}}

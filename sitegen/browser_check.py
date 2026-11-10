@@ -10,7 +10,9 @@ async def main(args):
  out=Path(args.output).resolve();out.mkdir(parents=True,exist_ok=True)
  codes=args.locales.split(',') if args.locales else [x['code'] for x in LOCALES]
  assert set(codes)<={x['code'] for x in LOCALES}
- routes=[(code,key,path(code,key)) for code in codes for key in (*OLD_ROUTES,*ASTRO_ROUTES)]
+ keys=args.pages.split(',') if args.pages else [*OLD_ROUTES,*ASTRO_ROUTES]
+ assert keys and set(keys)<=set((*OLD_ROUTES,*ASTRO_ROUTES)), 'Unknown page key'
+ routes=[(code,key,path(code,key)) for code in codes for key in keys]
  report={'ok':False,'base':args.base,'pages':len(routes),'widths':WIDTHS,'checks':[],'errors':[],'http_errors':[],'images':{},'no_javascript_pages':0,'lab_initial_metrics':{}}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=['--no-sandbox','--disable-dev-shm-usage'])
@@ -19,7 +21,7 @@ async def main(args):
   page.on('response',lambda r:report['http_errors'].append({'url':r.url,'status':r.status}) if r.status>=400 else None)
   await page.add_init_script("window.labLCP=0;window.labCLS=0;new PerformanceObserver(l=>l.getEntries().forEach(e=>window.labLCP=e.startTime)).observe({type:'largest-contentful-paint',buffered:true});new PerformanceObserver(l=>l.getEntries().forEach(e=>{if(!e.hadRecentInput)window.labCLS+=e.value})).observe({type:'layout-shift',buffered:true})")
   async def geometry(label):
-   result=await page.evaluate('''()=>{const bad=[];for(const el of document.querySelectorAll('h1,h2,h3,p,.entry-link,.topic-card,.primary-nav,.locale-switch,img,summary,.locale-menu')){if(!el.checkVisibility())continue;const r=el.getBoundingClientRect();if(r.width&&r.height&&(r.left < -1 || r.right>innerWidth+1))bad.push(el.tagName+'.'+el.className)}return {overflow:document.documentElement.scrollWidth>innerWidth+1,bad}}''')
+   result=await page.evaluate('''()=>{const bad=[];for(const el of document.querySelectorAll('h1,h2,h3,p,.entry-link,.topic-card,.primary-nav,.locale-switch,img,summary,.locale-menu,.horoscope-format')){if(!el.checkVisibility()||el.closest('.theme-art'))continue;const r=el.getBoundingClientRect();if(r.width&&r.height&&(r.left < -1 || r.right>innerWidth+1))bad.push(el.tagName+'.'+el.className)}return {overflow:document.documentElement.scrollWidth>innerWidth+1,bad}}''')
    assert not result['overflow'] and not result['bad'],(label,result)
   try:
    for index,(code,key,route) in enumerate(routes):
@@ -52,7 +54,7 @@ async def main(args):
      await image.scroll_into_view_if_needed();await page.wait_for_function('(i)=>i.complete&&i.naturalWidth>0',arg=await image.element_handle());await image.evaluate('(i)=>i.decode()')
     report['images'][route]=await page.evaluate("Array.from(document.images).map(i=>({src:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0}))")
     assert all(x['loaded'] for x in report['images'][route])
-    if key=='home' and code in ('en','ru','ar','hi'):
+    if (key=='home' and code in ('en','ru','ar','hi')) or await page.locator('body.theme-astro').count():
      await page.set_viewport_size({'width':1440,'height':900});await page.evaluate('window.scrollTo(0,0)');await page.mouse.move(0,0)
      links=page.locator('.hero .entry-link')
      normal=await links.evaluate_all("es=>es.map(e=>{const s=getComputedStyle(e);return [s.backgroundColor,s.backgroundImage,s.color,s.borderColor,s.boxShadow]})")
@@ -61,6 +63,14 @@ async def main(args):
       await links.nth(i).hover();assert await links.nth(i).evaluate("e=>getComputedStyle(e).backgroundImage")!='none'
      await page.mouse.move(0,0);await links.first.focus();await page.keyboard.press('Shift+Tab');await page.keyboard.press('Tab');assert await links.first.evaluate("e=>getComputedStyle(e).outlineStyle")!='none'
      await page.evaluate('document.activeElement.blur()')
+    if await page.locator('body.theme-astro').count():
+     assert await page.locator('.theme-art img').count()==1
+     if key=='horoscopes':
+      assert await page.locator('.horoscope-format').count()==3
+     for width in (390,1440):
+      await page.set_viewport_size({'width':width,'height':1000});await page.evaluate('window.scrollTo(0,0)')
+      await page.screenshot(path=str(out/f'{code}-{key}-{width}.png'))
+      if key=='horoscopes':await page.locator('.horoscope-formats').screenshot(path=str(out/f'{code}-formats-{width}.png'))
     if (index+1)%12==0:print('Checked '+code+' (12 pages)',flush=True)
    nojs=await browser.new_context(java_script_enabled=False,viewport={'width':320,'height':844});np=await nojs.new_page()
    for code,key,route in routes:
@@ -74,4 +84,4 @@ async def main(args):
    (out/'browser-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');await context.close();await browser.close()
  print(json.dumps({'ok':True,'pages':len(routes),'responsive_cases':len(report['checks']),'no_js_pages':report['no_javascript_pages'],'errors':0}))
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('--base',default='http://127.0.0.1:8765');parser.add_argument('--output',default='/tmp/taro-site-qa');parser.add_argument('--locales');asyncio.run(main(parser.parse_args()))
+ parser=argparse.ArgumentParser();parser.add_argument('--base',default='http://127.0.0.1:8765');parser.add_argument('--output',default='/tmp/taro-site-qa');parser.add_argument('--locales');parser.add_argument('--pages',help='Comma-separated page keys; default: all');asyncio.run(main(parser.parse_args()))
