@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Osobiste odczyty Tarota AI w Telegramie | Taroshenka",
-    "description": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-    "ogTitle": "Osobiste odczyty Tarota AI w Telegramie",
-    "ogDescription": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-    "twitterTitle": "Osobiste odczyty Tarota AI w Telegramie",
-    "twitterDescription": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "Otwórz w Telegramie",
-    "brandAria": "Polski Taroshenka",
-    "primaryAria": "Jak to działa",
-    "how": "Jak to działa",
-    "readings": "Odczyty",
-    "faq": "Najczęstsze pytania",
-    "languageAria": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-    "headerCta": "Otwórz w Telegramie",
-    "home": "Polski",
-    "breadcrumbAria": "Najczęstsze pytania",
-    "identity": "Bot:",
-    "factsAria": "Jak to działa"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Osobiste odczyty Tarota AI w Telegramie",
-      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "cta": "Otrzymaj odczyt Tarota",
-      "imageAlt": "Osobiste odczyty Tarota AI w Telegramie"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+    "brand": "Tarot",
+    "home": "Strona główna",
+    "tarot": "Tarot",
+    "astro": "Astro",
+    "faq": "FAQ",
+    "skip": "Przejdź do głównej treści",
+    "breadcrumbs": "Okruszki nawigacyjne",
+    "switch_language": "Wybierz język",
+    "explore": "Odkrywaj",
+    "entry_heading": "Trzy sposoby, by otworzyć Tarot",
+    "entry_labels": [
+      "Otwórz Tarot",
+      "Otwórz Astro Mini App",
+      "Otwórz w przeglądarce"
     ],
-    "how": {
-      "eyebrow": "Jak to działa",
-      "title": "Jak to działa",
-      "intro": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "steps": [
-        [
-          "Jak to działa",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "Zapytaj karty o to, co jest dla Ciebie ważne",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "Odczyty",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Odczyty",
-      "title": "Odczyty",
-      "intro": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "items": [
-        [
-          "daily-card",
-          "Karta dnia",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "yes-no",
-          "Tak czy Nie",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "three-card",
-          "Rozkład trzech kart",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "relationships",
-          "Odczyt relacji",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "premium",
-          "Odczyty Premium",
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Zapytaj karty o to, co jest dla Ciebie ważne",
-      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "personal": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Odczyty Premium",
-      "intro": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Dla tego języka płatność odbywa się przez Telegram Stars."
-    },
-    "languages": {
-      "eyebrow": "Polski",
-      "title": "Osobiste odczyty Tarota AI w Telegramie",
-      "text": "{count}: Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "names": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-    },
-    "faq": [
-      [
-        "Zapytaj karty o to, co jest dla Ciebie ważne",
-        "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-      ],
-      [
-        "Does it predict the future?",
-        "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-      ],
-      [
-        "Najczęstsze pytania",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Dla tego języka płatność odbywa się przez Telegram Stars."
-      ],
-      [
-        "20",
-        "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-      ],
-      [
-        "Languages",
-        "20: Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
-      ]
+    "entry_notes": [
+      "Rozkłady Tarota na czacie Telegrama.",
+      "Otwórz Astro, a następnie uruchom aplikację przyciskiem Telegrama.",
+      "Aplikacja z logowaniem przez Telegram lub e-mail."
     ],
-    "disclaimer": {
-      "title": "Najczęstsze pytania",
-      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu."
+    "entity_description": "Tarot to usługa Tarota z interpretacjami AI i osobną sekcją Astro, dostępna przez Telegram, Mini App i przeglądarkę.",
+    "hero_alt": "Czytająca Tarota przygląda się kartom przy świecach, w ciemnym granatowo-fioletowym wnętrzu",
+    "tarot_heading": "Znajdź rozkład dopasowany do pytania",
+    "tarot_intro": "Poznaj krótką symboliczną perspektywę albo bardziej szczegółowy rozkład. Interpretacja łączy karty z ich pozycjami i kontekstem Twojego pytania.",
+    "astro_heading": "Osobna przestrzeń astrologiczna",
+    "astro_intro": "Poznaj kosmogramy urodzeniowe, zgodność i inne formy astrologii. Każda strona wyjaśnia, co możesz otrzymać i jakich danych wymaga obliczenie.",
+    "inside": "W aplikacji",
+    "example_heading": "Karty, ich znaczenie i Twoje pytanie",
+    "example_text": "Obejrzyj karty i poznaj interpretację AI dopasowaną do Twojego pytania. W niektórych rozkładach możesz później poprosić o wyjaśnienie lub dobrać dodatkową kartę.",
+    "example_caption": "Prawdziwy interfejs aplikacji z danymi demonstracyjnymi. To przykład, a nie rozkład prawdziwego użytkownika.",
+    "image_alt": {
+      "tarot": "Przykładowy rozkład Tarota w aplikacji z kartami Ridera–Waite’a i interpretacją AI",
+      "card": "Karta Tarota Ridera–Waite’a otwarta w przeglądarce kart aplikacji",
+      "astro": "Sekcja Astro aplikacji z wyborem kierunku i dziennikiem"
     },
-    "cta": {
-      "title": "Zapytaj karty o to, co jest dla Ciebie ważne",
-      "text": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "button": "Otwórz w Telegramie"
-    }
+    "account_text": "Profil, kredyty i historia są wspólne, gdy korzystasz z tego samego konta lub jawnie połączysz tożsamości. Osobna rejestracja e-mail nie łączy automatycznie kont.",
+    "cross_link_astro": "Poznaj Astro",
+    "cross_link_tarot": "Poznaj rozkłady Tarota",
+    "answers": "Odpowiedzi na pytania",
+    "related": "Powiązane tematy",
+    "final_title": "Wybierz, jak chcesz zacząć",
+    "final_text": "Skorzystaj z czatu Telegrama, Mini App w Telegramie albo aplikacji w przeglądarce. Wybierz wygodny sposób.",
+    "disclaimer_title": "Rozrywka i autorefleksja",
+    "disclaimer": "Rozkłady Tarota i interpretacje AI służą rozrywce i autorefleksji. Nie są wiarygodnymi przepowiedniami przyszłości ani nie zastępują pomocy medycznej, psychologicznej, prawnej, finansowej czy innej profesjonalnej pomocy. Ważne decyzje podejmujesz samodzielnie.",
+    "astro_disclaimer": "Treści astrologiczne również służą rozrywce i autorefleksji. Nie są wiarygodnymi przepowiedniami przyszłości ani nie zastępują pomocy medycznej, psychologicznej, prawnej, finansowej czy innej profesjonalnej pomocy. Ważne decyzje podejmujesz samodzielnie.",
+    "support": "Pomoc",
+    "other_languages": "Języki",
+    "other_languages_note": "Wszystkie sekcje tej witryny są dostępne w 20 językach.",
+    "attribution_note": "Linki wejściowe zawierają identyfikator polecenia. Aplikacja w przeglądarce może zachować zaproszenie przez maksymalnie 30 dni. Ta strona nie zbiera Twoich pytań, adresu e-mail ani danych urodzeniowych."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot — rozkłady Tarota z AI w Telegramie i aplikacji",
+      "h1": "Osobiste rozkłady Tarota z AI dopasowane do Twoich pytań",
+      "description": "Poznaj rozkłady Tarota z interpretacjami AI w Telegramie, Mini App lub przeglądarce. Historia rozkładów, opisowe znaczenia kart i osobna sekcja Astro.",
+      "lead": "Wybierz rozkład, zapytaj o to, co jest dla Ciebie ważne, i przyjrzyj się sytuacji przez symbolikę Tarota. Korzystaj z Tarota na czacie Telegrama, w Mini App lub przeglądarce.",
+      "sections": [
+        {
+          "heading": "Od pytania do spójnej interpretacji",
+          "paragraphs": [
+            "Wybierz format pasujący do pytania. Jeśli rozkład wymaga kontekstu, opisz sytuację własnymi słowami: co się dzieje, co budzi niepewność i co chcesz zrozumieć.",
+            "Obejrzyj wylosowane karty i przeczytaj interpretację AI, która łączy ich pozycje, zestawienia oraz położenie proste lub odwrócone. Pytanie daje kontekst, ale wnioski i decyzje należą do Ciebie."
+          ]
+        },
+        {
+          "heading": "Zacznij od krótkiego rozkładu lub poznaj temat dokładniej",
+          "paragraphs": [
+            "Zacznij od Karty Dnia, Porady z Kart, rozkładu Tak czy Nie albo rozkładu z trzech kart. Rozkłady o relacjach to m.in. Nasza relacja, Nowa miłość, Co on/ona czuje? i Czy wróci? Ich nazwy określają temat symbolicznego rozkładu, a nie wiarygodną wiedzę o uczuciach innej osoby."
+          ],
+          "items": [
+            "Przyjrzyj się sytuacji w rozkładach Bliska przyszłość, Mój następny krok lub Rozwój sytuacji.",
+            "Aby spojrzeć szerzej, porównaj dwie możliwości albo wybierz rozkład Praca i finanse, Krzyż celtycki lub rozkład na nadchodzący rok.",
+            "Niektóre rozbudowane formaty wymagają Premium. Aktualne warunki dostępu są widoczne w aplikacji."
+          ]
+        },
+        {
+          "heading": "Wróć do rozkładu i przyjrzyj mu się dokładniej",
+          "paragraphs": [
+            "Do wybranych wyników możesz dodać pytanie doprecyzowujące lub dodatkową kartę w kontekście pierwotnego rozkładu. Historia pozwala wrócić do zapisanych pytań i interpretacji.",
+            "W aplikacji otwórz obraz karty i, jeśli włączono tę opcję, przeczytaj jej opisowe znaczenie. Opis wyjaśnia symbolikę, a interpretacja AI odnosi ją do Twojego rozkładu. Preferowany język i talia są zapisywane w profilu."
+          ]
+        },
+        {
+          "heading": "Bezpłatne funkcje, kredyty i Premium",
+          "paragraphs": [
+            "Produkt oferuje bezpłatne funkcje, takie jak Karta Dnia w Telegramie. Płatne działania wykorzystują kredyty. Premium odblokowuje rozbudowane rozkłady Tarota i część funkcji Astro; nie oznacza nielimitowanego dostępu.",
+            "Bot lub aplikacja pokazuje cenę i wymagania przed potwierdzeniem działania. Dostęp może zależeć od formatu, subskrypcji, uprawnień do okresu próbnego lub zapisanego wyniku. Aktualne warunki zakupu sprawdzisz w produkcie. Koło Fortuny to osobna funkcja i nie gwarantuje nagrody w postaci kredytów."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czym jest Tarot?",
+          "Tarot to usługa Tarota z interpretacjami AI, dostępna na czacie Telegrama, w Mini App i przeglądarce. Aplikacja ma też osobną sekcję Astro."
+        ],
+        [
+          "Który sposób uruchomienia wybrać?",
+          "Otwórz Tarot, aby korzystać z rozkładów na czacie. Aby używać interfejsu aplikacji w Telegramie, otwórz Astro i uruchom aplikację przyciskiem Telegrama. Wybierz wersję przeglądarkową, jeśli chcesz korzystać poza Telegramem."
+        ],
+        [
+          "Czy mogę korzystać bez Telegrama?",
+          "Aplikacja w przeglądarce umożliwia logowanie przez Telegram oraz rejestrację przy użyciu zweryfikowanego adresu e-mail i hasła. Osobne konto e-mail zostanie połączone z Telegramem dopiero po potwierdzeniu."
+        ],
+        [
+          "Co obejmuje Premium?",
+          "Premium odblokowuje szereg rozszerzonych funkcji. Niektóre działania nadal wykorzystują kredyty; przed potwierdzeniem produkt pokazuje obowiązujące warunki."
+        ],
+        [
+          "Czy Tarot przepowiada przyszłość?",
+          "Nie. Rozkłady oferują symboliczną perspektywę dla rozrywki i autorefleksji, a nie wiarygodną przepowiednię ani zamiennik profesjonalnej pomocy."
+        ]
+      ],
+      "eyebrow": "Osobista przestrzeń Tarota",
+      "card_text": "Znajdź rozkład dopasowany do pytania",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Karta dnia",
-      "title": "Karta dnia",
-      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
-      "bullets": [
-        "Karta dnia",
-        "Symboliczna perspektywa do refleksji.",
-        "Interpretacja uwzględniająca kontekst pytania."
+      "title": "Karta Dnia Tarota — symboliczny punkt wyjścia | Tarot",
+      "h1": "Codzienna karta Tarota do refleksji",
+      "description": "Odbierz bezpłatną Kartę Dnia w bocie Tarota na Telegramie i potraktuj jej obraz oraz krótkie znaczenie jako inspirację do refleksji.",
+      "lead": "Karta Dnia to proste wprowadzenie do Tarota: jedna karta i jej krótkie znaczenie. Odbierz ją bezpłatnie w bocie Telegrama i wybierz temat do przemyślenia w ciągu dnia.",
+      "sections": [
+        {
+          "heading": "Jedna karta, pytanie do siebie",
+          "paragraphs": [
+            "Przyjrzyj się obrazowi i przeczytaj znaczenie karty. Nie musisz traktować go jak dosłownej przepowiedni. Zwróć uwagę, czy jej temat łączy się z Twoimi obecnymi myślami lub planami.",
+            "Możesz na przykład zapytać siebie, na co warto dziś zwrócić uwagę. Potraktuj odpowiedź jak notatkę dla siebie albo początek bardziej szczegółowego rozkładu."
+          ]
+        },
+        {
+          "heading": "Jak odebrać Kartę Dnia",
+          "paragraphs": [
+            "Otwórz Tarot w Telegramie i rozpocznij czat, aby otrzymać Kartę Dnia z obrazem i krótkim znaczeniem.",
+            "Karta Dnia i Koło Fortuny to różne funkcje. Koło polega na losowaniu i może przynieść nagrodę; nie zastępuje rozkładu karty ani nie gwarantuje kredytu."
+          ]
+        },
+        {
+          "heading": "Gdy potrzebujesz szerszego kontekstu",
+          "paragraphs": [
+            "W konkretnej sytuacji sprawdź Poradę z Kart, rozkład Tak czy Nie albo rozkład z trzech kart. Bot pokazuje warunki przed płatnym działaniem. Aplikacja umożliwia też przeglądanie kart i opcjonalnych opisów ich znaczeń."
+          ]
+        }
       ],
-      "alt": "Karta dnia"
+      "faq": [
+        [
+          "Czy Karta Dnia jest bezpłatna?",
+          "Tak. Aktualny katalog Telegrama udostępnia Kartę Dnia bezpłatnie. Pozostałe działania mają własne warunki, widoczne przed potwierdzeniem."
+        ],
+        [
+          "Czy przewiduje, co wydarzy się dziś?",
+          "Nie. Proponuje symboliczny temat do refleksji, a nie wiarygodną relację o przyszłych wydarzeniach."
+        ],
+        [
+          "Czym różni się od Porady z Kart?",
+          "Karta Dnia to ogólna codzienna inspiracja. Porada z Kart to osobny krótki rozkład dotyczący osobistego pytania i mający własne warunki dostępu."
+        ]
+      ],
+      "eyebrow": "Jedna karta",
+      "card_text": "Obraz karty i krótkie znaczenie na początek dnia.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Tak czy Nie",
-      "title": "Tak czy Nie",
-      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
-      "bullets": [
-        "Tak czy Nie",
-        "Symboliczna perspektywa do refleksji.",
-        "Interpretacja uwzględniająca kontekst pytania."
+      "title": "Tak czy Nie — jednowyciągowy rozkład Tarota | Tarot",
+      "h1": "Konkretne pytanie Tak czy Nie w Tarocie",
+      "description": "Zadaj konkretne pytanie i poznaj jedną kartę Tarota wraz z interpretacją AI dopasowaną do Twojej sytuacji.",
+      "lead": "Tak czy Nie to jednowyciągowy rozkład odpowiadający na konkretne pytanie. Tarot objaśnia kartę w kontekście, dając Ci temat do przemyślenia, ale nie podejmuje decyzji za Ciebie.",
+      "sections": [
+        {
+          "heading": "Zadaj jedno jasne pytanie",
+          "paragraphs": [
+            "Wybierz jedną sytuację i jasno określ, co chcesz rozważyć. Pytanie „Czy porozmawiać z przełożonym o nowych obowiązkach?” daje lepszy kontekst niż kilka niezwiązanych pytań naraz.",
+            "Ten format proponuje symboliczny kierunek. Przy ważnej decyzji uwzględnij także wiarygodne fakty, swoją sytuację i w razie potrzeby profesjonalną poradę."
+          ]
+        },
+        {
+          "heading": "Co zawiera rozkład",
+          "paragraphs": [
+            "Losowana jest jedna karta. Interpretacja AI odnosi jej symbolikę i położenie do Twojego pytania, oferując wyjaśnienie wykraczające poza samo „tak” lub „nie”.",
+            "Obejrzyj obraz i zastanów się, które myśli są dla Ciebie przydatne. Karta nie może ustalić intencji innej osoby ani zagwarantować skutku działania."
+          ]
+        },
+        {
+          "heading": "Jak zacząć",
+          "paragraphs": [
+            "Otwórz Tarot lub aplikację, wybierz Tak czy Nie, wpisz pytanie i sprawdź warunki działania. Po potwierdzeniu poznaj kartę i jej interpretację. Jeśli pytanie ma kilka powiązanych aspektów, rozważ rozkład z trzech kart."
+          ]
+        }
       ],
-      "alt": "Tak czy Nie"
+      "faq": [
+        [
+          "Czy mogę zadać kilka pytań naraz?",
+          "W tym krótkim formacie wybierz jedno konkretne pytanie. Dzięki temu łatwiej zachować jasny kontekst."
+        ],
+        [
+          "Czy odpowiedź na pewno będzie trafna?",
+          "Nie. To symboliczna interpretacja do autorefleksji, a nie wiarygodna przepowiednia ani potwierdzony fakt dotyczący sytuacji."
+        ],
+        [
+          "Co sprawdzi się przy złożonym pytaniu?",
+          "Rozkład z trzech kart lub inny dopasowany format może pomóc rozważyć kilka powiązanych aspektów."
+        ]
+      ],
+      "eyebrow": "Konkretne pytanie",
+      "card_text": "Jedna karta i wyjaśnienie związane z Twoim pytaniem.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Rozkład trzech kart",
-      "title": "Rozkład trzech kart",
-      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
-      "bullets": [
-        "Rozkład trzech kart",
-        "Symboliczna perspektywa do refleksji.",
-        "Interpretacja uwzględniająca kontekst pytania."
+      "title": "Rozkład Tarota z trzech kart i AI | Tarot",
+      "h1": "Przyjrzyj się sytuacji przez trzy powiązane karty",
+      "description": "Poznaj rozkład Tarota z trzech kart, ich obrazami i spójną interpretacją AI dopasowaną do Twojego pytania.",
+      "lead": "Rozkład z trzech kart pozwala zwięźle zbadać pytanie przez indywidualne znaczenia kart i ich powiązania. Tarot tworzy jedną interpretację AI na podstawie pytania oraz pozycji kart.",
+      "sections": [
+        {
+          "heading": "Dlaczego powiązania mają znaczenie",
+          "paragraphs": [
+            "Każda karta pełni określoną rolę w rozkładzie. Interpretacja uwzględnia je razem, tworząc spójną perspektywę. Wynik pokazuje konkretne pozycje i ich opisy.",
+            "Nie każdy rozkład z trzech kart oznacza przeszłość, teraźniejszość i przyszłość. Sprawdź pozycje wybranego formatu i zastanów się, jak wiążą się z Twoim pytaniem."
+          ]
+        },
+        {
+          "heading": "Dodaj do pytania nieco kontekstu",
+          "paragraphs": [
+            "Na przykład: „Chcę wrócić do odłożonego projektu. Co warto wziąć pod uwagę?”. Dodaj istotny kontekst, ale nie łącz kilku niezwiązanych sytuacji w jednym krótkim rozkładzie.",
+            "Obejrzyj karty po kolei, a potem przeczytaj całą interpretację. Może pomóc Ci określić własny następny krok, ale nie wybiera go za Ciebie."
+          ]
+        },
+        {
+          "heading": "Po rozkładzie",
+          "paragraphs": [
+            "Wróć do zapisanego wyniku w historii konta. Jeśli dana funkcja jest dostępna, doprecyzowanie lub dodatkowa karta pozwoli zgłębić pierwotny kontekst. Produkt pokazuje cenę i warunki przed potwierdzeniem."
+          ]
+        }
       ],
-      "alt": "Rozkład trzech kart"
+      "faq": [
+        [
+          "Co oznaczają trzy pozycje?",
+          "Zależą od wybranego formatu i są opisane w wyniku. Nie zakładaj, że zawsze oznaczają przeszłość, teraźniejszość i przyszłość."
+        ],
+        [
+          "Czy mogę wrócić do odpowiedzi?",
+          "Zapisane rozkłady znajdziesz w historii konta. Aby mieć do nich dostęp w różnych kanałach, korzystaj z tego samego konta lub jawnie połączonych tożsamości."
+        ],
+        [
+          "Czy potrzebuję Premium?",
+          "Bot lub aplikacja pokazuje aktualne wymagania wybranego formatu. Premium odblokowuje niektóre rozbudowane formaty, ale nie oznacza nielimitowanego dostępu."
+        ]
+      ],
+      "eyebrow": "Trzy karty",
+      "card_text": "Kilka powiązanych aspektów jednego pytania.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "Odczyt relacji",
-      "title": "Odczyt relacji",
-      "lead": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu.",
-      "body": "Bot Tarota jest dostępny w 20 językach. Zapisz język w swoim profilu. Interpretacja uwzględniająca kontekst pytania.",
-      "bullets": [
-        "Odczyt relacji",
-        "Symboliczna perspektywa do refleksji.",
-        "Interpretacja uwzględniająca kontekst pytania."
+      "title": "Rozkład Tarota o relacjach z AI | Tarot",
+      "h1": "Zastanów się nad dynamiką relacji",
+      "description": "Poznaj rozkład Nasza relacja z pięciu kart oraz inne formaty do refleksji nad relacjami, bez twierdzeń o czytaniu w myślach.",
+      "lead": "Nasza relacja to rozkład z pięciu kart dotyczący dynamiki między ludźmi. Przedstawia symboliczne spojrzenie na oczekiwania, doświadczenia i możliwe kierunki, pozostawiając wnioski i decyzje Tobie.",
+      "sections": [
+        {
+          "heading": "Opisz, co jest dla Ciebie ważne",
+          "paragraphs": [
+            "Opisz relację i pytanie, które Cię nurtuje. Na przykład: „Ostatnio rzadziej rozmawiamy i chcę zastanowić się, jak o tym porozmawiać”. Kontekst pomaga powiązać interpretację z tematem.",
+            "Nie musisz udostępniać zbędnych danych osobowych drugiej osoby. Uczucia i intencje poznaje się w prawdziwej rozmowie; rozkład nie ustala ich jako faktów."
+          ]
+        },
+        {
+          "heading": "Co pokazuje pięć kart",
+          "paragraphs": [
+            "Każda karta ma swoją pozycję, a interpretacja AI łączy ich znaczenia w jeden rozkład. Wynik zawiera opisy pozycji i obrazy kart.",
+            "Rozkład podsuwa kilka aspektów do rozważenia. Nie dowodzi, że ktoś coś czuje, ani nie określa, jak potoczy się relacja."
+          ]
+        },
+        {
+          "heading": "Inne pytania o relacje",
+          "paragraphs": [
+            "Katalog obejmuje też rozkłady Nowa miłość, Co on/ona czuje? i Czy wróci? Ich nazwy określają temat symbolicznego rozkładu. Niektóre formaty wymagają Premium; produkt pokazuje warunki przed potwierdzeniem.",
+            "Innym podejściem jest zgodność w Astro, oparta na porównaniu dwóch kosmogramów urodzeniowych. To osobny format wykorzystujący dane urodzeniowe obu osób."
+          ]
+        }
       ],
-      "alt": "Odczyt relacji"
+      "faq": [
+        [
+          "Czy mogę poznać prawdziwe uczucia drugiej osoby?",
+          "Nie. Rozkład nie ustali myśli ani uczuć drugiej osoby. Możesz wykorzystać go, by sformułować własne pytania i przygotować się do rozmowy."
+        ],
+        [
+          "Czy gwarantuje, że partner wróci?",
+          "Żaden format nie gwarantuje działań drugiej osoby ani wyniku relacji."
+        ],
+        [
+          "Czym różni się od synastrii?",
+          "Tarot opiera się na kartach i kontekście pytania. Synastria porównuje dwa kosmogramy i wymaga danych urodzeniowych obu osób."
+        ]
+      ],
+      "eyebrow": "Relacje",
+      "card_text": "Pięć kart o interakcjach, oczekiwaniach i Twojej sytuacji.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: kosmogramy, horoskopy i kalendarz księżycowy | Tarot",
+      "h1": "Astro: astrologia osobista",
+      "description": "Poznaj Astro w Tarot: kosmogramy urodzeniowe, zgodność, horoskopy, tranzyty, solariusz, kalendarz księżycowy i opcjonalny dziennik.",
+      "lead": "Astro to astrologiczna sekcja Tarot z kosmogramami, horoskopami i innymi formatami. Wybierz interesujący Cię temat i potraktuj go jako rozrywkę oraz zachętę do refleksji.",
+      "sections": [
+        {
+          "heading": "Znajdź format dla swojego pytania",
+          "paragraphs": [
+            "Kosmogram urodzeniowy przedstawia położenie ciał niebieskich w chwili narodzin. W sprawach relacji porównaj dwa kosmogramy w sekcji zgodności albo wybierz horoskop miłosny.",
+            "Tranzyty i osobiste wydarzenia astrologiczne odnoszą położenie ciał niebieskich do Twojego kosmogramu. Solariusz przedstawia symboliczny obraz roku osobistego. Kalendarz księżycowy pokazuje informacje o Księżycu i oferuje opcjonalny dziennik."
+          ]
+        },
+        {
+          "heading": "Jakie dane będą potrzebne?",
+          "paragraphs": [
+            "Obliczenia osobiste wymagają odpowiednich danych: daty, godziny i miejsca urodzenia. Zgodność wymaga danych obu osób, a solariusz także roku i miejsca obliczenia. Kalendarz księżycowy nie wymaga osobistych danych urodzeniowych.",
+            "Dane wpisujesz w produkcie, a nie na tej stronie. Jeśli analizujesz kosmogram innej osoby, poproś ją o dane i upewnij się, że zgadza się je udostępnić."
+          ]
+        },
+        {
+          "heading": "Dostęp do Astro",
+          "paragraphs": [
+            "Astro i Tarot są dostępne w Mini App oraz aplikacji przeglądarkowej. W przeglądarce zaloguj się przez Telegram albo użyj zweryfikowanego adresu e-mail i hasła. Wspólny profil i kredyty wymagają tego samego konta lub jawnie połączonych tożsamości.",
+            "Niektóre funkcje są bezpłatne, a niektóre działania płatne. Warunki zależą od funkcji; przed potwierdzeniem aplikacja pokazuje cenę i ewentualny wymóg Premium."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy Astro i Tarot to to samo?",
+          "To odrębne sekcje. Tarot wykorzystuje karty w symbolicznych rozkładach, a Astro oferuje formaty astrologiczne. Obie są dostępne w Mini App i aplikacji przeglądarkowej."
+        ],
+        [
+          "Czy potrzebuję godziny urodzenia?",
+          "Obliczenia osobiste wymagają potrzebnych danych urodzeniowych, w tym godziny. Kalendarz księżycowy nie wymaga osobistych danych urodzenia."
+        ],
+        [
+          "Czy astrologia może wiarygodnie przepowiadać przyszłość?",
+          "Nie. Treści Astro służą rozrywce i autorefleksji, a nie wiarygodnemu przepowiadaniu przyszłości."
+        ]
+      ],
+      "eyebrow": "Osobna sekcja",
+      "card_text": "Kosmogramy, horoskopy i inne tematy do poznania.",
+      "related": [],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
+    },
+    "natal": {
+      "title": "Kosmogram urodzeniowy i interpretacja | Tarot Astro",
+      "h1": "Kosmogram urodzeniowy i interpretacja",
+      "description": "Dowiedz się, co przedstawia kosmogram urodzeniowy, dlaczego ważne są dane urodzenia oraz czym różnią się wykres, krótki portret i pełna interpretacja AI.",
+      "lead": "Kosmogram urodzeniowy przedstawia położenie ciał niebieskich w chwili narodzin. W Astro możesz poznać wykres i jego interpretację jako wprowadzenie do astrologii i zachętę do osobistej refleksji.",
+      "sections": [
+        {
+          "heading": "Wykres, portret i pełna interpretacja",
+          "paragraphs": [
+            "Wykres oblicza się na podstawie danych urodzeniowych; przedstawia położenie ciał niebieskich. Interpretacja astrologiczna łączy jego elementy z symbolicznymi tematami dotyczącymi osobowości i doświadczeń. Nie jest naukową oceną charakteru.",
+            "Wykres, krótki portret i pełna interpretacja AI to odrębne wyniki. Wykres przedstawia kosmogram, portret wprowadza do jego interpretacji, a pełny rozkład omawia go dokładniej."
+          ]
+        },
+        {
+          "heading": "Przygotuj dane i zacznij",
+          "paragraphs": [
+            "Gdy aplikacja o nie poprosi, podaj datę, godzinę i miejsce urodzenia. Godzina i miejsce wpływają na obliczenia, więc niepewne dane mogą zmienić kosmogram. Jeśli to możliwe, sprawdź je w wiarygodnym dokumencie.",
+            "Otwórz sekcję kosmogramu i uzupełnij wymagane pola. Możesz na przykład najpierw obejrzeć wykres i krótki portret, a potem sprawdzić warunki pełnej interpretacji. Dane osobowe wpisuje się w produkcie, a nie na tej stronie."
+          ]
+        },
+        {
+          "heading": "Interpretacja z dystansem",
+          "paragraphs": [
+            "Wybierz interesujący Cię temat i rozważ go w świetle własnych doświadczeń. Interpretacja nie stwierdza, że dana osoba na pewno ma określoną cechę.",
+            "Dostęp do wykresu, portretu i pełnego rozkładu może się różnić. Przed potwierdzeniem działania aplikacja pokazuje koszt, limity i ewentualny wymóg Premium."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy mogę podać przybliżoną godzinę urodzenia?",
+          "Aplikacja prosi o dane potrzebne do obliczenia osobistego kosmogramu. Niepewna godzina może prowadzić do innego wykresu i interpretacji."
+        ],
+        [
+          "Czy krótki portret to pełna interpretacja?",
+          "Nie. Portret to krótkie wprowadzenie, a pełna interpretacja AI omawia tematy bardziej szczegółowo."
+        ],
+        [
+          "Czy kosmogram dowodzi, jaki ktoś jest?",
+          "Nie. Kosmogramy są częścią astrologii i służą rozrywce oraz autorefleksji."
+        ]
+      ],
+      "eyebrow": "Twój kosmogram urodzeniowy",
+      "card_text": "Kosmogram urodzeniowy, krótki portret i pełna interpretacja.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
+    },
+    "compatibility": {
+      "title": "Zgodność astrologiczna i synastria | Tarot",
+      "h1": "Zgodność astrologiczna i synastria",
+      "description": "Dowiedz się, jak synastria porównuje dwa kosmogramy urodzeniowe, jakich danych urodzeniowych wymaga i czym różni się od horoskopu miłosnego.",
+      "lead": "Synastria to astrologiczne porównanie dwóch kosmogramów urodzeniowych. Tarot przedstawia ją jako symboliczny sposób refleksji nad relacją dwojga ludzi i tematami, o których warto wspólnie porozmawiać.",
+      "sections": [
+        {
+          "heading": "Jak działa synastria",
+          "paragraphs": [
+            "Najpierw oblicza się kosmogram każdej osoby, a potem porównuje oba wykresy. Interpretacja rozważa ich połączenie w ujęciu astrologicznym. Nie mierzy naukowo zgodności ani nie określa, jak potoczy się relacja.",
+            "Możesz na przykład zastanowić się dzięki rozkładowi, jakie oczekiwania wnosisz do relacji albo o czym chcesz porozmawiać. Odpowiedzi należą do Ciebie i drugiej osoby."
+          ]
+        },
+        {
+          "heading": "Co przygotować",
+          "paragraphs": [
+            "Potrzebne będą daty, godziny i miejsca urodzenia obu osób. Poproś drugą osobę o dane i upewnij się, że zgadza się je udostępnić. Dokładne informacje są ważne, ponieważ służą do obliczenia kosmogramów.",
+            "Otwórz w Astro sekcję zgodności i wypełnij wymagane pola. Jeśli działanie jest płatne lub wymaga Premium, aplikacja pokaże warunki przed potwierdzeniem."
+          ]
+        },
+        {
+          "heading": "Synastria, horoskopy miłosne i Tarot",
+          "paragraphs": [
+            "Synastria porównuje dwa kosmogramy urodzeniowe. Horoskop miłosny to inny, krótszy format astrologiczny. Rozkład Tarota o relacjach wykorzystuje karty i kontekst pytania.",
+            "Wybierz podejście, które Cię interesuje. Żaden z tych formatów nie ustala uczuć drugiej osoby ani nie zastępuje szczerej rozmowy."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy wystarczą nasze znaki zodiaku?",
+          "Synastria w Astro wymaga dat, godzin i miejsc urodzenia obu osób."
+        ],
+        [
+          "Czy dotyczy tylko związków romantycznych?",
+          "Porównanie może skłonić do refleksji nad relacją dwojga ludzi. Nie określa jakości relacji."
+        ],
+        [
+          "Czy powie mi, co ktoś czuje?",
+          "Nie. Interpretacja astrologiczna nie może ustalić uczuć ani intencji drugiej osoby."
+        ]
+      ],
+      "eyebrow": "Dwa kosmogramy urodzeniowe",
+      "card_text": "Porównanie kosmogramów i inspiracje do refleksji nad relacjami.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
+    },
+    "horoscopes": {
+      "title": "Horoskopy dzienne i miłosne | Tarot Astro",
+      "h1": "Horoskopy dzienne i miłosne",
+      "description": "Poznaj horoskopy dzienne, osobiste horoskopy miłosne i horoskopy dla dwojga w sekcji Astro aplikacji Tarot.",
+      "lead": "Astro oferuje horoskop dzienny, osobisty horoskop miłosny i horoskop miłosny dla dwojga. Każdy z nich to krótki format astrologiczny do refleksji nad dniem lub relacjami.",
+      "sections": [
+        {
+          "heading": "Wybierz horoskop",
+          "paragraphs": [
+            "Horoskop dzienny dotyczy danego dnia i jest dobrym początkiem krótkiej interpretacji astrologicznej. Osobisty horoskop miłosny skupia się na tematach relacji z Twojej perspektywy.",
+            "Horoskop dla dwojga dotyczy pary. Aby porównać dwa kosmogramy, odwiedź osobną sekcję zgodności: to inny format, który wymaga pełniejszych danych urodzeniowych."
+          ]
+        },
+        {
+          "heading": "Odbierz wynik i wróć do niego",
+          "paragraphs": [
+            "Otwórz Astro i wybierz horoskop. Aplikacja poprosi o informacje potrzebne w danym formacie; rozkład dotyczący innej osoby może wymagać również jej danych urodzeniowych. Produkt wskazuje, jakiego okresu dotyczy wynik.",
+            "Możliwość ponownego otwarcia wcześniejszego tekstu może zależeć od formatu i zapisanego wyniku. Przed potwierdzeniem nowego działania aplikacja pokazuje cenę i wymagania."
+          ]
+        },
+        {
+          "heading": "Zachowaj dystans do interpretacji",
+          "paragraphs": [
+            "Potraktuj horoskop jako symboliczną inspirację, a nie opis wydarzeń, które muszą nastąpić. Na przykład rozważ sugestię dotyczącą rozmowy lub odpoczynku w kontekście tego, co wiesz o swojej sytuacji.",
+            "Horoskop nie zna planów innej osoby ani nie gwarantuje, jak potoczy się Twój dzień. Praktyczne decyzje opieraj na wiarygodnych informacjach i rzeczywistej sytuacji."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czym osobisty horoskop miłosny różni się od horoskopu dla dwojga?",
+          "Format osobisty skupia się na tematach Twojej relacji, a drugi dotyczy dwojga ludzi."
+        ],
+        [
+          "Czy mogę ponownie przeczytać wcześniejszy horoskop?",
+          "Warunki zależą od formatu i zapisanego wyniku. Sprawdź jego dostępność w aplikacji."
+        ],
+        [
+          "Czy przepowiada, jaki będzie dzień?",
+          "Nie. Służy rozrywce i autorefleksji, a nie wiarygodnemu przepowiadaniu wydarzeń."
+        ]
+      ],
+      "eyebrow": "Krótkie formaty",
+      "card_text": "Horoskopy dzienne, osobiste miłosne i dla par.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
+    },
+    "transits": {
+      "title": "Tranzyty osobiste i wydarzenia astrologiczne | Tarot",
+      "h1": "Tranzyty osobiste i wydarzenia astrologiczne",
+      "description": "Dowiedz się, jak tranzyty astrologiczne odnoszą położenie ciał niebieskich do Twojego kosmogramu, i poznaj osobiste wydarzenia astrologiczne.",
+      "lead": "Tranzyty astrologiczne porównują położenie ciał niebieskich w wybranym dniu z Twoim kosmogramem. W Astro poznaj interpretację tranzytów i osobistych wydarzeń astrologicznych jako symboliczny obraz danego okresu.",
+      "sections": [
+        {
+          "heading": "Tranzyty a Twój kosmogram",
+          "paragraphs": [
+            "Kosmogram przedstawia położenie ciał niebieskich w chwili narodzin, obliczone na podstawie daty, godziny i miejsca urodzenia. Rozkład tranzytów odnosi do niego położenie w innym dniu.",
+            "Kosmogram jest punktem wyjścia; rozkład tranzytów dodaje wybraną datę i interpretację astrologiczną. Nie jest naukową prognozą wydarzeń życiowych."
+          ]
+        },
+        {
+          "heading": "Poznaj wybraną datę i osobiste wydarzenia",
+          "paragraphs": [
+            "Otwórz odpowiednią sekcję Astro i podaj wymagane dane urodzeniowe, jeśli nie zostały jeszcze zapisane. Wybierz dostępną datę i przeczytaj wynik. Osobna lista pozwala poznać osobiste wydarzenia astrologiczne dostępne w produkcie.",
+            "Dostępne daty i warunki dostępu zależą od funkcji. Przed potwierdzeniem aplikacja pokazuje wymóg płatności lub Premium. Nie musisz podawać danych urodzeniowych na tej stronie."
+          ]
+        },
+        {
+          "heading": "Potraktuj to jako zachętę do refleksji",
+          "paragraphs": [
+            "Interpretacja może podsunąć temat, któremu warto poświęcić uwagę, lub zachęcić do ponownego przyjrzenia się planom. Zastanów się, czy masz praktyczne powody do zmiany i jaki mały krok może pomóc.",
+            "Osobiste wydarzenia astrologiczne dotyczą położenia ciał niebieskich i ich interpretacji. Nie są listą wiarygodnie przepowiedzianych wydarzeń z Twojego życia."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Jakie dane urodzeniowe są potrzebne?",
+          "Aplikacja prosi o niezbędne dane: datę, godzinę i miejsce urodzenia."
+        ],
+        [
+          "Czy wydarzenia astrologiczne to wydarzenia z mojego życia?",
+          "Nie. Lista dotyczy położeń astrologicznych i ich interpretacji, a nie ustalonych wydarzeń z przyszłości."
+        ],
+        [
+          "Czy mogę wybrać datę?",
+          "Tak. W sekcji tranzytów możesz wybrać dostępną datę; aplikacja pokazuje dostępny zakres."
+        ]
+      ],
+      "eyebrow": "Data i Twój kosmogram",
+      "card_text": "Interpretacja tranzytów i osobiste wydarzenia astrologiczne.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
+    },
+    "solar": {
+      "title": "Solariusz: astrologiczny obraz roku | Tarot",
+      "h1": "Solariusz: astrologiczny obraz roku",
+      "description": "Dowiedz się, czym jest solariusz, jakich danych wymaga jego obliczenie i czym różni się od kosmogramu urodzeniowego.",
+      "lead": "Solariusz to format astrologiczny przedstawiający symboliczny obraz roku osobistego. W Tarot oblicz solariusz i poznaj jego tematy na podstawie danych urodzeniowych, wybranego roku i miejsca obliczenia.",
+      "sections": [
+        {
+          "heading": "Czym jest solariusz?",
+          "paragraphs": [
+            "Kosmogram solariusza oblicza się na moment, gdy Słońce wraca do położenia z chwili urodzenia. W astrologii służy do rozważania tematów roku osobistego.",
+            "Interpretacja może zachęcić do przemyślenia priorytetów i planów. Nie określa, jakie wydarzenia nastąpią w tym okresie."
+          ]
+        },
+        {
+          "heading": "Jakie dane przygotować",
+          "paragraphs": [
+            "Potrzebujesz daty, godziny i miejsca urodzenia, a także roku i miejsca obliczenia solariusza. Przed wysłaniem sprawdź dane: posłużą do utworzenia kosmogramu.",
+            "Otwórz solariusz w Astro, wypełnij pola i sprawdź warunki dostępu. Przed potwierdzeniem aplikacja pokazuje cenę i ewentualny wymóg kredytów lub Premium."
+          ]
+        },
+        {
+          "heading": "Czym różni się od innych formatów",
+          "paragraphs": [
+            "Kosmogram urodzeniowy dotyczy chwili narodzin, a solariusz przedstawia odrębne astrologiczne spojrzenie na rok osobisty. Rozkład Tarota na nadchodzący rok wykorzystuje symbolikę kart i ich pozycji.",
+            "Po przeczytaniu interpretacji solariusza możesz na przykład zapisać własne priorytety i zastanowić się, jakich realnych zasobów potrzebujesz, by je zrealizować. Decyzje podejmuj, uwzględniając swoją sytuację i wiarygodne informacje."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Dlaczego potrzebne jest miejsce obliczenia?",
+          "Miejsce jest jednym z danych do obliczenia kosmogramu solariusza, obok roku i danych urodzeniowych."
+        ],
+        [
+          "Czy może pomóc mi przemyśleć nadchodzący rok?",
+          "Może skłonić Cię do określenia własnych pytań i priorytetów. Praktyczne decyzje podejmuj w oparciu o swoją sytuację i wiarygodne informacje."
+        ],
+        [
+          "Czy przewiduje konkretne wydarzenia?",
+          "Nie. Interpretacja solariusza jest symboliczna, a nie wiarygodną prognozą wydarzeń."
+        ]
+      ],
+      "eyebrow": "Rok osobisty",
+      "card_text": "Tematy astrologiczne i własne priorytety.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
+    },
+    "moon": {
+      "title": "Kalendarz księżycowy i dziennik | Tarot Astro",
+      "h1": "Kalendarz księżycowy i dziennik",
+      "description": "Poznaj informacje o Księżycu w Astro i opcjonalnie zapisuj nastrój, energię oraz krótką notatkę w dzienniku.",
+      "lead": "Kalendarz księżycowy w Astro zawiera informacje o Księżycu, w tym o jego fazie. Opcjonalny dziennik pozwala zapisywać nastrój, energię i notatkę o minionym dniu.",
+      "sections": [
+        {
+          "heading": "Poznaj kalendarz księżycowy",
+          "paragraphs": [
+            "Faza Księżyca określa widoczną, oświetloną część jego tarczy. Kalendarz gromadzi aktualne informacje o Księżycu w jednej sekcji aplikacji.",
+            "Jeśli interesuje Cię perspektywa astrologiczna, potraktuj ją jako temat do obserwacji i refleksji. Sama faza Księżyca nie dowodzi wpływu na zdrowie, nastrój ani powodzenie działań."
+          ]
+        },
+        {
+          "heading": "Prowadź opcjonalny dziennik",
+          "paragraphs": [
+            "Otwórz dziennik obok sekcji Księżyca i, jeśli chcesz, zapisz swój nastrój i energię lub dodaj krótką notatkę. Możesz na przykład opisać, co pomogło Ci dziś odpocząć albo co chcesz zrobić jutro.",
+            "Nie musisz niczego zapisywać. Historia pozwala wracać do wcześniejszych notatek. Dodawaj tylko te informacje, które chcesz zachować w produkcie."
+          ]
+        },
+        {
+          "heading": "Czy potrzebne są dane urodzeniowe?",
+          "paragraphs": [
+            "Kalendarz księżycowy nie wymaga osobistych danych urodzeniowych. Kosmogramy, tranzyty i inne obliczenia osobiste osobno proszą o potrzebne informacje.",
+            "Otwórz sekcję Księżyca i poznaj dostępne informacje. Aktualne warunki poszczególnych działań są widoczne w produkcie. Ta strona nie zbiera osobistych wpisów z dziennika."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Czy muszę pisać codziennie?",
+          "Nie. Dziennik jest opcjonalny; korzystaj z niego, gdy chcesz coś zapisać."
+        ],
+        [
+          "Czy potrzebuję godziny i miejsca urodzenia?",
+          "Kalendarz księżycowy nie wymaga osobistych danych urodzeniowych."
+        ],
+        [
+          "Czy faza Księżyca powie mi, czy plan się powiedzie?",
+          "Nie. Kalendarz zawiera informacje o Księżycu, a nie wiarygodną prognozę skutków Twoich działań."
+        ]
+      ],
+      "eyebrow": "Obserwacje i notatki",
+      "card_text": "Informacje o Księżycu i opcjonalna notatka o Twoim dniu.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Astro obok Tarota",
+      "example_text": "Aplikacja przedstawia formaty astrologiczne z jasnymi nazwami i warunkami dostępu. Wybierz temat, podaj odpowiednie dane i sprawdź wymagania przed potwierdzeniem."
     }
+  },
+  "demo": {
+    "name": "Przykład",
+    "reading_title": "Rozkład z trzech kart",
+    "question": "Co może mi pomóc zrobić następny krok?",
+    "positions": [
+      "Przeszłość",
+      "Teraźniejszość",
+      "Przyszłość"
+    ],
+    "card_names": [
+      "Głupiec",
+      "Mag",
+      "Gwiazda"
+    ],
+    "answer_title": "Nowe spojrzenie na sytuację",
+    "answer": "Głupiec podpowiada, by zacząć od małego kroku. Mag wskazuje umiejętności, z których możesz skorzystać, a Gwiazda zachęca, by nie tracić z oczu celu. Wybierz jeden wykonalny krok i zastanów się nad jego efektem."
   }
 }

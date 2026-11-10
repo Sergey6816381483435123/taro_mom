@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Letture personali dei Tarocchi con IA su Telegram | Taroshenka",
-    "description": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-    "ogTitle": "Letture personali dei Tarocchi con IA su Telegram",
-    "ogDescription": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-    "twitterTitle": "Letture personali dei Tarocchi con IA su Telegram",
-    "twitterDescription": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "Apri in Telegram",
-    "brandAria": "Italiano Taroshenka",
-    "primaryAria": "Come funziona",
-    "how": "Come funziona",
-    "readings": "Letture",
+    "brand": "Tarot",
+    "home": "Inizio",
+    "tarot": "Tarot",
+    "astro": "Astro",
     "faq": "Domande frequenti",
-    "languageAria": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-    "headerCta": "Apri in Telegram",
-    "home": "Italiano",
-    "breadcrumbAria": "Domande frequenti",
-    "identity": "Bot:",
-    "factsAria": "Come funziona"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Letture personali dei Tarocchi con IA su Telegram",
-      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "cta": "Ottieni una lettura dei Tarocchi",
-      "imageAlt": "Letture personali dei Tarocchi con IA su Telegram"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+    "skip": "Vai al contenuto principale",
+    "breadcrumbs": "Percorso di navigazione",
+    "switch_language": "Scegli la lingua",
+    "explore": "Scopri",
+    "entry_heading": "Tre modi per aprire Tarot",
+    "entry_labels": [
+      "Apri Tarot",
+      "Apri la Mini App Astro",
+      "Apri nel browser"
     ],
-    "how": {
-      "eyebrow": "Come funziona",
-      "title": "Come funziona",
-      "intro": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "steps": [
-        [
-          "Come funziona",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "Chiedi alle carte ciò che conta per te",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "Letture",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Letture",
-      "title": "Letture",
-      "intro": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "items": [
-        [
-          "daily-card",
-          "Carta del giorno",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "yes-no",
-          "Sì o No",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "three-card",
-          "Stesa a tre carte",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "relationships",
-          "Lettura sulle relazioni",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "premium",
-          "Letture Premium",
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Chiedi alle carte ciò che conta per te",
-      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "personal": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Letture Premium",
-      "intro": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Per questa lingua il pagamento avviene con Telegram Stars."
-    },
-    "languages": {
-      "eyebrow": "Italiano",
-      "title": "Letture personali dei Tarocchi con IA su Telegram",
-      "text": "{count}: Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "names": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-    },
-    "faq": [
-      [
-        "Chiedi alle carte ciò che conta per te",
-        "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-      ],
-      [
-        "Does it predict the future?",
-        "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-      ],
-      [
-        "Domande frequenti",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Per questa lingua il pagamento avviene con Telegram Stars."
-      ],
-      [
-        "20",
-        "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-      ],
-      [
-        "Languages",
-        "20: Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
-      ]
+    "entry_notes": [
+      "Letture dei tarocchi nella chat Telegram.",
+      "Apri Astro, poi avvia l’app con il relativo pulsante Telegram.",
+      "L’app con accesso tramite Telegram o email."
     ],
-    "disclaimer": {
-      "title": "Domande frequenti",
-      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo."
+    "entity_description": "Tarot è un servizio di letture dei tarocchi con interpretazioni dell’IA e una sezione Astro separata, disponibile su Telegram, nella Mini App e nel browser.",
+    "hero_alt": "Una lettrice di tarocchi studia le carte a lume di candela in un ambiente blu notte e viola",
+    "tarot_heading": "Trova una lettura adatta alla tua domanda",
+    "tarot_intro": "Scopri una breve prospettiva simbolica o una lettura più dettagliata. L’interpretazione collega le carte alle loro posizioni e al contesto della tua domanda.",
+    "astro_heading": "Uno spazio dedicato all’astrologia",
+    "astro_intro": "Scopri temi natali, compatibilità e altri formati astrologici. Ogni pagina spiega cosa offre e quali dati servono per il calcolo.",
+    "inside": "Dentro l’app",
+    "example_heading": "Le carte, il significato e la tua domanda",
+    "example_text": "Guarda le carte e scopri un’interpretazione dell’IA basata sulla tua domanda. Per alcune letture puoi chiedere un chiarimento o aggiungere una carta.",
+    "example_caption": "Interfaccia effettiva dell’app con dati dimostrativi. È un esempio, non una lettura di un utente reale.",
+    "image_alt": {
+      "tarot": "Una lettura dimostrativa dei tarocchi nell’app con carte Rider–Waite e un’interpretazione dell’IA",
+      "card": "Una carta dei tarocchi Rider–Waite aperta nel visualizzatore dell’app",
+      "astro": "La sezione Astro dell’app con la selezione dell’orientamento e un diario giornaliero"
     },
-    "cta": {
-      "title": "Chiedi alle carte ciò che conta per te",
-      "text": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "button": "Apri in Telegram"
-    }
+    "account_text": "Il profilo, i crediti e la cronologia sono condivisi se usi lo stesso account o colleghi esplicitamente le identità. Una registrazione separata via email non unisce automaticamente gli account.",
+    "cross_link_astro": "Scopri Astro",
+    "cross_link_tarot": "Scopri le letture dei tarocchi",
+    "answers": "Risposte alle domande",
+    "related": "Argomenti correlati",
+    "final_title": "Scegli come iniziare",
+    "final_text": "Usa una chat Telegram, la Mini App all’interno di Telegram o l’app per browser. Scegli l’esperienza più adatta a te.",
+    "disclaimer_title": "Per intrattenimento e riflessione personale",
+    "disclaimer": "Le letture dei tarocchi e le interpretazioni dell’IA sono pensate per l’intrattenimento e la riflessione personale. Non sono previsioni attendibili del futuro e non sostituiscono l’assistenza medica, psicologica, legale, finanziaria o di altri professionisti. Le decisioni importanti spettano a te.",
+    "astro_disclaimer": "Anche i contenuti astrologici sono pensati per l’intrattenimento e la riflessione personale. Non sono previsioni attendibili del futuro e non sostituiscono l’assistenza medica, psicologica, legale, finanziaria o di altri professionisti. Le decisioni importanti spettano a te.",
+    "support": "Assistenza",
+    "other_languages": "Lingue",
+    "other_languages_note": "Tutte le sezioni di questo sito sono disponibili in 20 lingue.",
+    "attribution_note": "I link di accesso includono un identificativo di segnalazione. L’app per browser può conservare il primo invito valido per un massimo di 30 giorni e applicarlo solo alla registrazione di un nuovo account. Questo sito non raccoglie le tue domande, il tuo indirizzo email o i tuoi dati di nascita."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot — letture di tarocchi con IA su Telegram e nell’app",
+      "h1": "Letture personali di tarocchi con IA per le tue domande",
+      "description": "Scopri le letture dei tarocchi con interpretazioni dell’IA su Telegram, nella Mini App o nel browser. Cronologia delle letture, significati di riferimento delle carte e una sezione Astro separata.",
+      "lead": "Scegli una lettura, fai la domanda che ti sta a cuore ed esplora la tua situazione attraverso il simbolismo dei tarocchi. Usa Tarot in una chat Telegram, nella Mini App o nel browser.",
+      "sections": [
+        {
+          "heading": "Dalla domanda a un’interpretazione d’insieme",
+          "paragraphs": [
+            "Scegli il formato più adatto alla tua domanda. Quando una lettura richiede un contesto, descrivi la situazione con parole tue: cosa sta accadendo, cosa ti lascia incerto e cosa vorresti approfondire.",
+            "Guarda le carte estratte e leggi un’interpretazione dell’IA che mette in relazione le posizioni, le combinazioni e il verso diritto o rovesciato. La domanda fornisce il contesto; conclusioni e decisioni spettano a te."
+          ]
+        },
+        {
+          "heading": "Inizia con una lettura breve o approfondisci",
+          "paragraphs": [
+            "Inizia con la Carta del giorno, il Consiglio delle carte, Sì o no oppure una lettura a tre carte. Tra i formati sulle relazioni ci sono La nostra relazione, Un nuovo amore, Cosa prova? e Tornerà? I nomi indicano il tema di una lettura simbolica, non una conoscenza attendibile dei sentimenti altrui."
+          ],
+          "items": [
+            "Esplora una situazione con Futuro prossimo, Il mio prossimo passo o Evoluzione della situazione.",
+            "Per una visione più ampia, confronta due opzioni oppure scegli Lavoro e finanze, la Croce celtica o una lettura per l’anno a venire.",
+            "Alcuni formati estesi richiedono Premium. Le condizioni di accesso aggiornate sono indicate nel prodotto."
+          ]
+        },
+        {
+          "heading": "Riprendi una lettura e approfondiscila",
+          "paragraphs": [
+            "Per alcuni risultati puoi porre una domanda di chiarimento o aggiungere una carta nel contesto della lettura originale. La cronologia ti permette di ritrovare domande e interpretazioni salvate.",
+            "Nell’app, apri l’immagine di una carta e, se l’opzione è attiva, leggine il significato di riferimento. La scheda spiega il simbolismo; l’interpretazione dell’IA lo collega alla tua lettura. La lingua e il mazzo che preferisci vengono salvati nel profilo."
+          ]
+        },
+        {
+          "heading": "Funzioni gratuite, crediti e Premium",
+          "paragraphs": [
+            "Il prodotto include funzioni gratuite, come la Carta del giorno su Telegram. Le azioni a pagamento usano crediti. Premium dà accesso a formati estesi dei tarocchi e ad alcune funzioni Astro, ma non offre un uso illimitato.",
+            "Prima che tu confermi un’azione, il bot o l’app mostra il prezzo e i requisiti. L’accesso può dipendere dal formato, dall’abbonamento, dall’idoneità a una prova o da un risultato salvato. Consulta le condizioni d’acquisto aggiornate nel prodotto. La Ruota della fortuna è una funzione separata e non garantisce premi in crediti."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Che cos’è Tarot?",
+          "Tarot è un servizio di letture dei tarocchi con interpretazioni dell’IA, disponibile in una chat Telegram, nella Mini App e nel browser. L’app include anche una sezione Astro separata."
+        ],
+        [
+          "Quale modalità di accesso dovrei scegliere?",
+          "Apri Tarot per fare letture in chat. Per usare l’app visuale dentro Telegram, apri Astro e avviala con il relativo pulsante Telegram. Scegli l’accesso via browser per usare l’app fuori da Telegram."
+        ],
+        [
+          "Posso usarlo senza Telegram?",
+          "L’app nel browser consente di accedere con Telegram oppure di registrarsi con un indirizzo email verificato e una password. Un account email separato viene collegato a Telegram solo dopo la conferma."
+        ],
+        [
+          "Cosa include Premium?",
+          "Premium sblocca diverse funzioni estese. Alcune azioni richiedono comunque crediti; prima della conferma il prodotto mostra i requisiti applicabili."
+        ],
+        [
+          "Predice il futuro?",
+          "No. Le letture offrono una prospettiva simbolica a scopo di intrattenimento e riflessione personale; non sono previsioni attendibili e non sostituiscono l’aiuto di un professionista."
+        ]
+      ],
+      "eyebrow": "Uno spazio personale per i tarocchi",
+      "card_text": "Trova una lettura adatta alla tua domanda",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Carta del giorno",
-      "title": "Carta del giorno",
-      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
-      "bullets": [
-        "Carta del giorno",
-        "Una prospettiva simbolica per riflettere.",
-        "Un’interpretazione nel contesto della domanda."
+      "title": "Carta dei tarocchi del giorno — uno spunto simbolico | Tarot",
+      "h1": "Una carta dei tarocchi al giorno per riflettere",
+      "description": "Ricevi gratis la Carta del giorno nel bot Telegram di Tarot e usa l’immagine e il breve significato come spunto di riflessione.",
+      "lead": "La Carta del giorno è un modo semplice per avvicinarsi ai tarocchi attraverso una carta e il suo breve significato. Ricevila gratis nel bot Telegram e scegli un tema su cui riflettere durante la giornata.",
+      "sections": [
+        {
+          "heading": "Una carta, una domanda da farti",
+          "paragraphs": [
+            "Osserva l’immagine e leggi il significato. Non devi considerarlo una previsione letterale. Nota piuttosto se il tema richiama i tuoi pensieri o i tuoi progetti attuali.",
+            "Per esempio, puoi chiederti cosa merita oggi la tua attenzione. Usa la risposta come promemoria personale o come punto di partenza per una lettura più approfondita."
+          ]
+        },
+        {
+          "heading": "Come ricevere la Carta del giorno",
+          "paragraphs": [
+            "Apri Tarot su Telegram e avvia la chat per ricevere la Carta del giorno con la sua immagine e un breve significato.",
+            "La Carta del giorno e la Ruota della fortuna sono funzioni diverse. La Ruota prevede un giro e un possibile premio; non sostituisce la lettura della carta e non garantisce crediti."
+          ]
+        },
+        {
+          "heading": "Quando vuoi più contesto",
+          "paragraphs": [
+            "Per una situazione specifica, prova il Consiglio delle carte, Sì o no o una lettura a tre carte. Prima di un’azione a pagamento, il bot mostra i requisiti. L’app permette anche di vedere le carte e, facoltativamente, i relativi significati di riferimento."
+          ]
+        }
       ],
-      "alt": "Carta del giorno"
+      "faq": [
+        [
+          "La Carta del giorno è gratuita?",
+          "Sì. Il catalogo Telegram attuale offre gratuitamente la Carta del giorno. Le altre azioni hanno condizioni proprie, mostrate prima della conferma."
+        ],
+        [
+          "Predice cosa accadrà oggi?",
+          "No. Propone un tema simbolico su cui riflettere, non una previsione attendibile degli eventi futuri."
+        ],
+        [
+          "In cosa differisce dal Consiglio delle carte?",
+          "La Carta del giorno è uno spunto generale per la giornata. Il Consiglio delle carte è una breve lettura distinta, dedicata a una domanda personale e soggetta alle proprie condizioni di accesso."
+        ]
+      ],
+      "eyebrow": "Una carta",
+      "card_text": "L’immagine di una carta e un breve significato per iniziare la giornata.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Sì o No",
-      "title": "Sì o No",
-      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
-      "bullets": [
-        "Sì o No",
-        "Una prospettiva simbolica per riflettere.",
-        "Un’interpretazione nel contesto della domanda."
+      "title": "Tarocchi sì o no — una lettura a una carta | Tarot",
+      "h1": "Una lettura dei tarocchi mirata con risposta sì o no",
+      "description": "Fai una domanda precisa e approfondisci una lettura dei tarocchi a una carta, con un’interpretazione dell’IA basata sulla tua situazione.",
+      "lead": "Sì o no è una lettura a una carta per una domanda precisa. Tarot interpreta la carta nel suo contesto e ti offre uno spunto, senza decidere al posto tuo.",
+      "sections": [
+        {
+          "heading": "Fai una domanda chiara",
+          "paragraphs": [
+            "Scegli una situazione e specifica cosa vuoi approfondire. «Dovrei parlare con il mio responsabile delle nuove mansioni?» dà un contesto più chiaro di varie domande non correlate tutte insieme.",
+            "Questo formato offre un orientamento simbolico. Per una decisione importante, valuta l’interpretazione insieme a fatti attendibili, alla tua situazione e, quando serve, al parere di un professionista."
+          ]
+        },
+        {
+          "heading": "Cosa offre la lettura",
+          "paragraphs": [
+            "Viene estratta una carta. L’interpretazione dell’IA collega il suo simbolismo e il suo verso alla tua domanda, offrendo una spiegazione che va oltre un semplice sì o no.",
+            "Guarda l’immagine e nota quali idee ti sono utili. La carta non può accertare le intenzioni di un’altra persona né garantire l’esito di un’azione."
+          ]
+        },
+        {
+          "heading": "Come iniziare",
+          "paragraphs": [
+            "Apri Tarot o l’app, scegli Sì o no, inserisci la domanda e controlla le condizioni dell’azione. Dopo la conferma, esplora la carta e l’interpretazione. Se la domanda ha più aspetti collegati, considera una lettura a tre carte."
+          ]
+        }
       ],
-      "alt": "Sì o No"
+      "faq": [
+        [
+          "Posso fare più domande insieme?",
+          "Per questo formato breve, scegli una sola domanda precisa. Sarà più facile seguire il contesto."
+        ],
+        [
+          "La risposta è garantita?",
+          "No. È un’interpretazione simbolica per la riflessione personale, non una previsione attendibile né un fatto verificato sulla situazione."
+        ],
+        [
+          "Quale formato è più adatto a una domanda complessa?",
+          "Una lettura a tre carte o un altro formato pertinente può aiutarti a considerare più aspetti collegati."
+        ]
+      ],
+      "eyebrow": "Una domanda precisa",
+      "card_text": "Una carta con una spiegazione legata alla tua domanda.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Stesa a tre carte",
-      "title": "Stesa a tre carte",
-      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
-      "bullets": [
-        "Stesa a tre carte",
-        "Una prospettiva simbolica per riflettere.",
-        "Un’interpretazione nel contesto della domanda."
+      "title": "Lettura dei tarocchi a tre carte con IA | Tarot",
+      "h1": "Esplora una situazione con tre carte collegate",
+      "description": "Esplora una stesa di tarocchi a tre carte con le immagini e un’interpretazione d’insieme dell’IA basata sulla tua domanda.",
+      "lead": "Una lettura a tre carte permette di esplorare una domanda in modo sintetico, considerando i significati delle singole carte e i loro legami. Tarot crea un’unica interpretazione dell’IA a partire dalla domanda e dalle posizioni delle carte.",
+      "sections": [
+        {
+          "heading": "Perché contano i collegamenti",
+          "paragraphs": [
+            "Ogni carta ha un ruolo nella stesa. L’interpretazione le considera nel loro insieme per offrire una prospettiva collegata. Il risultato mostra le posizioni effettive e i relativi nomi.",
+            "Non tutti i formati a tre carte usano passato, presente e futuro. Leggi le posizioni del formato scelto e valuta come si collegano alla tua domanda."
+          ]
+        },
+        {
+          "heading": "Aggiungi un po’ di contesto alla domanda",
+          "paragraphs": [
+            "Per esempio: «Vorrei riprendere un progetto che avevo accantonato. Cosa dovrei valutare?» Aggiungi il contesto pertinente senza riunire situazioni diverse in un’unica lettura breve.",
+            "Guarda le carte nell’ordine indicato, poi leggi l’interpretazione complessiva. Può aiutarti a definire il tuo prossimo passo, ma non lo sceglie al posto tuo."
+          ]
+        },
+        {
+          "heading": "Dopo la lettura",
+          "paragraphs": [
+            "Ritrova un risultato salvato nella cronologia del tuo account. Se disponibile, una domanda di chiarimento o una carta aggiuntiva ti permette di approfondire il contesto originale. Prima della conferma, il prodotto mostra prezzo e requisiti."
+          ]
+        }
       ],
-      "alt": "Stesa a tre carte"
+      "faq": [
+        [
+          "Cosa significano le tre posizioni?",
+          "Dipendono dal formato scelto e sono indicate nel risultato. Non dare per scontato che rappresentino sempre passato, presente e futuro."
+        ],
+        [
+          "Posso ritrovare la risposta?",
+          "Le letture salvate sono disponibili nella cronologia del tuo account. Per condividere l’accesso tra diverse modalità, usa lo stesso account o identità collegate esplicitamente."
+        ],
+        [
+          "Ho bisogno di Premium?",
+          "Il bot o l’app mostra i requisiti aggiornati del formato scelto. Premium sblocca alcuni formati estesi, ma non offre accesso illimitato."
+        ]
+      ],
+      "eyebrow": "Tre carte",
+      "card_text": "Più aspetti collegati di un’unica domanda.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "Lettura sulle relazioni",
-      "title": "Lettura sulle relazioni",
-      "lead": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo.",
-      "body": "Il bot dei Tarocchi è disponibile in 20 lingue. Salva la lingua nel tuo profilo. Un’interpretazione nel contesto della domanda.",
-      "bullets": [
-        "Lettura sulle relazioni",
-        "Una prospettiva simbolica per riflettere.",
-        "Un’interpretazione nel contesto della domanda."
+      "title": "Lettura dei tarocchi sulle relazioni con IA | Tarot",
+      "h1": "Rifletti sulle dinamiche di una relazione",
+      "description": "Scopri La nostra relazione, una lettura dei tarocchi a cinque carte, e altri formati per riflettere sui rapporti senza pretendere di leggere nella mente altrui.",
+      "lead": "La nostra relazione è una lettura a cinque carte sulle dinamiche tra le persone. Offre una prospettiva simbolica su aspettative, esperienze e possibili direzioni; conclusioni e decisioni restano tue.",
+      "sections": [
+        {
+          "heading": "Descrivi ciò che ti sta a cuore",
+          "paragraphs": [
+            "Descrivi il rapporto e la domanda che hai in mente. Per esempio: «Ultimamente ci sentiamo meno spesso e vorrei capire come parlarne». Il contesto aiuta a collegare l’interpretazione al tema.",
+            "Non è necessario condividere dati personali superflui sull’altra persona. Sentimenti e intenzioni si comprendono attraverso una comunicazione reale, non sono fatti accertabili con una lettura."
+          ]
+        },
+        {
+          "heading": "Cosa offrono le cinque carte",
+          "paragraphs": [
+            "Ogni carta ha una posizione e l’interpretazione dell’IA ne collega i significati in un’unica lettura. Il risultato include i nomi delle posizioni e le immagini delle carte.",
+            "La lettura propone diversi aspetti da considerare. Non dimostra cosa prova una persona né stabilisce come si evolverà una relazione."
+          ]
+        },
+        {
+          "heading": "Altre domande sulle relazioni",
+          "paragraphs": [
+            "Il catalogo comprende anche Un nuovo amore, Cosa prova? e Tornerà? Questi nomi indicano i temi di letture simboliche. Alcuni formati richiedono Premium; il prodotto mostra le condizioni prima della conferma.",
+            "Per un approccio diverso, Astro propone la compatibilità tramite il confronto di due temi natali. È un formato separato che usa i dati di nascita di entrambe le persone."
+          ]
+        }
       ],
-      "alt": "Lettura sulle relazioni"
+      "faq": [
+        [
+          "Posso scoprire cosa prova davvero un’altra persona?",
+          "No. Una lettura non può accertare pensieri o sentimenti di un’altra persona. Puoi usarla per formulare le tue domande e prepararti a parlarne."
+        ],
+        [
+          "Garantisce che il partner tornerà?",
+          "Nessun formato garantisce le azioni di un’altra persona o l’esito di una relazione."
+        ],
+        [
+          "In cosa differisce dalla sinastria?",
+          "Tarot usa le carte e il contesto di una domanda. La sinastria confronta due temi natali e richiede i dati di nascita di entrambe le persone."
+        ]
+      ],
+      "eyebrow": "Relazioni",
+      "card_text": "Cinque carte su interazioni, aspettative e sulla tua situazione.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: temi natali, oroscopi e calendario lunare | Tarot",
+      "h1": "Astro: astrologia personale",
+      "description": "Scopri Astro in Tarot: temi natali, compatibilità, oroscopi, transiti, rivoluzioni solari, calendario lunare e diario giornaliero facoltativo.",
+      "lead": "Astro è la sezione di Tarot dedicata all’astrologia: include temi natali, oroscopi e altro. Scegli un argomento che ti interessa e approfondiscilo come intrattenimento e spunto di riflessione.",
+      "sections": [
+        {
+          "heading": "Scegli il formato per la tua domanda",
+          "paragraphs": [
+            "Un tema natale rappresenta la posizione degli astri al momento della nascita. Per approfondire una relazione, confronta due temi con la compatibilità oppure scegli un oroscopo d’amore.",
+            "Transiti ed eventi astrologici personali mettono in relazione le posizioni degli astri con il tuo tema natale. La rivoluzione solare offre una prospettiva simbolica sull’anno personale. Il calendario lunare fornisce informazioni sulla Luna e include un diario giornaliero facoltativo."
+          ]
+        },
+        {
+          "heading": "Quali informazioni ti servono?",
+          "paragraphs": [
+            "I calcoli personali richiedono la data, l’ora e il luogo di nascita pertinenti. Per la compatibilità servono i dati di entrambe le persone; per la rivoluzione solare occorrono anche un anno e il luogo di calcolo. Il calendario lunare non richiede dati personali di nascita.",
+            "Inserisci i dati nel prodotto, non su questo sito. Se vuoi consultare il tema di un’altra persona, chiedile le informazioni e assicurati che acconsenta a condividerle."
+          ]
+        },
+        {
+          "heading": "Accedere ad Astro",
+          "paragraphs": [
+            "Astro e Tarot sono disponibili nella Mini App e nell’app per browser. Dal browser puoi accedere con Telegram oppure con un indirizzo email verificato e una password. Per condividere dati del profilo e crediti occorre usare lo stesso account o collegare esplicitamente le identità.",
+            "Alcune funzioni sono gratuite e alcune azioni sono a pagamento. Le condizioni variano in base alla funzione; prima della conferma l’app mostra l’eventuale prezzo e il requisito Premium."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Astro e Tarot sono la stessa cosa?",
+          "Sono due sezioni diverse. Tarot usa le carte per letture simboliche; Astro offre formati astrologici. Entrambe sono disponibili nella Mini App e nell’app per browser."
+        ],
+        [
+          "Mi serve l’ora di nascita?",
+          "I calcoli personali richiedono i dati di nascita necessari, inclusa l’ora. Il calendario lunare non richiede dati personali di nascita."
+        ],
+        [
+          "L’astrologia può prevedere il futuro in modo attendibile?",
+          "No. I contenuti Astro sono pensati per l’intrattenimento e la riflessione personale, non per fare previsioni attendibili."
+        ]
+      ],
+      "eyebrow": "Una sezione separata",
+      "card_text": "Temi natali, oroscopi e altro da scoprire.",
+      "related": [],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
+    },
+    "natal": {
+      "title": "Tema natale e interpretazione | Astro di Tarot",
+      "h1": "Tema natale e interpretazione",
+      "description": "Scopri cosa rappresenta un tema natale, perché sono importanti i dati di nascita e in cosa differiscono il grafico, il ritratto breve e l’interpretazione completa dell’IA.",
+      "lead": "Un tema natale rappresenta la posizione degli astri al momento della nascita. In Astro puoi esplorare il grafico e la relativa interpretazione come introduzione all’astrologia e spunto di riflessione personale.",
+      "sections": [
+        {
+          "heading": "Il grafico, il ritratto e la lettura completa",
+          "paragraphs": [
+            "Il tema viene calcolato a partire dai dati di nascita e rappresenta le posizioni dei corpi celesti. L’interpretazione astrologica collega i suoi elementi a temi simbolici relativi alla personalità e all’esperienza. Non è una valutazione scientifica del carattere.",
+            "Il grafico, il ritratto breve e l’interpretazione completa dell’IA sono risultati distinti. Il grafico mostra il tema, il ritratto ne introduce l’interpretazione e la lettura completa offre un’analisi più dettagliata."
+          ]
+        },
+        {
+          "heading": "Prepara i tuoi dati e inizia",
+          "paragraphs": [
+            "Quando richiesto dall’app, inserisci data, ora e luogo di nascita. Ora e luogo influiscono sul calcolo, quindi dati incerti possono modificare il tema. Se possibile, controllali su una fonte attendibile.",
+            "Apri la sezione del tema natale e compila i campi richiesti. Per esempio, esplora il grafico e il ritratto breve prima di verificare le condizioni dell’interpretazione completa. I dati personali si inseriscono nel prodotto, non su questo sito."
+          ]
+        },
+        {
+          "heading": "Leggere con la giusta prospettiva",
+          "paragraphs": [
+            "Scegli un tema che ti interessa e consideralo alla luce della tua esperienza. Un’interpretazione non dimostra che una persona possieda necessariamente un determinato tratto.",
+            "L’accesso al grafico, al ritratto e alla lettura completa può variare. Prima che tu confermi un’azione, l’app mostra costi, limiti ed eventuali requisiti Premium."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Posso usare un’ora di nascita incerta?",
+          "L’app richiede i dati necessari per un calcolo personale. Un’ora incerta può produrre un tema e un’interpretazione diversi."
+        ],
+        [
+          "Il ritratto breve è la lettura completa?",
+          "No. Il ritratto offre una breve introduzione; l’interpretazione completa dell’IA approfondisce i temi in modo più dettagliato."
+        ],
+        [
+          "Il tema dimostra com’è una persona?",
+          "No. I temi natali fanno parte dell’astrologia e sono pensati per l’intrattenimento e la riflessione personale."
+        ]
+      ],
+      "eyebrow": "Il tuo tema natale",
+      "card_text": "Tema natale, ritratto breve e interpretazione completa.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
+    },
+    "compatibility": {
+      "title": "Compatibilità astrologica e sinastria | Tarot",
+      "h1": "Compatibilità astrologica e sinastria",
+      "description": "Scopri come la sinastria confronta due temi natali, quali dati di nascita richiede e in cosa differisce da un oroscopo d’amore.",
+      "lead": "La sinastria confronta astrologicamente due temi natali. Tarot la propone come modo simbolico per riflettere sul rapporto tra due persone e trovare spunti di cui parlare insieme.",
+      "sections": [
+        {
+          "heading": "Come funziona la sinastria",
+          "paragraphs": [
+            "Si calcola un tema natale per ciascuna persona, poi si confrontano i due temi. L’interpretazione ne considera la combinazione secondo l’astrologia. Non misura scientificamente la compatibilità né stabilisce come si evolverà una relazione.",
+            "Per esempio, puoi usare la lettura per riflettere sulle aspettative che porti nella relazione o sugli argomenti di cui vorresti parlare. Le risposte spettano a te e all’altra persona."
+          ]
+        },
+        {
+          "heading": "Cosa preparare",
+          "paragraphs": [
+            "Ti servono data, ora e luogo di nascita di entrambe le persone. Chiedi i dati all’altra persona e assicurati che acconsenta a condividerli. L’accuratezza è importante perché questi dati servono per calcolare i temi.",
+            "Apri la compatibilità in Astro e compila i campi richiesti. Se l’azione è a pagamento o richiede Premium, l’app mostra le condizioni prima della conferma."
+          ]
+        },
+        {
+          "heading": "Sinastria, oroscopi d’amore e Tarot",
+          "paragraphs": [
+            "La sinastria confronta due temi natali. L’oroscopo d’amore è un formato astrologico diverso e più breve. Una lettura dei tarocchi sulle relazioni usa le carte e il contesto della tua domanda.",
+            "Scegli l’approccio che ti interessa. Nessuno di questi formati accerta i sentimenti di un’altra persona o sostituisce un dialogo aperto."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bastano i nostri segni zodiacali?",
+          "Per la sinastria in Astro servono data, ora e luogo di nascita di entrambe le persone."
+        ],
+        [
+          "È solo per le coppie?",
+          "Il confronto può offrire spunti per riflettere sulle interazioni tra due persone. Non determina la qualità di una relazione."
+        ],
+        [
+          "Può dirmi cosa prova una persona?",
+          "No. Un’interpretazione astrologica non può accertare i sentimenti o le intenzioni altrui."
+        ]
+      ],
+      "eyebrow": "Due temi natali",
+      "card_text": "Confronto dei temi e spunti per riflettere sui rapporti.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
+    },
+    "horoscopes": {
+      "title": "Oroscopi giornalieri e d’amore | Astro di Tarot",
+      "h1": "Oroscopi giornalieri e d’amore",
+      "description": "Scopri gli oroscopi giornalieri, gli oroscopi d’amore personali e quelli per due nella sezione Astro di Tarot.",
+      "lead": "Astro offre un oroscopo giornaliero, un oroscopo d’amore personale e un oroscopo d’amore per due. Sono brevi formati astrologici per riflettere sulla giornata o sulle relazioni.",
+      "sections": [
+        {
+          "heading": "Scegli un oroscopo",
+          "paragraphs": [
+            "L’oroscopo giornaliero si concentra sulla giornata ed è un punto di partenza per una breve lettura astrologica. L’oroscopo d’amore personale affronta i temi relazionali dal tuo punto di vista.",
+            "L’oroscopo per due considera una coppia. Per confrontare due temi natali, visita la sezione dedicata alla compatibilità: è un formato diverso e richiede dati di nascita più completi."
+          ]
+        },
+        {
+          "heading": "Ottieni un risultato e riprendilo",
+          "paragraphs": [
+            "Apri Astro e scegli un oroscopo. L’app richiede le informazioni necessarie per quel formato; una lettura che coinvolge un’altra persona può richiedere anche i suoi dati di nascita. Il prodotto indica il periodo considerato.",
+            "La possibilità di riprendere un testo precedente può dipendere dal formato e dal risultato salvato. Prima di una nuova azione, l’app mostra prezzo e requisiti."
+          ]
+        },
+        {
+          "heading": "Considera la lettura nella giusta prospettiva",
+          "paragraphs": [
+            "Considera l’oroscopo uno spunto simbolico, non il resoconto di eventi destinati ad accadere. Per esempio, valuta un suggerimento su una conversazione o sul riposo alla luce di ciò che sai della tua situazione.",
+            "Un oroscopo non può conoscere i programmi altrui né garantire come andrà la tua giornata. Per le decisioni pratiche, basati su informazioni attendibili e sulla tua situazione concreta."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "In cosa differisce l’oroscopo d’amore personale da quello per due?",
+          "Il formato personale si concentra sui temi relazionali che ti riguardano; l’altro considera due persone."
+        ],
+        [
+          "Posso rileggere un oroscopo precedente?",
+          "Le condizioni dipendono dal formato e dal risultato salvato. Verifica la disponibilità nell’app."
+        ],
+        [
+          "Predice come andrà la giornata?",
+          "No. È pensato per l’intrattenimento e la riflessione personale, non per prevedere gli eventi in modo attendibile."
+        ]
+      ],
+      "eyebrow": "Formati brevi",
+      "card_text": "Oroscopi giornalieri, d’amore personali e per coppie.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
+    },
+    "transits": {
+      "title": "Transiti personali ed eventi astrologici | Tarot",
+      "h1": "Transiti personali ed eventi astrologici",
+      "description": "Scopri come i transiti astrologici mettono in relazione le posizioni astrali con il tuo tema natale ed esplora gli eventi astrologici personali.",
+      "lead": "I transiti astrologici confrontano le posizioni degli astri in una data scelta con il tuo tema natale. In Astro puoi esplorare l’interpretazione dei transiti e gli eventi astrologici personali come prospettiva simbolica su un periodo.",
+      "sections": [
+        {
+          "heading": "I transiti e il tuo tema natale",
+          "paragraphs": [
+            "Un tema natale rappresenta le posizioni degli astri alla nascita e viene calcolato con data, ora e luogo di nascita. Una lettura dei transiti considera le posizioni in un’altra data in relazione a quel tema.",
+            "Il tema natale è il punto di partenza; la lettura dei transiti aggiunge una data scelta e un’interpretazione astrologica. Non è una previsione scientifica degli eventi della vita."
+          ]
+        },
+        {
+          "heading": "Esplora una data e gli eventi personali",
+          "paragraphs": [
+            "Apri la sezione Astro pertinente e inserisci i dati di nascita richiesti, se non sono già salvati. Scegli una data disponibile e leggi il risultato. Un elenco separato permette di esplorare gli eventi astrologici personali presentati nel prodotto.",
+            "Le date disponibili e l’accesso dipendono dalla funzione. Prima della conferma, l’app mostra i requisiti di pagamento o Premium. Non occorre inserire dati di nascita su questo sito."
+          ]
+        },
+        {
+          "heading": "Usalo come spunto di riflessione",
+          "paragraphs": [
+            "Un’interpretazione può suggerire un tema legato all’attenzione o alla revisione dei progetti. Chiediti se hai motivi pratici per cambiare qualcosa e quale piccolo passo potrebbe esserti utile.",
+            "Gli eventi astrologici personali riguardano le posizioni degli astri e la loro interpretazione. Non sono un elenco di eventi della tua vita previsti con attendibilità."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Quali dati di nascita servono?",
+          "L’app richiede la data, l’ora e il luogo di nascita necessari."
+        ],
+        [
+          "Gli eventi astrologici sono eventi che accadranno nella mia vita?",
+          "No. L’elenco riguarda posizioni astrologiche e interpretazioni, non eventi futuri accertati."
+        ],
+        [
+          "Posso scegliere una data?",
+          "Sì. Puoi scegliere una data disponibile nella sezione dei transiti; l’app mostra l’intervallo."
+        ]
+      ],
+      "eyebrow": "Una data e il tuo tema",
+      "card_text": "Un’interpretazione dei transiti ed eventi astrologici personali.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
+    },
+    "solar": {
+      "title": "Rivoluzione solare: panoramica astrologica dell’anno | Tarot",
+      "h1": "Rivoluzione solare: panoramica astrologica dell’anno",
+      "description": "Scopri cos’è la rivoluzione solare, quali informazioni servono per calcolarla e in cosa differisce da un tema natale.",
+      "lead": "La rivoluzione solare è un formato astrologico che offre una prospettiva simbolica sull’anno personale. Con Tarot puoi calcolarla ed esplorarne i temi usando i tuoi dati di nascita, un anno e il luogo di calcolo.",
+      "sections": [
+        {
+          "heading": "Che cos’è la rivoluzione solare?",
+          "paragraphs": [
+            "Il tema della rivoluzione solare viene calcolato per il momento in cui il Sole torna nella posizione che occupava alla nascita. In astrologia serve a considerare i temi di un anno personale.",
+            "L’interpretazione può offrire uno spunto per riflettere su priorità e progetti. Non determina quali eventi accadranno in quel periodo."
+          ]
+        },
+        {
+          "heading": "Informazioni da preparare",
+          "paragraphs": [
+            "Ti servono data, ora e luogo di nascita, oltre all’anno e al luogo per il calcolo della rivoluzione solare. Controlla i dati prima di inviarli: vengono usati per calcolare il tema.",
+            "Apri la rivoluzione solare in Astro, compila i campi e verifica le condizioni di accesso. Prima della conferma, l’app mostra eventuali requisiti di crediti o Premium e il prezzo."
+          ]
+        },
+        {
+          "heading": "In cosa differisce dagli altri formati",
+          "paragraphs": [
+            "Il tema natale riguarda il momento della nascita; la rivoluzione solare offre una prospettiva astrologica distinta sull’anno personale. Una lettura dei tarocchi per l’anno a venire usa il simbolismo delle carte e delle loro posizioni.",
+            "Per esempio, dopo aver letto l’interpretazione della rivoluzione solare, annota le tue priorità e valuta quali risorse concrete ti servono. Prendi decisioni in base alla tua situazione e a informazioni attendibili."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Perché serve il luogo di calcolo?",
+          "Il luogo è un dato necessario per calcolare il tema della rivoluzione solare, insieme all’anno e ai dati di nascita."
+        ],
+        [
+          "Può aiutarmi a riflettere sull’anno a venire?",
+          "Può suggerirti domande e priorità personali. Per le decisioni pratiche, basati sulla tua situazione e su informazioni attendibili."
+        ],
+        [
+          "Predice eventi specifici?",
+          "No. L’interpretazione della rivoluzione solare è simbolica, non una previsione attendibile degli eventi."
+        ]
+      ],
+      "eyebrow": "Un anno personale",
+      "card_text": "Temi astrologici e le tue priorità.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
+    },
+    "moon": {
+      "title": "Calendario lunare e diario giornaliero | Astro di Tarot",
+      "h1": "Calendario lunare e diario giornaliero",
+      "description": "Scopri le informazioni lunari in Astro e, se vuoi, annota umore, energia e una breve nota nel diario giornaliero.",
+      "lead": "Il calendario lunare di Astro fornisce informazioni sulla Luna, comprese le sue fasi. Il diario giornaliero facoltativo ti permette di annotare umore, energia e una nota sulla giornata.",
+      "sections": [
+        {
+          "heading": "Scopri il calendario lunare",
+          "paragraphs": [
+            "La fase lunare descrive la porzione illuminata della Luna visibile dalla Terra. Il calendario raccoglie le informazioni lunari aggiornate in un’unica sezione dell’app.",
+            "Se ti interessa la prospettiva astrologica, usala come tema di osservazione e riflessione. Una fase lunare, da sola, non dimostra effetti sulla salute, sull’umore o sulla riuscita di un’attività."
+          ]
+        },
+        {
+          "heading": "Usa il diario facoltativo",
+          "paragraphs": [
+            "Apri il diario accanto alla sezione lunare e, se vuoi, annota il tuo umore e la tua energia oppure aggiungi una breve nota. Per esempio, scrivi cosa ti ha aiutato a riposare oggi o cosa vorresti fare domani.",
+            "Non è obbligatorio scrivere. La cronologia ti permette di ritrovare le note precedenti. Inserisci solo le informazioni che vuoi conservare nel prodotto."
+          ]
+        },
+        {
+          "heading": "Servono i dati di nascita?",
+          "paragraphs": [
+            "Il calendario lunare non richiede dati personali di nascita. Temi natali, transiti e altri calcoli personali richiedono separatamente le informazioni necessarie.",
+            "Apri la sezione lunare e consulta le informazioni disponibili. Le condizioni aggiornate delle singole azioni sono indicate nel prodotto. Questo sito non raccoglie le annotazioni personali del diario."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Devo scrivere ogni giorno?",
+          "No. Il diario è facoltativo: usalo quando vuoi annotare qualcosa."
+        ],
+        [
+          "Mi servono l’ora e il luogo di nascita?",
+          "Il calendario lunare non richiede dati personali di nascita."
+        ],
+        [
+          "La fase lunare può dirmi se un progetto avrà successo?",
+          "No. Il calendario fornisce informazioni sulla Luna, non previsioni attendibili sull’esito delle tue azioni."
+        ]
+      ],
+      "eyebrow": "Osservazioni e note",
+      "card_text": "Informazioni lunari e una nota facoltativa sulla giornata.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Astro insieme ai tuoi tarocchi",
+      "example_text": "L’app presenta i formati astrologici con nomi e condizioni di accesso chiari. Scegli un argomento, inserisci i dati pertinenti e verifica i requisiti prima di confermare."
     }
+  },
+  "demo": {
+    "name": "Esempio",
+    "reading_title": "Lettura a tre carte",
+    "question": "Cosa può aiutarmi a fare il prossimo passo?",
+    "positions": [
+      "Passato",
+      "Presente",
+      "Futuro"
+    ],
+    "card_names": [
+      "Il Matto",
+      "Il Mago",
+      "La Stella"
+    ],
+    "answer_title": "Una nuova prospettiva sulla situazione",
+    "answer": "Il Matto suggerisce un piccolo inizio. Il Mago richiama le capacità che puoi usare, mentre la Stella ti invita a tenere presente il tuo obiettivo. Scegli un passo alla tua portata e rifletti sul risultato."
   }
 }

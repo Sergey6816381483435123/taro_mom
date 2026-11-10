@@ -1,5 +1,26 @@
 {
-  "id": "product-20261109",
-  "updated": "2026-11-09",
-  "locales": ["en", "ru"]
+  "id": "product-20261110",
+  "updated": "2026-11-10",
+  "locales": [
+    "en",
+    "ru",
+    "id",
+    "ms",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "uz",
+    "pl",
+    "pt",
+    "tr",
+    "be",
+    "uk",
+    "kk",
+    "ar",
+    "fa",
+    "ko",
+    "hi"
+  ]
 }

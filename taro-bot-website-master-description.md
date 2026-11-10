@@ -1,10 +1,10 @@
-# Тарошенька / Taroshenka — Таро и Астро
+# Тарошенька / Tarot — Таро и Астро
 
-Опорное описание для русских и английских страниц. Проверено 9 ноября 2026 года по исходникам, каталогу работающего сервиса и публичным входам. Точные цены, бонусы и условия доступа показываются внутри продукта и не фиксируются на сайте.
+Опорное описание для всех 20 языковых версий сайта. Проверено 10 ноября 2026 года по исходникам, каталогу работающего сервиса и публичным входам. Точные цены, бонусы и условия доступа показываются внутри продукта и не фиксируются на сайте.
 
 ## Назначение и бренд
 
-**Тарошенька** — сервис для персональных раскладов Таро с AI-интерпретацией. Таро — основное направление продукта; астрология представлена отдельным направлением «Астро». В английской версии используется имя **Taroshenka**. Usernames и адреса ботов не переводятся и не меняются вслед за рекламным названием.
+**Тарошенька** — сервис для персональных раскладов Таро с AI-интерпретацией. Таро — основное направление продукта; астрология представлена отдельным направлением «Астро». Название **Тарошенька** используется только по-русски; во всех остальных языковых версиях — **Tarot**. Usernames и адреса ботов не переводятся и не меняются вслед за рекламным названием.
 
 Сервис предназначен для развлечения и саморефлексии. Он предлагает символическую интерпретацию ситуации, которая может помочь сформулировать собственные вопросы и выводы. Интерпретации не следует описывать как точные прогнозы, факты о другом человеке или способ узнать его мысли.
 
@@ -40,7 +40,7 @@ AI-интерпретация связывает выпавшие карты, и
 
 ## Аккаунт, кредиты и Premium
 
-Поддерживаются 20 языков. Русский и английский сайты обновляются в этой редакции, перевод новых страниц на остальные языки выполняется отдельно. Поддержка: https://t.me/taroshenka_support_bot. Не публиковать вымышленные ссылки на правовые документы. Способы оплаты и доступные пакеты зависят от интерфейса и отображаются в продукте до подтверждения.
+Продукт и сайт поддерживают 20 языков. Во всех языковых версиях сайта доступны главная, четыре страницы Таро, раздел Астро и шесть его тематических страниц. Поддержка: https://t.me/taroshenka_support_bot. Не публиковать вымышленные ссылки на правовые документы. Способы оплаты и доступные пакеты зависят от интерфейса и отображаются в продукте до подтверждения.
 
 Предусмотрены вход через Telegram и вход по подтверждённому email и паролю. Общие профиль, баланс и история относятся к одной и той же или явно связанной учётной записи. Создание отдельного email-аккаунта не объединяет его с Telegram автоматически; связывание требует подтверждения.
 
@@ -58,9 +58,9 @@ AI-интерпретация связывает выпавшие карты, и
 
 ## Английская редакция
 
-**Taroshenka** is a service for personal Tarot readings with AI interpretations. Tarot is its main offering; Astro is a separate area for astrology. Both are intended for entertainment and self-reflection.
+**Tarot** is a service for personal Tarot readings with AI interpretations. Tarot is its main offering; Astro is a separate area for astrology. Both are intended for entertainment and self-reflection.
 
-There are three ways to access the product: the Taroshenka Telegram bot, the Astro Mini App in Telegram, and the browser app. The Mini App and browser app contain both Tarot and Astro. The Telegram Mini App entry may open the Astro bot first; users then launch the app with its Telegram button.
+There are three ways to access the product: the Tarot Telegram bot, the Astro Mini App in Telegram, and the browser app. The Mini App and browser app contain both Tarot and Astro. The Telegram Mini App entry may open the Astro bot first; users then launch the app with its Telegram button.
 
 Tarot formats range from card advice, yes-or-no and three-card readings to relationship questions, choices, work and finances, the Celtic Cross and a year-ahead reading. Other scenarios explore a next step, new love, near-term developments and relationship dynamics. Their names describe the subject of a symbolic reading; they do not establish another person's thoughts or guarantee an outcome.
 
@@ -77,3 +77,7 @@ The product offers free features and paid actions. Paid actions use credits. Pre
 **Tarot readings and AI interpretations are intended for entertainment and self-reflection. They are not reliable predictions of the future and do not replace medical, psychological, legal, financial or other professional help. Users make important decisions for themselves.**
 
 Astrological content is also intended for entertainment and self-reflection. It is not a reliable prediction of the future and does not replace medical, psychological, legal, financial or other professional help. Users make important decisions for themselves.
+
+## Изображения продукта
+
+На сайте используются снимки настоящего интерфейса приложения r76 с полностью вымышленными демонстрационными данными, по три на каждый язык. Реальные аккаунты, вопросы и результаты не показываются; при съёмке обращения к API перехватываются локально. Все видимые карты — из колоды Райдера–Уэйта (`rider_waite_classic`). Названия и подписи локализуются; имена ботов в URL сохраняются.

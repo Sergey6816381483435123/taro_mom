@@ -1,18 +1,18 @@
 {
-  "revision": "product-20261109",
+  "revision": "product-20261110",
   "ui": {
-    "brand": "Taroshenka",
+    "brand": "Tarot",
     "home": "Home",
     "tarot": "Tarot",
     "astro": "Astro",
     "faq": "FAQ",
     "skip": "Skip to main content",
     "breadcrumbs": "Breadcrumbs",
-    "switch_language": "Читать эту страницу на русском",
+    "switch_language": "Choose language",
     "explore": "Explore",
-    "entry_heading": "Three ways to open Taroshenka",
+    "entry_heading": "Three ways to open Tarot",
     "entry_labels": [
-      "Open Taroshenka",
+      "Open Tarot",
       "Open Astro Mini App",
       "Open in browser"
     ],
@@ -21,7 +21,7 @@
       "Open Astro, then launch the app with its Telegram button.",
       "The app with Telegram or email sign-in."
     ],
-    "entity_description": "Taroshenka is a Tarot service with AI interpretations and a separate Astro area, available through Telegram, a Mini App and a browser.",
+    "entity_description": "Tarot is a Tarot service with AI interpretations and a separate Astro area, available through Telegram, a Mini App and a browser.",
     "hero_alt": "A Tarot reader studies cards by candlelight in a dark navy and violet interior",
     "tarot_heading": "Find a reading for your question",
     "tarot_intro": "Explore a short symbolic perspective or a more detailed reading. The interpretation connects the cards with their positions and the context of your question.",
@@ -32,8 +32,8 @@
     "example_text": "View the cards and explore an AI interpretation shaped around your question. Suitable readings can be followed by a clarification or an additional card.",
     "example_caption": "The actual app interface with demonstration data. This is an example, not a real user’s reading.",
     "image_alt": {
-      "tarot": "Example Tarot reading in the app showing cards and an English interpretation",
-      "card": "A Tarot card opened in the app’s card viewer",
+      "tarot": "A demonstration Tarot reading in the app with Rider–Waite cards and an AI interpretation",
+      "card": "A Rider–Waite Tarot card opened in the app’s card viewer",
       "astro": "The Astro section of the app with direction selection and a daily journal"
     },
     "account_text": "Your profile, credits and history are shared when you use the same account or explicitly link identities. A separate email registration does not automatically merge accounts.",
@@ -47,16 +47,16 @@
     "disclaimer": "Tarot readings and AI interpretations are intended for entertainment and self-reflection. They are not reliable predictions of the future and do not replace medical, psychological, legal, financial or other professional help. You make important decisions yourself.",
     "astro_disclaimer": "Astrological content is also intended for entertainment and self-reflection. It is not a reliable prediction of the future and does not replace medical, psychological, legal, financial or other professional help. You make important decisions yourself.",
     "support": "Support",
-    "other_languages": "Home pages in other languages",
-    "other_languages_note": "This part of the website has been updated in English and Russian. These links lead to existing language home pages; translations of the new Astro pages will follow separately.",
+    "other_languages": "Languages",
+    "other_languages_note": "All sections of this website are available in 20 languages.",
     "attribution_note": "Entry links include a referral identifier. The browser app may retain the invitation for up to 30 days. This website does not collect your questions, email address or birth details."
   },
   "pages": {
     "home": {
-      "title": "Taroshenka — AI Tarot Readings in Telegram and the App",
+      "title": "Tarot — AI Tarot Readings in Telegram and the App",
       "h1": "Personal AI Tarot readings for your questions",
       "description": "Explore Tarot readings with AI interpretations in Telegram, the Mini App or your browser. Reading history, card reference meanings and a separate Astro area.",
-      "lead": "Choose a reading, ask what matters to you and explore your situation through the symbolism of Tarot. Use Taroshenka in a Telegram chat, the Mini App or your browser.",
+      "lead": "Choose a reading, ask what matters to you and explore your situation through the symbolism of Tarot. Use Tarot in a Telegram chat, the Mini App or your browser.",
       "sections": [
         {
           "heading": "From a question to a connected interpretation",
@@ -93,12 +93,12 @@
       ],
       "faq": [
         [
-          "What is Taroshenka?",
-          "Taroshenka is a Tarot service with AI interpretations, available in a Telegram chat, the Mini App and a browser. The app also has a separate Astro area."
+          "What is Tarot?",
+          "Tarot is a Tarot service with AI interpretations, available in a Telegram chat, the Mini App and a browser. The app also has a separate Astro area."
         ],
         [
           "Which entry point should I choose?",
-          "Open Taroshenka for readings in a chat. To use the visual app inside Telegram, open Astro and launch it with its Telegram button. Choose the browser entry to use the app outside Telegram."
+          "Open Tarot for readings in a chat. To use the visual app inside Telegram, open Astro and launch it with its Telegram button. Choose the browser entry to use the app outside Telegram."
         ],
         [
           "Can I use it without Telegram?",
@@ -118,9 +118,9 @@
       "related": []
     },
     "daily-card": {
-      "title": "Daily Tarot Card — A Symbolic Starting Point | Taroshenka",
+      "title": "Daily Tarot Card — A Symbolic Starting Point | Tarot",
       "h1": "A daily Tarot card for reflection",
-      "description": "Get a free Daily Card in the Taroshenka Telegram bot and explore its image and short meaning as a prompt for reflection.",
+      "description": "Get a free Daily Card in the Tarot Telegram bot and explore its image and short meaning as a prompt for reflection.",
       "lead": "The Daily Card is a simple introduction to Tarot through one card and its short meaning. Get it free in the Telegram bot and choose a theme to reflect on during your day.",
       "sections": [
         {
@@ -133,7 +133,7 @@
         {
           "heading": "How to get your Daily Card",
           "paragraphs": [
-            "Open Taroshenka in Telegram, press Start and find the Daily Card in the menu. The bot provides the card image and a short meaning.",
+            "Open Tarot in Telegram and start the chat to receive a Daily Card with its image and a short meaning.",
             "The Daily Card and Wheel of Fortune are different features. The Wheel involves a spin and a possible reward; it does not replace the card reading or guarantee a credit."
           ]
         },
@@ -167,10 +167,10 @@
       ]
     },
     "yes-no": {
-      "title": "Yes or No Tarot — A One-Card Reading | Taroshenka",
+      "title": "Yes or No Tarot — A One-Card Reading | Tarot",
       "h1": "A focused yes-or-no Tarot reading",
       "description": "Ask a focused question and explore a one-card Tarot reading with an AI interpretation shaped around your situation.",
-      "lead": "Yes or No is a one-card reading for a focused question. Taroshenka explains the card in context, giving you something to consider rather than making the decision for you.",
+      "lead": "Yes or No is a one-card reading for a focused question. Tarot explains the card in context, giving you something to consider rather than making the decision for you.",
       "sections": [
         {
           "heading": "Ask one clear question",
@@ -189,7 +189,7 @@
         {
           "heading": "How to begin",
           "paragraphs": [
-            "Open Taroshenka or the app, choose Yes or No, enter your question and review the action’s conditions. After confirmation, explore the card and interpretation. For a question with several connected aspects, consider a three-card reading."
+            "Open Tarot or the app, choose Yes or No, enter your question and review the action’s conditions. After confirmation, explore the card and interpretation. For a question with several connected aspects, consider a three-card reading."
           ]
         }
       ],
@@ -216,10 +216,10 @@
       ]
     },
     "three-card": {
-      "title": "Three-Card Tarot Reading with AI | Taroshenka",
+      "title": "Three-Card Tarot Reading with AI | Tarot",
       "h1": "Explore a situation through three connected cards",
       "description": "Explore a three-card Tarot spread with card images and a connected AI interpretation shaped around your question.",
-      "lead": "A three-card reading is a compact way to explore a question through both individual meanings and their connections. Taroshenka builds one AI interpretation from your question and the cards’ positions.",
+      "lead": "A three-card reading is a compact way to explore a question through both individual meanings and their connections. Tarot builds one AI interpretation from your question and the cards’ positions.",
       "sections": [
         {
           "heading": "Why the connections matter",
@@ -265,7 +265,7 @@
       ]
     },
     "relationships": {
-      "title": "Relationship Tarot Reading with AI | Taroshenka",
+      "title": "Relationship Tarot Reading with AI | Tarot",
       "h1": "Reflect on the dynamics of a relationship",
       "description": "Explore Our Relationship, a five-card Tarot reading, and related formats for reflecting on relationships without claims of mind reading.",
       "lead": "Our Relationship is a five-card reading about the dynamics between people. It offers a symbolic view of expectations, experiences and possible directions, while leaving conclusions and decisions to you.",
@@ -315,10 +315,10 @@
       ]
     },
     "astro": {
-      "title": "Astro: Natal Charts, Horoscopes and Moon Calendar | Taroshenka",
+      "title": "Astro: Natal Charts, Horoscopes and Moon Calendar | Tarot",
       "h1": "Astro: personal astrology",
-      "description": "Explore Astro in Taroshenka: natal charts, compatibility, horoscopes, transits, solar returns, a Moon calendar and an optional daily journal.",
-      "lead": "Astro is the astrology area of Taroshenka, with natal charts, horoscopes and more. Choose a subject that interests you and explore it as entertainment and an invitation to reflect.",
+      "description": "Explore Astro in Tarot: natal charts, compatibility, horoscopes, transits, solar returns, a Moon calendar and an optional daily journal.",
+      "lead": "Astro is the astrology area of Tarot, with natal charts, horoscopes and more. Choose a subject that interests you and explore it as entertainment and an invitation to reflect.",
       "sections": [
         {
           "heading": "Find a format for your question",
@@ -363,7 +363,7 @@
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     },
     "natal": {
-      "title": "Natal Chart and Interpretation | Taroshenka Astro",
+      "title": "Natal Chart and Interpretation | Tarot Astro",
       "h1": "Natal chart and interpretation",
       "description": "Discover what a natal chart represents, why birth details matter and how the diagram, short portrait and full AI interpretation differ.",
       "lead": "A natal chart represents celestial positions at the time of birth. In Astro, you can explore the chart and its interpretation as an introduction to astrology and a prompt for personal reflection.",
@@ -415,10 +415,10 @@
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     },
     "compatibility": {
-      "title": "Astrological Compatibility and Synastry | Taroshenka",
+      "title": "Astrological Compatibility and Synastry | Tarot",
       "h1": "Astrological compatibility and synastry",
       "description": "Learn how synastry compares two natal charts, what birth details it needs and how it differs from a love horoscope.",
-      "lead": "Synastry is an astrological comparison of two natal charts. Taroshenka offers it as a symbolic way to reflect on how two people relate and find questions worth discussing together.",
+      "lead": "Synastry is an astrological comparison of two natal charts. Tarot offers it as a symbolic way to reflect on how two people relate and find questions worth discussing together.",
       "sections": [
         {
           "heading": "How synastry works",
@@ -467,9 +467,9 @@
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     },
     "horoscopes": {
-      "title": "Daily and Love Horoscopes | Taroshenka Astro",
+      "title": "Daily and Love Horoscopes | Tarot Astro",
       "h1": "Daily and love horoscopes",
-      "description": "Explore daily horoscopes, personal love horoscopes and horoscopes for two in Taroshenka’s Astro section.",
+      "description": "Explore daily horoscopes, personal love horoscopes and horoscopes for two in Tarot’s Astro section.",
       "lead": "Astro offers a daily horoscope, a personal love horoscope and a love horoscope for two. Each is a short astrology format for reflecting on a day or on relationships.",
       "sections": [
         {
@@ -519,7 +519,7 @@
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     },
     "transits": {
-      "title": "Personal Transits and Astrological Events | Taroshenka",
+      "title": "Personal Transits and Astrological Events | Tarot",
       "h1": "Personal transits and astrological events",
       "description": "Learn how astrological transits relate celestial positions to your natal chart and explore personal astrological events.",
       "lead": "Astrological transits compare celestial positions on a selected date with your natal chart. In Astro, explore a transit interpretation and personal astrological events as a symbolic view of a period.",
@@ -571,10 +571,10 @@
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     },
     "solar": {
-      "title": "Solar Return: An Astrological Year Overview | Taroshenka",
+      "title": "Solar Return: An Astrological Year Overview | Tarot",
       "h1": "Solar return: an astrological year overview",
       "description": "Discover what a solar return is, what information its calculation uses and how it differs from a natal chart.",
-      "lead": "A solar return is an astrology format for a symbolic view of a personal year. In Taroshenka, calculate a solar return and explore its themes using your birth details, a year and a calculation location.",
+      "lead": "A solar return is an astrology format for a symbolic view of a personal year. In Tarot, calculate a solar return and explore its themes using your birth details, a year and a calculation location.",
       "sections": [
         {
           "heading": "What is a solar return?",
@@ -623,7 +623,7 @@
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     },
     "moon": {
-      "title": "Moon Calendar and Daily Journal | Taroshenka Astro",
+      "title": "Moon Calendar and Daily Journal | Tarot Astro",
       "h1": "Moon calendar and daily journal",
       "description": "Explore Moon information in Astro and optionally record your mood, energy and a short note in your daily journal.",
       "lead": "The Moon calendar in Astro provides information about the Moon, including its phase. An optional daily journal lets you record mood, energy and a note about your day.",
@@ -674,5 +674,22 @@
       "example_heading": "Astro alongside your Tarot",
       "example_text": "The app presents astrology formats with clear names and access conditions. Choose a subject, provide the relevant details and review the requirements before confirmation."
     }
+  },
+  "demo": {
+    "name": "Example",
+    "reading_title": "Three-card reading",
+    "question": "What can help me take the next step?",
+    "positions": [
+      "Past",
+      "Present",
+      "Future"
+    ],
+    "card_names": [
+      "The Fool",
+      "The Magician",
+      "The Star"
+    ],
+    "answer_title": "A fresh perspective on the situation",
+    "answer": "The Fool suggests a small beginning. The Magician points to skills you can use, while the Star invites you to keep your goal in view. Choose one manageable step and reflect on the result."
   }
 }

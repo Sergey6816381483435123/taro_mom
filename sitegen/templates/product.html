@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{lang}}">
+<html lang="{{lang}}" dir="{{dir}}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@
 <header class="site-header"><div class="shell header-inner">
 <a class="brand" href="{{home_path}}">{{brand_icon}} {{brand}}</a>
 <nav class="primary-nav" aria-label="{{home}}"><a href="{{home_path}}#readings">{{tarot}}</a><a href="{{astro_path}}">{{astro}}</a><a href="#faq">{{faq_label}}</a></nav>
-<a class="locale-switch" href="{{other_path}}" lang="{{other_lang}}" aria-label="{{switch_label}}">{{other_label}}</a>
+<details class="locale-switch"><summary aria-label="{{switch_label}}">{{language_icon}} <span>{{locale_label}}</span></summary><nav class="locale-menu" aria-label="{{switch_label}}">{{locale_links}}</nav></details>
 </div></header>
 <main id="main-content" class="shell" tabindex="-1">
 {{breadcrumbs}}

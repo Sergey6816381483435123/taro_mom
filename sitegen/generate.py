@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the scoped RU/EN revision as plain GitHub Pages files."""
+"""Build all supported language versions as plain GitHub Pages files."""
 from __future__ import annotations
 
 import argparse
@@ -23,6 +23,7 @@ ASTRO_ROUTES = ("astro", "natal", "compatibility", "horoscopes", "transits", "so
 ROUTES = json.loads((SOURCE / "routes.json").read_text())
 LOCALES = json.loads((SOURCE / "locales.json").read_text())
 REVISION = json.loads((SOURCE / "revision.json").read_text())
+LOCALE_BY_CODE = {x["code"]: x for x in LOCALES}
 TOPIC_ICONS = {
     "home": "cards", "daily-card": "daily_card", "yes-no": "spread_yesno",
     "three-card": "spread_3cards", "relationships": "spread_relationship",
@@ -56,7 +57,11 @@ def esc(value):
 
 def path(code, key):
     if key in ASTRO_ROUTES:
-        return ROUTES[key]["paths"][code]
+        route = ROUTES[key]
+        if code in route["paths"]:
+            return route["paths"][code]
+        stem = LOCALE_BY_CODE[code]["homePath"].rstrip("/") + "/astro/"
+        return stem if key == "astro" else stem + route["englishSlug"] + "/"
     loc = next(x for x in LOCALES if x["code"] == code)
     if key == "home":
         return loc["homePath"]
@@ -65,8 +70,11 @@ def path(code, key):
 
 
 def alternates(key):
-    locales = [x for x in LOCALES if key in OLD_ROUTES or x["code"] in ("ru", "en")]
-    return [(x["hreflang"], BASE + path(x["code"], key)) for x in locales] + [("x-default", BASE + path("en", key))]
+    return [(x["hreflang"], BASE + path(x["code"], key)) for x in LOCALES] + [("x-default", BASE + path("en", key))]
+
+
+def language_links(code, key):
+    return "".join(f'<a href="{path(x["code"], key)}" lang="{x["hreflang"]}" hreflang="{x["hreflang"]}" dir="{x["dir"]}"' + (' aria-current="page"' if x["code"] == code else '') + f'>{esc(x["nativeLabel"])}</a>' for x in LOCALES)
 
 
 def entry_block(ui):
@@ -104,9 +112,9 @@ def graph(data, code, key, page):
     canonical = BASE + path(code, key)
     actions = [{"@type": "ViewAction", "name": label, "target": url} for label, url in zip(data["ui"]["entry_labels"], ENTRIES)]
     return json.dumps({"@context": "https://schema.org", "@graph": [
-        {"@type": "WebSite", "@id": BASE + "/#website", "url": BASE + "/", "name": "Taroshenka", "inLanguage": [x["hreflang"] for x in LOCALES]},
-        {"@type": "SoftwareApplication", "@id": BASE + "/#application", "name": "Taroshenka", "alternateName": "Тарошенька", "url": BASE + "/", "sameAs": ["https://t.me/taroshenka_bot", "https://t.me/astrology_1_bot"], "applicationCategory": "EntertainmentApplication", "operatingSystem": "Telegram, Web browser", "description": data["ui"]["entity_description"], "potentialAction": actions},
-        {"@type": "WebPage", "@id": canonical + "#webpage", "url": canonical, "name": page["title"], "description": page["description"], "inLanguage": code, "isPartOf": {"@id": BASE + "/#website"}, "about": {"@id": BASE + "/#application"}, "potentialAction": actions},
+        {"@type": "WebSite", "@id": BASE + "/#website", "url": BASE + "/", "name": data["ui"]["brand"], "inLanguage": [x["hreflang"] for x in LOCALES]},
+        {"@type": "SoftwareApplication", "@id": BASE + "/#application", "name": data["ui"]["brand"], "url": BASE + "/", "sameAs": ["https://t.me/taroshenka_bot", "https://t.me/astrology_1_bot"], "applicationCategory": "EntertainmentApplication", "operatingSystem": "Telegram, Web browser", "description": data["ui"]["entity_description"], "potentialAction": actions},
+        {"@type": "WebPage", "@id": canonical + "#webpage", "url": canonical, "name": page["title"], "description": page["description"], "inLanguage": LOCALE_BY_CODE[code]["hreflang"], "isPartOf": {"@id": BASE + "/#website"}, "about": {"@id": BASE + "/#application"}, "potentialAction": actions},
     ]}, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
 
 
@@ -117,7 +125,7 @@ def render(data, code, key):
     canonical = BASE + path(code, key)
     hrefs = "\n".join(f'<link rel="alternate" hreflang="{lang}" href="{url}">' for lang, url in alternates(key))
     home = path(code, "home")
-    other = "en" if code == "ru" else "ru"
+    loc = LOCALE_BY_CODE[code]
     breadcrumbs = ""
     if key != "home":
         trail = f'<a href="{home}">{esc(ui["home"])}</a><span aria-hidden="true">/</span>'
@@ -138,13 +146,13 @@ def render(data, code, key):
     related = page.get("related", [])
     if related:
         body += f'<section class="section-space related"><h2>{esc(ui["related"])}</h2><div class="related-links">' + "".join(f'<a href="{path(code, k)}">{esc(data["pages"][k]["h1"])} <span aria-hidden="true">↗</span></a>' for k in related) + "</div></section>"
-    all_languages = "".join(f'<a href="{x["homePath"]}">{esc(x["nativeLabel"])}</a>' for x in LOCALES)
+    all_languages = language_links(code, key)
     languages = f'<details class="language-directory"><summary>{esc(ui["other_languages"])}</summary><p>{esc(ui["other_languages_note"])}</p><div class="language-links">{all_languages}</div></details>'
     values = {
-        "lang": code, "title": esc(page["title"]), "description": esc(page["description"]), "canonical": canonical, "hreflang": hrefs,
-        "og_locale": "ru_RU" if code == "ru" else "en_US", "jsonld": graph(data, code, key, page), "skip": esc(ui["skip"]), "home_path": home,
+        "lang": loc["hreflang"], "dir": loc["dir"], "title": esc(page["title"]), "description": esc(page["description"]), "canonical": canonical, "hreflang": hrefs,
+        "og_locale": loc["ogLocale"], "jsonld": graph(data, code, key, page), "skip": esc(ui["skip"]), "home_path": home,
         "brand": esc(ui["brand"]), "home": esc(ui["home"]), "tarot": esc(ui["tarot"]), "astro": esc(ui["astro"]), "faq_label": esc(ui["faq"]), "astro_path": path(code, "astro"),
-        "other_lang": other, "other_path": path(other, key), "other_label": "English" if code == "ru" else "Русский", "switch_label": esc(ui["switch_language"]),
+        "locale_label": esc(loc["nativeLabel"]), "locale_links": all_languages, "switch_label": esc(ui["switch_language"]), "language_icon": icon("globe"),
         "breadcrumbs": breadcrumbs, "eyebrow": esc(page["eyebrow"]), "h1": esc(page["h1"]), "lead": esc(page["lead"]), "entries": entry_block(ui), "hero_media": hero_media,
         "body": body, "sample": sample, "faq": faq, "final_title": esc(ui["final_title"]), "final_text": esc(ui["final_text"]), "disclaimer_title": esc(ui["disclaimer_title"]),
         "disclaimer": esc(ui["disclaimer"]), "astro_disclaimer": paragraph(ui["astro_disclaimer"]) if astro else "", "support": esc(ui["support"]), "languages": languages,

@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Persönliche KI-Tarotdeutungen in Telegram | Taroshenka",
-    "description": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-    "ogTitle": "Persönliche KI-Tarotdeutungen in Telegram",
-    "ogDescription": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-    "twitterTitle": "Persönliche KI-Tarotdeutungen in Telegram",
-    "twitterDescription": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "In Telegram öffnen",
-    "brandAria": "Deutsch Taroshenka",
-    "primaryAria": "So funktioniert es",
-    "how": "So funktioniert es",
-    "readings": "Deutungen",
+    "brand": "Tarot",
+    "home": "Startseite",
+    "tarot": "Tarot",
+    "astro": "Astro",
     "faq": "Häufige Fragen",
-    "languageAria": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-    "headerCta": "In Telegram öffnen",
-    "home": "Deutsch",
-    "breadcrumbAria": "Häufige Fragen",
-    "identity": "Bot:",
-    "factsAria": "So funktioniert es"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Persönliche KI-Tarotdeutungen in Telegram",
-      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "cta": "Tarotdeutung erhalten",
-      "imageAlt": "Persönliche KI-Tarotdeutungen in Telegram"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+    "skip": "Zum Hauptinhalt springen",
+    "breadcrumbs": "Brotkrumennavigation",
+    "switch_language": "Sprache auswählen",
+    "explore": "Entdecken",
+    "entry_heading": "Drei Wege zu Tarot",
+    "entry_labels": [
+      "Tarot öffnen",
+      "Astro Mini App öffnen",
+      "Im Browser öffnen"
     ],
-    "how": {
-      "eyebrow": "So funktioniert es",
-      "title": "So funktioniert es",
-      "intro": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "steps": [
-        [
-          "So funktioniert es",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "Frage die Karten, was dir wichtig ist",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "Deutungen",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Deutungen",
-      "title": "Deutungen",
-      "intro": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "items": [
-        [
-          "daily-card",
-          "Tageskarte",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "yes-no",
-          "Ja oder Nein",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "three-card",
-          "Drei-Karten-Legung",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "relationships",
-          "Beziehungsdeutung",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "premium",
-          "Premium-Deutungen",
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Frage die Karten, was dir wichtig ist",
-      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "personal": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Premium-Deutungen",
-      "intro": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Für diese Sprache erfolgt die Zahlung mit Telegram Stars."
-    },
-    "languages": {
-      "eyebrow": "Deutsch",
-      "title": "Persönliche KI-Tarotdeutungen in Telegram",
-      "text": "{count}: Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "names": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-    },
-    "faq": [
-      [
-        "Frage die Karten, was dir wichtig ist",
-        "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-      ],
-      [
-        "Does it predict the future?",
-        "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-      ],
-      [
-        "Häufige Fragen",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Für diese Sprache erfolgt die Zahlung mit Telegram Stars."
-      ],
-      [
-        "20",
-        "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-      ],
-      [
-        "Languages",
-        "20: Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
-      ]
+    "entry_notes": [
+      "Tarot-Legungen im Telegram-Chat.",
+      "Astro öffnen und anschließend die Mini App über die Telegram-Schaltfläche starten.",
+      "Die App mit Anmeldung über Telegram oder E-Mail."
     ],
-    "disclaimer": {
-      "title": "Häufige Fragen",
-      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern."
+    "entity_description": "Tarot ist ein Tarot-Angebot mit KI-Deutungen und einem separaten Astro-Bereich, verfügbar über Telegram, eine Mini App und im Browser.",
+    "hero_alt": "Eine Tarotlegerin betrachtet bei Kerzenlicht Karten in einem dunkelblau-violetten Raum",
+    "tarot_heading": "Finde eine Legung zu deiner Frage",
+    "tarot_intro": "Entdecke eine kurze symbolische Perspektive oder eine ausführlichere Legung. Die Deutung verbindet die Karten mit ihren Positionen und dem Kontext deiner Frage.",
+    "astro_heading": "Ein eigener Bereich für Astrologie",
+    "astro_intro": "Entdecke Geburtshoroskope, Partnerschaftsvergleiche und weitere Astrologie-Formate. Auf jeder Seite erfährst du, was dich erwartet und welche Angaben für die Berechnung nötig sind.",
+    "inside": "In der App",
+    "example_heading": "Die Karten, ihre Bedeutung und deine Frage",
+    "example_text": "Sieh dir die Karten an und entdecke eine KI-Deutung zu deiner Frage. Bei passenden Legungen kannst du nachfragen oder eine weitere Karte ziehen.",
+    "example_caption": "Die tatsächliche App-Oberfläche mit Beispieldaten. Dies ist ein Beispiel, keine Legung einer echten Person.",
+    "image_alt": {
+      "tarot": "Eine beispielhafte Tarot-Legung in der App mit Rider-Waite-Karten und einer KI-Deutung",
+      "card": "Eine Rider-Waite-Tarotkarte in der Kartenansicht der App",
+      "astro": "Der Astro-Bereich der App mit Auswahl eines Themas und einem täglichen Journal"
     },
-    "cta": {
-      "title": "Frage die Karten, was dir wichtig ist",
-      "text": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "button": "In Telegram öffnen"
-    }
+    "account_text": "Profil, Guthaben und Verlauf werden geteilt, wenn du dasselbe Konto verwendest oder Konten ausdrücklich verknüpfst. Ein separates E-Mail-Konto wird nicht automatisch zusammengeführt.",
+    "cross_link_astro": "Astro entdecken",
+    "cross_link_tarot": "Tarot-Legungen entdecken",
+    "answers": "Antworten auf häufige Fragen",
+    "related": "Verwandte Themen",
+    "final_title": "Wähle, wie du beginnen möchtest",
+    "final_text": "Nutze einen Telegram-Chat, die Mini App in Telegram oder die Browser-App. Wähle den Zugang, der zu dir passt.",
+    "disclaimer_title": "Zur Unterhaltung und Selbstreflexion",
+    "disclaimer": "Tarot-Legungen und KI-Deutungen dienen der Unterhaltung und Selbstreflexion. Sie sind keine verlässlichen Vorhersagen der Zukunft und ersetzen keine medizinische, psychologische, rechtliche, finanzielle oder sonstige professionelle Beratung. Wichtige Entscheidungen triffst du selbst.",
+    "astro_disclaimer": "Astrologische Inhalte dienen ebenfalls der Unterhaltung und Selbstreflexion. Sie sagen die Zukunft nicht verlässlich voraus und ersetzen keine medizinische, psychologische, rechtliche, finanzielle oder sonstige professionelle Beratung. Wichtige Entscheidungen triffst du selbst.",
+    "support": "Support",
+    "other_languages": "Sprachen",
+    "other_languages_note": "Alle Bereiche dieser Website sind in 20 Sprachen verfügbar.",
+    "attribution_note": "Einstiegslinks enthalten eine Empfehlungskennung. Die Browser-App kann die erste gültige Einladung bis zu 30 Tage speichern und sie nur bei der Registrierung eines neuen Kontos anwenden. Diese Website erfasst weder deine Fragen noch deine E-Mail-Adresse oder Geburtsdaten."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot – KI-Tarotlegungen in Telegram und der App",
+      "h1": "Persönliche KI-Tarotlegungen zu deinen Fragen",
+      "description": "Entdecke Tarot-Legungen mit KI-Deutungen in Telegram, der Mini App oder im Browser. Mit Legungsverlauf, Kartenlexikon und eigenem Astro-Bereich.",
+      "lead": "Wähle eine Legung, frage, was dich beschäftigt, und betrachte deine Situation anhand der Tarot-Symbolik. Nutze Tarot im Telegram-Chat, in der Mini App oder im Browser.",
+      "sections": [
+        {
+          "heading": "Von der Frage zur zusammenhängenden Deutung",
+          "paragraphs": [
+            "Wähle ein Format, das zu deiner Frage passt. Wenn eine Legung mehr Kontext braucht, beschreibe die Situation mit eigenen Worten: Was geschieht, was ist unklar und was möchtest du erkunden?",
+            "Sieh dir die gezogenen Karten an und lies eine KI-Deutung, die ihre Positionen, Kombinationen sowie aufrechte oder umgekehrte Lage berücksichtigt. Deine Frage liefert den Kontext; Schlussfolgerungen und Entscheidungen bleiben bei dir."
+          ]
+        },
+        {
+          "heading": "Klein anfangen oder tiefer einsteigen",
+          "paragraphs": [
+            "Beginne mit der Tageskarte, Kartenrat, Ja oder Nein oder einer Drei-Karten-Legung. Zu Beziehungen gibt es unter anderem Unsere Beziehung, Neue Liebe, Was fühlt die Person? und Kommt die Person zurück? Die Namen bezeichnen Themen symbolischer Legungen und liefern kein verlässliches Wissen über die Gefühle anderer."
+          ],
+          "items": [
+            "Betrachte eine Situation mit Naher Zukunft, Mein nächster Schritt oder Wie entwickelt sich die Situation?",
+            "Für einen umfassenderen Blick kannst du zwei Möglichkeiten vergleichen oder Arbeit und Finanzen, das Keltische Kreuz oder eine Jahreslegung wählen.",
+            "Einige ausführliche Formate erfordern Premium. Die aktuellen Zugangsbedingungen stehen im Produkt."
+          ]
+        },
+        {
+          "heading": "Kehre zu einer Legung zurück und vertiefe sie",
+          "paragraphs": [
+            "Passende Ergebnisse lassen sich mit einer Rückfrage oder einer zusätzlichen Karte im Kontext der ursprünglichen Legung ergänzen. Im Verlauf kannst du gespeicherte Fragen und Deutungen erneut aufrufen.",
+            "In der App kannst du ein Kartenbild öffnen und, sofern die Einstellung aktiviert ist, die lexikalische Kartenbedeutung lesen. Das Lexikon erklärt die Symbolik; die KI-Deutung bezieht sie auf deine Legung. Deine bevorzugte Sprache und dein Kartendeck werden im Profil gespeichert."
+          ]
+        },
+        {
+          "heading": "Kostenlose Funktionen, Guthaben und Premium",
+          "paragraphs": [
+            "Zum Angebot gehören kostenlose Funktionen, etwa die Tageskarte im Telegram-Chat. Bezahlte Aktionen werden mit Guthaben bezahlt. Premium schaltet ausführliche Tarot-Formate und einige Astro-Funktionen frei; es bedeutet keine unbegrenzte Nutzung.",
+            "Vor deiner Bestätigung zeigt der Bot oder die App Preis und Bedingungen an. Der Zugang kann vom Format, einem Abo, deiner Testberechtigung oder einem gespeicherten Ergebnis abhängen. Prüfe die aktuellen Kaufbedingungen im Produkt. Das Glücksrad ist eine separate Funktion und garantiert kein Guthaben."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Was ist Tarot?",
+          "Tarot ist ein Angebot mit KI-Deutungen, verfügbar im Telegram-Chat, in der Mini App und im Browser. Die App hat außerdem einen eigenen Astro-Bereich."
+        ],
+        [
+          "Welchen Zugang soll ich wählen?",
+          "Öffne Tarot für Legungen im Chat. Für die visuelle App in Telegram öffne Astro und starte die Mini App über die Telegram-Schaltfläche. Mit dem Browser-Zugang nutzt du die App außerhalb von Telegram."
+        ],
+        [
+          "Kann ich Tarot ohne Telegram nutzen?",
+          "In der Browser-App kannst du dich über Telegram oder mit einer bestätigten E-Mail-Adresse und einem Passwort anmelden. Ein separates E-Mail-Konto wird erst nach deiner Bestätigung mit Telegram verknüpft."
+        ],
+        [
+          "Was ist in Premium enthalten?",
+          "Premium schaltet verschiedene erweiterte Funktionen frei. Manche Aktionen benötigen weiterhin Guthaben; die geltenden Bedingungen zeigt das Produkt vor der Bestätigung."
+        ],
+        [
+          "Sagt Tarot die Zukunft voraus?",
+          "Nein. Legungen bieten eine symbolische Perspektive zur Unterhaltung und Selbstreflexion, keine verlässliche Vorhersage und keinen Ersatz für professionelle Beratung."
+        ]
+      ],
+      "eyebrow": "Dein persönlicher Tarot-Bereich",
+      "card_text": "Finde eine Legung zu deiner Frage",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Tageskarte",
-      "title": "Tageskarte",
-      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
-      "bullets": [
-        "Tageskarte",
-        "Eine symbolische Perspektive zur Reflexion.",
-        "Eine Deutung im Kontext deiner Frage."
+      "title": "Tarot-Tageskarte – ein symbolischer Impuls | Tarot",
+      "h1": "Eine Tarot-Tageskarte zur Reflexion",
+      "description": "Ziehe eine kostenlose Tageskarte im Tarot-Telegram-Bot und nutze ihr Bild und ihre kurze Bedeutung als Denkanstoß.",
+      "lead": "Die Tageskarte ist ein einfacher Einstieg ins Tarot: eine Karte mit einer kurzen Bedeutung. Ziehe sie kostenlos im Telegram-Bot und wähle ein Thema, über das du im Laufe des Tages nachdenken möchtest.",
+      "sections": [
+        {
+          "heading": "Eine Karte, eine Frage an dich selbst",
+          "paragraphs": [
+            "Sieh dir das Bild an und lies die Bedeutung. Du musst sie nicht als konkrete Vorhersage auffassen. Achte stattdessen darauf, ob das Thema mit deinen aktuellen Gedanken oder Plänen zu tun hat.",
+            "Du könntest dich zum Beispiel fragen, was heute deine Aufmerksamkeit verdient. Nutze deine Antwort als Notiz für dich oder als Ausgangspunkt für eine ausführlichere Legung."
+          ]
+        },
+        {
+          "heading": "So erhältst du deine Tageskarte",
+          "paragraphs": [
+            "Öffne Tarot in Telegram und starte den Chat. Du erhältst eine Tageskarte mit Bild und kurzer Bedeutung.",
+            "Die Tageskarte und das Glücksrad sind verschiedene Funktionen. Beim Glücksrad drehst du und kannst möglicherweise etwas gewinnen; es ersetzt keine Kartenlegung und garantiert kein Guthaben."
+          ]
+        },
+        {
+          "heading": "Wenn du mehr Kontext möchtest",
+          "paragraphs": [
+            "Erkunde für eine konkrete Situation Kartenrat, Ja oder Nein oder eine Drei-Karten-Legung. Vor einer kostenpflichtigen Aktion zeigt der Bot die Bedingungen an. In der App kannst du außerdem Karten ansehen und bei Bedarf ihre lexikalischen Bedeutungen aufrufen."
+          ]
+        }
       ],
-      "alt": "Tageskarte"
+      "faq": [
+        [
+          "Ist die Tageskarte kostenlos?",
+          "Ja. Im aktuellen Telegram-Angebot ist die Tageskarte kostenlos. Für andere Aktionen gelten eigene Bedingungen, die vor der Bestätigung angezeigt werden."
+        ],
+        [
+          "Sagt die Karte voraus, was heute passiert?",
+          "Nein. Sie bietet ein symbolisches Thema zum Nachdenken, keine verlässliche Vorhersage künftiger Ereignisse."
+        ],
+        [
+          "Worin unterscheidet sie sich vom Kartenrat?",
+          "Die Tageskarte ist ein allgemeiner täglicher Impuls. Kartenrat ist eine separate kurze Legung zu einer persönlichen Frage und hat eigene Zugangsbedingungen."
+        ]
+      ],
+      "eyebrow": "Eine Karte",
+      "card_text": "Ein Kartenbild und eine kurze Bedeutung als Start in den Tag.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Ja oder Nein",
-      "title": "Ja oder Nein",
-      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
-      "bullets": [
-        "Ja oder Nein",
-        "Eine symbolische Perspektive zur Reflexion.",
-        "Eine Deutung im Kontext deiner Frage."
+      "title": "Ja-oder-Nein-Tarot – eine Ein-Karten-Legung | Tarot",
+      "h1": "Eine gezielte Ja-oder-Nein-Tarotlegung",
+      "description": "Stelle eine konkrete Frage und erkunde eine Ein-Karten-Tarotlegung mit einer KI-Deutung zu deiner Situation.",
+      "lead": "Ja oder Nein ist eine Ein-Karten-Legung für eine konkrete Frage. Tarot deutet die Karte im Zusammenhang und gibt dir einen Denkanstoß, ohne dir die Entscheidung abzunehmen.",
+      "sections": [
+        {
+          "heading": "Stelle eine klare Frage",
+          "paragraphs": [
+            "Wähle eine Situation und formuliere genau, was du erkunden möchtest. „Soll ich mit meiner Führungskraft über meine neuen Aufgaben sprechen?“ bietet einen klareren Kontext als mehrere unzusammenhängende Fragen auf einmal.",
+            "Das Format bietet eine symbolische Richtung. Beziehe bei wichtigen Entscheidungen die Deutung zusammen mit verlässlichen Fakten, deiner Lage und bei Bedarf professionellem Rat ein."
+          ]
+        },
+        {
+          "heading": "Das ist in der Legung enthalten",
+          "paragraphs": [
+            "Eine Karte wird gezogen. Die KI-Deutung bezieht ihre Symbolik und Lage auf deine Frage und erklärt mehr als ein einzelnes Ja oder Nein.",
+            "Sieh dir das Bild an und überlege, welche Gedanken für dich hilfreich sind. Die Karte kann weder die Absichten einer anderen Person feststellen noch den Ausgang einer Handlung garantieren."
+          ]
+        },
+        {
+          "heading": "So legst du los",
+          "paragraphs": [
+            "Öffne Tarot oder die App, wähle Ja oder Nein, gib deine Frage ein und prüfe die Bedingungen der Aktion. Nach deiner Bestätigung kannst du Karte und Deutung erkunden. Bei mehreren zusammenhängenden Aspekten kommt eine Drei-Karten-Legung infrage."
+          ]
+        }
       ],
-      "alt": "Ja oder Nein"
+      "faq": [
+        [
+          "Kann ich mehrere Fragen auf einmal stellen?",
+          "Wähle für dieses kurze Format eine konkrete Frage. So bleibt der Kontext übersichtlich."
+        ],
+        [
+          "Ist die Antwort garantiert richtig?",
+          "Nein. Sie ist eine symbolische Deutung zur Selbstreflexion, keine verlässliche Vorhersage und keine bestätigte Tatsache über eine Situation."
+        ],
+        [
+          "Welches Format eignet sich für eine komplexe Frage?",
+          "Mit einer Drei-Karten-Legung oder einem anderen passenden Format kannst du mehrere zusammenhängende Aspekte betrachten."
+        ]
+      ],
+      "eyebrow": "Eine konkrete Frage",
+      "card_text": "Eine Karte mit einer Erklärung zu deiner Frage.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Drei-Karten-Legung",
-      "title": "Drei-Karten-Legung",
-      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
-      "bullets": [
-        "Drei-Karten-Legung",
-        "Eine symbolische Perspektive zur Reflexion.",
-        "Eine Deutung im Kontext deiner Frage."
+      "title": "Tarot-Drei-Karten-Legung mit KI | Tarot",
+      "h1": "Betrachte eine Situation mit drei zusammenhängenden Karten",
+      "description": "Erkunde eine Tarot-Drei-Karten-Legung mit Kartenbildern und einer zusammenhängenden KI-Deutung zu deiner Frage.",
+      "lead": "Eine Drei-Karten-Legung ist eine kompakte Möglichkeit, eine Frage anhand einzelner Karten und ihrer Zusammenhänge zu betrachten. Tarot erstellt aus deiner Frage und den Kartenpositionen eine gemeinsame KI-Deutung.",
+      "sections": [
+        {
+          "heading": "Warum die Zusammenhänge wichtig sind",
+          "paragraphs": [
+            "Jede Karte hat in der Legung eine bestimmte Rolle. Die Deutung betrachtet die Karten gemeinsam und eröffnet so eine zusammenhängende Perspektive. Die tatsächlichen Positionen und ihre Bezeichnungen siehst du im Ergebnis.",
+            "Nicht jede Drei-Karten-Legung verwendet Vergangenheit, Gegenwart und Zukunft. Lies die Positionen des gewählten Formats und überlege, wie sie zu deiner Frage passen."
+          ]
+        },
+        {
+          "heading": "Gib deiner Frage etwas Kontext",
+          "paragraphs": [
+            "Zum Beispiel: „Ich möchte ein beiseitegelegtes Projekt wieder aufnehmen. Was sollte ich bedenken?“ Ergänze wichtige Informationen, ohne mehrere unzusammenhängende Situationen in eine kurze Legung zu packen.",
+            "Sieh dir die Karten der Reihe nach an und lies anschließend die Gesamtauslegung. Sie kann dir helfen, einen eigenen nächsten Schritt zu finden, entscheidet aber nicht für dich."
+          ]
+        },
+        {
+          "heading": "Nach der Legung",
+          "paragraphs": [
+            "Du kannst ein gespeichertes Ergebnis im Kontoverlauf erneut aufrufen. Wo verfügbar, kannst du im ursprünglichen Kontext nachfragen oder eine weitere Karte ziehen. Preis und Bedingungen werden vor der Bestätigung angezeigt."
+          ]
+        }
       ],
-      "alt": "Drei-Karten-Legung"
+      "faq": [
+        [
+          "Was bedeuten die drei Positionen?",
+          "Das hängt vom gewählten Format ab; die Positionen werden im Ergebnis angezeigt. Gehe nicht davon aus, dass sie immer Vergangenheit, Gegenwart und Zukunft darstellen."
+        ],
+        [
+          "Kann ich später zur Antwort zurückkehren?",
+          "Gespeicherte Legungen findest du im Kontoverlauf. Für den Zugriff über verschiedene Zugänge hinweg brauchst du dasselbe Konto oder ausdrücklich verknüpfte Identitäten."
+        ],
+        [
+          "Brauche ich Premium?",
+          "Der Bot oder die App zeigt die aktuellen Bedingungen für das gewählte Format. Premium schaltet einige ausführliche Formate frei und bedeutet keinen unbegrenzten Zugang."
+        ]
+      ],
+      "eyebrow": "Drei Karten",
+      "card_text": "Mehrere zusammenhängende Aspekte einer Frage.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "Beziehungsdeutung",
-      "title": "Beziehungsdeutung",
-      "lead": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern.",
-      "body": "Der Tarot-Bot ist in 20 Sprachen verfügbar. Du kannst deine Sprache im Profil speichern. Eine Deutung im Kontext deiner Frage.",
-      "bullets": [
-        "Beziehungsdeutung",
-        "Eine symbolische Perspektive zur Reflexion.",
-        "Eine Deutung im Kontext deiner Frage."
+      "title": "Tarot-Legungen zu Beziehungen mit KI | Tarot",
+      "h1": "Die Dynamik einer Beziehung reflektieren",
+      "description": "Erkunde Unsere Beziehung, eine Fünf-Karten-Tarotlegung, und weitere Formate, um über Beziehungen nachzudenken – ohne Anspruch auf Gedankenlesen.",
+      "lead": "Unsere Beziehung ist eine Fünf-Karten-Legung über die Dynamik zwischen Menschen. Sie bietet einen symbolischen Blick auf Erwartungen, Erfahrungen und mögliche Wege; deine Schlussfolgerungen und Entscheidungen bleiben dir überlassen.",
+      "sections": [
+        {
+          "heading": "Beschreibe, was dich beschäftigt",
+          "paragraphs": [
+            "Erkläre, um welche Beziehung und welche Frage es geht. Zum Beispiel: „Wir sprechen inzwischen seltener miteinander, und ich möchte überlegen, wie ich das ansprechen kann.“ Der Kontext hilft, die Deutung auf dein Thema zu beziehen.",
+            "Du musst keine unnötigen persönlichen Angaben über die andere Person machen. Gefühle und Absichten klärt echte Kommunikation; eine Legung kann sie nicht als Tatsachen feststellen."
+          ]
+        },
+        {
+          "heading": "Was die fünf Karten zeigen",
+          "paragraphs": [
+            "Jede Karte hat eine Position, und die KI-Deutung verbindet ihre Bedeutungen zu einer Legung. Die Positionsangaben und Kartenbilder werden mit dem Ergebnis angezeigt.",
+            "Die Legung bietet verschiedene Aspekte zum Nachdenken. Sie beweist weder, dass jemand bestimmte Gefühle hat, noch wie sich eine Beziehung entwickeln wird."
+          ]
+        },
+        {
+          "heading": "Weitere Fragen zu Beziehungen",
+          "paragraphs": [
+            "Im Angebot gibt es auch Neue Liebe, Was fühlt die Person? und Kommt die Person zurück? Diese Namen bezeichnen Themen symbolischer Legungen. Manche Formate erfordern Premium; die Bedingungen werden vor der Bestätigung angezeigt.",
+            "Als anderen Ansatz bietet Astro einen Partnerschaftsvergleich anhand zweier Geburtshoroskope. Dieses separate Format benötigt die Geburtsdaten beider Personen."
+          ]
+        }
       ],
-      "alt": "Beziehungsdeutung"
+      "faq": [
+        [
+          "Kann ich die tatsächlichen Gefühle einer Person erfahren?",
+          "Nein. Eine Legung kann Gedanken oder Gefühle einer anderen Person nicht feststellen. Sie kann dir helfen, eigene Fragen zu formulieren und ein Gespräch vorzubereiten."
+        ],
+        [
+          "Garantiert die Legung, dass eine Person zurückkommt?",
+          "Kein Format garantiert das Verhalten einer anderen Person oder den Ausgang einer Beziehung."
+        ],
+        [
+          "Worin unterscheidet sich das von Synastrie?",
+          "Tarot arbeitet mit Karten und dem Kontext deiner Frage. Bei der Synastrie werden zwei Geburtshoroskope verglichen; dafür sind die Geburtsdaten beider Personen nötig."
+        ]
+      ],
+      "eyebrow": "Beziehungen",
+      "card_text": "Fünf Karten zu Begegnungen, Erwartungen und deiner Situation.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: Geburtshoroskope, Horoskope und Mondkalender | Tarot",
+      "h1": "Astro: persönliche Astrologie",
+      "description": "Entdecke Astro in Tarot: Geburtshoroskope, Partnerschaftsvergleiche, Horoskope, Transite, Solarhoroskope, einen Mondkalender und ein optionales Tagebuch.",
+      "lead": "Astro ist der Astrologie-Bereich von Tarot mit Geburtshoroskopen, Horoskopen und mehr. Wähle ein Thema, das dich interessiert, und betrachte es zur Unterhaltung und als Anstoß zur Reflexion.",
+      "sections": [
+        {
+          "heading": "Finde ein Format für deine Frage",
+          "paragraphs": [
+            "Ein Geburtshoroskop stellt die Himmelskörper zum Zeitpunkt der Geburt dar. Für Beziehungen kannst du zwei Horoskope im Partnerschaftsvergleich gegenüberstellen oder ein Liebeshoroskop wählen.",
+            "Transite und persönliche astrologische Ereignisse setzen Himmelskörperpositionen in Beziehung zu deinem Geburtshoroskop. Ein Solarhoroskop bietet einen symbolischen Blick auf dein persönliches Jahr. Der Mondkalender zeigt Mondinformationen und bietet optional ein tägliches Journal."
+          ]
+        },
+        {
+          "heading": "Welche Angaben brauchst du?",
+          "paragraphs": [
+            "Für persönliche Berechnungen werden die jeweils nötigen Angaben zu Geburtsdatum, -zeit und -ort abgefragt. Für den Partnerschaftsvergleich brauchst du die Daten beider Personen; ein Solarhoroskop erfordert außerdem ein Jahr und einen Berechnungsort. Für den Mondkalender sind keine persönlichen Geburtsdaten erforderlich.",
+            "Du gibst deine Daten im Produkt ein, nicht auf dieser Website. Wenn du das Horoskop einer anderen Person ansehen möchtest, bitte sie um die Angaben und hole ihr Einverständnis ein."
+          ]
+        },
+        {
+          "heading": "Astro nutzen",
+          "paragraphs": [
+            "Astro und Tarot sind sowohl in der Mini App als auch in der Browser-App verfügbar. Im Browser kannst du dich mit Telegram oder einer bestätigten E-Mail-Adresse und einem Passwort anmelden. Profil und Guthaben werden nur mit demselben Konto oder ausdrücklich verknüpften Identitäten geteilt.",
+            "Einige Funktionen sind kostenlos, andere Aktionen kostenpflichtig. Die Bedingungen richten sich nach der Funktion; Preis und Premium-Voraussetzungen zeigt die App vor der Bestätigung an."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Sind Astro und Tarot dasselbe?",
+          "Es sind unterschiedliche Bereiche. Tarot nutzt Karten für symbolische Legungen; Astro bietet Astrologie-Formate. Beide gibt es in der Mini App und der Browser-App."
+        ],
+        [
+          "Brauche ich meine Geburtszeit?",
+          "Bei persönlichen Berechnungen werden die benötigten Geburtsdaten einschließlich der Uhrzeit abgefragt. Für den Mondkalender brauchst du keine persönlichen Geburtsangaben."
+        ],
+        [
+          "Kann Astrologie die Zukunft verlässlich vorhersagen?",
+          "Nein. Astro-Inhalte dienen der Unterhaltung und Selbstreflexion, nicht einer verlässlichen Vorhersage."
+        ]
+      ],
+      "eyebrow": "Ein eigener Bereich",
+      "card_text": "Geburtshoroskope, Horoskope und mehr zum Entdecken.",
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen.",
+      "related": []
+    },
+    "natal": {
+      "title": "Geburtshoroskop und Deutung | Tarot Astro",
+      "h1": "Geburtshoroskop und Deutung",
+      "description": "Erfahre, was ein Geburtshoroskop darstellt, warum Geburtsdaten wichtig sind und wie sich Horoskopgrafik, Kurzporträt und ausführliche KI-Deutung unterscheiden.",
+      "lead": "Ein Geburtshoroskop stellt die Positionen der Himmelskörper zum Geburtszeitpunkt dar. In Astro kannst du das Horoskop und seine Deutung als Einstieg in die Astrologie und als Anstoß zur Selbstreflexion erkunden.",
+      "sections": [
+        {
+          "heading": "Grafik, Porträt und ausführliche Deutung",
+          "paragraphs": [
+            "Das Horoskop wird anhand der Geburtsdaten berechnet und zeigt die Positionen der Himmelskörper. Die astrologische Deutung verbindet Elemente des Horoskops mit symbolischen Themen zu Persönlichkeit und Erleben. Sie ist keine wissenschaftliche Persönlichkeitsanalyse.",
+            "Horoskopgrafik, Kurzporträt und ausführliche KI-Deutung sind verschiedene Ergebnisse. Die Grafik zeigt das Horoskop, das Porträt führt in die Deutung ein und die ausführliche Legung bietet eine detailliertere Darstellung."
+          ]
+        },
+        {
+          "heading": "Daten bereithalten und beginnen",
+          "paragraphs": [
+            "Gib Geburtsdatum, Uhrzeit und Ort ein, wenn die App danach fragt. Zeit und Ort beeinflussen die Berechnung; ungenaue Angaben können das Horoskop verändern. Prüfe die Daten anhand einer verlässlichen Quelle, falls vorhanden.",
+            "Öffne den Bereich Geburtshoroskop und fülle die abgefragten Felder aus. Du kannst zum Beispiel zuerst die Grafik und das Kurzporträt ansehen und anschließend die Bedingungen für eine ausführliche Deutung prüfen. Persönliche Angaben gibst du im Produkt ein, nicht auf dieser Website."
+          ]
+        },
+        {
+          "heading": "Mit Abstand betrachten",
+          "paragraphs": [
+            "Wähle ein Thema, das dich interessiert, und betrachte es im Zusammenhang mit deinen eigenen Erfahrungen. Eine Deutung stellt nicht fest, dass jemand zwingend eine bestimmte Eigenschaft besitzt.",
+            "Der Zugang zur Grafik, zum Porträt und zur ausführlichen Deutung kann unterschiedlich sein. Kosten, Limits und mögliche Premium-Voraussetzungen zeigt die App, bevor du eine Aktion bestätigst."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kann ich eine ungenaue Geburtszeit angeben?",
+          "Die App fragt die für eine persönliche Berechnung nötigen Angaben ab. Eine ungenaue Uhrzeit kann zu einem anderen Horoskop und einer anderen Deutung führen."
+        ],
+        [
+          "Ist das Kurzporträt die vollständige Deutung?",
+          "Nein. Das Porträt bietet eine kurze Einführung; die ausführliche KI-Deutung beleuchtet die Themen genauer."
+        ],
+        [
+          "Beweist das Horoskop, wie jemand ist?",
+          "Nein. Geburtshoroskope gehören zur Astrologie und dienen der Unterhaltung und Selbstreflexion."
+        ]
+      ],
+      "eyebrow": "Dein Geburtshoroskop",
+      "card_text": "Ein Geburtshoroskop, ein Kurzporträt und eine ausführliche Deutung.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen."
+    },
+    "compatibility": {
+      "title": "Astrologische Kompatibilität und Synastrie | Tarot",
+      "h1": "Astrologische Kompatibilität und Synastrie",
+      "description": "Erfahre, wie eine Synastrie zwei Geburtshoroskope vergleicht, welche Geburtsdaten dafür nötig sind und worin sie sich von einem Liebeshoroskop unterscheidet.",
+      "lead": "Synastrie ist ein astrologischer Vergleich zweier Geburtshoroskope. Tarot bietet sie als symbolischen Anstoß, darüber nachzudenken, wie zwei Menschen miteinander umgehen und was sie gemeinsam besprechen möchten.",
+      "sections": [
+        {
+          "heading": "So funktioniert Synastrie",
+          "paragraphs": [
+            "Für jede Person wird ein Geburtshoroskop berechnet; anschließend werden beide verglichen. Die Deutung betrachtet ihre Kombination aus astrologischer Sicht. Sie misst weder wissenschaftlich die Kompatibilität noch legt sie fest, wie sich eine Beziehung entwickelt.",
+            "Du könntest die Legung zum Beispiel nutzen, um über Erwartungen nachzudenken, die du in eine Beziehung mitbringst, oder darüber, was du ansprechen möchtest. Die Antworten findet ihr beide selbst."
+          ]
+        },
+        {
+          "heading": "Das solltest du vorbereiten",
+          "paragraphs": [
+            "Du brauchst Geburtsdatum, Uhrzeit und Ort beider Personen. Bitte die andere Person um ihre Angaben und vergewissere dich, dass sie mit deren Weitergabe einverstanden ist. Genaue Daten sind wichtig, weil sie zur Berechnung der Horoskope dienen.",
+            "Öffne in Astro den Bereich Kompatibilität und fülle die abgefragten Felder aus. Falls die Aktion kostenpflichtig ist oder Premium erfordert, zeigt die App die Bedingungen vor der Bestätigung an."
+          ]
+        },
+        {
+          "heading": "Synastrie, Liebeshoroskope und Tarot",
+          "paragraphs": [
+            "Bei der Synastrie werden zwei Geburtshoroskope verglichen. Ein Liebeshoroskop ist ein anderes, kürzeres Astrologie-Format. Eine Tarot-Beziehungslegung nutzt Karten und den Kontext deiner Frage.",
+            "Wähle den Ansatz, der dich interessiert. Keines dieser Formate stellt die Gefühle einer anderen Person fest oder ersetzt ein offenes Gespräch."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Reichen unsere Sternzeichen aus?",
+          "Für die Synastrie in Astro brauchst du Geburtsdatum, Uhrzeit und Ort beider Personen."
+        ],
+        [
+          "Eignet sich das nur für Liebespaare?",
+          "Ein Vergleich kann zur Reflexion über die Begegnung zweier Menschen anregen. Er beurteilt nicht die Qualität einer Beziehung."
+        ],
+        [
+          "Kann ich erfahren, was jemand fühlt?",
+          "Nein. Eine astrologische Deutung kann die Gefühle oder Absichten einer anderen Person nicht feststellen."
+        ]
+      ],
+      "eyebrow": "Zwei Geburtshoroskope",
+      "card_text": "Horoskopvergleich und Denkanstöße zur Reflexion über Beziehungen.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen."
+    },
+    "horoscopes": {
+      "title": "Tages- und Liebeshoroskope | Tarot Astro",
+      "h1": "Tages- und Liebeshoroskope",
+      "description": "Entdecke Tageshoroskope, persönliche Liebeshoroskope und Partnerhoroskope im Astro-Bereich von Tarot.",
+      "lead": "Astro bietet ein Tageshoroskop, ein persönliches Liebeshoroskop und ein Liebeshoroskop für zwei. Jedes ist ein kurzes Astrologie-Format, um über einen Tag oder Beziehungen nachzudenken.",
+      "sections": [
+        {
+          "heading": "Wähle ein Horoskop",
+          "paragraphs": [
+            "Das Tageshoroskop richtet den Blick auf den Tag und bietet einen Einstieg mit einer kurzen astrologischen Deutung. Das persönliche Liebeshoroskop betrachtet Beziehungsthemen aus deiner Sicht.",
+            "Das Partnerhoroskop bezieht zwei Personen ein. Wenn du zwei Geburtshoroskope vergleichen möchtest, findest du dafür den separaten Bereich Kompatibilität: ein anderes Format, für das genauere Geburtsdaten nötig sind."
+          ]
+        },
+        {
+          "heading": "Ergebnis ansehen und später wieder aufrufen",
+          "paragraphs": [
+            "Öffne Astro und wähle ein Horoskop. Die App fragt nach den für das Format nötigen Angaben; bei einer Deutung zu einer weiteren Person können auch deren Geburtsdaten erforderlich sein. Das Produkt zeigt den betrachteten Zeitraum an.",
+            "Ob du einen früheren Text erneut aufrufen kannst, hängt vom Format und vom gespeicherten Ergebnis ab. Preis und Bedingungen einer neuen Aktion zeigt die App vor der Bestätigung."
+          ]
+        },
+        {
+          "heading": "Die Deutung richtig einordnen",
+          "paragraphs": [
+            "Betrachte ein Horoskop als symbolischen Denkanstoß, nicht als Bericht über Ereignisse, die sicher eintreten. Prüfe eine Idee zu einem Gespräch oder einer Pause zum Beispiel anhand deiner tatsächlichen Lebensumstände.",
+            "Ein Horoskop kennt weder die Pläne einer anderen Person noch garantiert es den Verlauf deines Tages. Richte praktische Entscheidungen nach verlässlichen Informationen und deiner konkreten Situation."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Worin unterscheiden sich persönliches Liebeshoroskop und Partnerhoroskop?",
+          "Das persönliche Format konzentriert sich auf deine Beziehungsthemen; das Partnerhoroskop bezieht zwei Personen ein."
+        ],
+        [
+          "Kann ich ein früheres Horoskop erneut lesen?",
+          "Das hängt vom Format und dem gespeicherten Ergebnis ab. Prüfe die Verfügbarkeit in der App."
+        ],
+        [
+          "Sagt das Horoskop den Tagesverlauf voraus?",
+          "Nein. Es dient der Unterhaltung und Selbstreflexion, nicht der verlässlichen Vorhersage von Ereignissen."
+        ]
+      ],
+      "eyebrow": "Kurze Formate",
+      "card_text": "Tageshoroskope, persönliche Liebes- und Partnerhoroskope.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen."
+    },
+    "transits": {
+      "title": "Persönliche Transite und astrologische Ereignisse | Tarot",
+      "h1": "Persönliche Transite und astrologische Ereignisse",
+      "description": "Erfahre, wie astrologische Transite Himmelskörperpositionen zu deinem Geburtshoroskop in Beziehung setzen, und entdecke persönliche astrologische Ereignisse.",
+      "lead": "Astrologische Transite vergleichen die Himmelskörperpositionen an einem ausgewählten Datum mit deinem Geburtshoroskop. In Astro kannst du eine Transitdeutung und persönliche astrologische Ereignisse als symbolischen Blick auf einen Zeitraum erkunden.",
+      "sections": [
+        {
+          "heading": "Transite und dein Geburtshoroskop",
+          "paragraphs": [
+            "Ein Geburtshoroskop stellt die anhand von Geburtsdatum, Uhrzeit und Ort berechneten Himmelskörperpositionen zum Zeitpunkt deiner Geburt dar. Eine Transitdeutung setzt die Positionen eines anderen Datums zu diesem Horoskop in Beziehung.",
+            "Das Geburtshoroskop bildet die Grundlage; die Transitdeutung ergänzt ein ausgewähltes Datum und eine astrologische Interpretation. Sie ist keine wissenschaftliche Prognose von Lebensereignissen."
+          ]
+        },
+        {
+          "heading": "Datum und persönliche Ereignisse erkunden",
+          "paragraphs": [
+            "Öffne den passenden Astro-Bereich und gib die erforderlichen Geburtsdaten ein, falls sie noch nicht gespeichert sind. Wähle ein verfügbares Datum und lies das Ergebnis. In einer separaten Liste kannst du die persönlichen astrologischen Ereignisse erkunden, die im Produkt angezeigt werden.",
+            "Verfügbare Daten und Zugangsbedingungen hängen von der Funktion ab. Preis und mögliche Premium-Voraussetzungen zeigt die App vor der Bestätigung. Deine Geburtsdaten musst du nicht auf dieser Website eingeben."
+          ]
+        },
+        {
+          "heading": "Als Anstoß zum Nachdenken nutzen",
+          "paragraphs": [
+            "Eine Deutung kann zum Beispiel ein Thema wie Aufmerksamkeit oder das Überdenken von Plänen aufwerfen. Überlege, ob es praktische Gründe für eine Änderung gibt und welcher kleine Schritt hilfreich sein könnte.",
+            "Persönliche astrologische Ereignisse beziehen sich auf Himmelskörperpositionen und ihre Deutung. Sie sind keine verlässlich vorhergesagten Ereignisse in deinem Leben."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Welche Geburtsdaten werden benötigt?",
+          "Die App fragt nach den erforderlichen Angaben zu Geburtsdatum, Uhrzeit und Ort."
+        ],
+        [
+          "Sind astrologische Ereignisse Ereignisse in meinem Leben?",
+          "Nein. Die Liste bezieht sich auf astrologische Positionen und deren Deutung, nicht auf feststehende künftige Ereignisse."
+        ],
+        [
+          "Kann ich ein Datum auswählen?",
+          "Ja. Im Bereich Transite kannst du ein verfügbares Datum auswählen; die App zeigt den möglichen Zeitraum an."
+        ]
+      ],
+      "eyebrow": "Ein Datum und dein Horoskop",
+      "card_text": "Eine Transitdeutung und persönliche astrologische Ereignisse.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen."
+    },
+    "solar": {
+      "title": "Solarhoroskop: astrologischer Ausblick auf dein Jahr | Tarot",
+      "h1": "Solarhoroskop: astrologischer Ausblick auf dein Jahr",
+      "description": "Erfahre, was ein Solarhoroskop ist, welche Angaben für die Berechnung benötigt werden und worin es sich vom Geburtshoroskop unterscheidet.",
+      "lead": "Ein Solarhoroskop ist ein Astrologie-Format für einen symbolischen Blick auf dein persönliches Jahr. In Tarot kannst du es anhand deiner Geburtsdaten, eines Jahres und eines Berechnungsorts erstellen und seine Themen erkunden.",
+      "sections": [
+        {
+          "heading": "Was ist ein Solarhoroskop?",
+          "paragraphs": [
+            "Ein Solarhoroskop wird für den Zeitpunkt berechnet, an dem die Sonne ihre Geburtsposition wieder erreicht. In der Astrologie dient es dazu, Themen eines persönlichen Jahres zu betrachten.",
+            "Die Deutung kann Denkanstöße zu Prioritäten und Plänen geben. Sie stellt nicht fest, welche Ereignisse in diesem Zeitraum eintreten werden."
+          ]
+        },
+        {
+          "heading": "Diese Angaben solltest du bereithalten",
+          "paragraphs": [
+            "Du brauchst dein Geburtsdatum, die Geburtszeit und den Geburtsort sowie ein Jahr und einen Ort für die Solarberechnung. Prüfe die Angaben vor dem Absenden: Sie werden zur Erstellung des Horoskops verwendet.",
+            "Öffne Solarhoroskop in Astro, fülle die Felder aus und prüfe die Zugangsbedingungen. Die App zeigt vor der Bestätigung mögliche Guthaben- oder Premium-Voraussetzungen sowie den Preis."
+          ]
+        },
+        {
+          "heading": "Unterschiede zu anderen Formaten",
+          "paragraphs": [
+            "Ein Geburtshoroskop bezieht sich auf den Geburtszeitpunkt; ein Solarhoroskop bietet einen eigenen astrologischen Blick auf ein persönliches Jahr. Eine Tarot-Jahreslegung nutzt die Symbolik der Karten und ihrer Positionen.",
+            "Notiere nach dem Lesen eines Solarhoroskops zum Beispiel deine eigenen Prioritäten und überlege, welche konkreten Ressourcen du dafür brauchst. Entscheide anhand deiner Lebensumstände und verlässlicher Informationen."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Warum wird ein Berechnungsort benötigt?",
+          "Der Ort ist neben dem Jahr und den Geburtsdaten eine Eingabe für das Solarhoroskop."
+        ],
+        [
+          "Kann mir das helfen, über das kommende Jahr nachzudenken?",
+          "Es kann eigene Fragen und Prioritäten anstoßen. Triff praktische Entscheidungen anhand deiner Situation und verlässlicher Informationen."
+        ],
+        [
+          "Sagt es konkrete Ereignisse voraus?",
+          "Nein. Eine Solar-Deutung ist symbolisch und keine verlässliche Vorhersage von Ereignissen."
+        ]
+      ],
+      "eyebrow": "Dein persönliches Jahr",
+      "card_text": "Astrologische Themen und deine eigenen Prioritäten.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen."
+    },
+    "moon": {
+      "title": "Mondkalender und tägliches Journal | Tarot Astro",
+      "h1": "Mondkalender und tägliches Journal",
+      "description": "Entdecke Mondinformationen in Astro und notiere optional in deinem täglichen Journal deine Stimmung, Energie und einen kurzen Gedanken.",
+      "lead": "Der Mondkalender in Astro bietet Informationen zum Mond, darunter seine Phase. In einem optionalen täglichen Journal kannst du deine Stimmung und Energie festhalten oder eine kurze Notiz zu deinem Tag schreiben.",
+      "sections": [
+        {
+          "heading": "Den Mondkalender erkunden",
+          "paragraphs": [
+            "Eine Mondphase beschreibt den sichtbaren, beleuchteten Teil des Mondes. Der Kalender bündelt aktuelle Mondinformationen in einem Bereich der App.",
+            "Wenn dich ein astrologischer Blickwinkel interessiert, nutze ihn als Thema zum Beobachten und Nachdenken. Eine Mondphase allein belegt keine Wirkung auf Gesundheit, Stimmung oder den Erfolg einer Tätigkeit."
+          ]
+        },
+        {
+          "heading": "Optional ein Journal führen",
+          "paragraphs": [
+            "Öffne neben dem Mondbereich das Journal und notiere auf Wunsch deine Stimmung und Energie oder einen kurzen Gedanken. Du könntest zum Beispiel festhalten, was dir heute beim Ausruhen geholfen hat oder was du morgen tun möchtest.",
+            "Du musst nicht täglich etwas eintragen. Im Verlauf kannst du frühere Notizen wieder aufrufen. Speichere nur Angaben, die du im Produkt behalten möchtest."
+          ]
+        },
+        {
+          "heading": "Brauchst du Geburtsdaten?",
+          "paragraphs": [
+            "Für den Mondkalender sind keine persönlichen Geburtsdaten erforderlich. Für Geburtshoroskope, Transite und andere persönliche Berechnungen fragt die App die jeweils nötigen Angaben separat ab.",
+            "Öffne den Mondbereich und sieh dir die verfügbaren Informationen an. Die aktuellen Bedingungen einzelner Aktionen findest du im Produkt. Diese Website erfasst keine persönlichen Journaleinträge."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Muss ich jeden Tag schreiben?",
+          "Nein. Das Journal ist freiwillig; nutze es, wenn du etwas festhalten möchtest."
+        ],
+        [
+          "Brauche ich Geburtszeit und -ort?",
+          "Für den Mondkalender sind keine persönlichen Geburtsdaten erforderlich."
+        ],
+        [
+          "Kann die Mondphase sagen, ob ein Vorhaben gelingt?",
+          "Nein. Der Kalender bietet Mondinformationen, keine verlässliche Vorhersage über den Ausgang deiner Vorhaben."
+        ]
+      ],
+      "eyebrow": "Beobachtungen und Notizen",
+      "card_text": "Mondinformationen und eine optionale Notiz zu deinem Tag.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Astro neben deinem Tarot",
+      "example_text": "Die App zeigt Astrologie-Formate mit klaren Bezeichnungen und Zugangsbedingungen. Wähle ein Thema, gib die nötigen Angaben ein und prüfe vor der Bestätigung die Voraussetzungen."
     }
+  },
+  "demo": {
+    "name": "Beispiel",
+    "reading_title": "Drei-Karten-Legung",
+    "question": "Was kann mir helfen, den nächsten Schritt zu gehen?",
+    "positions": [
+      "Vergangenheit",
+      "Gegenwart",
+      "Zukunft"
+    ],
+    "card_names": [
+      "Der Narr",
+      "Der Magier",
+      "Der Stern"
+    ],
+    "answer_title": "Ein neuer Blick auf die Situation",
+    "answer": "Der Narr deutet auf einen kleinen Anfang hin. Der Magier verweist auf Fähigkeiten, die du einsetzen kannst, und der Stern lädt dich ein, dein Ziel im Blick zu behalten. Wähle einen überschaubaren Schritt und überlege anschließend, was du daraus mitnimmst."
   }
 }

@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Bacaan Tarot AI peribadi di Telegram | Taroshenka",
-    "description": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-    "ogTitle": "Bacaan Tarot AI peribadi di Telegram",
-    "ogDescription": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-    "twitterTitle": "Bacaan Tarot AI peribadi di Telegram",
-    "twitterDescription": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "Buka di Telegram",
-    "brandAria": "Bahasa Melayu Taroshenka",
-    "primaryAria": "Cara ia berfungsi",
-    "how": "Cara ia berfungsi",
-    "readings": "Bacaan",
-    "faq": "Soalan lazim",
-    "languageAria": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-    "headerCta": "Buka di Telegram",
-    "home": "Bahasa Melayu",
-    "breadcrumbAria": "Soalan lazim",
-    "identity": "Bot:",
-    "factsAria": "Cara ia berfungsi"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Bacaan Tarot AI peribadi di Telegram",
-      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "cta": "Dapatkan bacaan Tarot",
-      "imageAlt": "Bacaan Tarot AI peribadi di Telegram"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+    "brand": "Tarot",
+    "home": "Laman Utama",
+    "tarot": "Tarot",
+    "astro": "Astro",
+    "faq": "FAQ",
+    "skip": "Langkau ke kandungan utama",
+    "breadcrumbs": "Jejak navigasi",
+    "switch_language": "Pilih bahasa",
+    "explore": "Terokai",
+    "entry_heading": "Tiga cara untuk membuka Tarot",
+    "entry_labels": [
+      "Buka Tarot",
+      "Buka Mini App Astro",
+      "Buka dalam pelayar"
     ],
-    "how": {
-      "eyebrow": "Cara ia berfungsi",
-      "title": "Cara ia berfungsi",
-      "intro": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "steps": [
-        [
-          "Cara ia berfungsi",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "Tanyakan perkara yang penting kepada anda",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "Bacaan",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Bacaan",
-      "title": "Bacaan",
-      "intro": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "items": [
-        [
-          "daily-card",
-          "Kad Harian",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "yes-no",
-          "Ya atau Tidak",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "three-card",
-          "Bacaan tiga kad",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "relationships",
-          "Bacaan hubungan",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "premium",
-          "Bacaan Premium",
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Tanyakan perkara yang penting kepada anda",
-      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "personal": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Bacaan Premium",
-      "intro": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Untuk bahasa ini, bayaran dibuat dengan Telegram Stars."
-    },
-    "languages": {
-      "eyebrow": "Bahasa Melayu",
-      "title": "Bacaan Tarot AI peribadi di Telegram",
-      "text": "{count}: Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "names": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-    },
-    "faq": [
-      [
-        "Tanyakan perkara yang penting kepada anda",
-        "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-      ],
-      [
-        "Does it predict the future?",
-        "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-      ],
-      [
-        "Soalan lazim",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Untuk bahasa ini, bayaran dibuat dengan Telegram Stars."
-      ],
-      [
-        "20",
-        "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-      ],
-      [
-        "Languages",
-        "20: Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
-      ]
+    "entry_notes": [
+      "Bacaan Tarot dalam sembang Telegram anda.",
+      "Buka Astro, kemudian lancarkan aplikasi melalui butang Telegramnya.",
+      "Aplikasi dengan log masuk melalui Telegram atau e-mel."
     ],
-    "disclaimer": {
-      "title": "Soalan lazim",
-      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil."
+    "entity_description": "Tarot ialah perkhidmatan Tarot dengan tafsiran AI dan bahagian Astro yang berasingan, tersedia melalui Telegram, Mini App dan pelayar.",
+    "hero_alt": "Pembaca Tarot meneliti kad di bawah cahaya lilin dalam ruang dalaman berwarna biru laut gelap dan ungu",
+    "tarot_heading": "Cari bacaan untuk soalan anda",
+    "tarot_intro": "Terokai sudut pandangan simbolik yang ringkas atau bacaan yang lebih terperinci. Tafsiran menghubungkan kad dengan kedudukan masing-masing dan konteks soalan anda.",
+    "astro_heading": "Ruang berasingan untuk astrologi",
+    "astro_intro": "Terokai carta kelahiran, keserasian dan format astrologi lain. Setiap halaman menerangkan hasil yang tersedia dan butiran yang diperlukan untuk pengiraan.",
+    "inside": "Dalam aplikasi",
+    "example_heading": "Kad, makna dan soalan anda",
+    "example_text": "Lihat kad dan terokai tafsiran AI yang disesuaikan dengan soalan anda. Bacaan tertentu boleh disusuli dengan penjelasan lanjut atau kad tambahan.",
+    "example_caption": "Antara muka aplikasi sebenar dengan data demonstrasi. Ini contoh, bukan bacaan pengguna sebenar.",
+    "image_alt": {
+      "tarot": "Contoh bacaan Tarot dalam aplikasi dengan kad Rider–Waite dan tafsiran AI",
+      "card": "Kad Tarot Rider–Waite yang dibuka dalam pemapar kad aplikasi",
+      "astro": "Bahagian Astro aplikasi dengan pilihan arah dan jurnal harian"
     },
-    "cta": {
-      "title": "Tanyakan perkara yang penting kepada anda",
-      "text": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "button": "Buka di Telegram"
-    }
+    "account_text": "Profil, kredit dan sejarah anda dikongsi apabila anda menggunakan akaun yang sama atau memautkan identiti secara jelas. Pendaftaran e-mel berasingan tidak menggabungkan akaun secara automatik.",
+    "cross_link_astro": "Terokai Astro",
+    "cross_link_tarot": "Terokai bacaan Tarot",
+    "answers": "Jawapan kepada soalan",
+    "related": "Topik berkaitan",
+    "final_title": "Pilih cara untuk bermula",
+    "final_text": "Gunakan sembang Telegram, Mini App dalam Telegram atau aplikasi pelayar. Pilih pengalaman yang sesuai untuk anda.",
+    "disclaimer_title": "Untuk hiburan dan refleksi kendiri",
+    "disclaimer": "Bacaan Tarot dan tafsiran AI bertujuan untuk hiburan dan refleksi kendiri. Kedua-duanya bukan ramalan masa depan yang boleh dipercayai dan tidak menggantikan bantuan profesional perubatan, psikologi, undang-undang, kewangan atau bidang lain. Anda sendiri membuat keputusan penting.",
+    "astro_disclaimer": "Kandungan astrologi juga bertujuan untuk hiburan dan refleksi kendiri. Kandungan ini bukan ramalan masa depan yang boleh dipercayai dan tidak menggantikan bantuan profesional perubatan, psikologi, undang-undang, kewangan atau bidang lain. Anda sendiri membuat keputusan penting.",
+    "support": "Bantuan",
+    "other_languages": "Bahasa",
+    "other_languages_note": "Semua bahagian laman web ini tersedia dalam 20 bahasa.",
+    "attribution_note": "Pautan masuk mengandungi pengenal rujukan. Aplikasi pelayar mungkin menyimpan jemputan sehingga 30 hari. Laman web ini tidak mengumpulkan soalan, alamat e-mel atau butiran kelahiran anda."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot — Bacaan Tarot AI dalam Telegram dan Aplikasi",
+      "h1": "Bacaan Tarot AI peribadi untuk soalan anda",
+      "description": "Terokai bacaan Tarot dengan tafsiran AI dalam Telegram, Mini App atau pelayar anda. Terdapat sejarah bacaan, makna rujukan kad dan bahagian Astro yang berasingan.",
+      "lead": "Pilih bacaan, tanyakan perkara yang penting bagi anda dan terokai situasi melalui simbolisme Tarot. Gunakan Tarot dalam sembang Telegram, Mini App atau pelayar anda.",
+      "sections": [
+        {
+          "heading": "Daripada soalan kepada tafsiran yang berkaitan",
+          "paragraphs": [
+            "Pilih format yang sesuai dengan soalan anda. Jika bacaan meminta konteks, huraikan situasi dengan kata-kata sendiri: apa yang sedang berlaku, perkara yang masih tidak pasti dan perkara yang ingin anda terokai.",
+            "Lihat kad yang ditarik dan baca tafsiran AI yang menghubungkan kedudukan, gabungan serta orientasi tegak atau terbaliknya. Soalan anda memberikan konteks; kesimpulan dan keputusan tetap milik anda."
+          ]
+        },
+        {
+          "heading": "Mulakan secara ringkas atau terokai dengan lebih mendalam",
+          "paragraphs": [
+            "Mulakan dengan Kad Harian, Nasihat kad, Ya / Tidak atau bacaan tiga kad. Format hubungan merangkumi Hubungan kita, Cinta baharu, Apa yang dia rasakan? dan Adakah dia akan kembali? Nama-nama ini menerangkan topik bacaan simbolik, bukannya pengetahuan yang boleh dipercayai tentang perasaan orang lain."
+          ],
+          "items": [
+            "Terokai situasi dengan Masa terdekat, Langkah saya seterusnya atau Perkembangan situasi.",
+            "Untuk perspektif yang lebih luas, bandingkan dua pilihan atau pilih Kerja dan wang, Salib Celtic atau bacaan untuk tahun akan datang.",
+            "Sesetengah format lanjutan memerlukan Premium. Syarat akses semasa dipaparkan dalam produk."
+          ]
+        },
+        {
+          "heading": "Kembali kepada bacaan dan terokainya dengan lebih lanjut",
+          "paragraphs": [
+            "Hasil yang sesuai boleh disusuli dengan soalan penjelasan atau kad tambahan dalam konteks bacaan asal. Sejarah membolehkan anda melihat semula soalan dan tafsiran yang disimpan.",
+            "Dalam aplikasi, buka imej kad dan baca makna rujukannya apabila tetapan itu diaktifkan. Rujukan menerangkan simbolisme; tafsiran AI mengaitkannya dengan bacaan anda. Bahasa dan dek pilihan anda disimpan dalam profil."
+          ]
+        },
+        {
+          "heading": "Ciri percuma, kredit dan Premium",
+          "paragraphs": [
+            "Produk ini merangkumi ciri percuma seperti Kad Harian dalam Telegram. Tindakan berbayar menggunakan kredit. Premium membuka format Tarot lanjutan dan beberapa ciri Astro; ia tidak bermaksud penggunaan tanpa had.",
+            "Bot atau aplikasi memaparkan harga dan syarat sebelum anda mengesahkan tindakan. Akses mungkin bergantung pada format, langganan, kelayakan percubaan atau hasil yang disimpan. Semak syarat pembelian semasa dalam produk. Roda Nasib ialah ciri berasingan dan tidak menjamin ganjaran kredit."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Apakah Tarot?",
+          "Tarot ialah perkhidmatan Tarot dengan tafsiran AI, tersedia dalam sembang Telegram, Mini App dan pelayar. Aplikasi ini juga mempunyai bahagian Astro yang berasingan."
+        ],
+        [
+          "Laluan masuk yang manakah patut saya pilih?",
+          "Buka Tarot untuk bacaan dalam sembang. Untuk menggunakan aplikasi visual dalam Telegram, buka Astro dan lancarkannya melalui butang Telegram. Pilih laluan pelayar untuk menggunakan aplikasi di luar Telegram."
+        ],
+        [
+          "Bolehkah saya menggunakannya tanpa Telegram?",
+          "Aplikasi pelayar menyokong log masuk Telegram dan pendaftaran menggunakan alamat e-mel yang disahkan serta kata laluan. Akaun e-mel berasingan hanya dipautkan kepada Telegram selepas pengesahan."
+        ],
+        [
+          "Apakah yang termasuk dalam Premium?",
+          "Premium membuka pelbagai ciri lanjutan. Sesetengah tindakan masih menggunakan kredit; produk memaparkan syarat yang berkenaan sebelum pengesahan."
+        ],
+        [
+          "Adakah Tarot meramalkan masa depan?",
+          "Tidak. Bacaan menawarkan perspektif simbolik untuk hiburan dan refleksi kendiri, bukannya ramalan yang boleh dipercayai atau pengganti bantuan profesional."
+        ]
+      ],
+      "eyebrow": "Ruang peribadi untuk Tarot",
+      "card_text": "Cari bacaan untuk soalan anda",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Kad Harian",
-      "title": "Kad Harian",
-      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
-      "bullets": [
-        "Kad Harian",
-        "Perspektif simbolik untuk renungan.",
-        "Tafsiran yang mengambil kira konteks soalan."
+      "title": "Kad Tarot Harian — Titik Permulaan Simbolik | Tarot",
+      "h1": "Kad Tarot harian untuk refleksi",
+      "description": "Dapatkan Kad Harian percuma dalam bot Telegram Tarot dan terokai imej serta makna ringkasnya sebagai pencetus refleksi.",
+      "lead": "Kad Harian ialah pengenalan ringkas kepada Tarot melalui satu kad dan makna pendeknya. Dapatkannya secara percuma dalam bot Telegram dan pilih tema untuk direnungkan sepanjang hari.",
+      "sections": [
+        {
+          "heading": "Satu kad, satu soalan untuk diri sendiri",
+          "paragraphs": [
+            "Lihat imej dan baca maknanya. Anda tidak perlu menganggapnya sebagai ramalan literal. Sebaliknya, perhatikan sama ada temanya berkaitan dengan fikiran atau rancangan semasa anda.",
+            "Contohnya, tanyakan kepada diri sendiri perkara yang patut diberikan perhatian hari ini. Gunakan jawapannya sebagai catatan untuk diri sendiri atau titik permulaan bagi bacaan yang lebih terperinci."
+          ]
+        },
+        {
+          "heading": "Cara mendapatkan Kad Harian",
+          "paragraphs": [
+            "Buka Tarot dalam Telegram dan mulakan sembang untuk menerima Kad Harian berserta imej dan makna ringkasnya.",
+            "Kad Harian dan Roda Nasib ialah ciri yang berbeza. Wheel melibatkan putaran dan kemungkinan ganjaran; ia tidak menggantikan bacaan kad atau menjamin kredit."
+          ]
+        },
+        {
+          "heading": "Apabila anda mahukan konteks tambahan",
+          "paragraphs": [
+            "Untuk situasi tertentu, terokai Nasihat kad, Ya / Tidak atau bacaan tiga kad. Bot memaparkan syarat sebelum tindakan berbayar. Aplikasi ini juga menawarkan paparan kad dan makna rujukan pilihan."
+          ]
+        }
       ],
-      "alt": "Kad Harian"
+      "faq": [
+        [
+          "Adakah Kad Harian percuma?",
+          "Ya. Katalog Telegram semasa menawarkan Kad Harian secara percuma. Tindakan lain mempunyai syarat tersendiri yang dipaparkan sebelum pengesahan."
+        ],
+        [
+          "Adakah kad ini meramalkan perkara yang akan berlaku hari ini?",
+          "Tidak. Kad ini menawarkan tema simbolik untuk refleksi, bukannya gambaran yang boleh dipercayai tentang peristiwa akan datang."
+        ],
+        [
+          "Apakah bezanya dengan Nasihat kad?",
+          "Kad Harian ialah pencetus umum harian. Nasihat kad ialah bacaan ringkas yang berasingan untuk soalan peribadi dan mempunyai syarat akses tersendiri."
+        ]
+      ],
+      "eyebrow": "Satu kad",
+      "card_text": "Imej kad dan makna ringkas untuk memulakan hari anda.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Ya atau Tidak",
-      "title": "Ya atau Tidak",
-      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
-      "bullets": [
-        "Ya atau Tidak",
-        "Perspektif simbolik untuk renungan.",
-        "Tafsiran yang mengambil kira konteks soalan."
+      "title": "Tarot Ya / Tidak — Bacaan Satu Kad | Tarot",
+      "h1": "Bacaan Tarot ya atau tidak yang terarah",
+      "description": "Ajukan soalan yang terarah dan terokai bacaan Tarot satu kad dengan tafsiran AI yang disesuaikan dengan situasi anda.",
+      "lead": "Ya / Tidak ialah bacaan satu kad untuk soalan yang terarah. Tarot menerangkan kad mengikut konteks supaya anda dapat mempertimbangkannya, bukannya membuat keputusan bagi pihak anda.",
+      "sections": [
+        {
+          "heading": "Ajukan satu soalan yang jelas",
+          "paragraphs": [
+            "Pilih satu situasi dan nyatakan dengan jelas perkara yang ingin diterokai. “Patutkah saya berbincang dengan pengurus tentang tanggungjawab baharu saya?” memberikan konteks yang lebih jelas berbanding beberapa soalan yang tidak berkaitan sekali gus.",
+            "Format ini menawarkan petunjuk simbolik. Untuk keputusan penting, pertimbangkan tafsiran bersama fakta yang boleh dipercayai, keadaan anda dan nasihat profesional jika perlu."
+          ]
+        },
+        {
+          "heading": "Kandungan bacaan",
+          "paragraphs": [
+            "Satu kad ditarik. Tafsiran AI mengaitkan simbolisme dan orientasinya dengan soalan anda untuk memberikan penjelasan yang lebih daripada sekadar ya atau tidak.",
+            "Lihat imej dan perhatikan idea yang berguna kepada anda. Kad tidak dapat memastikan niat orang lain atau menjamin hasil sesuatu tindakan."
+          ]
+        },
+        {
+          "heading": "Cara bermula",
+          "paragraphs": [
+            "Buka Tarot atau aplikasi, pilih Ya / Tidak, masukkan soalan dan semak syarat tindakan. Selepas pengesahan, terokai kad dan tafsirannya. Untuk soalan yang mempunyai beberapa aspek berkaitan, pertimbangkan bacaan tiga kad."
+          ]
+        }
       ],
-      "alt": "Ya atau Tidak"
+      "faq": [
+        [
+          "Bolehkah saya mengajukan beberapa soalan sekali gus?",
+          "Untuk format ringkas ini, pilih satu soalan yang terarah supaya konteksnya lebih mudah diikuti."
+        ],
+        [
+          "Adakah jawapan dijamin betul?",
+          "Tidak. Ini tafsiran simbolik untuk refleksi kendiri, bukannya ramalan yang boleh dipercayai atau fakta yang disahkan tentang sesuatu situasi."
+        ],
+        [
+          "Apakah yang lebih sesuai untuk soalan yang rumit?",
+          "Bacaan tiga kad atau format lain yang berkaitan boleh membantu anda mempertimbangkan beberapa aspek yang saling berkaitan."
+        ]
+      ],
+      "eyebrow": "Soalan yang terarah",
+      "card_text": "Satu kad dengan penjelasan yang berkaitan dengan soalan anda.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Bacaan tiga kad",
-      "title": "Bacaan tiga kad",
-      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
-      "bullets": [
-        "Bacaan tiga kad",
-        "Perspektif simbolik untuk renungan.",
-        "Tafsiran yang mengambil kira konteks soalan."
+      "title": "Bacaan Tarot Tiga Kad dengan AI | Tarot",
+      "h1": "Terokai situasi melalui tiga kad yang berkaitan",
+      "description": "Terokai susunan Tarot tiga kad dengan imej kad dan tafsiran AI yang saling berkaitan berdasarkan soalan anda.",
+      "lead": "Bacaan tiga kad ialah cara ringkas untuk meneroka soalan melalui makna setiap kad dan hubung kait antaranya. Tarot menghasilkan satu tafsiran AI berdasarkan soalan dan kedudukan kad anda.",
+      "sections": [
+        {
+          "heading": "Mengapa hubungan antara kad penting",
+          "paragraphs": [
+            "Setiap kad mempunyai peranan dalam susunan. Tafsiran mempertimbangkan semua kad bersama-sama untuk membentuk perspektif yang berkaitan. Kedudukan sebenar dan labelnya dipaparkan dalam hasil.",
+            "Bukan semua format tiga kad menggunakan masa lalu, masa kini dan masa depan. Baca kedudukan format yang dipilih dan pertimbangkan kaitannya dengan soalan anda."
+          ]
+        },
+        {
+          "heading": "Berikan sedikit konteks kepada soalan",
+          "paragraphs": [
+            "Contohnya: “Saya ingin menyambung semula projek yang pernah saya ketepikan. Apakah yang patut saya pertimbangkan?” Berikan konteks yang berkaitan tanpa menggabungkan beberapa situasi yang tidak berkaitan dalam satu bacaan ringkas.",
+            "Lihat kad mengikut turutan, kemudian baca tafsiran keseluruhan. Tafsiran boleh membantu anda merumuskan langkah seterusnya; ia tidak memilih langkah itu bagi pihak anda."
+          ]
+        },
+        {
+          "heading": "Selepas bacaan",
+          "paragraphs": [
+            "Lihat semula hasil yang disimpan dalam sejarah akaun anda. Jika disokong, penjelasan atau kad tambahan membolehkan anda meneroka konteks asal dengan lebih lanjut. Produk memaparkan harga dan syarat sebelum pengesahan."
+          ]
+        }
       ],
-      "alt": "Bacaan tiga kad"
+      "faq": [
+        [
+          "Apakah maksud tiga kedudukan tersebut?",
+          "Maknanya bergantung pada format yang dipilih dan dipaparkan dalam hasil. Jangan anggap kedudukan itu sentiasa mewakili masa lalu, masa kini dan masa depan."
+        ],
+        [
+          "Bolehkah saya melihat semula jawapan?",
+          "Bacaan yang disimpan tersedia dalam sejarah akaun anda. Untuk berkongsi akses antara laluan masuk, gunakan akaun yang sama atau identiti yang telah dipautkan secara jelas."
+        ],
+        [
+          "Adakah saya memerlukan Premium?",
+          "Bot atau aplikasi memaparkan syarat semasa bagi format yang dipilih. Premium membuka sesetengah format lanjutan dan tidak bermaksud akses tanpa had."
+        ]
+      ],
+      "eyebrow": "Tiga kad",
+      "card_text": "Beberapa aspek berkaitan dalam satu soalan.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "Bacaan hubungan",
-      "title": "Bacaan hubungan",
-      "lead": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil.",
-      "body": "Bot Tarot tersedia dalam 20 bahasa. Simpan bahasa anda dalam profil. Tafsiran yang mengambil kira konteks soalan.",
-      "bullets": [
-        "Bacaan hubungan",
-        "Perspektif simbolik untuk renungan.",
-        "Tafsiran yang mengambil kira konteks soalan."
+      "title": "Bacaan Tarot Hubungan dengan AI | Tarot",
+      "h1": "Renungkan dinamika sesuatu hubungan",
+      "description": "Terokai Hubungan kita, bacaan Tarot lima kad dan format berkaitan untuk merenungkan hubungan tanpa dakwaan membaca fikiran.",
+      "lead": "Hubungan kita ialah bacaan lima kad tentang dinamika antara individu. Bacaan ini menawarkan pandangan simbolik tentang jangkaan, pengalaman dan kemungkinan arah hubungan, sementara kesimpulan dan keputusan diserahkan kepada anda.",
+      "sections": [
+        {
+          "heading": "Terangkan perkara yang penting bagi anda",
+          "paragraphs": [
+            "Terangkan hubungan itu dan perkara yang bermain di fikiran anda. Contohnya: “Kami semakin jarang berbual sekarang, dan saya ingin memikirkan cara untuk membincangkannya.” Konteks membantu mengaitkan tafsiran dengan topik anda.",
+            "Anda tidak perlu berkongsi maklumat peribadi yang tidak perlu tentang orang lain. Perasaan dan niat perlu diketahui melalui komunikasi sebenar, bukannya dianggap sebagai fakta daripada bacaan."
+          ]
+        },
+        {
+          "heading": "Apakah yang ditawarkan oleh lima kad",
+          "paragraphs": [
+            "Setiap kad mempunyai kedudukan, dan tafsiran AI menghubungkan maknanya menjadi satu bacaan. Label kedudukan dan imej kad disertakan bersama hasilnya.",
+            "Bacaan ini menawarkan beberapa aspek untuk dipertimbangkan. Ia tidak membuktikan perasaan seseorang atau menentukan bagaimana sesuatu hubungan akan berkembang."
+          ]
+        },
+        {
+          "heading": "Soalan hubungan yang lain",
+          "paragraphs": [
+            "Katalog juga merangkumi Cinta baharu, Apa yang dia rasakan? dan Adakah dia akan kembali? Nama ini menerangkan topik bacaan simbolik. Sesetengah format memerlukan Premium; produk memaparkan syaratnya sebelum pengesahan.",
+            "Untuk pendekatan yang berbeza, Astro menawarkan keserasian melalui perbandingan dua carta kelahiran. Ini format berasingan yang menggunakan butiran kelahiran kedua-dua individu."
+          ]
+        }
       ],
-      "alt": "Bacaan hubungan"
+      "faq": [
+        [
+          "Bolehkah saya mengetahui perasaan sebenar seseorang?",
+          "Tidak. Bacaan tidak dapat memastikan fikiran atau perasaan orang lain. Anda boleh menggunakannya untuk merumuskan soalan sendiri dan membuat persediaan untuk berbual."
+        ],
+        [
+          "Adakah bacaan menjamin pasangan akan kembali?",
+          "Tiada format yang menjamin tindakan orang lain atau hasil sesuatu hubungan."
+        ],
+        [
+          "Apakah bezanya dengan sinastri?",
+          "Tarot menggunakan kad dan konteks soalan. Sinastri membandingkan dua carta kelahiran dan memerlukan butiran kelahiran kedua-dua individu."
+        ]
+      ],
+      "eyebrow": "Hubungan",
+      "card_text": "Lima kad tentang interaksi, jangkaan dan situasi anda.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: Carta Kelahiran, Horoskop dan Kalendar Bulan | Tarot",
+      "h1": "Astro: astrologi peribadi",
+      "description": "Terokai Astro dalam Tarot: carta kelahiran, keserasian, horoskop, transit, solar return, kalendar Bulan dan jurnal harian pilihan.",
+      "lead": "Astro ialah bahagian astrologi dalam Tarot, dengan carta kelahiran, horoskop dan banyak lagi. Pilih topik yang menarik minat anda dan terokainya sebagai hiburan serta ajakan untuk membuat refleksi.",
+      "sections": [
+        {
+          "heading": "Cari format yang sesuai dengan soalan anda",
+          "paragraphs": [
+            "Carta kelahiran menggambarkan kedudukan jasad cakerawala semasa kelahiran. Untuk hubungan, bandingkan dua carta melalui ciri keserasian atau pilih horoskop cinta.",
+            "Transit dan peristiwa astrologi peribadi mengaitkan kedudukan jasad cakerawala dengan carta kelahiran anda. Solar return menawarkan pandangan simbolik tentang tahun peribadi. Kalendar Bulan menyediakan maklumat Bulan bersama jurnal harian pilihan."
+          ]
+        },
+        {
+          "heading": "Apakah maklumat yang diperlukan?",
+          "paragraphs": [
+            "Pengiraan peribadi memerlukan tarikh, masa dan tempat lahir yang berkaitan. Keserasian memerlukan butiran kedua-dua individu; solar return juga memerlukan tahun dan lokasi pengiraan. Kalendar Bulan tidak memerlukan butiran kelahiran peribadi.",
+            "Masukkan butiran dalam produk, bukan di laman web ini. Jika meneroka carta orang lain, minta maklumat tersebut daripada mereka dan pastikan mereka bersetuju untuk berkongsinya."
+          ]
+        },
+        {
+          "heading": "Mengakses Astro",
+          "paragraphs": [
+            "Astro dan Tarot tersedia dalam Mini App dan aplikasi pelayar. Dalam pelayar, log masuk melalui Telegram atau menggunakan alamat e-mel yang disahkan dan kata laluan. Data profil dan kredit yang dikongsi memerlukan akaun yang sama atau identiti yang dipautkan secara jelas.",
+            "Sesetengah ciri adalah percuma dan sesetengah tindakan berbayar. Syarat bergantung pada ciri; aplikasi memaparkan harga dan keperluan Premium sebelum pengesahan."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Adakah Astro dan Tarot perkara yang sama?",
+          "Kedua-duanya ialah bahagian yang berbeza. Tarot menggunakan kad untuk bacaan simbolik; Astro menawarkan format astrologi. Kedua-duanya tersedia dalam Mini App dan aplikasi pelayar."
+        ],
+        [
+          "Adakah saya memerlukan masa lahir?",
+          "Pengiraan peribadi meminta butiran kelahiran yang diperlukan, termasuk masa. Kalendar Bulan tidak memerlukan maklumat kelahiran peribadi."
+        ],
+        [
+          "Bolehkah astrologi meramalkan masa depan dengan tepat?",
+          "Tidak. Kandungan Astro bertujuan untuk hiburan dan refleksi kendiri, bukannya ramalan yang boleh dipercayai."
+        ]
+      ],
+      "eyebrow": "Bahagian berasingan",
+      "card_text": "Carta kelahiran, horoskop dan banyak lagi untuk diterokai.",
+      "related": [],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
+    },
+    "natal": {
+      "title": "Carta Kelahiran dan Tafsiran | Tarot Astro",
+      "h1": "Carta kelahiran dan tafsiran",
+      "description": "Ketahui gambaran carta kelahiran, sebab butiran kelahiran penting dan perbezaan antara rajah, profil ringkas dan tafsiran AI penuh.",
+      "lead": "Carta kelahiran menggambarkan kedudukan jasad cakerawala pada waktu kelahiran. Dalam Astro, anda boleh meneroka carta dan tafsirannya sebagai pengenalan kepada astrologi dan pencetus refleksi peribadi.",
+      "sections": [
+        {
+          "heading": "Rajah, profil dan bacaan penuh",
+          "paragraphs": [
+            "Carta dikira berdasarkan butiran kelahiran dan menggambarkan kedudukan jasad cakerawala. Tafsiran astrologinya mengaitkan unsur dengan tema simbolik tentang personaliti dan pengalaman. Ini bukan penilaian watak secara saintifik.",
+            "Rajah, profil ringkas dan tafsiran AI penuh ialah hasil yang berbeza. Rajah memaparkan carta, profil memperkenalkan tafsirannya dan bacaan penuh memberikan huraian yang lebih terperinci."
+          ]
+        },
+        {
+          "heading": "Sediakan butiran anda dan mulakan",
+          "paragraphs": [
+            "Masukkan tarikh, masa dan tempat lahir apabila diminta oleh aplikasi. Masa dan tempat mempengaruhi pengiraan, jadi butiran yang tidak pasti boleh mengubah carta. Semak rekod yang boleh dipercayai jika tersedia.",
+            "Buka bahagian carta kelahiran dan lengkapkan ruangan yang diminta. Contohnya, terokai rajah dan profil ringkas sebelum menyemak syarat untuk tafsiran penuh. Maklumat peribadi dimasukkan dalam produk, bukan di laman web ini."
+          ]
+        },
+        {
+          "heading": "Membaca dengan perspektif",
+          "paragraphs": [
+            "Pilih tema yang menarik minat anda dan pertimbangkannya bersama pengalaman sendiri. Tafsiran tidak memastikan bahawa seseorang mempunyai sifat tertentu.",
+            "Akses kepada rajah, profil dan bacaan penuh mungkin berbeza. Aplikasi memaparkan kos, had dan sebarang keperluan Premium sebelum anda mengesahkan tindakan."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah saya menggunakan masa lahir yang tidak pasti?",
+          "Aplikasi meminta butiran yang diperlukan untuk pengiraan peribadi. Masa yang tidak pasti boleh menghasilkan carta dan tafsiran yang berbeza."
+        ],
+        [
+          "Adakah profil ringkas itu bacaan penuh?",
+          "Tidak. Profil memberikan pengenalan ringkas; tafsiran AI penuh meneroka tema dengan lebih terperinci."
+        ],
+        [
+          "Adakah carta membuktikan sifat seseorang?",
+          "Tidak. Carta kelahiran ialah sebahagian daripada astrologi dan bertujuan untuk hiburan serta refleksi kendiri."
+        ]
+      ],
+      "eyebrow": "Carta kelahiran anda",
+      "card_text": "Carta kelahiran, profil ringkas dan tafsiran penuh.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
+    },
+    "compatibility": {
+      "title": "Keserasian Astrologi dan Sinastri | Tarot",
+      "h1": "Keserasian astrologi dan sinastri",
+      "description": "Ketahui cara sinastri membandingkan dua carta kelahiran, butiran kelahiran yang diperlukan dan perbezaannya daripada horoskop cinta.",
+      "lead": "Sinastri ialah perbandingan astrologi antara dua carta kelahiran. Tarot menawarkannya sebagai cara simbolik untuk merenungkan hubungan dua individu dan mencari perkara yang wajar dibincangkan bersama.",
+      "sections": [
+        {
+          "heading": "Cara sinastri berfungsi",
+          "paragraphs": [
+            "Carta kelahiran dikira untuk setiap individu, kemudian kedua-dua carta dibandingkan. Tafsiran mempertimbangkan gabungannya menurut astrologi. Ia tidak mengukur keserasian secara saintifik atau menentukan perkembangan hubungan.",
+            "Contohnya, gunakan bacaan untuk memikirkan jangkaan yang anda bawa ke dalam hubungan atau perkara yang ingin dibincangkan. Jawapannya bergantung kepada anda dan individu tersebut."
+          ]
+        },
+        {
+          "heading": "Perkara yang perlu disediakan",
+          "paragraphs": [
+            "Anda memerlukan tarikh, masa dan tempat lahir kedua-dua individu. Minta butiran daripada individu tersebut dan pastikan mereka bersetuju untuk berkongsinya. Maklumat yang tepat penting kerana ia digunakan untuk mengira carta.",
+            "Buka ciri keserasian dalam Astro dan lengkapkan ruangan yang diminta. Jika tindakan itu berbayar atau memerlukan Premium, aplikasi memaparkan syaratnya sebelum pengesahan."
+          ]
+        },
+        {
+          "heading": "Sinastri, horoskop cinta dan Tarot",
+          "paragraphs": [
+            "Sinastri membandingkan dua carta kelahiran. Horoskop cinta ialah format astrologi lain yang lebih ringkas. Bacaan Tarot hubungan menggunakan kad dan konteks soalan anda.",
+            "Pilih pendekatan yang menarik minat anda. Tiada satu pun format ini dapat memastikan perasaan orang lain atau menggantikan perbualan terbuka."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Bolehkah saya hanya menggunakan tanda zodiak kami?",
+          "Untuk sinastri dalam Astro, anda memerlukan tarikh, masa dan tempat lahir kedua-dua individu."
+        ],
+        [
+          "Adakah ini hanya untuk pasangan romantik?",
+          "Perbandingan boleh mencetuskan refleksi tentang interaksi antara dua individu. Ia tidak menentukan kualiti sesuatu hubungan."
+        ],
+        [
+          "Bolehkah ia memberitahu perasaan seseorang?",
+          "Tidak. Tafsiran astrologi tidak dapat memastikan perasaan atau niat orang lain."
+        ]
+      ],
+      "eyebrow": "Dua carta kelahiran",
+      "card_text": "Perbandingan carta dan pencetus untuk merenungkan hubungan.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
+    },
+    "horoscopes": {
+      "title": "Horoskop Harian dan Cinta | Tarot Astro",
+      "h1": "Horoskop harian dan cinta",
+      "description": "Terokai horoskop harian, horoskop cinta peribadi dan horoskop untuk dua individu dalam bahagian Astro Tarot.",
+      "lead": "Astro menawarkan horoskop harian, horoskop cinta peribadi dan horoskop cinta untuk dua individu. Setiap satu ialah format astrologi ringkas untuk merenungkan hari atau hubungan.",
+      "sections": [
+        {
+          "heading": "Pilih horoskop",
+          "paragraphs": [
+            "Horoskop harian berfokus pada hari ini dan menjadi permulaan kepada bacaan astrologi ringkas. Horoskop cinta peribadi berfokus pada tema hubungan daripada perspektif anda.",
+            "Horoskop untuk dua individu membincangkan pasangan. Untuk membandingkan dua carta kelahiran, terokai bahagian keserasian yang berasingan; format ini memerlukan butiran kelahiran yang lebih lengkap."
+          ]
+        },
+        {
+          "heading": "Dapatkan hasil dan lihat semula",
+          "paragraphs": [
+            "Buka Astro dan pilih horoskop. Aplikasi meminta maklumat yang diperlukan untuk format tersebut; bacaan yang melibatkan individu lain mungkin turut memerlukan butiran kelahirannya. Produk menunjukkan tempoh yang diliputi.",
+            "Apabila anda melihat semula teks terdahulu, akses mungkin bergantung pada format dan hasil yang disimpan. Aplikasi memaparkan harga dan syarat bagi tindakan baharu sebelum pengesahan."
+          ]
+        },
+        {
+          "heading": "Kekalkan perspektif semasa membaca",
+          "paragraphs": [
+            "Anggap horoskop sebagai pencetus simbolik, bukan catatan peristiwa yang pasti berlaku. Contohnya, pertimbangkan idea tentang perbualan atau rehat bersama pengetahuan anda tentang keadaan sebenar.",
+            "Horoskop tidak dapat mengetahui rancangan orang lain atau menjamin perjalanan hari anda. Buat keputusan praktikal berdasarkan maklumat yang boleh dipercayai dan situasi sebenar anda."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Apakah bezanya horoskop cinta peribadi dengan horoskop untuk dua individu?",
+          "Format peribadi berfokus pada tema hubungan anda; format satu lagi mempertimbangkan dua individu."
+        ],
+        [
+          "Bolehkah saya membaca semula horoskop terdahulu?",
+          "Syarat bergantung pada format dan hasil yang disimpan. Semak ketersediaannya dalam aplikasi."
+        ],
+        [
+          "Adakah horoskop meramalkan hari ini?",
+          "Tidak. Horoskop bertujuan untuk hiburan dan refleksi kendiri, bukannya ramalan peristiwa yang boleh dipercayai."
+        ]
+      ],
+      "eyebrow": "Format ringkas",
+      "card_text": "Horoskop harian, cinta peribadi dan pasangan.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
+    },
+    "transits": {
+      "title": "Transit Peribadi dan Peristiwa Astrologi | Tarot",
+      "h1": "Transit peribadi dan peristiwa astrologi",
+      "description": "Ketahui cara transit astrologi mengaitkan kedudukan jasad cakerawala dengan carta kelahiran anda dan terokai peristiwa astrologi peribadi.",
+      "lead": "Transit astrologi membandingkan kedudukan jasad cakerawala pada tarikh yang dipilih dengan carta kelahiran anda. Dalam Astro, terokai tafsiran transit dan peristiwa astrologi peribadi sebagai pandangan simbolik tentang sesuatu tempoh.",
+      "sections": [
+        {
+          "heading": "Transit dan carta kelahiran anda",
+          "paragraphs": [
+            "Carta kelahiran menggambarkan kedudukan jasad cakerawala semasa kelahiran, yang dikira berdasarkan tarikh, masa dan tempat lahir anda. Bacaan transit mempertimbangkan kedudukan pada tarikh lain berbanding carta tersebut.",
+            "Carta kelahiran menjadi titik permulaan; bacaan transit menambah tarikh pilihan dan tafsiran astrologi. Ini bukan ramalan saintifik tentang peristiwa kehidupan."
+          ]
+        },
+        {
+          "heading": "Terokai tarikh dan peristiwa peribadi",
+          "paragraphs": [
+            "Buka bahagian Astro yang berkaitan dan berikan butiran kelahiran yang diperlukan jika belum disimpan. Pilih tarikh yang tersedia dan baca hasilnya. Senarai berasingan membolehkan anda meneroka peristiwa astrologi peribadi yang dipaparkan dalam produk.",
+            "Tarikh yang tersedia dan akses bergantung pada ciri tersebut. Aplikasi memaparkan syarat pembayaran atau Premium sebelum pengesahan. Anda tidak perlu memasukkan maklumat kelahiran di laman web ini."
+          ]
+        },
+        {
+          "heading": "Gunakannya sebagai ajakan untuk membuat refleksi",
+          "paragraphs": [
+            "Tafsiran mungkin mencadangkan tema tentang tumpuan atau menyemak semula rancangan. Tanya diri anda sama ada terdapat sebab praktikal untuk membuat perubahan dan langkah kecil yang boleh membantu.",
+            "Peristiwa astrologi peribadi berkaitan kedudukan jasad cakerawala dan tafsirannya. Ia bukan senarai peristiwa dalam hidup anda yang diramalkan dengan tepat."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Apakah butiran kelahiran yang diperlukan?",
+          "Aplikasi meminta tarikh, masa dan tempat lahir yang diperlukan."
+        ],
+        [
+          "Adakah peristiwa astrologi ialah peristiwa dalam hidup saya?",
+          "Tidak. Senarai ini berkaitan kedudukan dan tafsiran astrologi, bukannya peristiwa masa depan yang telah dipastikan."
+        ],
+        [
+          "Bolehkah saya memilih tarikh?",
+          "Ya. Anda boleh memilih tarikh yang tersedia dalam bahagian transit; aplikasi memaparkan julatnya."
+        ]
+      ],
+      "eyebrow": "Tarikh dan carta anda",
+      "card_text": "Tafsiran transit dan peristiwa astrologi peribadi.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
+    },
+    "solar": {
+      "title": "Solar Return: Gambaran Tahun Astrologi | Tarot",
+      "h1": "Solar return: gambaran tahun astrologi",
+      "description": "Ketahui maksud solar return, maklumat yang digunakan untuk pengiraannya dan perbezaannya daripada carta kelahiran.",
+      "lead": "Solar return ialah format astrologi yang memberikan gambaran simbolik tentang tahun peribadi. Dalam Tarot, kira solar return dan terokai temanya menggunakan butiran kelahiran, tahun dan lokasi pengiraan anda.",
+      "sections": [
+        {
+          "heading": "Apakah itu solar return?",
+          "paragraphs": [
+            "Carta solar return dikira untuk saat Matahari kembali ke kedudukannya ketika anda dilahirkan. Dalam astrologi, carta ini digunakan untuk mempertimbangkan tema bagi tahun peribadi.",
+            "Tafsiran boleh menjadi pencetus untuk memikirkan keutamaan dan rancangan. Ia tidak menentukan peristiwa yang akan berlaku dalam tempoh tersebut."
+          ]
+        },
+        {
+          "heading": "Maklumat yang perlu disediakan",
+          "paragraphs": [
+            "Anda memerlukan tarikh, masa dan tempat lahir, serta tahun dan lokasi untuk pengiraan solar return. Semak maklumat sebelum menghantarnya: butiran ini digunakan untuk membina carta.",
+            "Buka solar return dalam Astro, lengkapkan ruangan dan semak syarat akses. Aplikasi memaparkan keperluan kredit atau Premium serta harga sebelum pengesahan."
+          ]
+        },
+        {
+          "heading": "Perbezaannya daripada format lain",
+          "paragraphs": [
+            "Carta kelahiran merujuk pada waktu kelahiran; solar return menawarkan pandangan astrologi berasingan tentang tahun peribadi. Bacaan Tarot untuk tahun akan datang menggunakan simbolisme kad dan kedudukannya.",
+            "Contohnya, selepas membaca tafsiran solar return, catat keutamaan anda dan pertimbangkan sumber sebenar yang diperlukan. Buat keputusan berdasarkan keadaan anda dan maklumat yang boleh dipercayai."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Mengapakah lokasi pengiraan diperlukan?",
+          "Lokasi ialah input untuk carta solar return, bersama tahun dan butiran kelahiran."
+        ],
+        [
+          "Bolehkah ia membantu saya memikirkan tahun akan datang?",
+          "Ia boleh mencetuskan soalan dan keutamaan anda sendiri. Buat keputusan praktikal berdasarkan keadaan anda dan maklumat yang boleh dipercayai."
+        ],
+        [
+          "Adakah ia meramalkan peristiwa tertentu?",
+          "Tidak. Tafsiran solar return bersifat simbolik, bukannya ramalan peristiwa yang boleh dipercayai."
+        ]
+      ],
+      "eyebrow": "Tahun peribadi",
+      "card_text": "Tema astrologi dan keutamaan anda.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
+    },
+    "moon": {
+      "title": "Kalendar Bulan dan Jurnal Harian | Tarot Astro",
+      "h1": "Kalendar Bulan dan jurnal harian",
+      "description": "Terokai maklumat Bulan dalam Astro dan catat suasana hati, tenaga serta nota ringkas dalam jurnal harian jika anda mahu.",
+      "lead": "Kalendar Bulan dalam Astro memberikan maklumat tentang Bulan, termasuk fasanya. Jurnal harian pilihan membolehkan anda mencatat suasana hati, tenaga dan nota tentang hari anda.",
+      "sections": [
+        {
+          "heading": "Terokai kalendar Bulan",
+          "paragraphs": [
+            "Fasa Bulan menggambarkan bahagian Bulan yang bercahaya dan kelihatan. Kalendar ini menghimpunkan maklumat semasa tentang Bulan dalam satu bahagian aplikasi.",
+            "Jika anda berminat dengan perspektif astrologi, gunakannya sebagai topik pemerhatian dan refleksi. Fasa Bulan sahaja tidak menentukan kesannya terhadap kesihatan, suasana hati atau kejayaan sesuatu aktiviti."
+          ]
+        },
+        {
+          "heading": "Gunakan jurnal pilihan",
+          "paragraphs": [
+            "Buka jurnal di sebelah bahagian Bulan dan, jika mahu, catat suasana hati serta tenaga atau tambahkan nota ringkas. Contohnya, tulis tentang perkara yang membantu anda berehat hari ini atau perkara yang ingin dilakukan esok.",
+            "Anda tidak diwajibkan membuat catatan. Sejarah membolehkan anda melihat semula nota terdahulu. Tambahkan hanya maklumat yang ingin anda simpan dalam produk."
+          ]
+        },
+        {
+          "heading": "Adakah butiran kelahiran diperlukan?",
+          "paragraphs": [
+            "Kalendar Bulan tidak memerlukan maklumat kelahiran peribadi. Carta kelahiran, transit dan pengiraan peribadi lain meminta butiran yang diperlukan secara berasingan.",
+            "Buka bahagian Bulan dan terokai maklumat yang tersedia. Syarat semasa bagi setiap tindakan dipaparkan dalam produk. Laman web ini tidak mengumpulkan catatan jurnal peribadi."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Adakah saya perlu menulis setiap hari?",
+          "Tidak. Jurnal ini pilihan; gunakannya apabila anda ingin mencatat sesuatu."
+        ],
+        [
+          "Adakah saya memerlukan masa dan tempat lahir?",
+          "Butiran kelahiran peribadi tidak diperlukan untuk kalendar Bulan."
+        ],
+        [
+          "Bolehkah fasa Bulan memberitahu sama ada rancangan akan berjaya?",
+          "Tidak. Kalendar ini memberikan maklumat Bulan, bukannya ramalan yang boleh dipercayai tentang hasil tindakan anda."
+        ]
+      ],
+      "eyebrow": "Pemerhatian dan catatan",
+      "card_text": "Maklumat Bulan dan catatan pilihan tentang hari anda.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Astro bersama Tarot anda",
+      "example_text": "Aplikasi memaparkan format astrologi dengan nama dan syarat akses yang jelas. Pilih topik, berikan butiran yang berkaitan dan semak syarat sebelum pengesahan."
     }
+  },
+  "demo": {
+    "name": "Contoh",
+    "reading_title": "Bacaan tiga kad",
+    "question": "Apakah yang boleh membantu saya mengambil langkah seterusnya?",
+    "positions": [
+      "Masa lalu",
+      "Masa kini",
+      "Masa depan"
+    ],
+    "card_names": [
+      "Si Bodoh",
+      "Ahli Silap Mata",
+      "Bintang"
+    ],
+    "answer_title": "Perspektif baharu tentang situasi",
+    "answer": "Si Bodoh mencadangkan permulaan yang kecil. Ahli Silap Mata menunjukkan kemahiran yang boleh anda gunakan, manakala Bintang mengajak anda agar terus mengingati matlamat. Pilih satu langkah yang mampu dilakukan dan renungkan hasilnya."
   }
 }

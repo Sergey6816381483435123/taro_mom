@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Persoonlijke AI-Tarotlezingen in Telegram | Taroshenka",
-    "description": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-    "ogTitle": "Persoonlijke AI-Tarotlezingen in Telegram",
-    "ogDescription": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-    "twitterTitle": "Persoonlijke AI-Tarotlezingen in Telegram",
-    "twitterDescription": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "Openen in Telegram",
-    "brandAria": "Nederlands Taroshenka",
-    "primaryAria": "Zo werkt het",
-    "how": "Zo werkt het",
-    "readings": "Leggingen",
+    "brand": "Tarot",
+    "home": "Start",
+    "tarot": "Tarot",
+    "astro": "Astro",
     "faq": "Veelgestelde vragen",
-    "languageAria": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-    "headerCta": "Openen in Telegram",
-    "home": "Nederlands",
-    "breadcrumbAria": "Veelgestelde vragen",
-    "identity": "Bot:",
-    "factsAria": "Zo werkt het"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Persoonlijke AI-Tarotlezingen in Telegram",
-      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "cta": "Een Tarotlezing ontvangen",
-      "imageAlt": "Persoonlijke AI-Tarotlezingen in Telegram"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+    "skip": "Ga naar de hoofdinhoud",
+    "breadcrumbs": "Broodkruimelnavigatie",
+    "switch_language": "Kies een taal",
+    "explore": "Ontdek",
+    "entry_heading": "Drie manieren om Tarot te openen",
+    "entry_labels": [
+      "Start Tarot",
+      "Open de Astro Mini App",
+      "Open in de browser"
     ],
-    "how": {
-      "eyebrow": "Zo werkt het",
-      "title": "Zo werkt het",
-      "intro": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "steps": [
-        [
-          "Zo werkt het",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "Vraag de kaarten naar wat voor jou belangrijk is",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "Leggingen",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Leggingen",
-      "title": "Leggingen",
-      "intro": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "items": [
-        [
-          "daily-card",
-          "Dagkaart",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "yes-no",
-          "Ja of Nee",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "three-card",
-          "Legging met drie kaarten",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "relationships",
-          "Relatielegging",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "premium",
-          "Premium-leggingen",
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Vraag de kaarten naar wat voor jou belangrijk is",
-      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "personal": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Premium-leggingen",
-      "intro": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Voor deze taal betaal je met Telegram Stars."
-    },
-    "languages": {
-      "eyebrow": "Nederlands",
-      "title": "Persoonlijke AI-Tarotlezingen in Telegram",
-      "text": "{count}: De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "names": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-    },
-    "faq": [
-      [
-        "Vraag de kaarten naar wat voor jou belangrijk is",
-        "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-      ],
-      [
-        "Does it predict the future?",
-        "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-      ],
-      [
-        "Veelgestelde vragen",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Voor deze taal betaal je met Telegram Stars."
-      ],
-      [
-        "20",
-        "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-      ],
-      [
-        "Languages",
-        "20: De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
-      ]
+    "entry_notes": [
+      "Tarotreadings in je Telegram-chat.",
+      "Open Astro en start de app met de Telegram-knop.",
+      "De app met inloggen via Telegram of e-mail."
     ],
-    "disclaimer": {
-      "title": "Veelgestelde vragen",
-      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel."
+    "entity_description": "Tarot is een dienst voor tarotreadings met AI-interpretaties en een aparte Astro-sectie, beschikbaar via Telegram, een Mini App en een browser.",
+    "hero_alt": "Een tarotlegger bestudeert kaarten bij kaarslicht in een donkerblauw en violet interieur",
+    "tarot_heading": "Vind een reading bij je vraag",
+    "tarot_intro": "Ontdek een kort symbolisch perspectief of een uitgebreidere reading. De interpretatie verbindt de kaarten met hun posities en met de context van je vraag.",
+    "astro_heading": "Een aparte plek voor astrologie",
+    "astro_intro": "Ontdek geboortehoroscopen, compatibiliteit en andere astrologische vormen. Elke pagina legt uit wat je kunt verwachten en welke gegevens nodig zijn voor de berekening.",
+    "inside": "In de app",
+    "example_heading": "De kaarten, hun betekenis en jouw vraag",
+    "example_text": "Bekijk de kaarten en ontdek een AI-interpretatie die aansluit bij je vraag. Bij geschikte readings kun je een verduidelijkende vraag stellen of een extra kaart trekken.",
+    "example_caption": "De echte app-interface met demonstratiegegevens. Dit is een voorbeeld, geen reading van een echte gebruiker.",
+    "image_alt": {
+      "tarot": "Een demonstratie van een tarotreading in de app met Rider–Waite-kaarten en een AI-interpretatie",
+      "card": "Een Rider–Waite-tarotkaart geopend in de kaartweergave van de app",
+      "astro": "De Astro-sectie van de app met een keuzerichting en dagboek"
     },
-    "cta": {
-      "title": "Vraag de kaarten naar wat voor jou belangrijk is",
-      "text": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "button": "Openen in Telegram"
-    }
+    "account_text": "Je profiel, credits en geschiedenis zijn gedeeld als je hetzelfde account gebruikt of identiteiten expliciet koppelt. Een aparte e-mailregistratie voegt accounts niet automatisch samen.",
+    "cross_link_astro": "Ontdek Astro",
+    "cross_link_tarot": "Ontdek tarotreadings",
+    "answers": "Vragen en antwoorden",
+    "related": "Gerelateerde onderwerpen",
+    "final_title": "Kies hoe je wilt beginnen",
+    "final_text": "Gebruik een Telegram-chat, de Mini App in Telegram of de browserapp. Kies de ervaring die bij je past.",
+    "disclaimer_title": "Voor ontspanning en zelfreflectie",
+    "disclaimer": "Tarotreadings en AI-interpretaties zijn bedoeld voor ontspanning en zelfreflectie. Het zijn geen betrouwbare voorspellingen van de toekomst en ze vervangen geen medische, psychologische, juridische, financiële of andere professionele hulp. Belangrijke beslissingen neem je zelf.",
+    "astro_disclaimer": "Ook astrologische inhoud is bedoeld voor ontspanning en zelfreflectie. Het is geen betrouwbare voorspelling van de toekomst en vervangt geen medische, psychologische, juridische, financiële of andere professionele hulp. Belangrijke beslissingen neem je zelf.",
+    "support": "Ondersteuning",
+    "other_languages": "Talen",
+    "other_languages_note": "Alle onderdelen van deze website zijn beschikbaar in 20 talen.",
+    "attribution_note": "Toegangskoppelingen bevatten een verwijzingscode. De browserapp kan de eerste geldige uitnodiging maximaal 30 dagen bewaren en deze uitsluitend toepassen wanneer een nieuw account wordt geregistreerd. Deze website verzamelt je vragen, e-mailadres of geboortegegevens niet."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot — tarotreadings met AI in Telegram en de app",
+      "h1": "Persoonlijke tarotreadings met AI voor jouw vragen",
+      "description": "Ontdek tarotreadings met AI-interpretaties in Telegram, de Mini App of je browser. Bekijk je leesgeschiedenis, betekenissen van kaarten en de aparte Astro-sectie.",
+      "lead": "Kies een reading, stel de vraag die je bezighoudt en verken je situatie aan de hand van de symboliek van tarot. Gebruik Tarot in een Telegram-chat, de Mini App of je browser.",
+      "sections": [
+        {
+          "heading": "Van een vraag naar een samenhangende interpretatie",
+          "paragraphs": [
+            "Kies een vorm die bij je vraag past. Als een reading om context vraagt, beschrijf dan in je eigen woorden wat er speelt, waarover je twijfelt en wat je wilt onderzoeken.",
+            "Bekijk de getrokken kaarten en lees een AI-interpretatie die hun posities, combinaties en rechte of omgekeerde ligging met elkaar verbindt. Je vraag geeft context; de conclusies en beslissingen zijn aan jou."
+          ]
+        },
+        {
+          "heading": "Begin eenvoudig of ga verder de diepte in",
+          "paragraphs": [
+            "Begin met de Dagkaart, Kaartadvies, Ja of nee of een reading met drie kaarten. Relatievormen zijn onder meer Onze relatie, Nieuwe liefde, Wat voelt diegene? en Komt diegene terug? De namen beschrijven het onderwerp van een symbolische reading en geven geen betrouwbare kennis over andermans gevoelens."
+          ],
+          "items": [
+            "Verken een situatie met Nabije toekomst, Mijn volgende stap of Hoe de situatie zich ontwikkelt.",
+            "Vergelijk twee opties voor een breder perspectief, of kies Werk en financiën, het Keltisch kruis of een reading voor het komende jaar.",
+            "Voor sommige uitgebreide vormen heb je Premium nodig. De actuele toegangsvoorwaarden staan in het product."
+          ]
+        },
+        {
+          "heading": "Pak een reading er weer bij en onderzoek die verder",
+          "paragraphs": [
+            "Bij geschikte resultaten kun je een verduidelijkende vraag stellen of een extra kaart trekken binnen de context van de oorspronkelijke reading. In de geschiedenis vind je opgeslagen vragen en interpretaties terug.",
+            "Open in de app een kaartafbeelding en bekijk de referentiebetekenis als die optie is ingeschakeld. De referentie licht de symboliek toe; de AI-interpretatie koppelt die aan je reading. Je voorkeurstaal en kaartspel worden in je profiel opgeslagen."
+          ]
+        },
+        {
+          "heading": "Gratis functies, credits en Premium",
+          "paragraphs": [
+            "Het product bevat gratis functies, zoals de Dagkaart in Telegram. Voor betaalde acties gebruik je credits. Premium geeft toegang tot uitgebreide tarotvormen en enkele Astro-functies, maar betekent niet dat je alles onbeperkt kunt gebruiken.",
+            "Voordat je een actie bevestigt, toont de bot of app de prijs en voorwaarden. Toegang kan afhangen van de vorm, het abonnement, je geschiktheid voor een proefperiode of een opgeslagen resultaat. Bekijk de actuele aankoopvoorwaarden in het product. Het Rad van Fortuin is een aparte functie en garandeert geen creditbeloning."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is Tarot?",
+          "Tarot is een dienst voor tarotreadings met AI-interpretaties, beschikbaar in een Telegram-chat, de Mini App en een browser. De app heeft ook een aparte Astro-sectie."
+        ],
+        [
+          "Hoe kan ik het beste beginnen?",
+          "Open Tarot voor readings in een chat. Wil je de visuele app in Telegram gebruiken, open dan Astro en start de app met de Telegram-knop. Kies de browseroptie om de app buiten Telegram te gebruiken."
+        ],
+        [
+          "Kan ik de app zonder Telegram gebruiken?",
+          "In de browserapp kun je inloggen met Telegram of je registreren met een geverifieerd e-mailadres en wachtwoord. Een apart e-mailaccount wordt pas na bevestiging aan Telegram gekoppeld."
+        ],
+        [
+          "Wat krijg je met Premium?",
+          "Premium ontgrendelt verschillende uitgebreide functies. Voor sommige acties heb je nog steeds credits nodig; het product toont de voorwaarden voordat je bevestigt."
+        ],
+        [
+          "Voorspelt de app de toekomst?",
+          "Nee. Readings bieden een symbolisch perspectief voor ontspanning en zelfreflectie. Ze zijn geen betrouwbare voorspellingen en vervangen geen professionele hulp."
+        ]
+      ],
+      "eyebrow": "Een persoonlijke plek voor tarot",
+      "card_text": "Vind een reading bij je vraag",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Dagkaart",
-      "title": "Dagkaart",
-      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
-      "bullets": [
-        "Dagkaart",
-        "Een symbolisch perspectief om over na te denken.",
-        "Een interpretatie in de context van je vraag."
+      "title": "Dagkaart tarot — een symbolisch vertrekpunt | Tarot",
+      "h1": "Een dagelijkse tarotkaart om bij stil te staan",
+      "description": "Ontvang gratis een Dagkaart in de Telegram-bot van Tarot en gebruik de afbeelding en korte betekenis als aanleiding om ergens bij stil te staan.",
+      "lead": "De Dagkaart is een eenvoudige kennismaking met tarot aan de hand van één kaart en de korte betekenis ervan. Ontvang de kaart gratis in de Telegram-bot en kies een thema om die dag over na te denken.",
+      "sections": [
+        {
+          "heading": "Eén kaart, één vraag aan jezelf",
+          "paragraphs": [
+            "Bekijk de afbeelding en lees de betekenis. Je hoeft die niet als letterlijke voorspelling te zien. Kijk liever of het thema aansluit bij je gedachten of plannen van nu.",
+            "Vraag jezelf bijvoorbeeld af wat vandaag je aandacht verdient. Gebruik het antwoord als notitie voor jezelf of als beginpunt voor een uitgebreidere reading."
+          ]
+        },
+        {
+          "heading": "Zo ontvang je de Dagkaart",
+          "paragraphs": [
+            "Open Tarot in Telegram en start de chat om een Dagkaart met afbeelding en korte betekenis te ontvangen.",
+            "De Dagkaart en het Rad van Fortuin zijn verschillende functies. Bij het Rad draai je aan een wiel en maak je kans op een beloning; het vervangt de kaartreading niet en garandeert geen credits."
+          ]
+        },
+        {
+          "heading": "Als je meer context wilt",
+          "paragraphs": [
+            "Voor een specifieke situatie kun je Kaartadvies, Ja of nee of een reading met drie kaarten proberen. De bot toont de voorwaarden voordat je een betaalde actie uitvoert. In de app kun je ook kaarten bekijken en eventueel hun referentiebetekenissen lezen."
+          ]
+        }
       ],
-      "alt": "Dagkaart"
+      "faq": [
+        [
+          "Is de Dagkaart gratis?",
+          "Ja. De huidige Telegram-catalogus biedt de Dagkaart gratis aan. Voor andere acties gelden eigen voorwaarden, die vóór bevestiging worden getoond."
+        ],
+        [
+          "Voorspelt de kaart wat er vandaag gebeurt?",
+          "Nee. De kaart biedt een symbolisch thema om over na te denken, geen betrouwbare voorspelling van toekomstige gebeurtenissen."
+        ],
+        [
+          "Wat is het verschil met Kaartadvies?",
+          "De Dagkaart is een algemene dagelijkse aansporing. Kaartadvies is een aparte korte reading voor een persoonlijke vraag, met eigen toegangsvoorwaarden."
+        ]
+      ],
+      "eyebrow": "Eén kaart",
+      "card_text": "Een kaartafbeelding en korte betekenis om je dag mee te beginnen.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Ja of Nee",
-      "title": "Ja of Nee",
-      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
-      "bullets": [
-        "Ja of Nee",
-        "Een symbolisch perspectief om over na te denken.",
-        "Een interpretatie in de context van je vraag."
+      "title": "Tarot ja of nee — een reading met één kaart | Tarot",
+      "h1": "Een gerichte tarotreading met ja of nee",
+      "description": "Stel een gerichte vraag en verken een tarotreading met één kaart en een AI-interpretatie die aansluit bij jouw situatie.",
+      "lead": "Ja of nee is een reading met één kaart voor een gerichte vraag. Tarot legt de kaart uit in de context van je vraag en geeft je stof tot nadenken, maar neemt de beslissing niet voor je.",
+      "sections": [
+        {
+          "heading": "Stel één duidelijke vraag",
+          "paragraphs": [
+            "Kies één situatie en wees duidelijk over wat je wilt onderzoeken. “Moet ik mijn nieuwe verantwoordelijkheden met mijn leidinggevende bespreken?” geeft meer context dan meerdere losse vragen tegelijk.",
+            "Deze vorm biedt een symbolische richting. Weeg bij een belangrijke beslissing de interpretatie af tegen betrouwbare feiten, je omstandigheden en zo nodig professioneel advies."
+          ]
+        },
+        {
+          "heading": "Wat de reading inhoudt",
+          "paragraphs": [
+            "Er wordt één kaart getrokken. De AI-interpretatie verbindt de symboliek en ligging ervan met je vraag en biedt zo meer uitleg dan alleen ja of nee.",
+            "Bekijk de afbeelding en let op welke ideeën voor jou bruikbaar zijn. De kaart kan iemands intenties niet vaststellen en de uitkomst van een handeling niet garanderen."
+          ]
+        },
+        {
+          "heading": "Zo begin je",
+          "paragraphs": [
+            "Open Tarot of de app, kies Ja of nee, voer je vraag in en bekijk de actievoorwaarden. Na bevestiging kun je de kaart en interpretatie bekijken. Heeft je vraag meerdere samenhangende kanten, overweeg dan een reading met drie kaarten."
+          ]
+        }
       ],
-      "alt": "Ja of Nee"
+      "faq": [
+        [
+          "Kan ik meerdere vragen tegelijk stellen?",
+          "Kies voor deze korte vorm één gerichte vraag. Zo blijft de context overzichtelijk."
+        ],
+        [
+          "Is het antwoord gegarandeerd juist?",
+          "Nee. Het is een symbolische interpretatie voor zelfreflectie, geen betrouwbare voorspelling of geverifieerd feit over een situatie."
+        ],
+        [
+          "Wat is geschikter voor een complexe vraag?",
+          "Met een reading van drie kaarten of een andere passende vorm kun je meerdere samenhangende aspecten bekijken."
+        ]
+      ],
+      "eyebrow": "Een gerichte vraag",
+      "card_text": "Eén kaart met een uitleg die bij je vraag past.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Legging met drie kaarten",
-      "title": "Legging met drie kaarten",
-      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
-      "bullets": [
-        "Legging met drie kaarten",
-        "Een symbolisch perspectief om over na te denken.",
-        "Een interpretatie in de context van je vraag."
+      "title": "Tarotreading met drie kaarten en AI | Tarot",
+      "h1": "Verken een situatie met drie samenhangende kaarten",
+      "description": "Verken een tarotlegging met drie kaarten, afbeeldingen en een samenhangende AI-interpretatie die aansluit bij je vraag.",
+      "lead": "Met een reading van drie kaarten kun je een vraag beknopt onderzoeken via de afzonderlijke betekenissen en hun onderlinge verband. Tarot maakt één AI-interpretatie op basis van je vraag en de posities van de kaarten.",
+      "sections": [
+        {
+          "heading": "Waarom de verbanden ertoe doen",
+          "paragraphs": [
+            "Elke kaart heeft een eigen rol in de legging. De interpretatie bekijkt ze samen en geeft zo een samenhangend perspectief. De posities en bijbehorende namen staan in het resultaat.",
+            "Niet elke vorm met drie kaarten gebruikt verleden, heden en toekomst. Bekijk de posities van de gekozen vorm en bedenk hoe ze zich tot je vraag verhouden."
+          ]
+        },
+        {
+          "heading": "Geef je vraag wat context",
+          "paragraphs": [
+            "Bijvoorbeeld: “Ik wil een project oppakken dat ik heb laten liggen. Waar moet ik rekening mee houden?” Voeg relevante context toe en combineer niet meerdere losse situaties in één korte reading.",
+            "Bekijk de kaarten op volgorde en lees daarna de interpretatie als geheel. Die kan je helpen je volgende stap te bepalen, maar kiest die stap niet voor je."
+          ]
+        },
+        {
+          "heading": "Na de reading",
+          "paragraphs": [
+            "Ga terug naar een opgeslagen resultaat in je accountgeschiedenis. Waar dit mogelijk is, kun je met een verduidelijking of extra kaart de oorspronkelijke context verder onderzoeken. Het product toont prijs en voorwaarden vóór bevestiging."
+          ]
+        }
       ],
-      "alt": "Legging met drie kaarten"
+      "faq": [
+        [
+          "Wat betekenen de drie posities?",
+          "Dat hangt af van de gekozen vorm; de posities staan in het resultaat. Ga er niet van uit dat ze altijd verleden, heden en toekomst voorstellen."
+        ],
+        [
+          "Kan ik later terugkomen op het antwoord?",
+          "Opgeslagen readings vind je in de geschiedenis van je account. Gebruik hetzelfde account of expliciet gekoppelde identiteiten om via verschillende toegangspunten dezelfde gegevens te zien."
+        ],
+        [
+          "Heb ik Premium nodig?",
+          "De bot of app toont de actuele voorwaarden voor de gekozen vorm. Premium ontgrendelt enkele uitgebreide vormen, maar geeft geen onbeperkte toegang."
+        ]
+      ],
+      "eyebrow": "Drie kaarten",
+      "card_text": "Verschillende samenhangende aspecten van één vraag.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "Relatielegging",
-      "title": "Relatielegging",
-      "lead": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel.",
-      "body": "De Tarotbot is beschikbaar in 20 talen. Sla je taal op in je profiel. Een interpretatie in de context van je vraag.",
-      "bullets": [
-        "Relatielegging",
-        "Een symbolisch perspectief om over na te denken.",
-        "Een interpretatie in de context van je vraag."
+      "title": "Tarotreading over relaties met AI | Tarot",
+      "h1": "Sta stil bij de dynamiek van een relatie",
+      "description": "Ontdek Onze relatie, een tarotreading met vijf kaarten, en andere vormen om over relaties na te denken zonder te beweren dat je gedachten kunt lezen.",
+      "lead": "Onze relatie is een reading met vijf kaarten over de dynamiek tussen mensen. De reading biedt een symbolische kijk op verwachtingen, ervaringen en mogelijke richtingen; conclusies en beslissingen zijn aan jou.",
+      "sections": [
+        {
+          "heading": "Beschrijf wat je bezighoudt",
+          "paragraphs": [
+            "Beschrijf de relatie en de vraag die je bezighoudt. Bijvoorbeeld: “We spreken elkaar minder vaak en ik wil nadenken over hoe ik dat bespreek.” Context helpt de interpretatie met je onderwerp te verbinden.",
+            "Je hoeft geen onnodige persoonlijke informatie over de ander te delen. Gevoelens en intenties bespreek je in echt contact; een reading stelt ze niet als feiten vast."
+          ]
+        },
+        {
+          "heading": "Wat de vijf kaarten bieden",
+          "paragraphs": [
+            "Elke kaart heeft een positie. De AI-interpretatie verbindt hun betekenissen tot één reading. Bij het resultaat zie je de namen van de posities en de kaartafbeeldingen.",
+            "De reading biedt verschillende aspecten om over na te denken. Ze bewijst niet wat iemand voelt en bepaalt niet hoe een relatie zich ontwikkelt."
+          ]
+        },
+        {
+          "heading": "Andere vragen over relaties",
+          "paragraphs": [
+            "De catalogus bevat ook Nieuwe liefde, Wat voelt diegene? en Komt diegene terug? Deze namen beschrijven onderwerpen voor symbolische readings. Voor sommige vormen is Premium vereist; het product toont de voorwaarden vóór bevestiging.",
+            "Voor een andere aanpak biedt Astro compatibiliteit via een vergelijking van twee geboortehoroscopen. Dit is een aparte vorm waarvoor de geboortegegevens van beide personen nodig zijn."
+          ]
+        }
       ],
-      "alt": "Relatielegging"
+      "faq": [
+        [
+          "Kan ik ontdekken wat iemand echt voelt?",
+          "Nee. Een reading kan de gedachten of gevoelens van iemand anders niet vaststellen. Je kunt er wel je eigen vragen mee formuleren en je op een gesprek voorbereiden."
+        ],
+        [
+          "Garandeert de reading dat mijn partner terugkomt?",
+          "Geen enkele vorm garandeert wat iemand anders doet of hoe een relatie afloopt."
+        ],
+        [
+          "Wat is het verschil met synastrie?",
+          "Tarot gebruikt kaarten en de context van een vraag. Synastrie vergelijkt twee geboortehoroscopen en vraagt de geboortegegevens van beide personen."
+        ]
+      ],
+      "eyebrow": "Relaties",
+      "card_text": "Vijf kaarten over contact, verwachtingen en jouw situatie.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: geboortehoroscopen, horoscopen en maankalender | Tarot",
+      "h1": "Astro: persoonlijke astrologie",
+      "description": "Ontdek Astro in Tarot: geboortehoroscopen, compatibiliteit, horoscopen, transits, solar returns, een maankalender en een optioneel dagboek.",
+      "lead": "Astro is de astrologiesectie van Tarot, met geboortehoroscopen, horoscopen en meer. Kies een onderwerp dat je aanspreekt en verken het als ontspanning en aanleiding tot zelfreflectie.",
+      "sections": [
+        {
+          "heading": "Kies een vorm die bij je vraag past",
+          "paragraphs": [
+            "Een geboortehoroscoop toont de hemelstanden bij de geboorte. Voor relaties kun je twee horoscopen vergelijken via compatibiliteit of een liefdeshoroscoop kiezen.",
+            "Transits en persoonlijke astrologische gebeurtenissen brengen hemelstanden in verband met je geboortehoroscoop. Een solar return biedt een symbolische kijk op een persoonlijk jaar. De maankalender geeft informatie over de maan en bevat een optioneel dagboek."
+          ]
+        },
+        {
+          "heading": "Welke gegevens heb je nodig?",
+          "paragraphs": [
+            "Voor persoonlijke berekeningen heb je de betreffende geboortedatum, -tijd en -plaats nodig. Voor compatibiliteit zijn gegevens van beide personen nodig; voor een solar return ook een jaar en berekeningslocatie. De maankalender vereist geen persoonlijke geboortegegevens.",
+            "Je voert de gegevens in het product in, niet op deze website. Vraag het eerst en zorg dat de ander toestemming geeft als je diens horoscoop wilt bekijken."
+          ]
+        },
+        {
+          "heading": "Astro gebruiken",
+          "paragraphs": [
+            "Astro en Tarot zijn beschikbaar in de Mini App en browserapp. Je kunt in de browser inloggen via Telegram of met een geverifieerd e-mailadres en wachtwoord. Gedeelde profielgegevens en credits vereisen hetzelfde account of expliciet gekoppelde identiteiten.",
+            "Sommige functies zijn gratis en andere acties zijn betaald. De voorwaarden verschillen per functie; vóór bevestiging toont de app de prijs en eventuele Premium-vereiste."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Zijn Astro en Tarot hetzelfde?",
+          "Het zijn verschillende onderdelen. Tarot gebruikt kaarten voor symbolische readings; Astro biedt astrologische vormen. Beide zijn beschikbaar in de Mini App en browserapp."
+        ],
+        [
+          "Heb ik mijn geboortetijd nodig?",
+          "Voor persoonlijke berekeningen zijn de benodigde geboortegegevens nodig, waaronder de tijd. De maankalender vereist geen persoonlijke geboortegegevens."
+        ],
+        [
+          "Kan astrologie de toekomst betrouwbaar voorspellen?",
+          "Nee. Astro-content is bedoeld als ontspanning en zelfreflectie, niet voor betrouwbare voorspellingen."
+        ]
+      ],
+      "eyebrow": "Een aparte sectie",
+      "card_text": "Geboortehoroscopen, horoscopen en meer om te ontdekken.",
+      "related": [],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
+    },
+    "natal": {
+      "title": "Geboortehoroscoop en interpretatie | Tarot Astro",
+      "h1": "Geboortehoroscoop en interpretatie",
+      "description": "Ontdek wat een geboortehoroscoop laat zien, waarom geboortegegevens belangrijk zijn en hoe de afbeelding, het korte profiel en de volledige AI-interpretatie verschillen.",
+      "lead": "Een geboortehoroscoop toont de hemelstanden op het moment van je geboorte. In Astro kun je de horoscoop en interpretatie verkennen als kennismaking met astrologie en aanleiding tot zelfreflectie.",
+      "sections": [
+        {
+          "heading": "De afbeelding, het profiel en de volledige reading",
+          "paragraphs": [
+            "De horoscoop wordt berekend op basis van geboortegegevens en toont de posities van hemellichamen. De astrologische interpretatie verbindt elementen met symbolische thema’s over persoonlijkheid en ervaring. Het is geen wetenschappelijke beoordeling van iemands karakter.",
+            "De afbeelding, het korte profiel en de volledige AI-interpretatie zijn verschillende resultaten. De afbeelding toont de horoscoop, het profiel geeft een eerste interpretatie en de volledige reading gaat dieper op de thema’s in."
+          ]
+        },
+        {
+          "heading": "Bereid je gegevens voor en begin",
+          "paragraphs": [
+            "Vul je geboorteplaats, -datum en -tijd in wanneer de app daarom vraagt. Tijd en plaats beïnvloeden de berekening; onzekere gegevens kunnen de horoscoop veranderen. Controleer ze zo mogelijk aan de hand van een betrouwbare bron.",
+            "Open de sectie voor geboortehoroscopen en vul de gevraagde velden in. Bekijk bijvoorbeeld eerst de afbeelding en het korte profiel voordat je de voorwaarden voor een volledige interpretatie controleert. Je voert persoonsgegevens in het product in, niet op deze website."
+          ]
+        },
+        {
+          "heading": "Bekijk de reading in perspectief",
+          "paragraphs": [
+            "Kies een thema dat je aanspreekt en leg het naast je eigen ervaringen. Een interpretatie bewijst niet dat iemand een bepaalde eigenschap heeft.",
+            "De toegang tot de afbeelding, het profiel en de volledige reading kan verschillen. Voordat je een actie bevestigt, toont de app de kosten, limieten en eventuele Premium-vereiste."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan ik een onzekere geboortetijd gebruiken?",
+          "De app vraagt om de gegevens die nodig zijn voor een persoonlijke berekening. Een onzekere tijd kan tot een andere horoscoop en interpretatie leiden."
+        ],
+        [
+          "Is het korte profiel de volledige reading?",
+          "Nee. Het profiel is een korte introductie; de volledige AI-interpretatie onderzoekt de thema’s uitgebreider."
+        ],
+        [
+          "Bewijst de horoscoop hoe iemand is?",
+          "Nee. Geboortehoroscopen horen bij astrologie en zijn bedoeld als ontspanning en zelfreflectie."
+        ]
+      ],
+      "eyebrow": "Jouw geboortehoroscoop",
+      "card_text": "Een geboortehoroscoop, kort profiel en volledige interpretatie.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
+    },
+    "compatibility": {
+      "title": "Astrologische compatibiliteit en synastrie | Tarot",
+      "h1": "Astrologische compatibiliteit en synastrie",
+      "description": "Ontdek hoe synastrie twee geboortehoroscopen vergelijkt, welke geboortegegevens nodig zijn en hoe dit verschilt van een liefdeshoroscoop.",
+      "lead": "Synastrie is een astrologische vergelijking van twee geboortehoroscopen. Tarot biedt het als symbolische manier om na te denken over de relatie tussen twee mensen en vragen te vinden om samen te bespreken.",
+      "sections": [
+        {
+          "heading": "Hoe synastrie werkt",
+          "paragraphs": [
+            "Voor beide personen wordt een geboortehoroscoop berekend; daarna worden de horoscopen vergeleken. De interpretatie bekijkt de combinatie vanuit de astrologie. Dit meet compatibiliteit niet wetenschappelijk en bepaalt niet hoe een relatie zich ontwikkelt.",
+            "Je kunt de reading bijvoorbeeld gebruiken om na te denken over je verwachtingen in een relatie of over wat je wilt bespreken. De antwoorden zijn aan jou en de ander."
+          ]
+        },
+        {
+          "heading": "Wat je nodig hebt",
+          "paragraphs": [
+            "Je hebt de geboortedatum, -tijd en -plaats van beide personen nodig. Vraag de gegevens aan de ander en zorg dat die ermee instemt ze te delen. Nauwkeurige gegevens zijn belangrijk, omdat ze worden gebruikt om de horoscopen te berekenen.",
+            "Open compatibiliteit in Astro en vul de gevraagde velden in. Als de actie betaald is of Premium vereist, toont de app de voorwaarden voordat je bevestigt."
+          ]
+        },
+        {
+          "heading": "Synastrie, liefdeshoroscopen en Tarot",
+          "paragraphs": [
+            "Synastrie vergelijkt twee geboortehoroscopen. Een liefdeshoroscoop is een andere, kortere astrologische vorm. Een tarotreading over relaties gebruikt kaarten en de context van je vraag.",
+            "Kies de aanpak die je aanspreekt. Geen van deze vormen stelt de gevoelens van iemand anders vast of vervangt een open gesprek."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kan ik alleen onze sterrenbeelden gebruiken?",
+          "Voor synastrie in Astro heb je de geboorteplaats, -datum en -tijd van beide personen nodig."
+        ],
+        [
+          "Is dit alleen voor romantische partners?",
+          "Een vergelijking kan aanleiding zijn om na te denken over de omgang tussen twee mensen. De kwaliteit van een relatie wordt er niet mee vastgesteld."
+        ],
+        [
+          "Kan het vertellen wat iemand voelt?",
+          "Nee. Een astrologische interpretatie kan de gevoelens of intenties van iemand anders niet vaststellen."
+        ]
+      ],
+      "eyebrow": "Twee geboortehoroscopen",
+      "card_text": "Een vergelijking van horoscopen en vragen om over relaties na te denken.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
+    },
+    "horoscopes": {
+      "title": "Dag- en liefdeshoroscopen | Tarot Astro",
+      "h1": "Dag- en liefdeshoroscopen",
+      "description": "Ontdek daghoroscopen, persoonlijke liefdeshoroscopen en horoscopen voor twee in de Astro-sectie van Tarot.",
+      "lead": "Astro biedt een daghoroscoop, een persoonlijke liefdeshoroscoop en een liefdeshoroscoop voor twee. Dit zijn korte astrologische vormen om stil te staan bij een dag of relatie.",
+      "sections": [
+        {
+          "heading": "Kies een horoscoop",
+          "paragraphs": [
+            "De daghoroscoop gaat over de dag en is een goed begin voor een korte astrologische reading. De persoonlijke liefdeshoroscoop behandelt relaties vanuit jouw perspectief.",
+            "De horoscoop voor twee gaat over een paar. Wil je twee geboortehoroscopen vergelijken, bekijk dan de aparte compatibiliteitssectie. Dat is een andere vorm waarvoor uitgebreidere geboortegegevens nodig zijn."
+          ]
+        },
+        {
+          "heading": "Bekijk een resultaat en pak het later weer op",
+          "paragraphs": [
+            "Open Astro en kies een horoscoop. De app vraagt om de gegevens die voor die vorm nodig zijn; voor een reading over iemand anders kunnen diens geboortegegevens nodig zijn. Het product vermeldt welke periode de reading beslaat.",
+            "Of je een eerdere tekst kunt terugzien, hangt mogelijk af van de vorm en het opgeslagen resultaat. Voor een nieuwe actie toont de app de prijs en voorwaarden voordat je bevestigt."
+          ]
+        },
+        {
+          "heading": "Bekijk de reading in perspectief",
+          "paragraphs": [
+            "Zie een horoscoop als een symbolische aanleiding om na te denken, niet als verslag van gebeurtenissen die zeker zullen plaatsvinden. Leg een idee over bijvoorbeeld een gesprek of rust naast wat je over je eigen situatie weet.",
+            "Een horoscoop kent de plannen van anderen niet en kan niet garanderen hoe je dag verloopt. Baseer praktische beslissingen op betrouwbare informatie en je werkelijke situatie."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Wat is het verschil tussen een persoonlijke liefdeshoroscoop en een horoscoop voor twee?",
+          "De persoonlijke vorm gaat over jouw relatiethema’s; de andere neemt twee mensen in beschouwing."
+        ],
+        [
+          "Kan ik een eerdere horoscoop opnieuw lezen?",
+          "Dit hangt af van de vorm en het opgeslagen resultaat. Controleer de beschikbaarheid in de app."
+        ],
+        [
+          "Voorspelt de horoscoop hoe de dag verloopt?",
+          "Nee. De horoscoop is bedoeld voor ontspanning en zelfreflectie, niet als betrouwbare voorspelling van gebeurtenissen."
+        ]
+      ],
+      "eyebrow": "Korte vormen",
+      "card_text": "Daghoroscopen, persoonlijke liefdeshoroscopen en horoscopen voor stellen.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
+    },
+    "transits": {
+      "title": "Persoonlijke transits en astrologische gebeurtenissen | Tarot",
+      "h1": "Persoonlijke transits en astrologische gebeurtenissen",
+      "description": "Ontdek hoe astrologische transits hemelstanden in verband brengen met je geboortehoroscoop en verken persoonlijke astrologische gebeurtenissen.",
+      "lead": "Astrologische transits vergelijken de hemelstanden op een gekozen datum met je geboortehoroscoop. In Astro kun je de transitinterpretatie en persoonlijke astrologische gebeurtenissen verkennen als symbolische kijk op een periode.",
+      "sections": [
+        {
+          "heading": "Transits en je geboortehoroscoop",
+          "paragraphs": [
+            "Een geboortehoroscoop toont de hemelstanden bij je geboorte en wordt berekend op basis van je geboortedatum, -tijd en -plaats. Een transitreading vergelijkt de standen op een andere datum met die horoscoop.",
+            "De geboortehoroscoop is het uitgangspunt; de transitreading voegt een gekozen datum en astrologische interpretatie toe. Het is geen wetenschappelijke voorspelling van gebeurtenissen in je leven."
+          ]
+        },
+        {
+          "heading": "Verken een datum en persoonlijke gebeurtenissen",
+          "paragraphs": [
+            "Open de betreffende Astro-sectie en voer de gevraagde geboortegegevens in als die nog niet zijn opgeslagen. Kies een beschikbare datum en lees het resultaat. In een aparte lijst kun je de persoonlijke astrologische gebeurtenissen in het product bekijken.",
+            "Beschikbare datums en toegang hangen af van de functie. De app toont betaal- of Premium-voorwaarden voordat je bevestigt. Je hoeft geen geboortegegevens op deze website in te voeren."
+          ]
+        },
+        {
+          "heading": "Gebruik het als aanleiding tot zelfreflectie",
+          "paragraphs": [
+            "Een interpretatie kan een thema aanreiken over waar je aandacht aan besteedt of welke plannen je opnieuw bekijkt. Vraag jezelf af of je praktische redenen hebt om iets te veranderen en welke kleine stap nuttig kan zijn.",
+            "Persoonlijke astrologische gebeurtenissen gaan over hemelstanden en hun interpretatie. Het is geen lijst met betrouwbaar voorspelde gebeurtenissen in je leven."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Welke geboortegegevens zijn nodig?",
+          "De app vraagt om de benodigde geboortedatum, -tijd en -plaats."
+        ],
+        [
+          "Zijn astrologische gebeurtenissen gebeurtenissen in mijn leven?",
+          "Nee. De lijst gaat over astrologische standen en interpretaties, niet over vaststaande toekomstige gebeurtenissen."
+        ],
+        [
+          "Kan ik een datum kiezen?",
+          "Ja. In de transitsectie kun je een beschikbare datum kiezen; de app toont het bereik."
+        ]
+      ],
+      "eyebrow": "Een datum en je horoscoop",
+      "card_text": "Een transitinterpretatie en persoonlijke astrologische gebeurtenissen.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
+    },
+    "solar": {
+      "title": "Solar return: astrologisch jaaroverzicht | Tarot",
+      "h1": "Solar return: astrologisch jaaroverzicht",
+      "description": "Ontdek wat een solar return is, welke gegevens nodig zijn voor de berekening en hoe deze verschilt van een geboortehoroscoop.",
+      "lead": "Een solar return is een astrologische vorm die een symbolische kijk op een persoonlijk jaar biedt. Bereken de solar return in Tarot en verken de thema’s met je geboortegegevens, een jaar en een berekeningslocatie.",
+      "sections": [
+        {
+          "heading": "Wat is een solar return?",
+          "paragraphs": [
+            "Een solar-returnhoroscoop wordt berekend voor het moment waarop de zon terugkeert naar de positie die zij bij je geboorte had. In de astrologie wordt deze gebruikt om thema’s van een persoonlijk jaar te bekijken.",
+            "De interpretatie kan aanleiding zijn om over prioriteiten en plannen na te denken. Ze stelt niet vast welke gebeurtenissen in die periode plaatsvinden."
+          ]
+        },
+        {
+          "heading": "Welke gegevens heb je nodig?",
+          "paragraphs": [
+            "Je hebt je geboorteplaats, -datum en -tijd nodig, plus een jaar en locatie voor de berekening van de solar return. Controleer de gegevens voordat je ze verstuurt; ze worden gebruikt om de horoscoop te maken.",
+            "Open de solar-returnsectie in Astro, vul de velden in en bekijk de toegangsvoorwaarden. De app toont eventuele credit- of Premium-vereisten en de prijs voordat je bevestigt."
+          ]
+        },
+        {
+          "heading": "Hoe deze vorm verschilt van andere",
+          "paragraphs": [
+            "Een geboortehoroscoop gaat over het moment van geboorte; een solar return biedt een aparte astrologische kijk op een persoonlijk jaar. Een tarotreading voor het komende jaar gebruikt de symboliek en posities van kaarten.",
+            "Schrijf bijvoorbeeld na het lezen van een solar-returninterpretatie je eigen prioriteiten op en bedenk welke concrete middelen je daarvoor nodig hebt. Neem beslissingen op basis van je omstandigheden en betrouwbare informatie."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Waarom is een berekeningslocatie nodig?",
+          "De locatie is, naast het jaar en je geboortegegevens, een invoer voor de solar-returnhoroscoop."
+        ],
+        [
+          "Kan dit me helpen nadenken over het komende jaar?",
+          "Het kan je eigen vragen en prioriteiten aan het licht brengen. Neem praktische beslissingen op basis van je omstandigheden en betrouwbare informatie."
+        ],
+        [
+          "Voorspelt dit specifieke gebeurtenissen?",
+          "Nee. Een solar-returninterpretatie is symbolisch en geen betrouwbare voorspelling van gebeurtenissen."
+        ]
+      ],
+      "eyebrow": "Een persoonlijk jaar",
+      "card_text": "Astrologische thema’s en je eigen prioriteiten.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
+    },
+    "moon": {
+      "title": "Maankalender en dagboek | Tarot Astro",
+      "h1": "Maankalender en dagboek",
+      "description": "Bekijk maaninformatie in Astro en noteer desgewenst je stemming, energie en een korte notitie in je dagboek.",
+      "lead": "De maankalender in Astro geeft informatie over de maan, waaronder de maanstand. In een optioneel dagboek kun je je stemming, energie en een notitie over je dag vastleggen.",
+      "sections": [
+        {
+          "heading": "Ontdek de maankalender",
+          "paragraphs": [
+            "Een maanstand beschrijft welk verlicht deel van de maan zichtbaar is. De kalender verzamelt actuele maaninformatie op één plek in de app.",
+            "Gebruik de astrologische invalshoek als onderwerp voor observatie en reflectie als je dat interessant vindt. Een maanstand bewijst op zichzelf geen invloed op gezondheid, stemming of het slagen van een activiteit."
+          ]
+        },
+        {
+          "heading": "Houd desgewenst een dagboek bij",
+          "paragraphs": [
+            "Open het dagboek naast de maansectie en noteer desgewenst je stemming en energie of schrijf een korte notitie. Bijvoorbeeld over iets waardoor je vandaag kon uitrusten, of iets wat je morgen wilt doen.",
+            "Je hoeft niets in te vullen. In de geschiedenis kun je eerdere notities teruglezen. Voeg alleen informatie toe die je in het product wilt bewaren."
+          ]
+        },
+        {
+          "heading": "Zijn geboortegegevens nodig?",
+          "paragraphs": [
+            "Voor de maankalender zijn geen persoonlijke geboortegegevens nodig. Voor geboortehoroscopen, transits en andere persoonlijke berekeningen worden de benodigde gegevens apart gevraagd.",
+            "Open de maansectie en bekijk de beschikbare informatie. De actuele voorwaarden voor afzonderlijke acties staan in het product. Deze website verzamelt geen persoonlijke dagboeknotities."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Moet ik elke dag iets opschrijven?",
+          "Nee. Het dagboek is optioneel; gebruik het wanneer je iets wilt vastleggen."
+        ],
+        [
+          "Heb ik mijn geboorteplaats en -tijd nodig?",
+          "Voor de maankalender zijn persoonlijke geboortegegevens niet nodig."
+        ],
+        [
+          "Kan de maanstand vertellen of een plan slaagt?",
+          "Nee. De kalender geeft informatie over de maan, geen betrouwbare voorspelling van het resultaat van je acties."
+        ]
+      ],
+      "eyebrow": "Observaties en notities",
+      "card_text": "Maaninformatie en een optionele notitie over je dag.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Astro naast je tarot",
+      "example_text": "De app toont astrologische vormen met duidelijke namen en toegangsvoorwaarden. Kies een onderwerp, voer de benodigde gegevens in en bekijk de voorwaarden voordat je bevestigt."
     }
+  },
+  "demo": {
+    "name": "Voorbeeld",
+    "reading_title": "Reading met drie kaarten",
+    "question": "Wat kan me helpen de volgende stap te zetten?",
+    "positions": [
+      "Verleden",
+      "Heden",
+      "Toekomst"
+    ],
+    "card_names": [
+      "De Dwaas",
+      "De Magiër",
+      "De Ster"
+    ],
+    "answer_title": "Een frisse kijk op de situatie",
+    "answer": "De Dwaas wijst op een klein begin. De Magiër vestigt de aandacht op vaardigheden die je kunt inzetten, terwijl De Ster je uitnodigt je doel voor ogen te houden. Kies één haalbare stap en sta stil bij het resultaat."
   }
 }

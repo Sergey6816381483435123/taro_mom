@@ -44,77 +44,210 @@
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/",
       "ru": "/ru/astro/"
-    }
+    },
+    "englishSlug": ""
   },
   "natal": {
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/natal-chart/",
       "ru": "/ru/astro/natalnaya-karta/"
-    }
+    },
+    "englishSlug": "natal-chart"
   },
   "compatibility": {
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/compatibility/",
       "ru": "/ru/astro/sovmestimost/"
-    }
+    },
+    "englishSlug": "compatibility"
   },
   "horoscopes": {
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/horoscopes/",
       "ru": "/ru/astro/goroskopy/"
-    }
+    },
+    "englishSlug": "horoscopes"
   },
   "transits": {
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/transits/",
       "ru": "/ru/astro/tranzity/"
-    }
+    },
+    "englishSlug": "transits"
   },
   "solar": {
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/solar-return/",
       "ru": "/ru/astro/solyar/"
-    }
+    },
+    "englishSlug": "solar-return"
   },
   "moon": {
     "kind": "astro",
     "locales": [
       "en",
-      "ru"
+      "ru",
+      "id",
+      "ms",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "uz",
+      "pl",
+      "pt",
+      "tr",
+      "be",
+      "uk",
+      "kk",
+      "ar",
+      "fa",
+      "ko",
+      "hi"
     ],
     "paths": {
       "en": "/astro/moon-calendar/",
       "ru": "/ru/astro/lunnyy-kalendar/"
-    }
+    },
+    "englishSlug": "moon-calendar"
   }
 }

@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Telegram’da kişisel yapay zekâ Tarot açılımları | Taroshenka",
-    "description": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-    "ogTitle": "Telegram’da kişisel yapay zekâ Tarot açılımları",
-    "ogDescription": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-    "twitterTitle": "Telegram’da kişisel yapay zekâ Tarot açılımları",
-    "twitterDescription": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "Telegram’da aç",
-    "brandAria": "Türkçe Taroshenka",
-    "primaryAria": "Nasıl çalışır",
-    "how": "Nasıl çalışır",
-    "readings": "Açılımlar",
-    "faq": "Sık sorulan sorular",
-    "languageAria": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-    "headerCta": "Telegram’da aç",
-    "home": "Türkçe",
-    "breadcrumbAria": "Sık sorulan sorular",
-    "identity": "Bot:",
-    "factsAria": "Nasıl çalışır"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Telegram’da kişisel yapay zekâ Tarot açılımları",
-      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "cta": "Tarot açılımını al",
-      "imageAlt": "Telegram’da kişisel yapay zekâ Tarot açılımları"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+    "brand": "Tarot",
+    "home": "Ana sayfa",
+    "tarot": "Tarot",
+    "astro": "Astro",
+    "faq": "SSS",
+    "skip": "Ana içeriğe geç",
+    "breadcrumbs": "İçerik yolu",
+    "switch_language": "Dil seçin",
+    "explore": "Keşfet",
+    "entry_heading": "Tarot’u açmanın üç yolu",
+    "entry_labels": [
+      "Tarot’u aç",
+      "Astro Mini Uygulaması’nı aç",
+      "Tarayıcıda aç"
     ],
-    "how": {
-      "eyebrow": "Nasıl çalışır",
-      "title": "Nasıl çalışır",
-      "intro": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "steps": [
-        [
-          "Nasıl çalışır",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "Sizin için önemli olanı kartlara sorun",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "Açılımlar",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Açılımlar",
-      "title": "Açılımlar",
-      "intro": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "items": [
-        [
-          "daily-card",
-          "Günün Kartı",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "yes-no",
-          "Evet veya Hayır",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "three-card",
-          "Üç kart açılımı",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "relationships",
-          "İlişki açılımı",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "premium",
-          "Premium açılımlar",
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Sizin için önemli olanı kartlara sorun",
-      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "personal": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Premium açılımlar",
-      "intro": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Bu dil için ödeme Telegram Stars ile yapılır."
-    },
-    "languages": {
-      "eyebrow": "Türkçe",
-      "title": "Telegram’da kişisel yapay zekâ Tarot açılımları",
-      "text": "{count}: Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "names": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-    },
-    "faq": [
-      [
-        "Sizin için önemli olanı kartlara sorun",
-        "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-      ],
-      [
-        "Does it predict the future?",
-        "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-      ],
-      [
-        "Sık sorulan sorular",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Bu dil için ödeme Telegram Stars ile yapılır."
-      ],
-      [
-        "20",
-        "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-      ],
-      [
-        "Languages",
-        "20: Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
-      ]
+    "entry_notes": [
+      "Telegram sohbetinizde Tarot açılımları.",
+      "Astro’yu açın, ardından Telegram düğmesiyle uygulamayı başlatın.",
+      "Telegram veya e-posta ile giriş yapabileceğiniz uygulama."
     ],
-    "disclaimer": {
-      "title": "Sık sorulan sorular",
-      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin."
+    "entity_description": "Tarot; yapay zekâ yorumları ve ayrı bir Astro bölümü sunan, Telegram, Mini Uygulama ve tarayıcı üzerinden erişilebilen bir Tarot hizmetidir.",
+    "hero_alt": "Koyu lacivert ve mor tonlardaki bir iç mekânda, mum ışığında Tarot kartlarını inceleyen bir okuyucu",
+    "tarot_heading": "Sorunuza uygun bir açılım bulun",
+    "tarot_intro": "Kısa ve sembolik bir bakış ya da daha ayrıntılı bir açılım keşfedin. Yorum, kartları konumları ve sorunuzun bağlamıyla ilişkilendirir.",
+    "astro_heading": "Astroloji için ayrı bir alan",
+    "astro_intro": "Doğum haritalarını, uyumu ve diğer astroloji formatlarını keşfedin. Her sayfa neler sunulduğunu ve hesaplama için hangi bilgilerin gerektiğini açıklar.",
+    "inside": "Uygulamanın içinden",
+    "example_heading": "Kartlar, anlamları ve sorunuz",
+    "example_text": "Kartları görüntüleyin ve sorunuza göre oluşturulan yapay zekâ yorumunu keşfedin. Uygun açılımların ardından açıklama isteyebilir veya ek bir kart çekebilirsiniz.",
+    "example_caption": "Örnek verilerle gerçek uygulama arayüzü. Bu, gerçek bir kullanıcının açılımı değil, yalnızca bir örnektir.",
+    "image_alt": {
+      "tarot": "Rider–Waite kartları ve yapay zekâ yorumu içeren örnek Tarot açılımı",
+      "card": "Uygulamanın kart görüntüleyicisinde açılmış bir Rider–Waite Tarot kartı",
+      "astro": "Yön seçimi ve günlük kayıt alanı bulunan uygulamanın Astro bölümü"
     },
-    "cta": {
-      "title": "Sizin için önemli olanı kartlara sorun",
-      "text": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "button": "Telegram’da aç"
-    }
+    "account_text": "Aynı hesabı kullandığınızda veya kimlikleri açıkça bağladığınızda profiliniz, kredileriniz ve geçmişiniz ortak olur. Ayrı bir e-posta kaydı hesapları otomatik olarak birleştirmez.",
+    "cross_link_astro": "Astro’yu keşfet",
+    "cross_link_tarot": "Tarot açılımlarını keşfet",
+    "answers": "Sorularınız yanıtlandı",
+    "related": "İlgili konular",
+    "final_title": "Nasıl başlamak istediğinizi seçin",
+    "final_text": "Telegram sohbetini, Telegram içindeki Mini Uygulamayı veya tarayıcı uygulamasını kullanın. Size uygun deneyimi seçin.",
+    "disclaimer_title": "Eğlence ve öz değerlendirme amaçlıdır",
+    "disclaimer": "Tarot açılımları ve yapay zekâ yorumları eğlence ve öz değerlendirme amaçlıdır. Geleceğe dair güvenilir tahminler değildir; tıbbi, psikolojik, hukuki, finansal veya başka bir profesyonel desteğin yerini tutmaz. Önemli kararları kendiniz verirsiniz.",
+    "astro_disclaimer": "Astroloji içerikleri de eğlence ve öz değerlendirme amaçlıdır. Geleceğe dair güvenilir tahminler değildir; tıbbi, psikolojik, hukuki, finansal veya başka bir profesyonel desteğin yerini tutmaz. Önemli kararları kendiniz verirsiniz.",
+    "support": "Destek",
+    "other_languages": "Diller",
+    "other_languages_note": "Bu web sitesinin tüm bölümleri 20 dilde kullanılabilir.",
+    "attribution_note": "Giriş bağlantıları bir davet kodu içerir. Tarayıcı uygulaması daveti 30 güne kadar saklayabilir. Bu web sitesi sorularınızı, e-posta adresinizi veya doğum bilgilerinizi toplamaz."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot — Telegram’da ve uygulamada yapay zekâ destekli Tarot açılımları",
+      "h1": "Sorularınıza özel yapay zekâ destekli Tarot açılımları",
+      "description": "Telegram’da, Mini Uygulamada veya tarayıcınızda yapay zekâ yorumlu Tarot açılımlarını keşfedin. Açılım geçmişi, kartların başvuru niteliğindeki anlamları ve ayrı bir Astro bölümü.",
+      "lead": "Bir açılım seçin, sizin için önemli olanı sorun ve durumunuzu Tarot’un sembolleriyle inceleyin. Tarot’u Telegram sohbetinde, Mini Uygulamada veya tarayıcınızda kullanın.",
+      "sections": [
+        {
+          "heading": "Bir sorudan bütünlüklü bir yoruma",
+          "paragraphs": [
+            "Sorunuza uygun bir format seçin. Açılım bağlam istediğinde durumu kendi sözlerinizle anlatın: neler oluyor, hangi noktalar belirsiz ve neyi incelemek istiyorsunuz?",
+            "Çekilen kartları görüntüleyin ve konumlarını, kombinasyonlarını ve düz ya da ters duruşlarını bir araya getiren yapay zekâ yorumunu okuyun. Sorunuz bağlam sağlar; sonuçlar ve kararlar size aittir."
+          ]
+        },
+        {
+          "heading": "Kısa bir açılımla başlayın veya daha derine inin",
+          "paragraphs": [
+            "Günlük Kart, Kart Tavsiyesi, Evet ya da Hayır veya üç kartlık açılımla başlayın. İlişki formatları arasında İlişkimiz, Yeni Aşk, Ne Hissediyor? ve Geri Dönecek mi? bulunur. Bu adlar sembolik açılımın konusunu belirtir; başka birinin duygularına dair güvenilir bilgi sunmaz."
+          ],
+          "items": [
+            "Yakın Gelecek, Bir Sonraki Adımım veya Durum Nasıl Gelişiyor açılımlarıyla bir durumu inceleyin.",
+            "Daha geniş bir bakış için iki seçeneği karşılaştırın veya İş ve Finans, Kelt Haçı ya da yıllık açılımı seçin.",
+            "Bazı kapsamlı formatlar Premium gerektirir. Güncel erişim koşulları ürün içinde gösterilir."
+          ]
+        },
+        {
+          "heading": "Bir açılıma dönün ve daha yakından inceleyin",
+          "paragraphs": [
+            "Uygun sonuçların ardından, ilk açılımın bağlamında açıklayıcı bir soru sorabilir veya ek kart çekebilirsiniz. Geçmiş bölümü, kaydedilmiş sorulara ve yorumlara yeniden göz atmanızı sağlar.",
+            "Uygulamada kart görselini açın ve ayar etkinse kartın başvuru anlamını okuyun. Bu açıklama sembolizmi anlatır; yapay zekâ yorumu ise kartı açılımınızla ilişkilendirir. Tercih ettiğiniz dil ve deste profilinize kaydedilir."
+          ]
+        },
+        {
+          "heading": "Ücretsiz özellikler, krediler ve Premium",
+          "paragraphs": [
+            "Ürün, Telegram’daki Günlük Kart gibi ücretsiz özellikler sunar. Ücretli işlemlerde kredi kullanılır. Premium, kapsamlı Tarot formatlarını ve bazı Astro özelliklerini açar; sınırsız kullanım anlamına gelmez.",
+            "Bir işlemi onaylamadan önce bot veya uygulama fiyatı ve koşulları gösterir. Erişim; formata, aboneliğe, deneme uygunluğuna veya kaydedilmiş bir sonuca bağlı olabilir. Güncel satın alma koşullarını ürün içinde kontrol edin. Kader Çarkı ayrı bir özelliktir ve kredi ödülünü garanti etmez."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Tarot nedir?",
+          "Tarot; Telegram sohbetinde, Mini Uygulamada ve tarayıcıda kullanılabilen, yapay zekâ yorumları sunan bir Tarot hizmetidir. Uygulamada ayrıca ayrı bir Astro bölümü vardır."
+        ],
+        [
+          "Hangi giriş yöntemini seçmeliyim?",
+          "Sohbette açılım yapmak için Tarot’u açın. Telegram içinde görsel uygulamayı kullanmak için Astro’yu açın ve Telegram düğmesiyle başlatın. Telegram dışında kullanmak için tarayıcı girişini seçin."
+        ],
+        [
+          "Telegram olmadan kullanabilir miyim?",
+          "Tarayıcı uygulamasında Telegram ile giriş yapabilir veya doğrulanmış e-posta adresi ve parola ile kaydolabilirsiniz. Ayrı bir e-posta hesabı ancak onayınızdan sonra Telegram’a bağlanır."
+        ],
+        [
+          "Premium neleri içerir?",
+          "Premium çeşitli kapsamlı özelliklerin kilidini açar. Bazı işlemler yine kredi kullanır; ürün, onaydan önce geçerli koşulları gösterir."
+        ],
+        [
+          "Geleceği tahmin eder mi?",
+          "Hayır. Açılımlar eğlence ve öz değerlendirme için sembolik bir bakış sunar; güvenilir bir tahmin veya profesyonel desteğin yerine geçmez."
+        ]
+      ],
+      "eyebrow": "Kişisel Tarot alanınız",
+      "card_text": "Sorunuza uygun bir açılım bulun",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Günün Kartı",
-      "title": "Günün Kartı",
-      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
-      "bullets": [
-        "Günün Kartı",
-        "Düşünmek için sembolik bir bakış.",
-        "Sorunuzun bağlamını dikkate alan yorum."
+      "title": "Günlük Tarot Kartı — Sembolik bir başlangıç | Tarot",
+      "h1": "Düşünmek için günlük Tarot kartı",
+      "description": "Tarot Telegram botunda ücretsiz Günlük Kartınızı alın; görselini ve kısa anlamını düşünmek için bir başlangıç olarak keşfedin.",
+      "lead": "Günlük Kart, tek bir kart ve kısa anlamı aracılığıyla Tarot’a kolay bir giriş sunar. Telegram botundan ücretsiz alın ve gün içinde üzerine düşüneceğiniz bir konu seçin.",
+      "sections": [
+        {
+          "heading": "Bir kart, kendinize bir soru",
+          "paragraphs": [
+            "Görsele bakıp kartın anlamını okuyun. Bunu kelimesi kelimesine bir öngörü olarak kabul etmeniz gerekmez. Bunun yerine, kartın temasının mevcut düşünce veya planlarınızla örtüşüp örtüşmediğine dikkat edin.",
+            "Örneğin, bugün neye dikkat etmeniz gerektiğini kendinize sorabilirsiniz. Yanıtı kendinize bir not ya da daha ayrıntılı bir açılım için başlangıç noktası olarak kullanın."
+          ]
+        },
+        {
+          "heading": "Günlük Kartınızı nasıl alırsınız?",
+          "paragraphs": [
+            "Görseli ve kısa anlamıyla Günlük Kartınızı almak için Telegram’da Tarot’u açıp sohbeti başlatın.",
+            "Günlük Kart ve Kader Çarkı farklı özelliklerdir. Çark çevrilir ve olası bir ödül sunar; kart açılımının yerini tutmaz ve kredi kazanmayı garanti etmez."
+          ]
+        },
+        {
+          "heading": "Daha fazla bağlam istediğinizde",
+          "paragraphs": [
+            "Belirli bir durum için Kart Tavsiyesi, Evet ya da Hayır veya üç kartlık açılımı deneyin. Bot, ücretli işlemden önce koşulları gösterir. Uygulamada kartları görüntüleyebilir ve isteğe bağlı başvuru anlamlarını okuyabilirsiniz."
+          ]
+        }
       ],
-      "alt": "Günün Kartı"
+      "faq": [
+        [
+          "Günlük Kart ücretsiz mi?",
+          "Evet. Güncel Telegram kataloğunda Günlük Kart ücretsizdir. Diğer işlemlerin kendi koşulları vardır ve onaydan önce gösterilir."
+        ],
+        [
+          "Bugün neler olacağını tahmin eder mi?",
+          "Hayır. Gelecekteki olaylara dair güvenilir bir açıklama değil, üzerinde düşünmek için sembolik bir tema sunar."
+        ],
+        [
+          "Kart Tavsiyesi’nden farkı nedir?",
+          "Günlük Kart genel bir günlük düşünme önerisidir. Kart Tavsiyesi ise kişisel bir soruya yönelik, kendi erişim koşulları olan ayrı ve kısa bir açılımdır."
+        ]
+      ],
+      "eyebrow": "Tek kart",
+      "card_text": "Güne başlamak için bir kart görseli ve kısa anlamı.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Evet veya Hayır",
-      "title": "Evet veya Hayır",
-      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
-      "bullets": [
-        "Evet veya Hayır",
-        "Düşünmek için sembolik bir bakış.",
-        "Sorunuzun bağlamını dikkate alan yorum."
+      "title": "Evet ya da Hayır Tarot — Tek kartlık açılım | Tarot",
+      "h1": "Net bir Evet ya da Hayır Tarot açılımı",
+      "description": "Net bir soru sorun ve durumunuza göre hazırlanmış yapay zekâ yorumuyla tek kartlık Tarot açılımını keşfedin.",
+      "lead": "Evet ya da Hayır, net bir soru için tek kartlık bir açılımdır. Tarot kartı bağlam içinde açıklar ve kararınızı sizin yerinize vermek yerine üzerinde düşüneceğiniz bir bakış sunar.",
+      "sections": [
+        {
+          "heading": "Tek ve açık bir soru sorun",
+          "paragraphs": [
+            "Tek bir durum seçin ve neyi incelemek istediğinizi açıkça belirtin. “Yeni sorumluluklarımı yöneticimle konuşmalı mıyım?” sorusu, aynı anda birkaç ilgisiz soru sormaktan daha net bir bağlam sağlar.",
+            "Bu format sembolik bir yön sunar. Önemli bir kararda yorumu güvenilir bilgileriniz, koşullarınız ve gerektiğinde profesyonel danışmanlıkla birlikte değerlendirin."
+          ]
+        },
+        {
+          "heading": "Açılımda neler var?",
+          "paragraphs": [
+            "Bir kart çekilir. Yapay zekâ yorumu, kartın sembolizmini ve düz ya da ters duruşunu sorunuzla ilişkilendirerek basit bir evet veya hayır yanıtının ötesinde açıklama sunar.",
+            "Görsele bakın ve hangi fikirlerin sizin için yararlı olduğunu fark edin. Kart, başka birinin niyetini belirleyemez veya bir eylemin sonucunu garanti edemez."
+          ]
+        },
+        {
+          "heading": "Nasıl başlanır?",
+          "paragraphs": [
+            "Tarot’u veya uygulamayı açın, Evet ya da Hayır’ı seçin, sorunuzu girin ve işlem koşullarını inceleyin. Onaydan sonra kartı ve yorumunu keşfedin. Birbiriyle bağlantılı birkaç yönü olan sorular için üç kartlık açılımı değerlendirin."
+          ]
+        }
       ],
-      "alt": "Evet veya Hayır"
+      "faq": [
+        [
+          "Aynı anda birkaç soru sorabilir miyim?",
+          "Bu kısa formatta tek ve net bir soru seçin. Böylece bağlamı takip etmek kolaylaşır."
+        ],
+        [
+          "Yanıtın doğru olacağı garanti mi?",
+          "Hayır. Bu, öz değerlendirme için sembolik bir yorumdur; güvenilir bir tahmin veya durum hakkında doğrulanmış bir gerçek değildir."
+        ],
+        [
+          "Karmaşık bir soru için ne daha uygun?",
+          "Üç kartlık açılım veya konuyla ilgili başka bir format, birbiriyle bağlantılı çeşitli yönleri değerlendirmenize yardımcı olabilir."
+        ]
+      ],
+      "eyebrow": "Net bir soru",
+      "card_text": "Sorunuzla bağlantılı bir açıklama ve tek kart.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Üç kart açılımı",
-      "title": "Üç kart açılımı",
-      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
-      "bullets": [
-        "Üç kart açılımı",
-        "Düşünmek için sembolik bir bakış.",
-        "Sorunuzun bağlamını dikkate alan yorum."
+      "title": "Yapay zekâlı üç kartlık Tarot açılımı | Tarot",
+      "h1": "Bir durumu birbiriyle bağlantılı üç kartla inceleyin",
+      "description": "Kart görselleri ve sorununuza göre hazırlanmış bütünlüklü bir yapay zekâ yorumuyla üç kartlık Tarot açılımını keşfedin.",
+      "lead": "Üç kartlık açılım, hem kartların ayrı anlamları hem de aralarındaki bağlantılar üzerinden bir soruyu kısa biçimde incelemenizi sağlar. Tarot, sorunuz ve kart konumlarından yola çıkarak bütünlüklü bir yapay zekâ yorumu oluşturur.",
+      "sections": [
+        {
+          "heading": "Bağlantılar neden önemli?",
+          "paragraphs": [
+            "Her kartın açılımda bir rolü vardır. Yorum, kartları birlikte değerlendirerek bağlantılı bir bakış sunar. Sonuçta kullanılan konumlar ve etiketleri gösterilir.",
+            "Her üç kartlık format geçmiş, şimdi ve geleceği kullanmaz. Seçtiğiniz formatın konumlarını okuyun ve bunların sorunuzla ilişkisini düşünün."
+          ]
+        },
+        {
+          "heading": "Sorunuza biraz bağlam ekleyin",
+          "paragraphs": [
+            "Örneğin: “Ara verdiğim bir projeye geri dönmek istiyorum. Neleri göz önünde bulundurmalıyım?” Birkaç ilgisiz durumu tek bir kısa açılımda birleştirmeden gerekli bağlamı ekleyin.",
+            "Kartları sırayla görüntüleyin, ardından genel yorumu okuyun. Yorum kendi sonraki adımınızı belirlemenize yardımcı olabilir; bu adımı sizin yerinize seçmez."
+          ]
+        },
+        {
+          "heading": "Açılımdan sonra",
+          "paragraphs": [
+            "Hesap geçmişinizde kayıtlı bir sonuca dönün. Desteklendiği durumlarda açıklama isteyebilir veya ek kartla ilk bağlamı daha ayrıntılı inceleyebilirsiniz. Ürün, onaydan önce fiyatı ve koşulları gösterir."
+          ]
+        }
       ],
-      "alt": "Üç kart açılımı"
+      "faq": [
+        [
+          "Üç konum ne anlama geliyor?",
+          "Seçilen formata göre değişir ve sonuçta gösterilir. Her zaman geçmiş, şimdi ve geleceği temsil ettiklerini varsaymayın."
+        ],
+        [
+          "Yanıta daha sonra dönebilir miyim?",
+          "Kaydedilen açılımlar hesap geçmişinizde bulunur. Farklı giriş yöntemlerinde erişimi paylaşmak için aynı hesabı veya açıkça bağlanmış kimlikleri kullanın."
+        ],
+        [
+          "Premium gerekli mi?",
+          "Bot veya uygulama, seçilen formatın güncel koşullarını gösterir. Premium bazı kapsamlı formatları açar; sınırsız erişim anlamına gelmez."
+        ]
+      ],
+      "eyebrow": "Üç kart",
+      "card_text": "Tek bir sorunun birbiriyle bağlantılı birkaç yönü.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "İlişki açılımı",
-      "title": "İlişki açılımı",
-      "lead": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin.",
-      "body": "Tarot botu 20 dilde kullanılabilir. Dilinizi profilinizde kaydedin. Sorunuzun bağlamını dikkate alan yorum.",
-      "bullets": [
-        "İlişki açılımı",
-        "Düşünmek için sembolik bir bakış.",
-        "Sorunuzun bağlamını dikkate alan yorum."
+      "title": "Yapay zekâlı ilişki Tarot açılımı | Tarot",
+      "h1": "Bir ilişkinin dinamikleri üzerine düşünün",
+      "description": "Beş kartlık İlişkimiz Tarot açılımını ve zihin okuma iddiasında bulunmadan ilişkileri düşünmeye yönelik diğer formatları keşfedin.",
+      "lead": "İlişkimiz, kişiler arasındaki dinamikleri ele alan beş kartlık bir açılımdır. Beklentilere, deneyimlere ve olası yönlere sembolik bir bakış sunar; sonuçları ve kararları size bırakır.",
+      "sections": [
+        {
+          "heading": "Sizin için önemli olanı anlatın",
+          "paragraphs": [
+            "İlişkiyi ve aklınızdaki soruyu açıklayın. Örneğin: “Artık daha seyrek konuşuyoruz ve bunu nasıl konuşacağımı düşünmek istiyorum.” Bağlam, yorumu konunuzla ilişkilendirmeye yardımcı olur.",
+            "Diğer kişi hakkında gereksiz kişisel bilgiler paylaşmanız gerekmez. Duygular ve niyetler gerçek iletişimle anlaşılır; bir açılım bunları doğrulanmış gerçekler olarak belirleyemez."
+          ]
+        },
+        {
+          "heading": "Beş kart neler sunar?",
+          "paragraphs": [
+            "Her kartın bir konumu vardır ve yapay zekâ yorumu bunların anlamlarını tek bir açılımda birleştirir. Sonuçta konum etiketleri ve kart görselleri yer alır.",
+            "Açılım, değerlendirmeniz için birkaç yön sunar. Birinin belirli bir şey hissettiğini kanıtlamaz veya ilişkinin nasıl gelişeceğini belirlemez."
+          ]
+        },
+        {
+          "heading": "İlişkiler hakkında diğer sorular",
+          "paragraphs": [
+            "Katalogda Yeni Aşk, Ne Hissediyor? ve Geri Dönecek mi? açılımları da bulunur. Bu adlar sembolik açılımların konularını belirtir. Bazı formatlar Premium gerektirir; ürün koşulları onaydan önce gösterir.",
+            "Farklı bir yaklaşım olarak Astro, iki doğum haritasını karşılaştıran uyum formatını sunar. Bu, her iki kişinin de doğum bilgilerini kullanan ayrı bir formattır."
+          ]
+        }
       ],
-      "alt": "İlişki açılımı"
+      "faq": [
+        [
+          "Birinin gerçek duygularını öğrenebilir miyim?",
+          "Hayır. Bir açılım başka birinin düşüncelerini veya duygularını belirleyemez. Kendi sorularınızı oluşturmak ve bir konuşmaya hazırlanmak için kullanabilirsiniz."
+        ],
+        [
+          "Partnerimin geri döneceğini garanti eder mi?",
+          "Hiçbir format başka birinin davranışlarını veya ilişkinin sonucunu garanti etmez."
+        ],
+        [
+          "Sinastriden farkı nedir?",
+          "Tarot, kartları ve sorunun bağlamını kullanır. Sinastri iki doğum haritasını karşılaştırır ve her iki kişinin de doğum bilgilerini gerektirir."
+        ]
+      ],
+      "eyebrow": "İlişkiler",
+      "card_text": "Etkileşimler, beklentiler ve durumunuz hakkında beş kart.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: Doğum Haritaları, Burç Yorumları ve Ay Takvimi | Tarot",
+      "h1": "Astro: kişisel astroloji",
+      "description": "Tarot içindeki Astro’yu keşfedin: doğum haritaları, uyum, burç yorumları, transitler, güneş dönüşü, Ay takvimi ve isteğe bağlı günlük.",
+      "lead": "Astro, Tarot’un doğum haritaları, burç yorumları ve daha fazlasını sunan astroloji bölümüdür. İlginizi çeken bir konuyu seçin; eğlence ve düşünme fırsatı olarak keşfedin.",
+      "sections": [
+        {
+          "heading": "Sorunuza uygun bir format bulun",
+          "paragraphs": [
+            "Doğum haritası, doğum anındaki gök cisimlerinin konumlarını gösterir. İlişkiler için uyum bölümünde iki haritayı karşılaştırabilir veya aşk burcunu seçebilirsiniz.",
+            "Transitler ve kişisel astrolojik olaylar, gök cisimlerinin konumlarını doğum haritanızla ilişkilendirir. Güneş dönüşü kişisel yılınıza sembolik bir bakış sunar. Ay takvimi, isteğe bağlı günlükle birlikte Ay bilgilerini sağlar."
+          ]
+        },
+        {
+          "heading": "Hangi bilgiler gerekecek?",
+          "paragraphs": [
+            "Kişisel hesaplamalar için ilgili doğum tarihi, saati ve yeri gerekir. Uyum için iki kişinin bilgileri; güneş dönüşü için ayrıca yıl ve hesaplama yeri gerekir. Ay takvimi kişisel doğum bilgisi istemez.",
+            "Bilgileri bu web sitesine değil, ürünün içine girersiniz. Başka birinin haritasını incelerken bilgileri kendisinden isteyin ve paylaşmayı kabul ettiğinden emin olun."
+          ]
+        },
+        {
+          "heading": "Astro’ya erişim",
+          "paragraphs": [
+            "Astro ve Tarot, Mini Uygulamada ve tarayıcı uygulamasında kullanılabilir. Tarayıcıda Telegram ile veya doğrulanmış e-posta adresi ve parola kullanarak giriş yapın. Profil verilerinin ve kredilerin ortak olması için aynı hesabı ya da açıkça bağlanmış kimlikleri kullanmanız gerekir.",
+            "Bazı özellikler ücretsiz, bazı işlemler ücretlidir. Koşullar özelliğe göre değişir; uygulama, onaydan önce fiyatı ve varsa Premium gereksinimini gösterir."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Astro ve Tarot aynı şey mi?",
+          "Bunlar farklı bölümlerdir. Tarot, sembolik açılımlar için kartları kullanır; Astro astroloji formatları sunar. İkisi de Mini Uygulamada ve tarayıcı uygulamasında yer alır."
+        ],
+        [
+          "Doğum saatim gerekli mi?",
+          "Kişisel hesaplamalar, saat dahil gerekli doğum bilgilerini ister. Ay takvimi kişisel doğum bilgisi gerektirmez."
+        ],
+        [
+          "Astroloji geleceği güvenilir biçimde tahmin edebilir mi?",
+          "Hayır. Astro içerikleri güvenilir tahmin için değil, eğlence ve öz değerlendirme amacıyla sunulur."
+        ]
+      ],
+      "eyebrow": "Ayrı bir bölüm",
+      "card_text": "Keşfedilecek doğum haritaları, burç yorumları ve daha fazlası.",
+      "related": [],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
+    },
+    "natal": {
+      "title": "Doğum Haritası ve Yorumu | Tarot Astro",
+      "h1": "Doğum haritası ve yorumu",
+      "description": "Doğum haritasının neyi gösterdiğini, doğum bilgilerinin neden önemli olduğunu ve grafik, kısa profil ile tam yapay zekâ yorumunun nasıl farklılaştığını öğrenin.",
+      "lead": "Doğum haritası, doğum anındaki gök cisimlerinin konumlarını gösterir. Astro’da haritayı ve yorumunu astrolojiye giriş ve kişisel düşünme fırsatı olarak keşfedebilirsiniz.",
+      "sections": [
+        {
+          "heading": "Grafik, profil ve kapsamlı yorum",
+          "paragraphs": [
+            "Harita doğum bilgilerine göre hesaplanır ve gök cisimlerinin konumlarını gösterir. Astrolojik yorumu, unsurları kişilik ve deneyimlerle ilgili sembolik temalara bağlar. Bilimsel bir karakter değerlendirmesi değildir.",
+            "Grafik, kısa profil ve tam yapay zekâ yorumu birbirinden farklı sonuçlardır. Grafik haritayı gösterir, profil yoruma giriş niteliğindedir, kapsamlı açılım ise daha ayrıntılı bilgi sunar."
+          ]
+        },
+        {
+          "heading": "Bilgilerinizi hazırlayın ve başlayın",
+          "paragraphs": [
+            "Uygulama istediğinde doğum tarihinizi, saatinizi ve yerinizi girin. Saat ve yer hesaplamayı etkilediğinden, emin olmadığınız bilgiler haritayı değiştirebilir. Mümkünse güvenilir bir kaynaktan kontrol edin.",
+            "Doğum haritası bölümünü açın ve istenen alanları doldurun. Örneğin, tam yorum koşullarını incelemeden önce grafiği ve kısa profili keşfedin. Kişisel bilgiler bu web sitesine değil, ürüne girilir."
+          ]
+        },
+        {
+          "heading": "Yoruma dengeli yaklaşın",
+          "paragraphs": [
+            "İlginizi çeken bir tema seçin ve kendi deneyiminizle birlikte değerlendirin. Bir yorum, bir kişinin mutlaka belirli bir özelliğe sahip olduğunu ortaya koymaz.",
+            "Grafiğe, profile ve kapsamlı yoruma erişim koşulları farklı olabilir. Uygulama, işlemi onaylamadan önce ücretleri, sınırları ve varsa Premium gereksinimini gösterir."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Doğum saatim kesin değilse kullanabilir miyim?",
+          "Uygulama, kişisel hesaplama için gerekli bilgileri ister. Saatin kesin olmaması farklı bir harita ve yoruma yol açabilir."
+        ],
+        [
+          "Kısa profil kapsamlı yorumun kendisi mi?",
+          "Hayır. Profil kısa bir giriş sunar; tam yapay zekâ yorumu konuları daha ayrıntılı inceler."
+        ],
+        [
+          "Harita bir kişinin nasıl biri olduğunu kanıtlar mı?",
+          "Hayır. Doğum haritaları astrolojinin bir parçasıdır ve eğlence ile öz değerlendirme amacı taşır."
+        ]
+      ],
+      "eyebrow": "Doğum haritanız",
+      "card_text": "Doğum haritası, kısa profil ve kapsamlı yorum.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
+    },
+    "compatibility": {
+      "title": "Astrolojik Uyum ve Sinastri | Tarot",
+      "h1": "Astrolojik uyum ve sinastri",
+      "description": "Sinastrinin iki doğum haritasını nasıl karşılaştırdığını, hangi doğum bilgilerine ihtiyaç duyduğunu ve aşk burcundan nasıl ayrıldığını öğrenin.",
+      "lead": "Sinastri, iki doğum haritasının astrolojik karşılaştırmasıdır. Tarot bunu, iki kişinin ilişkisi üzerine düşünmek ve birlikte konuşmaya değer sorular bulmak için sembolik bir yöntem olarak sunar.",
+      "sections": [
+        {
+          "heading": "Sinastri nasıl çalışır?",
+          "paragraphs": [
+            "Önce her kişi için bir doğum haritası hesaplanır, sonra iki harita karşılaştırılır. Yorum, haritaların birleşimini astroloji çerçevesinde ele alır. Uyumu bilimsel olarak ölçmez veya ilişkinin nasıl gelişeceğini belirlemez.",
+            "Örneğin bu açılımı, bir ilişkiye hangi beklentilerle yaklaştığınızı veya neleri konuşmak istediğinizi düşünmek için kullanabilirsiniz. Yanıtlar size ve diğer kişiye aittir."
+          ]
+        },
+        {
+          "heading": "Neler hazırlamalısınız?",
+          "paragraphs": [
+            "Her iki kişinin de doğum tarihi, saati ve yeri gerekir. Diğer kişiden bilgilerini isteyin ve paylaşmayı kabul ettiğinden emin olun. Bu bilgiler haritaları hesaplamak için kullanıldığından doğrulukları önemlidir.",
+            "Astro’da uyum bölümünü açıp istenen alanları doldurun. İşlem ücretliyse veya Premium gerektiriyorsa uygulama onaydan önce koşulları gösterir."
+          ]
+        },
+        {
+          "heading": "Sinastri, aşk burçları ve Tarot",
+          "paragraphs": [
+            "Sinastri iki doğum haritasını karşılaştırır. Aşk burcu farklı ve daha kısa bir astroloji formatıdır. İlişki Tarot açılımı ise kartları ve sorunuzun bağlamını kullanır.",
+            "İlginizi çeken yaklaşımı seçin. Bu formatların hiçbiri başka birinin duygularını belirleyemez veya açık bir konuşmanın yerini tutar."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Yalnızca burçlarımızı kullanabilir miyim?",
+          "Astro’daki sinastri için her iki kişinin de doğum tarihi, saati ve yeri gerekir."
+        ],
+        [
+          "Yalnızca romantik ilişkiler için mi?",
+          "Karşılaştırma, iki kişi arasındaki etkileşim üzerine düşünmeye yardımcı olabilir. İlişkinin niteliğini belirlemez."
+        ],
+        [
+          "Birinin ne hissettiğini söyler mi?",
+          "Hayır. Astrolojik bir yorum başka birinin duygularını veya niyetlerini belirleyemez."
+        ]
+      ],
+      "eyebrow": "İki doğum haritası",
+      "card_text": "Harita karşılaştırması ve ilişkiler üzerine düşünme önerileri.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
+    },
+    "horoscopes": {
+      "title": "Günlük ve Aşk Burç Yorumları | Tarot Astro",
+      "h1": "Günlük ve aşk burç yorumları",
+      "description": "Tarot’un Astro bölümünde günlük burç yorumlarını, kişisel aşk yorumlarını ve iki kişilik yorumları keşfedin.",
+      "lead": "Astro; günlük burç yorumu, kişisel aşk yorumu ve iki kişilik aşk yorumu sunar. Her biri, bir gün veya ilişkiler üzerine düşünmeye yönelik kısa bir astroloji formatıdır.",
+      "sections": [
+        {
+          "heading": "Bir burç yorumu seçin",
+          "paragraphs": [
+            "Günlük yorum, o güne odaklanır ve kısa bir astroloji okumasına başlamak için uygundur. Kişisel aşk yorumu, ilişki konularına sizin bakış açınızdan odaklanır.",
+            "İki kişilik yorum bir çifti ele alır. İki doğum haritasını karşılaştırmak için ayrı uyum bölümüne bakın; bu, daha kapsamlı doğum bilgileri gerektiren farklı bir formattır."
+          ]
+        },
+        {
+          "heading": "Sonuç alın ve yeniden göz atın",
+          "paragraphs": [
+            "Astro’yu açıp bir burç yorumu seçin. Uygulama o format için gereken bilgileri ister; başka bir kişiyi içeren yorum onun doğum bilgilerini de gerektirebilir. Ürün, yorumun kapsadığı dönemi belirtir.",
+            "Önceki bir metne tekrar erişim, formata ve kaydedilmiş sonuca bağlı olabilir. Uygulama yeni bir işlemi onaylamadan önce fiyatı ve koşulları gösterir."
+          ]
+        },
+        {
+          "heading": "Yorumu dengeli değerlendirin",
+          "paragraphs": [
+            "Burç yorumunu mutlaka gerçekleşecek olayların anlatımı olarak değil, sembolik bir düşünme önerisi olarak ele alın. Örneğin bir konuşma veya dinlenmeyle ilgili fikri kendi koşullarınız hakkında bildiklerinizle birlikte değerlendirin.",
+            "Burç yorumu başka birinin planlarını bilemez veya gününüzün nasıl geçeceğini garanti edemez. Pratik kararlarınızı güvenilir bilgilere ve gerçek durumunuza dayandırın."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Kişisel aşk yorumu, iki kişilik olandan nasıl farklıdır?",
+          "Kişisel format sizin ilişki temalarınıza odaklanır; diğeri iki kişiyi ele alır."
+        ],
+        [
+          "Önceki bir yorumu tekrar okuyabilir miyim?",
+          "Koşullar formata ve kaydedilmiş sonuca bağlıdır. Uygulama içinden erişilebilir olup olmadığını kontrol edin."
+        ],
+        [
+          "Günü tahmin eder mi?",
+          "Hayır. Olaylara dair güvenilir bir tahmin değil, eğlence ve öz değerlendirme amacı taşır."
+        ]
+      ],
+      "eyebrow": "Kısa formatlar",
+      "card_text": "Günlük, kişisel aşk ve çiftlere yönelik burç yorumları.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
+    },
+    "transits": {
+      "title": "Kişisel Transitler ve Astrolojik Olaylar | Tarot",
+      "h1": "Kişisel transitler ve astrolojik olaylar",
+      "description": "Astrolojik transitlerin gök cisimlerinin konumlarını doğum haritanızla nasıl ilişkilendirdiğini öğrenin ve kişisel astrolojik olayları keşfedin.",
+      "lead": "Astrolojik transitler, seçilen bir tarihteki gök cisimlerinin konumlarını doğum haritanızla karşılaştırır. Astro’da transit yorumunu ve kişisel astrolojik olayları bir döneme sembolik bakış olarak keşfedin.",
+      "sections": [
+        {
+          "heading": "Transitler ve doğum haritanız",
+          "paragraphs": [
+            "Doğum haritası, doğum tarihiniz, saatiniz ve yerinize göre hesaplanan doğum anındaki gök cismi konumlarını gösterir. Transit yorumu, başka bir tarihteki konumları bu haritayla ilişkilendirir.",
+            "Başlangıç noktası doğum haritasıdır; transit yorumu seçilen bir tarih ve astrolojik yorum ekler. Yaşam olaylarına dair bilimsel bir öngörü değildir."
+          ]
+        },
+        {
+          "heading": "Bir tarihi ve kişisel olayları inceleyin",
+          "paragraphs": [
+            "İlgili Astro bölümünü açın; kayıtlı değilse gerekli doğum bilgilerini girin. Kullanılabilir bir tarih seçip sonucu okuyun. Ayrı bir liste, üründe sunulan kişisel astrolojik olayları incelemenizi sağlar.",
+            "Tarih seçenekleri ve erişim koşulları özelliğe bağlıdır. Uygulama, onaydan önce ödeme veya Premium koşullarını gösterir. Bu web sitesine doğum bilgisi girmeniz gerekmez."
+          ]
+        },
+        {
+          "heading": "Bunu düşünmek için bir fırsat olarak görün",
+          "paragraphs": [
+            "Bir yorum, dikkatinizi vermeniz veya planlarınızı yeniden gözden geçirmeniz için bir tema önerebilir. Değişiklik yapmak için pratik nedenleriniz olup olmadığını ve hangi küçük adımın işe yarayacağını düşünün.",
+            "Kişisel astrolojik olaylar, gök cisimlerinin konumları ve bunların yorumlarıyla ilgilidir. Yaşamınızda gerçekleşeceği güvenilir biçimde tahmin edilmiş olayların listesi değildir."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hangi doğum bilgileri gerekir?",
+          "Uygulama gerekli doğum tarihi, saati ve yerini ister."
+        ],
+        [
+          "Astrolojik olaylar hayatımda gerçekleşecek olaylar mı?",
+          "Hayır. Liste, kesinleşmiş gelecek olayları değil, astrolojik konumları ve yorumları ele alır."
+        ],
+        [
+          "Tarih seçebilir miyim?",
+          "Evet. Transitler bölümünde kullanılabilir bir tarih seçebilirsiniz; uygulama tarih aralığını gösterir."
+        ]
+      ],
+      "eyebrow": "Bir tarih ve haritanız",
+      "card_text": "Transit yorumu ve kişisel astrolojik olaylar.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
+    },
+    "solar": {
+      "title": "Güneş Dönüşü: Astrolojik Bir Yıl Özeti | Tarot",
+      "h1": "Güneş dönüşü: astrolojik yıl özeti",
+      "description": "Güneş dönüşünün ne olduğunu, hesaplamada hangi bilgilerin kullanıldığını ve doğum haritasından nasıl farklılaştığını öğrenin.",
+      "lead": "Güneş dönüşü, kişisel yıla sembolik bir bakış sunan astroloji formatıdır. Tarot’ta doğum bilgileriniz, bir yıl ve hesaplama yeriyle güneş dönüşünüzü hesaplayıp temalarını keşfedin.",
+      "sections": [
+        {
+          "heading": "Güneş dönüşü nedir?",
+          "paragraphs": [
+            "Güneş dönüşü haritası, Güneş’in doğum anınızdaki konumuna geri döndüğü ana göre hesaplanır. Astrolojide kişisel yılın temalarını değerlendirmek için kullanılır.",
+            "Yorum, öncelikler ve planlar üzerine düşünmenizi sağlayabilir. Bu dönemde hangi olayların gerçekleşeceğini belirlemez."
+          ]
+        },
+        {
+          "heading": "Hazırlanması gereken bilgiler",
+          "paragraphs": [
+            "Doğum tarihiniz, saatiniz ve yerinizin yanı sıra güneş dönüşü hesabı için bir yıl ve konum gerekir. Harita bu bilgilerle oluşturulacağından göndermeden önce kontrol edin.",
+            "Astro’da güneş dönüşünü açın, alanları doldurun ve erişim koşullarını inceleyin. Uygulama, onaydan önce varsa kredi veya Premium gereksinimini ve fiyatı gösterir."
+          ]
+        },
+        {
+          "heading": "Diğer formatlardan farkı",
+          "paragraphs": [
+            "Doğum haritası doğum anınızı temel alır; güneş dönüşü kişisel yıla farklı bir astrolojik bakış sunar. Yıllık Tarot açılımı ise kartların ve konumlarının sembolizmini kullanır.",
+            "Örneğin, güneş dönüşü yorumunu okuduktan sonra kendi önceliklerinizi yazın ve bunlar için hangi gerçek kaynaklara ihtiyaç duyduğunuzu düşünün. Kararlarınızı koşullarınıza ve güvenilir bilgilere göre verin."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hesaplama konumu neden gerekli?",
+          "Konum, yıl ve doğum bilgilerinin yanı sıra güneş dönüşü haritası için kullanılan girdilerden biridir."
+        ],
+        [
+          "Önümdeki yılı düşünmeme yardımcı olur mu?",
+          "Kendi sorularınızı ve önceliklerinizi belirlemenize yardımcı olabilir. Pratik kararlarınızı koşullarınıza ve güvenilir bilgilere göre verin."
+        ],
+        [
+          "Belirli olayları tahmin eder mi?",
+          "Hayır. Güneş dönüşü yorumu semboliktir; olaylara dair güvenilir bir tahmin değildir."
+        ]
+      ],
+      "eyebrow": "Kişisel yıl",
+      "card_text": "Astroloji temaları ve kendi öncelikleriniz.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
+    },
+    "moon": {
+      "title": "Ay Takvimi ve Günlük | Tarot Astro",
+      "h1": "Ay takvimi ve günlük",
+      "description": "Astro’daki Ay bilgilerini keşfedin ve isteğe bağlı günlükte ruh hâlinizi, enerjinizi ve kısa bir notu kaydedin.",
+      "lead": "Astro’daki Ay takvimi, Ay’ın evresi dahil çeşitli bilgiler sunar. İsteğe bağlı günlük, ruh hâlinizi, enerjinizi ve gününüzle ilgili bir notu kaydetmenizi sağlar.",
+      "sections": [
+        {
+          "heading": "Ay takvimini keşfedin",
+          "paragraphs": [
+            "Ay evresi, Ay’ın görünen aydınlık kısmını tanımlar. Takvim, güncel Ay bilgilerini uygulamanın bir bölümünde bir araya getirir.",
+            "Astrolojik bakış açısı ilginizi çekiyorsa bunu gözlem ve düşünme konusu olarak değerlendirin. Ay evresi tek başına sağlık, ruh hâli veya bir etkinliğin başarısı üzerinde etki olduğunu kanıtlamaz."
+          ]
+        },
+        {
+          "heading": "İsteğe bağlı günlük tutun",
+          "paragraphs": [
+            "Ay bölümünün yanındaki günlüğü açın; isterseniz ruh hâlinizi ve enerjinizi kaydedin ya da kısa bir not ekleyin. Örneğin bugün dinlenmenize yardımcı olan bir şeyi veya yarın yapmak istediğiniz bir şeyi yazın.",
+            "Her gün kayıt girmeniz gerekmez. Geçmiş, önceki notlara dönmenizi sağlar. Üründe saklamak istediğiniz bilgileri ekleyin."
+          ]
+        },
+        {
+          "heading": "Doğum bilgileri gerekir mi?",
+          "paragraphs": [
+            "Ay takvimi kişisel doğum bilgisi gerektirmez. Doğum haritaları, transitler ve diğer kişisel hesaplamalar gereken bilgileri ayrıca ister.",
+            "Ay bölümünü açıp sunulan bilgileri inceleyin. Tek tek işlemlerin güncel koşulları ürün içinde gösterilir. Bu web sitesi kişisel günlük kayıtlarınızı toplamaz."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Her gün yazmam gerekiyor mu?",
+          "Hayır. Günlük isteğe bağlıdır; bir şey kaydetmek istediğinizde kullanın."
+        ],
+        [
+          "Doğum saatim ve yerim gerekli mi?",
+          "Ay takvimi için kişisel doğum bilgileri gerekmez."
+        ],
+        [
+          "Ay evresi planımın başarılı olup olmayacağını söyleyebilir mi?",
+          "Hayır. Takvim Ay bilgileri sunar; eylemlerinizin sonucuna ilişkin güvenilir bir tahmin vermez."
+        ]
+      ],
+      "eyebrow": "Gözlem ve notlar",
+      "card_text": "Ay bilgileri ve gününüzle ilgili isteğe bağlı bir not.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Tarot’unuzla birlikte Astro",
+      "example_text": "Uygulama, astroloji formatlarını açık adlar ve erişim koşullarıyla sunar. Bir konu seçin, ilgili bilgileri girin ve onaylamadan önce gereksinimleri inceleyin."
     }
+  },
+  "demo": {
+    "name": "Örnek",
+    "reading_title": "Üç kartlık açılım",
+    "question": "Bir sonraki adımı atmamda ne yardımcı olabilir?",
+    "positions": [
+      "Geçmiş",
+      "Şimdi",
+      "Gelecek"
+    ],
+    "card_names": [
+      "Deli",
+      "Büyücü",
+      "Yıldız"
+    ],
+    "answer_title": "Duruma yeni bir bakış",
+    "answer": "Deli küçük bir başlangıca işaret eder. Büyücü kullanabileceğiniz becerileri gösterirken Yıldız, hedefinizi aklınızda tutmanızı hatırlatır. Atılabilir tek bir adım seçin ve sonucu üzerine düşünün."
   }
 }

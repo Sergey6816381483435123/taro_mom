@@ -1,39 +1,34 @@
 {
-  "source": "Published r74/r75 frontend; all API responses are intercepted demonstration fixtures; no live account or API writes",
+  "source": "Real published r76 frontend with fully intercepted demonstration API; no real account, generation or API writes",
+  "frontend": {
+    "index.html": "d94cddaa7a67508f40785848da218b94a4bbcb9c795fb5d0ea57eddddbb1b54b",
+    "assets/index-4mOobTpt.js": "54c0ddd289da97cd04c1ab3e6b06c2a266e6bfa41cf448ac6e6bbd83bfa989ab",
+    "assets/card-viewer-BQzrvZpQ.js": "12e3da85e1970fbef04a2670d8f26f814c7c0df174ecc769ffdb7f6719e16059",
+    "assets/brand-avatar-DA3v29BD.png": "a77364113cb1a8aa2be2a4732d31cb6725838b394a527cd692e88d3a8fd54c90",
+    "assets/index-Dax-4O-e.css": "9a3d683846c0dd0031ad3ce37b9cb84a75ab5a76fd05046844ba36e707f50f43"
+  },
+  "deck": "rider_waite_classic",
+  "card_assets": [
+    {
+      "file": "decks/rider_waite_classic/00_the_fool.jpg",
+      "sha256": "28bfb92e53db852a8fdb8651ca492b4379f92111cf6e651564852bc479387da6"
+    },
+    {
+      "file": "decks/rider_waite_classic/01_the_magician.jpg",
+      "sha256": "42927854cb8ec4ce4dccd620d3a51334ae27ca943f34c9be455f84062d2c4351"
+    },
+    {
+      "file": "decks/rider_waite_classic/17_the_star.jpg",
+      "sha256": "6f935391de24668a8ba04b0536031552fce7a00c2e333051b3a52d5df97a280e"
+    }
+  ],
   "images": [
-    {
-      "file": "images/en/app-tarot-ru.webp",
-      "width": 780,
-      "height": 1160,
-      "bytes": 39314,
-      "sha256": "e5372061d026a4490e285ff9527288410e2c0f8146cd2966846fa6a6a3c05074",
-      "language": "ru",
-      "view": "tarot"
-    },
-    {
-      "file": "images/en/app-card-ru.webp",
-      "width": 780,
-      "height": 1160,
-      "bytes": 74638,
-      "sha256": "1e7417cc8c486dd9ce60d76bf602fb1dbb480c7a6bb518e6bd48e4fd4a3f4f9c",
-      "language": "ru",
-      "view": "card"
-    },
-    {
-      "file": "images/en/app-astro-ru.webp",
-      "width": 780,
-      "height": 1160,
-      "bytes": 38808,
-      "sha256": "ba1412fe599240f6fdcd96e6a551b26b38b8d2b7535028216fb459a40c09c207",
-      "language": "ru",
-      "view": "astro"
-    },
     {
       "file": "images/en/app-tarot-en.webp",
       "width": 780,
       "height": 1160,
-      "bytes": 39620,
-      "sha256": "67bcf6edfaf46b2942c062f7b37c7919be7de621d78eddf62b2ad34c00279ae2",
+      "bytes": 37048,
+      "sha256": "d66a0e1fd70a7cf706ec01dd5aaa255f335e213742e9e60c19420a0411cdf4d1",
       "language": "en",
       "view": "tarot"
     },
@@ -41,8 +36,8 @@
       "file": "images/en/app-card-en.webp",
       "width": 780,
       "height": 1160,
-      "bytes": 72662,
-      "sha256": "e3b89b0a7bb279a8ed67e51d7e3122a5cf086efd946e4758112e34118de4c01c",
+      "bytes": 72818,
+      "sha256": "70a3ffb326466c471bf2c5e3d32f74ce3c125cbf59922f4d92b97ce41085a428",
       "language": "en",
       "view": "card"
     },
@@ -50,11 +45,671 @@
       "file": "images/en/app-astro-en.webp",
       "width": 780,
       "height": 1160,
-      "bytes": 37416,
-      "sha256": "6b562a0ef401a9c90c8001dbbb21e5e45decc39e5c63a63567f4ecb1b32d4034",
+      "bytes": 25032,
+      "sha256": "e4fef85628e3183ffd0d2f43abdc3adbccc523b8afd1fde653177217d3a952ff",
       "language": "en",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-ru.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 39772,
+      "sha256": "06b47fa1a0379bd94d29868d9a5320d4ed4c79c2622cad16d5c9bedea7822f19",
+      "language": "ru",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-ru.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75720,
+      "sha256": "bde955c03611afab34f643984390f36f2de9376af03d2df49829e580016a45dd",
+      "language": "ru",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-ru.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25146,
+      "sha256": "fd247755ca5d07116961acf8937b35b03625bd358dc6e5be21f72bed3d956826",
+      "language": "ru",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-id.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 38126,
+      "sha256": "74376be1483f463621a30c63039a54e056fa8efb6dd53338766c51a71a86d079",
+      "language": "id",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-id.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 77644,
+      "sha256": "0f3d33ad957c08805450b08efeee772453c4f6888da69447413f1d9df6871beb",
+      "language": "id",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-id.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 22320,
+      "sha256": "48f4981c77a1cfd3994d019c0836e9cddc9cd869459e924365366d979fdf3b19",
+      "language": "id",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-ms.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 41612,
+      "sha256": "a6bdc428a4b41e2484c7e63f694b0c43857c5a1211e60a568273f8569c3b5bbb",
+      "language": "ms",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-ms.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75720,
+      "sha256": "9d81771ee629fa9557a674e375caf0ec868a212b1e4dac302d76da09f78bc46d",
+      "language": "ms",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-ms.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 21880,
+      "sha256": "f015e9aefca3f88c647deca9534f0d394aebc2f30afcd03f8367de6aa7f5f6bc",
+      "language": "ms",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-de.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 39804,
+      "sha256": "bf81609d95934e8776a9e3ec3bc249075b7be46dfe4b2df2d75555f0e3d8c8b5",
+      "language": "de",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-de.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 76734,
+      "sha256": "30f68ac179b6319d03878cf16976d567f25f957beca8d4652086a97af64bbfb0",
+      "language": "de",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-de.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25238,
+      "sha256": "9bd732df64b972ece6d6f6a635fc189e58dd170d8a27d79a2a9cbb8245ee7072",
+      "language": "de",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-es.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 38244,
+      "sha256": "be297177896d9e3269bab83a3b6f41ac12ceefa762c93785b16275aa347b0855",
+      "language": "es",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-es.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75232,
+      "sha256": "385c295f8139ad8a7b425b436810b93e911d977527c93ae773d79eda7891972e",
+      "language": "es",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-es.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 24824,
+      "sha256": "68141a7feb5fae678946cba364e125480a2908537c5d3335ed1c74e737a9beec",
+      "language": "es",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-fr.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 38120,
+      "sha256": "2e5fd34fb8e5e668bd0a766e284fe52bf64e56a434eece5188b921ec1907c789",
+      "language": "fr",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-fr.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75358,
+      "sha256": "c6a9d60a405ff0a8a21d68c7196b944c421a25d3e27b0b66a1ec6dd0ee07f633",
+      "language": "fr",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-fr.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 26068,
+      "sha256": "00ba0ebfc02cf6f1dbb5dbb42d5a6c7678da59768dff47251dc37bbb050619a6",
+      "language": "fr",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-it.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 42858,
+      "sha256": "be74c4a0b7ce6fe2196557081842b75be217519f46957c584a5678f0e9295765",
+      "language": "it",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-it.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75296,
+      "sha256": "a38dc07ee0c9144a41f8bf3c4781d0a19089e3c7756894aec42c55877a5c89a7",
+      "language": "it",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-it.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25506,
+      "sha256": "82675835558889293a9e33835ae68277ee752c3823be137316845a784c162142",
+      "language": "it",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-nl.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 42122,
+      "sha256": "5ff33a369291fe87abf73e9afd2c56e7f9ab0ff30cb8996bc9a6b5bfafe8c7bb",
+      "language": "nl",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-nl.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75094,
+      "sha256": "c4a850f6a47f24be8b6b5fcd2b7aa36db7eb0c1febe735b40e2ac8e8e23996ce",
+      "language": "nl",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-nl.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 28250,
+      "sha256": "c9259fa0682ea4d3a35c82f7d44f0d4e73540bcd8773e0d86b2865db5b457ed0",
+      "language": "nl",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-uz.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 44770,
+      "sha256": "a11e6afc08f3d777f6a00bb76e789fa5ae5a74c6c4ea8318f4fff854d7bdc892",
+      "language": "uz",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-uz.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 76064,
+      "sha256": "289ed57b63e027a9b44efe158ef0a1924029832183be92fbf34914f52ceeee23",
+      "language": "uz",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-uz.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 27096,
+      "sha256": "034bbaa64714c92673f9514293002b7a990351c2e910ba9bcd2d71dab9cb606c",
+      "language": "uz",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-pl.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 41910,
+      "sha256": "cfcb6343aed90caf4fa16b328ba743fc2887d8aad950b8dc603dec640a32a08d",
+      "language": "pl",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-pl.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75904,
+      "sha256": "831d0efe92c8be887122597a4be14bffa965482ce18df8f88d76bbb4943f3d7d",
+      "language": "pl",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-pl.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25620,
+      "sha256": "54be26676172aaaab7a116f436b508afe49677a43ae5708e1fa52861a2d433fb",
+      "language": "pl",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-pt.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 38088,
+      "sha256": "387a424a65a36c59fd57caad41a1fcdabb530c7b6b0bc98c7b09668f4f311952",
+      "language": "pt",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-pt.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 77726,
+      "sha256": "e34986a0985b4994b78e3117bcaca663a43f191ca0aa6867af2346c71473aafc",
+      "language": "pt",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-pt.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25808,
+      "sha256": "4c18a408f0bba8c1c531dc1d81b853f00caf5ed9c88d6fe390abfd2b9b141c95",
+      "language": "pt",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-tr.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 40996,
+      "sha256": "b6a060136714053084d3352fab68c4e2b15a079e52c7e3cb36902cec7dbaa8a0",
+      "language": "tr",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-tr.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 74228,
+      "sha256": "6589e33c4949a78d0358f7c06d5cfd441d54dd32a9c7b4b8242780f40dd13050",
+      "language": "tr",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-tr.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 22996,
+      "sha256": "a89905057ad73ce02e7fd1da7e6b693ef54d266ab16618c5c46fb8331acbe43b",
+      "language": "tr",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-be.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 40294,
+      "sha256": "f2ffb5c55b3fb11aa8d51447ae8b4b6acc6dc36789d1f0128e064bfd3ad2515a",
+      "language": "be",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-be.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 76162,
+      "sha256": "58114d9fa8e0e656b0875262d6dcd0ea2674273c18e29713bbc2837ee51534e0",
+      "language": "be",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-be.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25528,
+      "sha256": "7022dd1e65c6922620588903e45209c86f01671b8dbf41b3942dd1d812fb2846",
+      "language": "be",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-uk.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 39664,
+      "sha256": "451ada8b685e5a42802b9366e99ca79abd9213115b16559fc168c6d0807f75fe",
+      "language": "uk",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-uk.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75414,
+      "sha256": "2333623e58dc0a001a9a91308c7050fa4e48f0499952a406fb3f81db12104b70",
+      "language": "uk",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-uk.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 24578,
+      "sha256": "1a35a8360f0e098ebfb9b8a5943d105a0075ed2fb0bf3efbbbb4a6f0bc04fee3",
+      "language": "uk",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-kk.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 43038,
+      "sha256": "b7d2c63bfa3b0fbe09f9bd29d77376be91772ab60087a0a4ba96889aaa945b76",
+      "language": "kk",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-kk.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 75538,
+      "sha256": "9363ef709c972c83c03e95313428d946968bab09e2671836e00f9d7bc4e6e579",
+      "language": "kk",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-kk.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 25644,
+      "sha256": "906253a97baef14b7077260873e51a07fe9e6f93d7dcc0dc81c172e9b7d9156e",
+      "language": "kk",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-ar.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 31544,
+      "sha256": "49a9bbe723674ce843ef7d69a02a26533d0ee09862521c0c5181bf9cb0c96e83",
+      "language": "ar",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-ar.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 72822,
+      "sha256": "b9f7c8065405363e18b68e1ce4f463773f5e02814522689d91cdb4e1d17ae9c6",
+      "language": "ar",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-ar.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 18476,
+      "sha256": "8877d002f1b70576940645a65f5f543d866068ce7aa86c846bcdacd616dfc6c5",
+      "language": "ar",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-fa.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 37034,
+      "sha256": "98b7e983063c24ee4e8ce75d6cb3f0d9a41cd37e543c32b0430587fb3481a10f",
+      "language": "fa",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-fa.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 73616,
+      "sha256": "da0b3f07f8d0cc7114bc6f78ad1207253be644dd7ad46f148804a74911cb5341",
+      "language": "fa",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-fa.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 20232,
+      "sha256": "3181f6e1edb5b192e0267bf54b22ee7b9971c2f1c33679811ed31ac68eccc9c5",
+      "language": "fa",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-ko.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 36068,
+      "sha256": "be831acfc2b0c121da682f06c64325ee142ee1ca4e4632d6e686be3aa232696c",
+      "language": "ko",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-ko.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 72776,
+      "sha256": "2132ad3980a898c1502f5eae8300157e1cf6bc59695b6a25a5b1a940985b1c3d",
+      "language": "ko",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-ko.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 17948,
+      "sha256": "320ff79d2f3ee5526ea5fb7891a441643f5829926cc6e71f6aa9ddd79e2ad97c",
+      "language": "ko",
+      "view": "astro"
+    },
+    {
+      "file": "images/en/app-tarot-hi.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 40934,
+      "sha256": "cbc826c2b32cd034a77b3afc9729e95cce262e59b272178a82d2f808bc464036",
+      "language": "hi",
+      "view": "tarot"
+    },
+    {
+      "file": "images/en/app-card-hi.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 73734,
+      "sha256": "767b223fe20a6d4bb75dd8e81652d31bf83a7943693eee800bba5355caf2add4",
+      "language": "hi",
+      "view": "card"
+    },
+    {
+      "file": "images/en/app-astro-hi.webp",
+      "width": 780,
+      "height": 1160,
+      "bytes": 19108,
+      "sha256": "66f349979a44492d262b31ef986db5b8f1b1948e799e3aae60e033574253358b",
+      "language": "hi",
       "view": "astro"
     }
   ],
-  "errors": []
+  "errors": [],
+  "real_network_requests": 0,
+  "request_counts": [
+    {
+      "language": "en",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "ru",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "id",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "ms",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "de",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "es",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "fr",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "it",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "nl",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "uz",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "pl",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "pt",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "tr",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "be",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "uk",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "kk",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "ar",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "fa",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "ko",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    },
+    {
+      "language": "hi",
+      "observed": 34,
+      "intercepted": 34,
+      "unintercepted": 0
+    }
+  ],
+  "service_workers": "block",
+  "websockets": "block",
+  "demo_hashes": {
+    "en": "583f504ebf930b9baf4bbe467a76b72327f925be0e2fdae84f7579a762335251",
+    "ru": "654b459ac84724483b1443236272ea6b79950ba3ba63bbc11f95e874637e2fb5",
+    "id": "30c1e96c8bc80be5eec0a3fd1d1cd6c057a4e5445e2560cd4cd3d15cc7666894",
+    "ms": "c3925f1b367e3448f917d2149c2702a6186f1ee302b2ca3f864134dc3307f0f4",
+    "de": "9d394c19a60c2e9b7f4d3c5fc4a7946602863c9992e1f26ec972e05faddfe10d",
+    "es": "4fecde233413f36a7b828106796ab84bca092d6c3887b82a510f9798d19b95aa",
+    "fr": "0ecb5330def525845f8f51f194e83e73081d69d7151696676f9b15e714d5581d",
+    "it": "c3af8bdb189561951217704e1e93d20fa45cb8bf078e8fd31eb8eb37192e91f5",
+    "nl": "538533dd11bb027887cfbbb2a924b19a380a1cdc4eb4193626407e2f73c74569",
+    "uz": "ae0672969944923ce1e6c599cad833b8d99c524b4e4a4526cb66628cb8721d03",
+    "pl": "5577ec7e4100f16e36e65b1e7d8567634c7ee18429cd7d50b669e6256a791abe",
+    "pt": "782d11f7dbdf211c3647658f658d07eb588d82acd20e5eb761706b74a50f3f3a",
+    "tr": "f92fac163e3c92a070c4bd2276ada5320e6fb043cc5f6b0f146c4632d3def440",
+    "be": "0c49236293e88de6065b6cf3654a9b598c30f45176412ff72e5edb95fd7f76ff",
+    "uk": "6f9aa69568096be04a15d5e5d49536d24fd633079fc590d76802f068f4c1507f",
+    "kk": "64ceb78f4cffb32fbea9fb67148ec35031de1e10ba732a5338162113dcf0f515",
+    "ar": "845a437fd3d95500ef6ab1a226dafa654b602842df2299af8bd075d56a4b9696",
+    "fa": "6cb16a68d545d3b6052fa6e6d990a12e2acfb88b4acb74833ccce341a954ef59",
+    "ko": "e87025e612fc479805c4e8de538ab324aef9e4f3059f50db5ab52aa81ab2f3e1",
+    "hi": "8e15a11a2de649158484a4867728ec0e1fe8ed0e2284c658c380a2a2d7a839b0"
+  }
 }

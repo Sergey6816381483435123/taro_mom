@@ -1,218 +1,695 @@
 {
-  "meta": {
-    "title": "Telegramda shaxsiy AI Tarot talqinlari | Taroshenka",
-    "description": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-    "ogTitle": "Telegramda shaxsiy AI Tarot talqinlari",
-    "ogDescription": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-    "twitterTitle": "Telegramda shaxsiy AI Tarot talqinlari",
-    "twitterDescription": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-  },
+  "revision": "product-20261110",
   "ui": {
-    "skip": "Telegramda ochish",
-    "brandAria": "Oʻzbek Taroshenka",
-    "primaryAria": "Qanday ishlaydi",
-    "how": "Qanday ishlaydi",
-    "readings": "Talqinlar",
-    "faq": "Koʻp soʻraladigan savollar",
-    "languageAria": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-    "headerCta": "Telegramda ochish",
-    "home": "Oʻzbek",
-    "breadcrumbAria": "Koʻp soʻraladigan savollar",
-    "identity": "Bot:",
-    "factsAria": "Qanday ishlaydi"
-  },
-  "home": {
-    "hero": {
-      "eyebrow": "AI Tarot",
-      "title": "Telegramda shaxsiy AI Tarot talqinlari",
-      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "cta": "Tarot talqinini olish",
-      "imageAlt": "Telegramda shaxsiy AI Tarot talqinlari"
-    },
-    "facts": [
-      "Telegram",
-      "Tarot",
-      "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+    "brand": "Tarot",
+    "home": "Bosh sahifa",
+    "tarot": "Tarot",
+    "astro": "Astro",
+    "faq": "FAQ",
+    "skip": "Asosiy mazmunga o‘tish",
+    "breadcrumbs": "Navigatsiya yo‘li",
+    "switch_language": "Tilni tanlang",
+    "explore": "Ko‘rib chiqing",
+    "entry_heading": "Tarot xizmatidan foydalanishning uch yo‘li",
+    "entry_labels": [
+      "Tarotni ochish",
+      "Astro Mini App’ni ochish",
+      "Brauzerda ochish"
     ],
-    "how": {
-      "eyebrow": "Qanday ishlaydi",
-      "title": "Qanday ishlaydi",
-      "intro": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "steps": [
-        [
-          "Qanday ishlaydi",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "Siz uchun muhim narsani kartalardan soʻrang",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "Talqinlar",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ]
-      ]
-    },
-    "readings": {
-      "eyebrow": "Talqinlar",
-      "title": "Talqinlar",
-      "intro": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "items": [
-        [
-          "daily-card",
-          "Kun kartasi",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "yes-no",
-          "Ha yoki Yoʻq",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "three-card",
-          "Uchta karta ochilmasi",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "relationships",
-          "Munosabatlar talqini",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "premium",
-          "Premium talqinlar",
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ]
-      ]
-    },
-    "ai": {
-      "eyebrow": "AI",
-      "title": "Siz uchun muhim narsani kartalardan soʻrang",
-      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "personal": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin."
-    },
-    "premium": {
-      "eyebrow": "Premium",
-      "title": "Premium talqinlar",
-      "intro": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "items": [
-        [
-          "Choice Between Two Options",
-          7,
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "Work & Finances",
-          7,
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "Celtic Cross",
-          10,
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ],
-        [
-          "Year Ahead",
-          12,
-          "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-        ]
-      ]
-    },
-    "credits": {
-      "title": "Credits",
-      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Packages: 5, 10 or 30 credits; monthly Premium adds 50 credits on activation and 50 credits after each successful monthly renewal.",
-      "payment": "Bu til uchun toʻlov Telegram Stars orqali amalga oshiriladi."
-    },
-    "languages": {
-      "eyebrow": "Oʻzbek",
-      "title": "Telegramda shaxsiy AI Tarot talqinlari",
-      "text": "{count}: Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "names": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-    },
-    "faq": [
-      [
-        "Siz uchun muhim narsani kartalardan soʻrang",
-        "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-      ],
-      [
-        "Does it predict the future?",
-        "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-      ],
-      [
-        "Koʻp soʻraladigan savollar",
-        "The service includes Daily Card, Yes or No, three cards and four Premium readings."
-      ],
-      [
-        "Premium",
-        "Bu til uchun toʻlov Telegram Stars orqali amalga oshiriladi."
-      ],
-      [
-        "20",
-        "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-      ],
-      [
-        "Languages",
-        "20: Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
-      ]
+    "entry_notes": [
+      "Telegram chatida Tarot talqinlari.",
+      "Astro’ni oching, so‘ng Telegram tugmasi orqali ilovani ishga tushiring.",
+      "Telegram yoki email orqali kiriladigan ilova."
     ],
-    "disclaimer": {
-      "title": "Koʻp soʻraladigan savollar",
-      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin."
+    "entity_description": "Tarot — Telegram, Mini App va brauzer orqali ishlaydigan, sun’iy intellekt talqinlari hamda alohida Astro bo‘limiga ega Tarot xizmati.",
+    "hero_alt": "To‘q ko‘k va binafsha xonada sham yorug‘ida Tarot kartalarini o‘rganayotgan kishi",
+    "tarot_heading": "Savolingizga mos talqinni toping",
+    "tarot_intro": "Qisqa ramziy talqin yoki batafsilroq o‘qishni tanlang. Talqin kartalarni ularning o‘rni va savolingiz konteksti bilan bog‘laydi.",
+    "astro_heading": "Astrologiya uchun alohida bo‘lim",
+    "astro_intro": "Tug‘ilish xaritalari, moslik va boshqa astrologiya formatlarini ko‘rib chiqing. Har bir sahifada nimalarni bilib olishingiz va hisoblash uchun qaysi ma’lumotlar kerakligi tushuntiriladi.",
+    "inside": "Ilova ichida",
+    "example_heading": "Kartalar, ma’nosi va savolingiz",
+    "example_text": "Kartalarni ko‘ring va savolingizga mos sun’iy intellekt talqinini o‘qing. Mos talqinlardan so‘ng aniqlashtiruvchi savol berish yoki qo‘shimcha karta ochish mumkin.",
+    "example_caption": "Ilovaning haqiqiy interfeysi, namoyish ma’lumotlari bilan. Bu misol, haqiqiy foydalanuvchining talqini emas.",
+    "image_alt": {
+      "tarot": "Ilovadagi Rider–Waite kartalari va sun’iy intellekt talqini bilan Tarot namunasi",
+      "card": "Ilovaning karta ko‘ruvchisida ochilgan Rider–Waite Tarot kartasi",
+      "astro": "Yo‘nalish tanlovi va kundalik qaydlar mavjud ilovaning Astro bo‘limi"
     },
-    "cta": {
-      "title": "Siz uchun muhim narsani kartalardan soʻrang",
-      "text": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "button": "Telegramda ochish"
-    }
+    "account_text": "Bir xil akkauntdan foydalansangiz yoki akkauntlarni o‘zingiz tasdiqlab bog‘lasangiz, profilingiz, kreditlaringiz va tarixingiz umumiy bo‘ladi. Alohida email ro‘yxatdan o‘tishi akkauntlarni avtomatik birlashtirmaydi.",
+    "cross_link_astro": "Astro’ni ko‘rib chiqing",
+    "cross_link_tarot": "Tarot talqinlarini ko‘rib chiqing",
+    "answers": "Savollarga javoblar",
+    "related": "Aloqador mavzular",
+    "final_title": "Qanday boshlashni tanlang",
+    "final_text": "Telegram chatidan, Telegram ichidagi Mini App’dan yoki brauzer ilovasidan foydalaning. O‘zingizga qulay usulni tanlang.",
+    "disclaimer_title": "Ko‘ngilochar maqsad va o‘zini anglash uchun",
+    "disclaimer": "Tarot talqinlari va sun’iy intellekt izohlari ko‘ngilochar maqsad hamda o‘zini anglash uchun mo‘ljallangan. Ular kelajakni ishonchli bashorat qilmaydi va tibbiy, psixologik, huquqiy, moliyaviy yoki boshqa mutaxassis yordamining o‘rnini bosmaydi. Muhim qarorlarni o‘zingiz qabul qilasiz.",
+    "astro_disclaimer": "Astrologik kontent ham ko‘ngilochar maqsad va o‘zini anglash uchun mo‘ljallangan. U kelajakni ishonchli bashorat qilmaydi va tibbiy, psixologik, huquqiy, moliyaviy yoki boshqa mutaxassis yordamining o‘rnini bosmaydi. Muhim qarorlarni o‘zingiz qabul qilasiz.",
+    "support": "Yordam",
+    "other_languages": "Tillar",
+    "other_languages_note": "Ushbu saytning barcha bo‘limlari 20 tilda mavjud.",
+    "attribution_note": "Kirish havolalarida tavsiya identifikatori mavjud. Brauzer ilovasi taklifni 30 kungacha saqlashi mumkin. Ushbu sayt savollaringizni, email manzilingizni yoki tug‘ilish ma’lumotlaringizni yig‘maydi."
   },
-  "details": {
+  "pages": {
+    "home": {
+      "title": "Tarot — Telegram va ilovadagi sun’iy intellektli Tarot talqinlari",
+      "h1": "Savollaringiz uchun shaxsiy sun’iy intellektli Tarot talqinlari",
+      "description": "Telegram, Mini App yoki brauzerda sun’iy intellekt talqinli Tarot o‘qishlarini sinab ko‘ring. O‘qishlar tarixi, kartalar ma’nosi va alohida Astro bo‘limi.",
+      "lead": "Talqinni tanlang, muhim savolingizni bering va vaziyatni Tarot ramzlari orqali ko‘rib chiqing. Tarot’dan Telegram chatida, Mini App’da yoki brauzerda foydalaning.",
+      "sections": [
+        {
+          "heading": "Savoldan yaxlit talqingacha",
+          "paragraphs": [
+            "Savolingizga mos formatni tanlang. Talqin kontekst so‘rasa, vaziyatni o‘z so‘zlaringiz bilan bayon qiling: nima bo‘lyapti, nimasi noaniq va nimani ko‘rib chiqmoqchisiz.",
+            "Ochilgan kartalarni ko‘ring va ularning o‘rni, uyg‘unligi hamda to‘g‘ri yoki teskari holatini bog‘laydigan sun’iy intellekt talqinini o‘qing. Savolingiz kontekst beradi; xulosa va qarorlar o‘zingizga tegishli."
+          ]
+        },
+        {
+          "heading": "Soddasidan boshlang yoki chuqurroq o‘rganing",
+          "paragraphs": [
+            "Kun kartasi, Karta maslahati, Ha yoki yo‘q yoxud uch kartali talqindan boshlang. Munosabat formatlariga «Munosabatimiz», «Yangi muhabbat», «U nimani his qiladi?» va «U qaytadimi?» kiradi. Nomlar ramziy talqin mavzusini bildiradi, boshqa birovning hislarini ishonchli aniqlashni emas."
+          ],
+          "items": [
+            "Vaziyatni «Yaqin kelajak», «Keyingi qadamim» yoki «Vaziyat qanday rivojlanadi» formatlari orqali ko‘rib chiqing.",
+            "Kengroq nuqtai nazar uchun ikki variantni solishtiring yoki «Ish va moliya», «Kelt xochi» yoxud yil uchun talqinni tanlang.",
+            "Ayrim kengaytirilgan formatlar uchun Premium kerak. Joriy foydalanish shartlari mahsulot ichida ko‘rsatiladi."
+          ]
+        },
+        {
+          "heading": "Talqinga qayting va uni chuqurroq ko‘rib chiqing",
+          "paragraphs": [
+            "Mos natijadan so‘ng dastlabki talqin kontekstida aniqlashtiruvchi savol berish yoki qo‘shimcha karta ochish mumkin. Tarix saqlangan savol va talqinlarga qaytish imkonini beradi.",
+            "Ilovada karta rasmini oching va sozlama yoqilgan bo‘lsa, uning ma’lumotnoma ma’nosini o‘qing. Ma’lumotnoma ramzlarni tushuntiradi; sun’iy intellekt talqini esa ularni o‘qishingiz bilan bog‘laydi. Tanlangan til va koloda profilingizda saqlanadi."
+          ]
+        },
+        {
+          "heading": "Bepul imkoniyatlar, kreditlar va Premium",
+          "paragraphs": [
+            "Mahsulotda Telegram’dagi Kun kartasi kabi bepul imkoniyatlar bor. Pullik amallar kreditlardan foydalanadi. Premium kengaytirilgan Tarot formatlari va ayrim Astro imkoniyatlarini ochadi, ammo cheksiz foydalanish degani emas.",
+            "Amalni tasdiqlashdan oldin bot yoki ilova narx va shartlarni ko‘rsatadi. Kirish format, obuna, sinovdan foydalanish huquqi yoki saqlangan natijaga bog‘liq bo‘lishi mumkin. Xaridning amaldagi shartlarini mahsulot ichida tekshiring. «Taqdir g‘ildiragi» alohida funksiya bo‘lib, kredit yutug‘ini kafolatlamaydi."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Tarot nima?",
+          "Tarot — Telegram chatida, Mini App’da va brauzerda mavjud sun’iy intellekt talqinli xizmat. Ilovada alohida Astro bo‘limi ham bor."
+        ],
+        [
+          "Qaysi usuldan foydalanay?",
+          "Chatda talqin olish uchun Tarot’ni oching. Telegram ichidagi vizual ilovadan foydalanish uchun Astro’ni ochib, Telegram tugmasi bilan ishga tushiring. Telegram’dan tashqarida foydalanish uchun brauzerni tanlang."
+        ],
+        [
+          "Telegram’siz foydalana olamanmi?",
+          "Brauzer ilovasiga Telegram orqali kirish yoki tasdiqlangan email manzili va parol bilan ro‘yxatdan o‘tish mumkin. Alohida email akkaunti Telegram’ga faqat tasdiqlangandan keyin bog‘lanadi."
+        ],
+        [
+          "Premium nimalarni o‘z ichiga oladi?",
+          "Premium bir qator kengaytirilgan imkoniyatlarni ochadi. Ayrim amallar baribir kreditlardan foydalanadi; tegishli shartlar tasdiqlashdan oldin ko‘rsatiladi."
+        ],
+        [
+          "U kelajakni bashorat qiladimi?",
+          "Yo‘q. Talqinlar ko‘ngilochar maqsad va o‘zini anglash uchun ramziy nuqtai nazar beradi; ular ishonchli bashorat yoki mutaxassis yordami o‘rnini bosmaydi."
+        ]
+      ],
+      "eyebrow": "Tarot uchun shaxsiy makon",
+      "card_text": "Savolingizga mos talqinni toping",
+      "related": []
+    },
     "daily-card": {
-      "eyebrow": "Kun kartasi",
-      "title": "Kun kartasi",
-      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
-      "bullets": [
-        "Kun kartasi",
-        "Mulohaza uchun ramziy nuqtayi nazar.",
-        "Savolingiz mazmuniga mos talqin."
+      "title": "Kunlik Tarot kartasi — ramziy boshlanish | Tarot",
+      "h1": "Mulohaza uchun kunlik Tarot kartasi",
+      "description": "Tarot Telegram botida bepul Kun kartasini oling, uning tasviri va qisqa ma’nosini mulohaza uchun turtki sifatida ko‘ring.",
+      "lead": "Kun kartasi — bitta karta va uning qisqa ma’nosi orqali Tarot bilan tanishishning oddiy usuli. Uni Telegram botida bepul oling va kun davomida fikr yuritish uchun mavzu tanlang.",
+      "sections": [
+        {
+          "heading": "Bitta karta, o‘zingizga bitta savol",
+          "paragraphs": [
+            "Rasmga qarang va ma’nosini o‘qing. Uni so‘zma-so‘z bashorat deb qabul qilishingiz shart emas. Mavzu hozirgi fikrlaringiz yoki rejalaringizga mos keladimi, shuni kuzating.",
+            "Masalan, bugun nimaga e’tibor berish kerakligini o‘zingizdan so‘rang. Javobni o‘zingiz uchun qayd yoki batafsilroq talqinga boshlanish nuqtasi qiling."
+          ]
+        },
+        {
+          "heading": "Kun kartasini qanday olish mumkin",
+          "paragraphs": [
+            "Rasmi va qisqa ma’nosi bilan Kun kartasini olish uchun Telegram’da Tarot’ni ochib, chatni boshlang.",
+            "Kun kartasi va «Taqdir g‘ildiragi» boshqa-boshqa funksiyalar. G‘ildirak aylantiriladi va mukofot chiqishi mumkin; u karta talqinining o‘rnini bosmaydi va kreditni kafolatlamaydi."
+          ]
+        },
+        {
+          "heading": "Ko‘proq kontekst kerak bo‘lsa",
+          "paragraphs": [
+            "Muayyan vaziyat uchun Karta maslahati, Ha yoki yo‘q yoki uch kartali talqinni sinab ko‘ring. Pullik amal shartlarini bot oldindan ko‘rsatadi. Ilovada kartalarni ko‘rish va ixtiyoriy ma’lumotnoma ma’nolari ham bor."
+          ]
+        }
       ],
-      "alt": "Kun kartasi"
+      "faq": [
+        [
+          "Kun kartasi bepulmi?",
+          "Ha. Telegram’dagi joriy katalogda Kun kartasi bepul. Boshqa amallarning o‘z shartlari bor va ular tasdiqlashdan oldin ko‘rsatiladi."
+        ],
+        [
+          "U bugun nima bo‘lishini bashorat qiladimi?",
+          "Yo‘q. U mulohaza uchun ramziy mavzu beradi, kelajak voqealarining ishonchli bayoni emas."
+        ],
+        [
+          "Karta maslahatidan nimasi bilan farq qiladi?",
+          "Kun kartasi umumiy kunlik turtkidir. Karta maslahati esa shaxsiy savol uchun alohida qisqa talqin bo‘lib, foydalanish shartlari boshqacha."
+        ]
+      ],
+      "eyebrow": "Bitta karta",
+      "card_text": "Kuningizni boshlash uchun karta rasmi va qisqa ma’no.",
+      "related": [
+        "yes-no",
+        "three-card",
+        "relationships"
+      ]
     },
     "yes-no": {
-      "eyebrow": "Ha yoki Yoʻq",
-      "title": "Ha yoki Yoʻq",
-      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
-      "bullets": [
-        "Ha yoki Yoʻq",
-        "Mulohaza uchun ramziy nuqtayi nazar.",
-        "Savolingiz mazmuniga mos talqin."
+      "title": "Ha yoki yo‘q Tarot — bitta kartali talqin | Tarot",
+      "h1": "Aniq savol uchun «Ha yoki yo‘q» Tarot talqini",
+      "description": "Aniq savol bering va vaziyatingizga mos sun’iy intellekt talqini bilan bitta kartali Tarot o‘qishini ko‘ring.",
+      "lead": "«Ha yoki yo‘q» — aniq savol uchun bitta kartali talqin. Tarot kartani kontekstda izohlaydi va qarorni sizning o‘rningizga qabul qilmay, mulohaza uchun fikr beradi.",
+      "sections": [
+        {
+          "heading": "Bitta aniq savol bering",
+          "paragraphs": [
+            "Bitta vaziyatni tanlab, nimani bilmoqchi ekaningizni aniqlashtiring. «Rahbarim bilan yangi vazifalarimni muhokama qilaymi?» degan savol bir necha aloqasiz savoldan ko‘ra aniqroq kontekst beradi.",
+            "Bu format ramziy yo‘nalish beradi. Muhim qarorda talqinni ishonchli faktlar, sharoitingiz va zarur bo‘lsa mutaxassis maslahati bilan birga ko‘rib chiqing."
+          ]
+        },
+        {
+          "heading": "Talqinda nimalar bor",
+          "paragraphs": [
+            "Bitta karta ochiladi. Sun’iy intellekt uning ramzlari va to‘g‘ri yoki teskari holatini savolingiz bilan bog‘lab, oddiy «ha» yoki «yo‘q»dan kengroq izoh beradi.",
+            "Rasmni ko‘rib, qaysi fikrlar sizga foydali ekanini aniqlang. Karta boshqa birovning niyatini aniqlamaydi va harakat natijasini kafolatlamaydi."
+          ]
+        },
+        {
+          "heading": "Boshlash tartibi",
+          "paragraphs": [
+            "Tarot yoki ilovani oching, «Ha yoki yo‘q»ni tanlang, savolingizni kiriting va amal shartlarini ko‘rib chiqing. Tasdiqlagach, karta va talqinni o‘rganing. Bir-biriga bog‘liq bir necha jihatli savol uchun uch kartali talqinni tanlang."
+          ]
+        }
       ],
-      "alt": "Ha yoki Yoʻq"
+      "faq": [
+        [
+          "Bir vaqtda bir necha savol bersam bo‘ladimi?",
+          "Bu qisqa format uchun bitta aniq savol tanlang. Shunda kontekstni kuzatish osonroq bo‘ladi."
+        ],
+        [
+          "Javobning to‘g‘riligi kafolatlanadimi?",
+          "Yo‘q. Bu o‘zini anglash uchun ramziy talqin, ishonchli bashorat yoki vaziyat haqidagi tekshirilgan fakt emas."
+        ],
+        [
+          "Murakkab savolga qaysi format mos?",
+          "Uch kartali talqin yoki boshqa mos format bir-biriga bog‘liq jihatlarni ko‘rib chiqishga yordam beradi."
+        ]
+      ],
+      "eyebrow": "Aniq savol",
+      "card_text": "Savolingiz bilan bog‘langan izohli bitta karta.",
+      "related": [
+        "daily-card",
+        "three-card",
+        "relationships"
+      ]
     },
     "three-card": {
-      "eyebrow": "Uchta karta ochilmasi",
-      "title": "Uchta karta ochilmasi",
-      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
-      "bullets": [
-        "Uchta karta ochilmasi",
-        "Mulohaza uchun ramziy nuqtayi nazar.",
-        "Savolingiz mazmuniga mos talqin."
+      "title": "Sun’iy intellektli uch kartali Tarot talqini | Tarot",
+      "h1": "Vaziyatni o‘zaro bog‘liq uchta karta orqali ko‘ring",
+      "description": "Savolingizga mos o‘zaro bog‘liq sun’iy intellekt talqini va karta rasmlari bilan uch kartali Tarot yoyilmasini ko‘ring.",
+      "lead": "Uch kartali talqin savolni har bir kartaning alohida ma’nosi va ular o‘rtasidagi bog‘lanishlar orqali ixcham o‘rganish imkonini beradi. Tarot savolingiz va kartalar o‘rnidan kelib chiqib yagona sun’iy intellekt talqinini yaratadi.",
+      "sections": [
+        {
+          "heading": "Kartalar bog‘lanishi nega muhim",
+          "paragraphs": [
+            "Yoyilmada har bir kartaning o‘z vazifasi bor. Talqin o‘zaro bog‘liq nuqtai nazar berish uchun kartalarni birgalikda ko‘rib chiqadi. Natijada haqiqiy o‘rinlar va ularning nomlari ko‘rsatiladi.",
+            "Har bir uch kartali format o‘tmish, hozirgi vaqt va kelajakni anglatavermaydi. Tanlangan formatdagi o‘rinlarni o‘qing va ularning savolingizga aloqasini o‘ylab ko‘ring."
+          ]
+        },
+        {
+          "heading": "Savolga biroz kontekst qo‘shing",
+          "paragraphs": [
+            "Masalan: «To‘xtatib qo‘ygan loyihamga qaytmoqchiman. Nimalarni hisobga olay?» Tegishli kontekst qo‘shing, ammo bir qisqa talqinga aloqasiz vaziyatlarni jamlamang.",
+            "Kartalarni tartib bilan ko‘ring, so‘ng umumiy talqinni o‘qing. U keyingi qadamingizni belgilashga ko‘maklashishi mumkin, ammo uni sizning o‘rningizga tanlamaydi."
+          ]
+        },
+        {
+          "heading": "Talqindan keyin",
+          "paragraphs": [
+            "Saqlangan natijaga akkaunt tarixidan qayting. Mavjud bo‘lsa, aniqlashtirish yoki qo‘shimcha karta dastlabki kontekstni chuqurroq o‘rganishga yordam beradi. Narx va shartlar tasdiqlashdan oldin ko‘rsatiladi."
+          ]
+        }
       ],
-      "alt": "Uchta karta ochilmasi"
+      "faq": [
+        [
+          "Uchta o‘rin nimani anglatadi?",
+          "Ular tanlangan formatga bog‘liq va natijada ko‘rsatiladi. Har doim o‘tmish, hozirgi vaqt va kelajakni bildiradi deb o‘ylamang."
+        ],
+        [
+          "Javobga qayta olamanmi?",
+          "Saqlangan talqinlar akkaunt tarixida bo‘ladi. Turli kirish usullarida bir xil ma’lumotlardan foydalanish uchun bir akkauntdan foydalaning yoki identifikatorlarni tasdiqlab bog‘lang."
+        ],
+        [
+          "Premium kerakmi?",
+          "Bot yoki ilova tanlangan formatning amaldagi shartlarini ko‘rsatadi. Premium ayrim kengaytirilgan formatlarni ochadi, lekin cheksiz kirish bermaydi."
+        ]
+      ],
+      "eyebrow": "Uchta karta",
+      "card_text": "Bitta savolning o‘zaro bog‘liq bir necha jihati.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "relationships"
+      ]
     },
     "relationships": {
-      "eyebrow": "Munosabatlar talqini",
-      "title": "Munosabatlar talqini",
-      "lead": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin.",
-      "body": "Tarot boti 20 tilda ishlaydi. Tilni profilingizda saqlashingiz mumkin. Savolingiz mazmuniga mos talqin.",
-      "bullets": [
-        "Munosabatlar talqini",
-        "Mulohaza uchun ramziy nuqtayi nazar.",
-        "Savolingiz mazmuniga mos talqin."
+      "title": "Sun’iy intellektli munosabatlar Tarot talqini | Tarot",
+      "h1": "Munosabat dinamikasi haqida mulohaza qiling",
+      "description": "«Munosabatimiz» nomli besh kartali Tarot talqinini va munosabatlar haqida fikrlashga yordam beradigan boshqa formatlarni ko‘ring; ular birovning fikrini o‘qishni da’vo qilmaydi.",
+      "lead": "«Munosabatimiz» — odamlar o‘rtasidagi munosabat dinamikasi haqida besh kartali talqin. U kutishlar, tajribalar va ehtimoliy yo‘nalishlarga ramziy nazar beradi; xulosa va qarorlarni esa o‘zingizga qoldiradi.",
+      "sections": [
+        {
+          "heading": "Siz uchun muhimini tasvirlang",
+          "paragraphs": [
+            "Munosabat va sizni o‘ylantirayotgan savolni bayon qiling. Masalan: «Hozir kamroq gaplashamiz, bu haqda qanday suhbatlashishni o‘ylab ko‘rmoqchiman». Kontekst talqinni mavzuingiz bilan bog‘lashga yordam beradi.",
+            "Boshqa odam haqidagi keraksiz shaxsiy ma’lumotlarni ulashishingiz shart emas. Hislar va niyatlar haqiqiy muloqot orqali aniqlanadi, talqin esa ularni fakt sifatida tasdiqlamaydi."
+          ]
+        },
+        {
+          "heading": "Besh karta nimalarni beradi",
+          "paragraphs": [
+            "Har bir kartaning o‘z o‘rni bor; sun’iy intellekt talqini ularning ma’nolarini bitta yaxlit o‘qishga bog‘laydi. Natijada o‘rin nomlari va karta rasmlari ko‘rsatiladi.",
+            "Talqin mulohaza qilish uchun bir necha jihatni taklif etadi. U birovning muayyan hislarini isbotlamaydi yoki munosabat qanday kechishini aniqlamaydi."
+          ]
+        },
+        {
+          "heading": "Munosabatlarga oid boshqa savollar",
+          "paragraphs": [
+            "Katalogda «Yangi muhabbat», «U nimani his qiladi?» va «U qaytadimi?» formatlari ham bor. Bu nomlar ramziy talqin mavzularini bildiradi. Ayrim formatlar uchun Premium kerak; shartlar tasdiqlashdan oldin ko‘rsatiladi.",
+            "Boshqa yondashuv sifatida Astro ikki tug‘ilish xaritasini solishtirib moslikni ko‘rib chiqadi. Bu alohida format bo‘lib, ikkala odamning tug‘ilish ma’lumotlaridan foydalanadi."
+          ]
+        }
       ],
-      "alt": "Munosabatlar talqini"
+      "faq": [
+        [
+          "Birovning haqiqiy hislarini bilsam bo‘ladimi?",
+          "Yo‘q. Talqin boshqa odamning fikri yoki hislarini aniqlay olmaydi. Undan o‘z savollaringizni shakllantirish va suhbatga tayyorlanish uchun foydalanishingiz mumkin."
+        ],
+        [
+          "U sherik qaytishini kafolatlaydimi?",
+          "Hech bir format boshqa odamning harakati yoki munosabat natijasini kafolatlamaydi."
+        ],
+        [
+          "Sinastriyadan nimasi bilan farq qiladi?",
+          "Tarot kartalar va savol kontekstidan foydalanadi. Sinastriya ikki tug‘ilish xaritasini solishtiradi va ikkala odamning tug‘ilish ma’lumotlarini talab qiladi."
+        ]
+      ],
+      "eyebrow": "Munosabatlar",
+      "card_text": "O‘zaro munosabatlar, kutishlar va vaziyatingiz haqida besh karta.",
+      "related": [
+        "daily-card",
+        "yes-no",
+        "three-card"
+      ]
+    },
+    "astro": {
+      "title": "Astro: tug‘ilish xaritalari, munajjimlar bashorati va Oy taqvimi | Tarot",
+      "h1": "Astro: shaxsiy astrologiya",
+      "description": "Tarot’dagi Astro’ni ko‘ring: tug‘ilish xaritalari, moslik, munajjimlar bashorati, tranzitlar, quyosh qaytishi, Oy taqvimi va ixtiyoriy kundalik.",
+      "lead": "Astro — Tarot xizmatining tug‘ilish xaritalari, munajjimlar bashorati va boshqa astrologik formatlar bo‘limi. Qiziqtirgan mavzuni tanlab, uni ko‘ngilochar va mulohazaga chorlovchi mazmunda o‘rganing.",
+      "sections": [
+        {
+          "heading": "Savolingizga mos formatni toping",
+          "paragraphs": [
+            "Tug‘ilish xaritasi tug‘ilgan paytdagi osmon jismlari holatini ko‘rsatadi. Munosabatlar uchun ikki xaritani moslik formatida solishtiring yoki muhabbat munajjimlar bashoratini tanlang.",
+            "Tranzitlar va shaxsiy astrologik hodisalar osmon jismlari holatini tug‘ilish xaritangiz bilan bog‘laydi. Quyosh qaytishi shaxsiy yilga ramziy nazar beradi. Oy taqvimida Oy haqidagi ma’lumotlar, shuningdek ixtiyoriy kundalik mavjud."
+          ]
+        },
+        {
+          "heading": "Qanday ma’lumotlar kerak bo‘ladi?",
+          "paragraphs": [
+            "Shaxsiy hisob-kitoblar uchun tegishli tug‘ilgan sana, vaqt va joy so‘raladi. Moslik uchun ikkala odam ma’lumotlari, quyosh qaytishi uchun esa yil va hisoblash joyi ham kerak. Oy taqvimi shaxsiy tug‘ilish ma’lumotlarini talab qilmaydi.",
+            "Ma’lumotlarni ushbu saytga emas, mahsulot ichiga kiritasiz. Boshqa odam xaritasini ko‘rishda ma’lumotlarni undan so‘rang va ularni ulashishga roziligini oling."
+          ]
+        },
+        {
+          "heading": "Astro’dan foydalanish",
+          "paragraphs": [
+            "Astro ham, Tarot ham Mini App va brauzer ilovasida mavjud. Brauzerda Telegram yoki tasdiqlangan email va parol orqali kiring. Profil ma’lumotlari va kreditlar umumiy bo‘lishi uchun bir akkaunt yoki tasdiqlab bog‘langan identifikatorlardan foydalaning.",
+            "Ayrim imkoniyatlar bepul, ayrim amallar pullik. Shartlar funksiyaga bog‘liq; ilova narx va Premium talabini tasdiqlashdan oldin ko‘rsatadi."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Astro va Tarot bir xilmi?",
+          "Ular alohida bo‘limlar. Tarot ramziy talqinlar uchun kartalardan foydalanadi; Astro astrologik formatlarni taklif etadi. Ikkalasi ham Mini App va brauzerda mavjud."
+        ],
+        [
+          "Tug‘ilgan vaqtim kerakmi?",
+          "Shaxsiy hisob-kitoblar zarur tug‘ilish ma’lumotlarini, jumladan vaqtni so‘raydi. Oy taqvimi shaxsiy tug‘ilish ma’lumotlarini talab qilmaydi."
+        ],
+        [
+          "Astrologiya kelajakni ishonchli bashorat qila oladimi?",
+          "Yo‘q. Astro kontenti ishonchli bashorat uchun emas, ko‘ngilochar maqsad va o‘zini anglash uchun mo‘ljallangan."
+        ]
+      ],
+      "eyebrow": "Alohida bo‘lim",
+      "card_text": "Tug‘ilish xaritalari, munajjimlar bashorati va boshqalar.",
+      "related": [],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
+    },
+    "natal": {
+      "title": "Tug‘ilish xaritasi va talqini | Tarot Astro",
+      "h1": "Tug‘ilish xaritasi va uning talqini",
+      "description": "Tug‘ilish xaritasi nimani anglatishi, tug‘ilish ma’lumotlari nega muhimligi hamda diagramma, qisqa portret va to‘liq sun’iy intellekt talqini farqini bilib oling.",
+      "lead": "Tug‘ilish xaritasi tug‘ilgan paytdagi osmon jismlari holatini aks ettiradi. Astro’da xarita va uning talqinini astrologiya bilan tanishish hamda shaxsiy mulohaza uchun ko‘rib chiqing.",
+      "sections": [
+        {
+          "heading": "Diagramma, portret va to‘liq talqin",
+          "paragraphs": [
+            "Xarita tug‘ilish ma’lumotlari asosida hisoblanib, osmon jismlari holatini ko‘rsatadi. Astrologik talqin uning unsurlarini shaxsiyat va tajriba haqidagi ramziy mavzular bilan bog‘laydi. Bu xarakterning ilmiy bahosi emas.",
+            "Diagramma, qisqa portret va to‘liq sun’iy intellekt talqini alohida natijalardir. Diagramma xaritani ko‘rsatadi, portret uning talqini bilan tanishtiradi, to‘liq o‘qish esa batafsilroq bayon etadi."
+          ]
+        },
+        {
+          "heading": "Ma’lumotlaringizni tayyorlang va boshlang",
+          "paragraphs": [
+            "Ilova so‘raganda tug‘ilgan sana, vaqt va joyni kiriting. Vaqt va joy hisobga ta’sir qiladi, shuning uchun noaniq ma’lumot xaritani o‘zgartirishi mumkin. Imkon bo‘lsa, ishonchli hujjatdan tekshiring.",
+            "Tug‘ilish xaritasi bo‘limini ochib, so‘ralgan maydonlarni to‘ldiring. Masalan, to‘liq talqin shartlarini ko‘rishdan avval diagramma va qisqa portretni o‘rganing. Shaxsiy ma’lumotlar saytga emas, mahsulotga kiritiladi."
+          ]
+        },
+        {
+          "heading": "Mulohaza bilan o‘qing",
+          "paragraphs": [
+            "Sizni qiziqtirgan mavzuni tanlab, o‘z tajribangiz bilan solishtiring. Talqin kimdadir muayyan xususiyat borligini tasdiqlamaydi.",
+            "Diagramma, portret va to‘liq talqinga kirish shartlari farq qilishi mumkin. Amalni tasdiqlashdan oldin ilova narx, cheklov va Premium talabini ko‘rsatadi."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Tug‘ilgan vaqtim noaniq bo‘lsa-chi?",
+          "Ilova shaxsiy hisob uchun kerakli ma’lumotlarni so‘raydi. Vaqt noaniq bo‘lsa, xarita va talqin boshqacha chiqishi mumkin."
+        ],
+        [
+          "Qisqa portret to‘liq talqinmi?",
+          "Yo‘q. Portret qisqacha tanishtiradi; to‘liq sun’iy intellekt talqini mavzularni batafsil ko‘rib chiqadi."
+        ],
+        [
+          "Xarita inson qandayligini isbotlaydimi?",
+          "Yo‘q. Tug‘ilish xaritalari astrologiyaning bir qismi bo‘lib, ko‘ngilochar maqsad va o‘zini anglash uchun mo‘ljallangan."
+        ]
+      ],
+      "eyebrow": "Tug‘ilish xaritangiz",
+      "card_text": "Tug‘ilish xaritasi, qisqa portret va to‘liq talqin.",
+      "related": [
+        "compatibility",
+        "transits",
+        "solar"
+      ],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
+    },
+    "compatibility": {
+      "title": "Astrologik moslik va sinastriya | Tarot",
+      "h1": "Astrologik moslik va sinastriya",
+      "description": "Sinastriya ikki tug‘ilish xaritasini qanday solishtirishi, qaysi tug‘ilish ma’lumotlari kerakligi va muhabbat munajjimlar bashoratidan farqini bilib oling.",
+      "lead": "Sinastriya — ikki tug‘ilish xaritasining astrologik solishtiruvi. Tarot uni ikki odamning munosabatlari haqida mulohaza qilish va birga muhokama qilinadigan savollarni topish uchun ramziy usul sifatida taklif qiladi.",
+      "sections": [
+        {
+          "heading": "Sinastriya qanday ishlaydi",
+          "paragraphs": [
+            "Har bir odam uchun tug‘ilish xaritasi hisoblanadi, so‘ng ular solishtiriladi. Talqin astrologiya doirasida xaritalar uyg‘unligini ko‘rib chiqadi. U moslikni ilmiy o‘lchamaydi yoki munosabat qanday kechishini aniqlamaydi.",
+            "Masalan, talqin orqali munosabatga qanday kutishlar bilan kirayotganingizni yoki nimani muhokama qilmoqchi ekaningizni o‘ylashingiz mumkin. Javoblar siz va boshqa odamga tegishli."
+          ]
+        },
+        {
+          "heading": "Nimalarni tayyorlash kerak",
+          "paragraphs": [
+            "Ikkala odamning tug‘ilgan sanasi, vaqti va joyi kerak bo‘ladi. Ma’lumotlarni boshqa odamdan so‘rang va ularni ulashishga roziligini oling. Xaritalar shu ma’lumotlar asosida hisoblangani uchun aniqlik muhim.",
+            "Astro’da moslik bo‘limini ochib, so‘ralgan maydonlarni to‘ldiring. Amal pullik yoki Premium talab qilsa, ilova tasdiqlashdan oldin shartlarni ko‘rsatadi."
+          ]
+        },
+        {
+          "heading": "Sinastriya, muhabbat bashorati va Tarot",
+          "paragraphs": [
+            "Sinastriya ikki tug‘ilish xaritasini solishtiradi. Muhabbat bashorati boshqa, qisqaroq astrologiya formatidir. Munosabatlar Tarot talqini kartalar va savolingiz kontekstidan foydalanadi.",
+            "Sizni qiziqtirgan yondashuvni tanlang. Bu formatlarning hech biri boshqa odamning hislarini aniqlamaydi yoki ochiq suhbat o‘rnini bosmaydi."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Faqat burj belgilarimizdan foydalansam bo‘ladimi?",
+          "Astro’dagi sinastriya uchun ikkala odamning tug‘ilgan sanasi, vaqti va joyi kerak."
+        ],
+        [
+          "Bu faqat romantik juftliklar uchunmi?",
+          "Solishtirish ikki odam o‘rtasidagi munosabatlar haqida mulohaza uyg‘otishi mumkin. U munosabat sifatini belgilamaydi."
+        ],
+        [
+          "U odamning hislarini aytib bera oladimi?",
+          "Yo‘q. Astrologik talqin boshqa odamning hislari yoki niyatlarini aniqlay olmaydi."
+        ]
+      ],
+      "eyebrow": "Ikki tug‘ilish xaritasi",
+      "card_text": "Xaritalarni solishtirish va munosabatlarni tahlil qilishga turtkilar.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "relationships"
+      ],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
+    },
+    "horoscopes": {
+      "title": "Kunlik va muhabbat munajjimlar bashorati | Tarot Astro",
+      "h1": "Kunlik va muhabbat munajjimlar bashorati",
+      "description": "Tarot Astro bo‘limida kunlik, shaxsiy muhabbat va ikki kishi uchun munajjimlar bashoratini ko‘ring.",
+      "lead": "Astro kunlik, shaxsiy muhabbat va ikki kishi uchun muhabbat bashoratlarini taklif etadi. Har biri kun yoki munosabatlar haqida fikr yuritish uchun qisqa astrologiya formatidir.",
+      "sections": [
+        {
+          "heading": "Bashorat turini tanlang",
+          "paragraphs": [
+            "Kunlik bashorat kun mavzusiga qaratilgan va qisqa astrologik o‘qishdan boshlash imkonini beradi. Shaxsiy muhabbat bashorati munosabat mavzulariga sizning nuqtai nazaringizdan qaraydi.",
+            "Ikki kishi uchun bashorat juftlikni ko‘rib chiqadi. Ikki tug‘ilish xaritasini solishtirish uchun alohida moslik bo‘limiga o‘ting: bu ko‘proq tug‘ilish ma’lumotlarini talab qiladigan boshqa format."
+          ]
+        },
+        {
+          "heading": "Natijani oling va unga qayting",
+          "paragraphs": [
+            "Astro’ni ochib, bashoratni tanlang. Ilova shu format uchun zarur ma’lumotlarni so‘raydi; boshqa odam qatnashgan talqin uchun uning tug‘ilish ma’lumotlari ham kerak bo‘lishi mumkin. Mahsulot qaysi davrni qamrab olishini bildiradi.",
+            "Avvalgi matnga qaytish imkoniyati format va saqlangan natijaga bog‘liq bo‘lishi mumkin. Yangi amal narxi va shartlari tasdiqlashdan oldin ko‘rsatiladi."
+          ]
+        },
+        {
+          "heading": "Talqinga to‘g‘ri nuqtai nazardan qarang",
+          "paragraphs": [
+            "Bashoratni albatta ro‘y beradigan voqealar bayoni emas, ramziy turtki sifatida qabul qiling. Masalan, suhbat yoki dam olish haqidagi fikrni sharoitingiz to‘g‘risidagi ma’lumotlar bilan birga ko‘rib chiqing.",
+            "Bashorat boshqa odam rejalarini bila olmaydi va kuningiz qanday o‘tishini kafolatlamaydi. Amaliy qarorlarni ishonchli ma’lumot va haqiqiy vaziyatingizga asoslang."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Shaxsiy muhabbat bashorati ikki kishi uchun bashoratdan nimasi bilan farq qiladi?",
+          "Shaxsiy format sizning munosabat mavzularingizga qaratiladi; ikkinchisi esa ikki odamni ko‘rib chiqadi."
+        ],
+        [
+          "Avvalgi bashoratni qayta o‘qiy olamanmi?",
+          "Shartlar format va saqlangan natijaga bog‘liq. Ilova ichida mavjudligini tekshiring."
+        ],
+        [
+          "U kunni bashorat qiladimi?",
+          "Yo‘q. U ko‘ngilochar maqsad va o‘zini anglash uchun mo‘ljallangan, voqealarni ishonchli bashorat qilmaydi."
+        ]
+      ],
+      "eyebrow": "Qisqa formatlar",
+      "card_text": "Kunlik, shaxsiy muhabbat va juftlik bashoratlari.",
+      "related": [
+        "compatibility",
+        "transits",
+        "moon"
+      ],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
+    },
+    "transits": {
+      "title": "Shaxsiy tranzitlar va astrologik hodisalar | Tarot",
+      "h1": "Shaxsiy tranzitlar va astrologik hodisalar",
+      "description": "Astrologik tranzitlar osmon jismlari holatini tug‘ilish xaritangiz bilan qanday bog‘lashi va shaxsiy astrologik hodisalarni bilib oling.",
+      "lead": "Astrologik tranzitlar tanlangan sanadagi osmon jismlari holatini tug‘ilish xaritangiz bilan solishtiradi. Astro’da tranzit talqini va shaxsiy astrologik hodisalarni davrga ramziy nazar sifatida ko‘ring.",
+      "sections": [
+        {
+          "heading": "Tranzitlar va tug‘ilish xaritangiz",
+          "paragraphs": [
+            "Tug‘ilish xaritasi tug‘ilgan paytdagi osmon jismlari holatini aks ettiradi va sana, vaqt hamda joy asosida hisoblanadi. Tranzit talqini boshqa sanadagi holatlarni shu xarita bilan bog‘laydi.",
+            "Tug‘ilish xaritasi boshlang‘ich nuqta bo‘ladi; tranzit talqini esa tanlangan sana va astrologik izohni qo‘shadi. Bu hayot voqealarining ilmiy bashorati emas."
+          ]
+        },
+        {
+          "heading": "Sana va shaxsiy hodisalarni ko‘ring",
+          "paragraphs": [
+            "Astro’ning tegishli bo‘limini oching va tug‘ilish ma’lumotlari saqlanmagan bo‘lsa, ularni kiriting. Mavjud sanani tanlab, natijani o‘qing. Alohida ro‘yxat mahsulotda berilgan shaxsiy astrologik hodisalarni ko‘rish imkonini beradi.",
+            "Mavjud sanalar va kirish imkoniyati funksiyaga bog‘liq. Ilova to‘lov yoki Premium shartlarini tasdiqlashdan oldin ko‘rsatadi. Ushbu saytga tug‘ilish ma’lumotlarini kiritish shart emas."
+          ]
+        },
+        {
+          "heading": "Mulohaza uchun turtki sifatida foydalaning",
+          "paragraphs": [
+            "Talqin e’tibor yoki rejalarni qayta ko‘rib chiqish mavzusini taklif qilishi mumkin. O‘zgarish uchun amaliy sabab bormi va qaysi kichik qadam foydali bo‘lishini o‘zingizdan so‘rang.",
+            "Shaxsiy astrologik hodisalar osmon jismlari holati va uning talqiniga taalluqli. Ular hayotingizda ro‘y berishi ishonchli bashorat qilingan voqealar ro‘yxati emas."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Qanday tug‘ilish ma’lumotlari kerak?",
+          "Ilova zarur tug‘ilgan sana, vaqt va joyni so‘raydi."
+        ],
+        [
+          "Astrologik hodisalar hayotimdagi voqealarmi?",
+          "Yo‘q. Ro‘yxat astrologik holatlar va ularning talqiniga tegishli, tasdiqlangan kelajak voqealariga emas."
+        ],
+        [
+          "Sanani tanlay olamanmi?",
+          "Ha. Tranzitlar bo‘limida mavjud sanani tanlashingiz mumkin; ilova sana oralig‘ini ko‘rsatadi."
+        ]
+      ],
+      "eyebrow": "Sana va xaritangiz",
+      "card_text": "Tranzit talqini va shaxsiy astrologik hodisalar.",
+      "related": [
+        "natal",
+        "horoscopes",
+        "solar"
+      ],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
+    },
+    "solar": {
+      "title": "Quyosh qaytishi: astrologik yil sharhi | Tarot",
+      "h1": "Quyosh qaytishi: astrologik yil sharhi",
+      "description": "Quyosh qaytishi nima ekanini, hisoblashda qaysi ma’lumotlar ishlatilishi va tug‘ilish xaritasidan farqini bilib oling.",
+      "lead": "Quyosh qaytishi — shaxsiy yilga ramziy nazar beruvchi astrologiya formati. Tarot’da tug‘ilish ma’lumotlaringiz, yil va hisoblash joyi asosida quyosh qaytishini hisoblab, mavzularini ko‘ring.",
+      "sections": [
+        {
+          "heading": "Quyosh qaytishi nima?",
+          "paragraphs": [
+            "Quyosh qaytishi xaritasi Quyosh tug‘ilish paytidagi o‘rniga qaytgan lahza uchun hisoblanadi. Astrologiyada u shaxsiy yil mavzularini ko‘rib chiqishda ishlatiladi.",
+            "Talqin ustuvorliklar va rejalar haqida o‘ylashga turtki berishi mumkin. U shu davrda qaysi voqealar bo‘lishini aniqlamaydi."
+          ]
+        },
+        {
+          "heading": "Tayyorlanadigan ma’lumotlar",
+          "paragraphs": [
+            "Tug‘ilgan sana, vaqt va joyingiz, shuningdek quyosh qaytishini hisoblash uchun yil va joy kerak. Yuborishdan oldin ma’lumotlarni tekshiring: ular xaritani tuzishda ishlatiladi.",
+            "Astro’da quyosh qaytishini ochib, maydonlarni to‘ldiring va foydalanish shartlarini ko‘ring. Ilova kredit yoki Premium talabi hamda narxni tasdiqlashdan oldin ko‘rsatadi."
+          ]
+        },
+        {
+          "heading": "Boshqa formatlardan farqi",
+          "paragraphs": [
+            "Tug‘ilish xaritasi tug‘ilgan paytga tegishli; quyosh qaytishi shaxsiy yilga alohida astrologik nazar beradi. Yil uchun Tarot talqini kartalar va ularning o‘rinlari ramzlaridan foydalanadi.",
+            "Masalan, quyosh qaytishi talqinini o‘qigach, ustuvorliklaringizni yozib, ularga erishish uchun qanday haqiqiy resurslar kerakligini o‘ylang. Qarorlarni sharoitingiz va ishonchli ma’lumotga asoslang."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Hisoblash joyi nega kerak?",
+          "Joylashuv yil va tug‘ilish ma’lumotlari bilan birga quyosh qaytishi xaritasi uchun kiritiladi."
+        ],
+        [
+          "U kelayotgan yil haqida o‘ylashga yordam beradimi?",
+          "U o‘z savollaringiz va ustuvorliklaringiz haqida o‘ylashga turtki bo‘lishi mumkin. Amaliy qarorlarni sharoitingiz va ishonchli ma’lumotga asoslang."
+        ],
+        [
+          "U aniq voqealarni bashorat qiladimi?",
+          "Yo‘q. Quyosh qaytishi talqini ramziy bo‘lib, voqealarning ishonchli bashorati emas."
+        ]
+      ],
+      "eyebrow": "Shaxsiy yil",
+      "card_text": "Astrologik mavzular va o‘z ustuvorliklaringiz.",
+      "related": [
+        "natal",
+        "transits",
+        "three-card"
+      ],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
+    },
+    "moon": {
+      "title": "Oy taqvimi va kunlik qaydlar | Tarot Astro",
+      "h1": "Oy taqvimi va kunlik qaydlar",
+      "description": "Astro’da Oy haqidagi ma’lumotlarni ko‘ring va ixtiyoriy kundalikka kayfiyat, quvvat hamda qisqa qayd kiriting.",
+      "lead": "Astro’dagi Oy taqvimi Oy, jumladan uning fazasi haqida ma’lumot beradi. Ixtiyoriy kundalikda kayfiyat, quvvat va kuningiz haqidagi qaydni yozishingiz mumkin.",
+      "sections": [
+        {
+          "heading": "Oy taqvimini ko‘ring",
+          "paragraphs": [
+            "Oy fazasi Oyning yoritilgan ko‘rinadigan qismini ifodalaydi. Taqvim joriy Oy ma’lumotlarini ilovaning bir bo‘limida jamlaydi.",
+            "Astrologik nuqtai nazar sizga qiziq bo‘lsa, undan kuzatuv va mulohaza mavzusi sifatida foydalaning. Oy fazasi o‘z-o‘zidan salomatlik, kayfiyat yoki faoliyat muvaffaqiyatiga ta’sirni tasdiqlamaydi."
+          ]
+        },
+        {
+          "heading": "Ixtiyoriy kundalik yuriting",
+          "paragraphs": [
+            "Oy bo‘limi yonidagi kundalikni ochib, xohlasangiz kayfiyat va quvvatingizni qayd eting yoki qisqa yozuv qo‘shing. Masalan, bugun dam olishingizga nima yordam bergani yoki ertaga nima qilmoqchi ekaningizni yozing.",
+            "Qayd kiritish majburiy emas. Tarix oldingi yozuvlarga qaytish imkonini beradi. Mahsulotda saqlamoqchi bo‘lgan ma’lumotnigina kiriting."
+          ]
+        },
+        {
+          "heading": "Tug‘ilish ma’lumotlari kerakmi?",
+          "paragraphs": [
+            "Oy taqvimi shaxsiy tug‘ilish ma’lumotlarini talab qilmaydi. Tug‘ilish xaritasi, tranzitlar va boshqa shaxsiy hisob-kitoblar kerakli ma’lumotlarni alohida so‘raydi.",
+            "Oy bo‘limini ochib, mavjud ma’lumotlarni ko‘ring. Alohida amallarning amaldagi shartlari mahsulot ichida ko‘rsatiladi. Ushbu sayt kundalikdagi shaxsiy qaydlarni yig‘maydi."
+          ]
+        }
+      ],
+      "faq": [
+        [
+          "Har kuni yozishim shartmi?",
+          "Yo‘q. Kundalik ixtiyoriy; biror narsani qayd etmoqchi bo‘lganingizda foydalaning."
+        ],
+        [
+          "Tug‘ilgan vaqtim va joyim kerakmi?",
+          "Oy taqvimi uchun shaxsiy tug‘ilish ma’lumotlari talab qilinmaydi."
+        ],
+        [
+          "Oy fazasi rejam muvaffaqiyatli bo‘lishini ayta oladimi?",
+          "Yo‘q. Taqvim Oy haqidagi ma’lumotni beradi, harakatlaringiz natijasining ishonchli bashoratini emas."
+        ]
+      ],
+      "eyebrow": "Kuzatuv va qaydlar",
+      "card_text": "Oy haqidagi ma’lumot va kuningiz uchun ixtiyoriy qayd.",
+      "related": [
+        "horoscopes",
+        "transits",
+        "daily-card"
+      ],
+      "example_heading": "Tarot bilan birga Astro",
+      "example_text": "Ilovada astrologiya formatlari aniq nom va foydalanish shartlari bilan beriladi. Mavzuni tanlang, kerakli ma’lumotlarni kiriting va tasdiqlashdan oldin talablarni ko‘rib chiqing."
     }
+  },
+  "demo": {
+    "name": "Namuna",
+    "reading_title": "Uch kartali talqin",
+    "question": "Keyingi qadamni tashlashimga nima yordam beradi?",
+    "positions": [
+      "O‘tmish",
+      "Hozirgi vaqt",
+      "Kelajak"
+    ],
+    "card_names": [
+      "Telba",
+      "Sehrgar",
+      "Yulduz"
+    ],
+    "answer_title": "Vaziyatga yangicha nazar",
+    "answer": "Telba kichik boshlanishni taklif qiladi. Sehrgar foydalanishingiz mumkin bo‘lgan ko‘nikmalarga ishora qiladi, Yulduz esa maqsadingizni yodda tutishga chorlaydi. Bajarish mumkin bo‘lgan bitta qadamni tanlab, natijasi haqida mulohaza qiling."
   }
 }
