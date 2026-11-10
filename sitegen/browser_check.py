@@ -49,7 +49,7 @@ async def main(args):
     if code in ('en','ru','ar','fa','ko','hi') and key in ('astro','natal'):
      await page.set_viewport_size({'width':320 if key=='astro' else 1440,'height':900});await page.screenshot(path=str(out/f'{code}-{key}.png'))
     for image in await page.locator('img').all():
-     await image.scroll_into_view_if_needed();await image.evaluate('(i)=>i.decode()')
+     await image.scroll_into_view_if_needed();await page.wait_for_function('(i)=>i.complete&&i.naturalWidth>0',arg=await image.element_handle());await image.evaluate('(i)=>i.decode()')
     report['images'][route]=await page.evaluate("Array.from(document.images).map(i=>({src:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0}))")
     assert all(x['loaded'] for x in report['images'][route])
     if key=='home' and code in ('en','ru','ar','hi'):
