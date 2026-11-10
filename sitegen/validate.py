@@ -84,6 +84,7 @@ def main():
     if tag=='img':assert int(attrs['width'])>0 and int(attrs['height'])>0 and 'alt' in attrs;images+=1
    for x in p.all('link',rel='stylesheet')+p.all('link',rel='icon')+p.all('link',rel='manifest'):assert target(x['href']).is_file()
    themed=code in ('en','ru') and key in ('natal','horoscopes')
+   assert bool(p.all('link',rel='stylesheet',href='/sitegen/assets/navigation-buttons.css'))==(code in ('en','ru'))
    assert ('theme-astro' in p.one('body')['class'].split())==themed
    assert bool(p.all('link',rel='stylesheet',href='/sitegen/assets/astro-themes.css'))==themed
    formats=[x for x in p.all('article') if 'horoscope-format' in x.get('class','').split()]

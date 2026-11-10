@@ -1,0 +1,5 @@
+/* RU/EN pilot: navigation links retain their destinations and link semantics. */
+.primary-nav{gap:.5rem .65rem}
+.primary-nav>a:nth-child(-n+2){justify-content:center;min-height:44px;padding:.55rem .75rem;border:1px solid #766092;border-radius:.65rem;background:#17172a;color:var(--text);font-weight:650;line-height:1.35}
+.primary-nav>a:nth-child(-n+2):focus-visible{background:linear-gradient(115deg,var(--cyan),var(--lilac));color:#101225;border-color:transparent;box-shadow:0 .5rem 2rem #6f6fbe28}
+@media(hover:hover){.primary-nav>a:nth-child(-n+2):hover{background:linear-gradient(115deg,var(--cyan),var(--lilac));color:#101225;border-color:transparent;box-shadow:0 .5rem 2rem #6f6fbe28}}
